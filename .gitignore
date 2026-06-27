@@ -1,0 +1,6 @@
+# Python bytecode from the engine scripts
+__pycache__/
+*.py[cod]
+# OS noise
+.DS_Store
+Thumbs.db
