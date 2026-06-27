@@ -10,6 +10,7 @@
 - **Genre & stakes vocabulary:** folk-horror + cozy + mystery — death/maiming/capture, dread, the wrongness beneath small-town comfort
 - **Resolution:** Fate Check   ·   **Chaos flavor:** normal
 - **Discipline:** HARDCORE (no softening; Peril Points OFF unless player opts in)
+- **Content consent (Session Zero):** FULL HORROR — no lines, no veils (arachnid/body-horror imagery on the table)
 - **Diminisher:** 1/2 (single PC — Fate/Random-Event/etc. counts halved per Mythic solo-PC scaling)
 
 ## CURRENT ADVENTURE: Act 1 — The Summer That Never Was
@@ -51,6 +52,7 @@ the JSON. Add/weight when an NPC is introduced or featured; remove when it perma
 7. Doctor Dami (Mababangloob) — charitable doctor, Hand of Spring
 8. Zheng Peng (watch officer) — imperial barracks
 9. Ugly Cute (stone guardian) — missing Spider Gate spider
+10. Reza — Daegon's teen apprentice (barber-surgeon trade); Close Ties anchor; last in town
 
 ## Tens-cycle counter (Theme-die 10s rolled so far): in `adventure.json` _(auto-updated by turning-point)_
 
@@ -80,10 +82,13 @@ _Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals 
 22. The Ritual Site (D12) — Zoudou's rite over Kum Meng-sung at the Wall; the name "Kugaptee" surfaces as the chief clue
 
 ## Campaign roster (persists across adventures: recurring NPCs, long arcs)
--
+- **Daegon** (PC) — barber-surgeon, Hand of Spring practice.
+- **Reza** — Daegon's apprentice (Close Ties).
+- **Dr. Dami Mababangloob** — Daegon's partner & senior mentor (W19).
 
 ## PC(s)
-- See `character-sheet.md`. Conditions/injuries: none. Resources: —.
+- **Daegon** — Human Investigator 1 (Alchemical Sciences), barber-surgeon. See `character-sheet.md`. HP 17/17. Conditions/injuries: none. Hero Points: 1. Resources: formula book (4), ~8 sp.
+- **Close Ties:** Reza (apprentice). Also partner/mentor Dr. Dami (Hand of Spring).
 
 ## Overlays
 - **Keyed Scenes:** _(Trigger → Event; Count)_ none
