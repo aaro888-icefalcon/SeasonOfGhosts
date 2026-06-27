@@ -1,0 +1,358 @@
+{
+  "slice": "toolbox",
+  "source_file": "hardcover.md",
+  "source_pages": "p.286-323",
+  "act": "toolbox (rewards & rules, all acts)",
+  "clusters": [
+    {
+      "id": "tool.sangpotshi",
+      "name": "Sangpotshi & Spiritual Connections",
+      "scene": "The Sangpotshi philosophy of reincarnation that underpins the AP: souls flow through the River of Life and meet the same souls across lives. Sangpotshi mystics read past-life bonds; the faith preaches humility, sustainability, and breaking negative cycles. Nindorus are its destructive opposite. PCs who follow Sangpotshi or study its hidden texts (Tan Sugi Monastery library, p.140-141) unlock uncommon feats/spells.",
+      "location": "Tian Xia (faith/setting backdrop)",
+      "source": "p.286",
+      "threads": ["Understand the curse's spiritual nature", "Break the cycle of destruction"],
+      "characters": ["Sangpotshi mystics", "Sangpots", "samsarans"],
+      "elements": ["Sangpotshi", "River of Life", "kindred ties", "spiritual debt", "Cycles of Life", "Tan Sugi Monastery hidden library"],
+      "themes": ["Mystery", "Personal"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Spiritual connections: souls reincarnate and re-encounter the same souls. Kindred ties (former family/friends/foes) can be propitious or antagonistic (e.g. a spiritual debt manifesting as a spouse/child who causes ruin). Mystics warn against using past lives to justify resentment.", "themes": ["Personal", "Mystery"], "weight": 1, "source": "p.286", "spoiler": false},
+        {"plot_point": "Friendships, good/bad destiny, and fate: a good destiny can improve one's birth, but the past doesn't dictate the future. Some mystics reincarnate into hardship to manifest power faster or to spare innocents. How one responds to one's situation matters most; do good, judge well, treat others as you'd want.", "themes": ["Personal"], "weight": 1, "source": "p.286", "spoiler": false},
+        {"plot_point": "Past Life Curiosity: a person may seek a mystic to learn if a hardship (e.g. an oppressive boss) is a past-life debt. Mystics share past-life details only when ignorance would cause a bad outcome - the reveal can free someone to leave, endure, or resolve a debt directly.", "themes": ["Mystery", "Personal"], "weight": 1, "source": "p.286", "spoiler": false},
+        {"plot_point": "Cycles of Life: Sangpotshi sees cycles (rise/fall of civilizations, nature's renewal, learned behaviors). Some cycles should be preserved, others perpetuate suffering (e.g. poverty). Followers nurture positive cycles, escape negative ones, protect the balance of nature vs. civilization, and defend the River of Life by all means - violence is a last resort but not anathema.", "themes": ["Personal", "Mystery"], "weight": 1, "source": "p.286", "spoiler": false},
+        {"plot_point": "PC Options unlock: a PC who follows Sangpotshi or studies its hidden texts (e.g. the Tan Sugi Monastery library, p.140-141) gains access to uncommon feats (Calm and Centered, Comforting Presence, Go With the Flow) and uncommon spells (cycle of retribution, fateful condemnation, fated healing, life's flowing river).", "themes": ["Mystery"], "weight": 1, "source": "p.288", "spoiler": false}
+      ]
+    },
+    {
+      "id": "tool.nindoru-lore",
+      "name": "Nindorus & Cycles of Destruction (GM lore)",
+      "scene": "GM-facing lore on nindorus, the soul-devouring fiends at the heart of Season of Ghosts' central mystery. Born from souls who freely abandon reincarnation, they feast on reincarnated souls, manifest broken objects/minions from thought, and stalk temples and nature/civilization boundaries. Their origin traces to Sigek's blasphemous ritual in 4444 IC. WITHHOLD as a campaign reveal: players should NOT know nindorus exist until late Act 1 / early Act 2.",
+      "location": "Tian Xia (Shenmen, Chu Ye, Tianjing, Zi Ha)",
+      "source": "p.287",
+      "threads": ["Discover what is really cursing Willowshore", "Break the cycle of destruction"],
+      "characters": ["Nindorus", "Sigek (Ascetic)", "Kugaptee (Ascetic)", "Musagani (Ascetic)", "the lich Nindoru"],
+      "elements": ["nindorus", "nindoru butterflies", "ninsat", "soul-shredding", "Nindoru Lore skill", "Ascetics (nindoru demigods)"],
+      "themes": ["Mystery", "Tension"],
+      "gate": "withhold nindoru existence until late Act 1 / early Act 2 - it is the AP's central reveal",
+      "fragments": [
+        {"plot_point": "SECRET: Nindorus exist and are the campaign's hidden antagonists. Recall Knowledge: DC 15 Nindoru Lore or DC 20 Religion/Occultism. Success (common): they have broken/elongated limbs, heads replaced by baskets/cages, wounds seeping blood-red butterflies, broken weapons; they crave reincarnated souls. Crit success (deeper): they manifest objects/minions/realms from selfish thought, mockeries of reincarnation, using occult spells like Sangpotshi mystics. No PC starts trained in Nindoru Lore; encourage retraining into it after the reveal.", "themes": ["Mystery", "Tension"], "weight": 1, "source": "p.287", "spoiler": true},
+        {"plot_point": "SECRET origin: ~3000 yrs ago a samsaran-born human, Sigek, resented reincarnation; he studied under and then destroyed the lich Nindoru, stole his soul cage, and in 4444 IC led a ritual to force Nindoru's soul to reincarnate outside the cycle to 'shatter the wheel of Sangpotshi.' Sigek and his cult vanished; the first nindorus appeared that same year. Recent evidence: nindoru demigods (Ascetics) exist, one named Sigek.", "themes": ["Mystery"], "weight": 1, "source": "p.290", "spoiler": true},
+        {"plot_point": "SECRET ecology: nindorus are alive (not undead) but exist outside nature's laws, tied to the Universe rather than a plane. They prize souls reincarnated many times that retain past-life memories. Feeding 'shreds' a fraction of the soul on death, making revival/undeath hard and leaving survivors feeling cursed/unlucky. They make disturbingly intimate true statements about a victim's past lives.", "themes": ["Mystery", "Tension"], "weight": 1, "source": "p.292", "spoiler": true},
+        {"plot_point": "SECRET society: nindorus gather in nomadic 'ninsats' (10-50, from 'family'), led by stronger variants; they spread corruption/decay/ruin, will murder kin (but can't feed on them), and hate Tsukiyo and Pharasma. They sometimes ally with undead (ghouls, jiang-shi) or rakshasas if paid in souls.", "themes": ["Mystery"], "weight": 1, "source": "p.292", "spoiler": true},
+        {"plot_point": "SECRET - the three known Ascetics (nindoru demigods, devotee benefits for clerics): KUGAPTEE (4 heads/4 arms = seasons; defeated 6223 IC by Tan Sui-Jing, whose soul reincarnated as the sugi tree over his grave; concerns curses/defiled graves/seasonal disasters; could return if the campaign ends in disaster). MUSAGANI (largest nindoru, absorbed 66 giants' souls, invaded Zi Ha 6778 IC; concerns chaos/soul-consumption/warfare). SIGEK (return discovered 7214 IC; concerns betrayals/parasites/agony/transformations).", "themes": ["Mystery", "Tension"], "weight": 1, "source": "p.293", "spoiler": true}
+      ]
+    },
+    {
+      "id": "tool.sangpotshi-options",
+      "name": "Sangpotshi Feats & Spells",
+      "scene": "Uncommon player options unlocked by following Sangpotshi or studying its hidden texts: three Occultism skill feats and four new spells themed around cycles, fate, and protecting the River of Life. These can be surfaced as rewards/training opportunities, especially for occult casters and Sangpotshi PCs.",
+      "location": "Tan Sugi Monastery / Sangpotshi study",
+      "source": "p.288",
+      "threads": ["Equip for the haunting", "Understand the curse's spiritual nature"],
+      "characters": [],
+      "elements": ["Calm and Centered", "Comforting Presence", "Go With the Flow", "cycle of retribution", "fateful condemnation", "fated healing", "life's flowing river"],
+      "themes": ["Mystery"],
+      "gate": "requires following Sangpotshi or access to Sangpotshi texts (e.g. Tan Sugi hidden library)",
+      "fragments": [
+        {"plot_point": "FEAT - Calm and Centered (uncommon general/skill, Feat 8; prereq master Occultism): when your frightened or stupefied value would decrease, decrease it by 2 instead.", "themes": ["Mystery"], "weight": 1, "source": "p.287", "spoiler": false},
+        {"plot_point": "FEAT - Comforting Presence (reaction, uncommon, Feat 10; prereq master Occultism): trigger an adjacent ally becomes frightened/stupefied; reduce adjacent allies' frightened and stupefied by 1 and increase yours by the same.", "themes": ["Social"], "weight": 1, "source": "p.287", "spoiler": false},
+        {"plot_point": "FEAT - Go With the Flow (reaction, uncommon general/secret, Feat 7; prereq master Occultism, 1/day): trigger a creature detects your Impersonate and you're within 30 ft of another creature; Occultism vs Perception DC, on success the creature mis-identifies another nearby creature as you.", "themes": ["Mystery"], "weight": 1, "source": "p.288", "spoiler": false},
+        {"plot_point": "SPELL - cycle of retribution (rank 1, divine/occult, touch, Will, sustained 1 min): target takes 1d4 mental when it takes hostile actions, scaling by save degree (crit fail = each hostile action). Heightened +1: +1d4.", "themes": ["Tension"], "weight": 1, "source": "p.288", "spoiler": false},
+        {"plot_point": "SPELL - fateful condemnation (rank 6, aura/incapacitation, divine/occult, 30 ft, Will, 1 min): success 4d6 mental + a 10-ft mist aura giving -1 to skill checks; failure 8d6 + slowed 1; crit fail 16d6 + slowed 1 and allies entering the aura are slowed 1.", "themes": ["Tension", "Action"], "weight": 1, "source": "p.288", "spoiler": false},
+        {"plot_point": "SPELL - fated healing (rank 1, divine/occult, 30 ft, 2 mutually hostile creatures, 5 rounds): both regain 1d4 HP at end of their turns; ends for a target that takes a hostile action against the other. Heightened +1: +1d4. A peacemaker tool.", "themes": ["Social", "Personal"], "weight": 1, "source": "p.288", "spoiler": false},
+        {"plot_point": "SPELL - life's flowing river (rank 4, occult, 120 ft, Will, 1 min): a ghostly river of difficult terrain; undead/nindorus take 4d6 mental (basic Will), crit fail pushes 20 ft and double damage. Heightened +1: +1d6. Especially potent vs the AP's fiends/undead.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.288", "spoiler": false}
+      ]
+    },
+    {
+      "id": "tool.alchemy",
+      "name": "Alchemical Items",
+      "scene": "New alchemical treasures the world can surface as loot or rewards. Includes two alchemical-food items (energizing pill, invigorating soap) plus a healing wine, and the anti-nindoru silversoul bomb that weaponizes ancestral grief.",
+      "location": "Willowshore / loot",
+      "source": "p.296",
+      "threads": ["Equip for the haunting"],
+      "characters": [],
+      "elements": ["energizing pill", "invigorating soap", "Matsuki's medicinal wine", "silversoul bomb"],
+      "themes": ["Action"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "ITEM - energizing pill (uncommon, lvl 10, 180 gp, lozenge): held in mouth 1 hr, +2 item bonus to initiative (Perception). Secondary reaction: when you'd gain clumsy/drained/enfeebled/frightened/sickened/slowed/stupefied, reduce its value by 1.", "themes": ["Action"], "weight": 1, "source": "p.296", "spoiler": false},
+        {"plot_point": "ITEM - invigorating soap (uncommon, lvl 5, 28 gp, healing, used while immersed in water, 10 min): restores 10 HP and removes fatigued; +10 HP from resting if you rest immediately after.", "themes": ["Personal"], "weight": 1, "source": "p.296", "spoiler": false},
+        {"plot_point": "ITEM - Matsuki's medicinal wine (rare, lvl 3, 12 gp, ingested poison): DC 18 Fort or off-guard 10 min (crit fail also clumsy 1); regardless, +2 item to Fort vs disease/poison for 24 hrs incl. daily disease-progression save. Old Matsuki's brew (NPC chef).", "themes": ["Social"], "weight": 1, "source": "p.296", "spoiler": false},
+        {"plot_point": "ITEM - silversoul bomb (rare, lvl 3+, bomb/mental/splash): infuses powdered silver with ancestral grief from burial grounds; glows. Lvl 3 (10gp): +1, 2d4 mental, 1d6 persistent mental vs nindorus, 2 splash, DC17 Fort or dazzled. Greater lvl 11 (250gp): +2, 3d4, 2d6 persistent, DC28 blinded/dazzled. Major lvl 17 (2500gp): +3, 4d4, 3d6 persistent, DC37 permanent blind. Silver-weak creatures (most nindorus) take equal weakness to its mental damage; bomb's bonus applies to dazzle/blind DC vs nindorus.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.296", "spoiler": false}
+      ]
+    },
+    {
+      "id": "tool.armaments",
+      "name": "Armor & Armaments",
+      "scene": "Magic weapons and armor available as loot/rewards, several Tian Xia-flavored or tied to specific NPCs/foes (Kugaptee, Ugly Cute). Mechanics preserved per item with level, price, and once/day activations.",
+      "location": "Willowshore / loot",
+      "source": "p.297",
+      "threads": ["Equip for the haunting"],
+      "characters": ["Kugaptee", "Ugly Cute"],
+      "elements": ["dragon turtle armor", "dragonfire halfbow", "evil-reflecting shield", "fiend's hunger (dagger)", "four-tiger blade", "lumber lord's axe", "sensei's parasol", "thundering fury dadao", "Ugly Cute's gift"],
+      "themes": ["Action"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "ITEM - dragon turtle armor (unique, lvl 12, 2000 gp): +1 resilient full plate of dragon-turtle shell; not off-guard from flankers; ignore Speed penalty when Swimming and Athletics-Swim check penalty.", "themes": ["Action"], "weight": 1, "source": "p.297", "spoiler": false},
+        {"plot_point": "ITEM - dragonfire halfbow (uncommon, lvl 12, 1800 gp, fire): +2 striking composite shortbow; while mounted, apply item bonus to Nature checks to Command mount. 1/day Dragon's Arrow: cast fireball heightened 5th (DC 29 Reflex); you and mount immune.", "themes": ["Action"], "weight": 1, "source": "p.297", "spoiler": false},
+        {"plot_point": "ITEM - evil-reflecting shield (uncommon, lvl 11, 1250 gp): standard dawnsilver shield (Hard 5, HP 20); while raised gain its bonus to saves vs unholy/void spells. 1/day Reflect Evil reaction: one degree better on an unholy/void save; a success-to-crit can backlash, DC 28 Fort or stunned 1 to the source within 30 ft.", "themes": ["Tension"], "weight": 1, "source": "p.297", "spoiler": false},
+        {"plot_point": "ITEM - fiend's hunger (unique, lvl 4, 100 gp): +1 low-grade silver dagger once used to empower Kugaptee. 1/day Avenging Soul: on a crit hit vs a fiend, target rolls DC 18 Fort - on fail off-guard + slowed 1 (crit fail slowed 1 for 1 min).", "themes": ["Tension"], "weight": 1, "source": "p.297", "spoiler": false},
+        {"plot_point": "ITEM - four-tiger blade (rare, lvl 12, 2000 gp, divine): +2 striking ghost touch longsword (one per month; 12 exist); constellations on blade match the night sky. Ghost Blocking Tiger: on a Strike gain void resistance 10 till next turn. 1/day Ghost Chasing Tiger (incapacitation): Strike a suspected-possessed creature, DC 29 Will - failure stops the possessor controlling them 1 min, crit fail auto-counteracts the possession.", "themes": ["Action", "Mystery"], "weight": 1, "source": "p.297", "spoiler": false},
+        {"plot_point": "ITEM - lumber lord's axe (uncommon, lvl 11, 900 gp): +2 striking cold iron battle axe; holder feels compelled to truth (-4 to Lie); +1d6 slashing vs fungus/plant. 1/day Transformative Polish (1 min): blade becomes adamantine or dawnsilver for 1 hr.", "themes": ["Action"], "weight": 1, "source": "p.297", "spoiler": false},
+        {"plot_point": "ITEM - sensei's parasol (rare, lvl 11, 1400 gp): +2 striking bo staff. 1/day Your Attacks Are but Raindrops: opens into a moderate sturdy shield (Hard 13, HP 104) for up to 10 min. 1/day Defensive Redirection reaction: when a melee Strike misses you, redirect it to another creature in the attacker's reach.", "themes": ["Action"], "weight": 1, "source": "p.297", "spoiler": false},
+        {"plot_point": "ITEM - thundering fury dadao (rare, lvl 12, 2000 gp, sonic): +2 striking thundering greatsword from the kaiju Yorak. 1/day Thunder Dance: weapon gains agile and forceful for 1 round, sustainable up to 1 min.", "themes": ["Action"], "weight": 1, "source": "p.298", "spoiler": false},
+        {"plot_point": "ITEM - Ugly Cute's gift (unique, lvl 4, 60 gp): a carapace fragment from Ugly Cute (protective stone spider); +1 spiked gauntlet. 1/day Ugly Cute's Favor: for 1 min gains ghost touch and +2 spirit damage on a hit.", "themes": ["Action", "Personal"], "weight": 1, "source": "p.298", "spoiler": false}
+      ]
+    },
+    {
+      "id": "tool.momentary",
+      "name": "Momentary Magic (consumables)",
+      "scene": "Single-use magical consumables - potions, oils, salves, snares, talismans, and roots - many themed to spirits, the undead, and the AP's fiends. Surface as loot, shop stock, or quest rewards.",
+      "location": "Willowshore / loot",
+      "source": "p.299",
+      "threads": ["Equip for the haunting"],
+      "characters": ["Taljjae"],
+      "elements": ["ascendant dragon spirit", "panaceatic salve", "sanctified beans", "spirit trap", "taljjae tassel", "thousand-year dragonroot", "vengeful demon's tears"],
+      "themes": ["Action"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "ITEM - ascendant dragon spirit (uncommon, lvl 11, 250 gp, potion): for 1 min unarmed Strikes deal +1d6 poison and +1d6 void.", "themes": ["Action"], "weight": 1, "source": "p.299", "spoiler": false},
+        {"plot_point": "ITEM - panaceatic salve (uncommon, lvl 10, 155 gp, mental oil): gain 4d8+10 temp HP for 10 min; if any remain at the end, attempt a new save vs an ongoing disease/poison (a fail/crit fail doesn't increase the stage).", "themes": ["Personal"], "weight": 1, "source": "p.299", "spoiler": false},
+        {"plot_point": "ITEM - sanctified beans (uncommon, lvl 11, 250 gp, divine/vitality): fill an adjacent square with vapors for 1 min; fiend/fey/ghost/spirit/undead ending its turn there takes 4d8+4 spirit (DC 28 basic Will); incorporeal also DC 28 Fort or off-guard/slowed/stunned by degree. Best vs incorporeal evils (wraiths, path maidens).", "themes": ["Tension"], "weight": 1, "source": "p.299", "spoiler": false},
+        {"plot_point": "ITEM - spirit trap (uncommon, lvl 2, 5 gp, snare): set in a 10x10 area; first spirit-trait creature in must roll DC 16 Fort or be immobilized 1 round (crit fail until it Escapes DC 16); functions as a net when not set.", "themes": ["Tension"], "weight": 1, "source": "p.299", "spoiler": false},
+        {"plot_point": "ITEM - taljjae tassel (uncommon, lvl 10, 160 gp, talisman): affixed to a weapon; trigger your Strike was a crit success; the weapon gains the grievous rune for that attack. From the fey Taljjae (good-fortune charm motif of Hwanggot).", "themes": ["Action"], "weight": 1, "source": "p.300", "spoiler": false},
+        {"plot_point": "ITEM - thousand-year dragonroot (rare, lvl 10, 180 gp): dragon-shaped enchanted root; for 1 min you glow as a torch, gain fly Speed 40 and fire resistance 5.", "themes": ["Action"], "weight": 1, "source": "p.300", "spoiler": false},
+        {"plot_point": "ITEM - vengeful demon's tears (uncommon, lvl 10, 160 gp, potion): gain quickened 3 rounds (extra action: Strike/Stride or Release the Demon - gain 2d8 temp HP for 1 round).", "themes": ["Action"], "weight": 1, "source": "p.300", "spoiler": false}
+      ]
+    },
+    {
+      "id": "tool.magic-tea",
+      "name": "Magic Tea",
+      "scene": "A signature Willowshore reward: magic teas are potions with the tea trait, crafted from costly tea leaves. PCs gain the formulas for ALL of these after entertaining Willowshore's kami in Act 2. Each can be drunk normally or via a 10-min tea ceremony (needs sterling tea ware, shareable by 4) for an enhanced effect. Drinking a tea grants 24-hr immunity to that same tea.",
+      "location": "Willowshore (kami reward)",
+      "source": "p.300",
+      "threads": ["Equip for the haunting", "Befriend Willowshore's kami"],
+      "characters": ["Willowshore's kami"],
+      "elements": ["covenant tea", "energizing tea", "longnight tea", "moon blossom tea", "peace in dreams tea", "resurrection tea", "spiritsight tea", "sterling tea ware"],
+      "themes": ["Social"],
+      "gate": "PCs receive ALL magic tea formulas after entertaining Willowshore's kami in Act 2",
+      "fragments": [
+        {"plot_point": "RULE - magic tea: a tea/potion crafted from costly tea leaves; activate by drinking (Interact) or via a 10-min tea ceremony with sterling tea ware (artisan's toolkit, shareable by up to 4) for an enhanced effect. Drinking one tea grants 24-hr immunity to that tea type.", "themes": ["Social"], "weight": 1, "source": "p.300", "spoiler": false},
+        {"plot_point": "ITEM - covenant tea ('trickery tea', uncommon, lvl 3, 10 gp): +1 item to Diplomacy and to Perception DC for 10 min. Ceremony: 1 hr. Tradition - serve only to aligned parties to tip discussions.", "themes": ["Social"], "weight": 1, "source": "p.301", "spoiler": false},
+        {"plot_point": "ITEM - energizing tea (uncommon, lvl 4, 20 gp): +1 item to Athletics and Acrobatics for 10 min. Ceremony: 1 hr.", "themes": ["Action"], "weight": 1, "source": "p.301", "spoiler": false},
+        {"plot_point": "ITEM - longnight tea (uncommon, lvl 3, 12 gp): +1 item to saves vs sleep for 1 hr. Ceremony: 8 hrs and removes fatigued.", "themes": ["Tension"], "weight": 1, "source": "p.301", "spoiler": false},
+        {"plot_point": "ITEM - moon blossom tea (uncommon, lvl 9, 150 gp): +2 item to initiative for 1 hr and gain Evade Peril reaction (turn a failed Reflex save into a success, costs 1 hr of duration). Ceremony: 4 hrs.", "themes": ["Action"], "weight": 1, "source": "p.301", "spoiler": false},
+        {"plot_point": "ITEM - peace in dreams tea (uncommon, lvl 6, 50 gp): +1 item to saves vs mental for 1 hr. Ceremony: 8 hrs, and +2 while asleep.", "themes": ["Tension"], "weight": 1, "source": "p.301", "spoiler": false},
+        {"plot_point": "ITEM - resurrection tea (uncommon, lvl 5, 25 gp): restores 2d8+5 HP and reduces recovery-check DC by 1 for 8 hrs. Ceremony: reduce recovery DC by 3.", "themes": ["Personal"], "weight": 1, "source": "p.301", "spoiler": false},
+        {"plot_point": "ITEM - spiritsight tea (uncommon, lvl 7, 60 gp): glows as a candle; see invisible (concealed) for 10 min and +1 item to Seek incorporeal. Ceremony: see-invisible 30 min, item bonus 8 hrs.", "themes": ["Mystery"], "weight": 1, "source": "p.301", "spoiler": false}
+      ]
+    },
+    {
+      "id": "tool.fulus",
+      "name": "Willowshore Fulus",
+      "scene": "Paper talismans (fulus) blending Sangpotshi, animism, Shenmen traditions, and local practice - one of Willowshore's most sought-after exports before its transformation into a mindscape. Affixed to weapons, armor, or walls and consumed on activation.",
+      "location": "Willowshore",
+      "source": "p.302",
+      "threads": ["Equip for the haunting", "Survive & restore Willowshore"],
+      "characters": [],
+      "elements": ["privacy ward fulu", "traveler's fulu", "firecracker fulu", "animal-turning fulu"],
+      "themes": ["Action"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "ITEM - privacy ward fulu (rare, lvl 1+, affixed to wall): warded room grants item bonus to Stealth vs those outside. Hallway lvl1 (4gp): 10 sq ft, +1, 1 hr. Room lvl5 (25gp): 30 sq ft, +1, 8 hrs, hidden = auto-undetected to creatures of fulu's level or lower. Chamber lvl9 (120gp): 90 sq ft, +2, 24 hrs, same undetected clause.", "themes": ["Mystery"], "weight": 1, "source": "p.302", "spoiler": false},
+        {"plot_point": "ITEM - traveler's fulu (rare, lvl 1, 4 gp, affixed to armor): trigger you Sense Direction (req trained Survival); functions as if you have a compass and the result is one degree better (two if master in Survival).", "themes": ["Action"], "weight": 1, "source": "p.302", "spoiler": false},
+        {"plot_point": "ITEM - firecracker fulu (rare, lvl 1, 4 gp, affixed to weapon): trigger a crit hit; struck creature takes +1d4 sonic and DC 15 Fort or dazzled 1 round (crit fail 1 min).", "themes": ["Action"], "weight": 1, "source": "p.302", "spoiler": false},
+        {"plot_point": "ITEM - animal-turning fulu (rare, lvl 4, affixed to armor): trigger an animal-trait creature Strikes you; the depicted frightened animals flee, granting +2 item to AC vs that triggering Strike (one degree better); on a resulting miss you become concealed from it until your next turn.", "themes": ["Action"], "weight": 1, "source": "p.302", "spoiler": false}
+      ]
+    },
+    {
+      "id": "tool.trappings",
+      "name": "Trappings of Power (worn/held items)",
+      "scene": "A large set of invested or held magic items - cloaks, necklaces, staves, instruments, tattoos - many keyed to spirits, ghosts, fiends, and Willowshore lore (Granny Hu's network, jiang-shi, the River of Souls). Surface as loot, rewards, or shop stock.",
+      "location": "Willowshore / Tian Xia loot",
+      "source": "p.302",
+      "threads": ["Equip for the haunting"],
+      "characters": ["Granny Hu", "Hongrui", "Yaezhing (cape motif)"],
+      "elements": ["cape of justice", "dragon turtle artillery", "fan of falling words", "fortune cord", "Hongrui's gratitude", "jiang-shi bell", "lacquered waist drum", "moonsilver necklace", "noppera-bo hood", "phoenix fulu holder", "purgatory emissary's staff", "skyfang crystal", "spider lily tattoo"],
+      "themes": ["Action", "Mystery"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "ITEM - cape of justice (rare, lvl 4, 100 gp, invested cloak): designate an 'offender'; +1 to Demoralize them; failing to slay/capture in 24 hrs gives -1 Perception. Force Shuriken (1/hr): auto-hit 1d4+1 force (2d4+2 vs offender, 60 ft), can Demoralize free within 30 ft. 1/day Enact Justice (incapacitation): DC 18 Reflex manacles, fail = -15 ft Speed 1 min, crit fail = immobilized.", "themes": ["Action"], "weight": 1, "source": "p.302", "spoiler": false},
+        {"plot_point": "ITEM - dragon turtle artillery (uncommon, lvl 10, 1000 gp): hand cannon; while on a boat raises capsize DC by 4. 1/day Turtle's Tsunami: 50-ft cone, 10d6 bludgeoning (DC 27 basic Reflex), fail = prone.", "themes": ["Action"], "weight": 1, "source": "p.303", "spoiler": false},
+        {"plot_point": "ITEM - fan of falling words (uncommon, lvl 10, 900 gp, illusion): +2 item to Performance (act/comedy/orate/sing). 1/day Whispered World: casts illusory scene (DC 27 Will) in 3 actions, no range, 50-ft burst centered on you.", "themes": ["Social"], "weight": 1, "source": "p.303", "spoiler": false},
+        {"plot_point": "ITEM - fortune cord (uncommon, lvl 11, 1300 gp): holds 100 coins; +2 item to Earn Income. Load 100 same-type coins: Merchant's Bludgeon (1/day) = +2 striking nunchaku 1 min with a rune by coin (copper corrosive/silver shock/gold flaming/platinum frost); Fling Coins = 10 coins, 4d6 (DC 28 basic Reflex), damage type by coin.", "themes": ["Action", "Social"], "weight": 1, "source": "p.303", "spoiler": false},
+        {"plot_point": "ITEM - Hongrui's gratitude (unique, lvl 3, 60 gp, invested cloak): reward for honoring three dead travelers in the Willowshore Hinterlands. 1/day Release Lantern: floating lantern, torchlight, +1 Diplomacy 1 hr. 1/day Release Umbrella: floating umbrella shields from weather, +1 Survival 1 hr.", "themes": ["Personal", "Social"], "weight": 1, "source": "p.303", "spoiler": false},
+        {"plot_point": "ITEM - jiang-shi bell (uncommon, lvl 11, 1200 gp, illusion): brandish vs jiang-shi (fleeing must run 20+ ft, -2 to overcome revulsion). 1/day Phantom Banquet: illusory food, eaters within 30 ft DC 28 Will or fascinated 10 min; can trigger a jiang-shi's bitter epiphany weakness (-2 to that Will save).", "themes": ["Mystery", "Action"], "weight": 1, "source": "p.304", "spoiler": false},
+        {"plot_point": "ITEM - lacquered waist drum (uncommon, lvl 11, 1300 gp): +2 item to Performance. Memories of Life (1/hr): one undead within 30 ft takes 5d8 vitality (DC 28 Fort; ghost sickened 1 on fail). Memories of Joy (1/hr): 30-ft emanation, undead DC 28 Fort by degree up to 10d8 vitality + stupefied for ghosts.", "themes": ["Action"], "weight": 1, "source": "p.304", "spoiler": false},
+        {"plot_point": "ITEM - moonsilver necklace (uncommon, lvl 10, 1000 gp, invested): ritual made via animal sacrifice in moonlight; your unarmed melee Strikes count as silver with the ghost touch rune.", "themes": ["Tension"], "weight": 1, "source": "p.304", "spoiler": false},
+        {"plot_point": "ITEM - noppera-bo hood (rare, lvl 4, 85 gp, illusion/invested helmet): merges with your face; acts as a disguise kit to Impersonate same-ancestry creatures. 1/day Another Face: gain 1st-rank illusory disguise as a morph effect.", "themes": ["Mystery"], "weight": 1, "source": "p.304", "spoiler": false},
+        {"plot_point": "ITEM - phoenix fulu holder (rare, lvl 12, 2000 gp): store a fulu in the frame. 1/day Duplicate Fulu: remove an 11th-or-lower fulu; if the original is consumed within 24 hrs, the frame's image becomes a usable duplicate (must be affixed within 24 hrs; can't re-duplicate).", "themes": ["Mystery"], "weight": 1, "source": "p.304", "spoiler": false},
+        {"plot_point": "ITEM - purgatory emissary's staff (rare, lvl 12, 1820 gp, staff): +2 item to adjust a psychopomp's/spirit's attitude; +2 striking ghost touch staff. Spell list: cantrip vitality lash; 1st command/sanctuary; 2nd clear mind/see the unseen; 3rd holy light/ring of truth; 4th dispel magic/talking corpse; 5th banishment/truespeech.", "themes": ["Mystery", "Social"], "weight": 1, "source": "p.305", "spoiler": false},
+        {"plot_point": "ITEM - skyfang crystal (rare, lvl 12, 2000 gp, invested): mental resistance 10 (but enfeebled 2 if you're unholy). 1/day Seek the Unholy: name a fiend/spirit on your plane to Track it (DC = its Will DC, use Occultism/Religion/Survival) and gain +2 saves vs that creature's effects.", "themes": ["Mystery", "Tension"], "weight": 1, "source": "p.305", "spoiler": false},
+        {"plot_point": "ITEM - spider lily tattoo (rare, lvl 3, 60 gp, invested tattoo): marks you as a member of Granny Hu's network; invisible until activated/doomed/dead. Visible: +1 Intimidation to viewers, -1 Diplomacy vs those who know its meaning (all Willowshore citizens). 1/day Dead Like You: when undead first detect you, Deception vs their Perception to appear undead, sustained up to 1 min.", "themes": ["Mystery", "Social"], "weight": 1, "source": "p.305", "spoiler": false}
+      ]
+    },
+    {
+      "id": "tool.heroic-legacies",
+      "name": "Heroic Legacies (Shinzo's gifts, Ch.9)",
+      "scene": "Four unique rare items replicating treasures of Tian Xia heroes, given by the merchant Shinzo to the PCs at the start of Chapter 9. The GM can have Shinzo recount the legends, or let PCs Recall Knowledge (DC 26 Society or a Lore) for the lore. Can be rerun as generic rare items if renamed.",
+      "location": "Willowshore (Shinzo)",
+      "source": "p.306",
+      "threads": ["Equip for the haunting"],
+      "characters": ["Shinzo", "Injigo (jorogumo)", "Kinburi", "Seiji Juubun", "Vashu Vigaru"],
+      "elements": ["Injigo's loving embrace", "Kinburi's sandals of bounding", "Juubun's one thousand poems", "Vashu's ninth life"],
+      "themes": ["Action", "Personal"],
+      "gate": "given by Shinzo at the start of Chapter 9 (Act 3); assign one per PC",
+      "fragments": [
+        {"plot_point": "ITEM - Injigo's loving embrace (unique, lvl 9, 675 gp): a net; +1 item to Grapple. 1/day Ensnare Ghost: incorporeal within 30 ft, DC 25 Reflex or immobilized, sustain up to 1 min (Escape DC 25). 1/week A Night of Melancholic Dreams: after 8 hrs sleep gain mental resistance 5 and +1 saves vs mental 8 hrs.", "themes": ["Action", "Personal"], "weight": 1, "source": "p.306", "spoiler": false},
+        {"plot_point": "ITEM - Kinburi's sandals of bounding (unique, lvl 9, 700 gp, invested shoes): +1 item to High/Long Jump; Leap goes +5 ft horizontal / +3 ft vertical. 1/hr Light-Footed Bound: two High/Long Jumps without Striding, bouncing off any object, +2 item bonus for these jumps.", "themes": ["Action"], "weight": 1, "source": "p.306", "spoiler": false},
+        {"plot_point": "ITEM - Juubun's one thousand poems (unique, lvl 9, 700 gp, grimoire): 1/day Poetic Spellcasting: if your next action casts a linguistic single-target spell - ally target gains 10 temp HP 1 min; enemy that fails its save also becomes sickened 1.", "themes": ["Social"], "weight": 1, "source": "p.307", "spoiler": false},
+        {"plot_point": "ITEM - Vashu's ninth life (unique, lvl 9, 700 gp): +1 striking ghost touch katana from the king of cats' whisker. 1/hr Whisker's Sense: at end of turn gains parry, +1 circ AC till next turn. 1/day Full of Life: on slaying a living creature gain Diehard (die at dying 5) for 1 min.", "themes": ["Action", "Personal"], "weight": 1, "source": "p.307", "spoiler": false}
+      ]
+    },
+    {
+      "id": "tool.pilgrimage-gifts",
+      "name": "Pilgrimage Gifts (Ch.7)",
+      "scene": "Six rare items the PCs can earn at the start of Chapter 7 (assign one per PC; leftovers appear in Tan Sugi monastery area E14 or are sold later by Shinzo). Themed to the Tan Sugi monastery, the great sugi tree, and protection of the mind and against haunts.",
+      "location": "Tan Sugi Monastery / pilgrimage",
+      "source": "p.307",
+      "threads": ["Equip for the haunting", "Restore the Tan Sugi monastery"],
+      "characters": [],
+      "elements": ["branch of the great sugi", "ghost scarf", "hairpin of blooming flowers", "red thread knot", "resolute mind wrap", "root boots", "spirit fan"],
+      "themes": ["Action", "Mystery"],
+      "gate": "earned at the start of Chapter 7; assign one per PC, leftovers placed in monastery area E14 (p.143) or sold by Shinzo",
+      "fragments": [
+        {"plot_point": "ITEM - branch of the great sugi (rare, lvl 7, 360 gp): living +1 striking whip. 1/day A Multitude of Branches: place on an unholy corpse to grow a 25-ft sugi tree, restoring 3d8+8 HP in a 10-ft burst (climbable, DC 10 Athletics), reverts in 1 hr. A Single Branch reverts it to whip.", "themes": ["Action", "Personal"], "weight": 1, "source": "p.307", "spoiler": false},
+        {"plot_point": "ITEM - ghost scarf (rare, lvl 7, 360 gp, invested): glows as a candle; +1 item to Perception/DCs to discover/initiate vs haunts. 1/day Ghost Slayer's Caress: a weapon gains ghost touch 5 min (or +1 Fort vs incorporeal undead if already ghost touch).", "themes": ["Mystery", "Tension"], "weight": 1, "source": "p.308", "spoiler": false},
+        {"plot_point": "ITEM - hairpin of blooming flowers (rare, lvl 7, 360 gp, invested): +1 item to Diplomacy. 1/day Scatter Petals: 10-ft burst, become concealed 1 min (or until you move); creatures DC 23 Reflex or dazzled (crit fail blinded) till end of next turn.", "themes": ["Social"], "weight": 1, "source": "p.308", "spoiler": false},
+        {"plot_point": "ITEM - red thread knot (rare, lvl 7, 360 gp, invested): six knots. Untie Fate reaction: when you crit fail a save, untie a knot to treat it as a normal failure instead. Becomes mundane after the sixth knot.", "themes": ["Tension"], "weight": 1, "source": "p.308", "spoiler": false},
+        {"plot_point": "ITEM - resolute mind wrap (rare, lvl 7, 360 gp, invested headwear): mental resistance 5. 1/day Shield Thoughts reaction: +1 item to a Will save vs mental; on success the resistance rises to 10 for 1 min.", "themes": ["Tension"], "weight": 1, "source": "p.308", "spoiler": false},
+        {"plot_point": "ITEM - root boots (rare, lvl 7, 360 gp, invested): +1 item to Stealth in forest/woods. 1/day Root Walk: 20-ft climb Speed on wood for 10 min, no hands. 1/day Take Root reaction: +4 item to Fort DC vs forced movement while on earth.", "themes": ["Action"], "weight": 1, "source": "p.308", "spoiler": false},
+        {"plot_point": "ITEM - spirit fan (rare, lvl 7, 360 gp): +1 striking fighting fan; leaves light up (torch 1 min) when it drops a foe to 0 HP. Release Life Energy (1/hr, requires lit leaves): 30 ft - heal a living creature 3d8+8 or deal undead 2d8+8 vitality (DC 23 basic Fort).", "themes": ["Action", "Personal"], "weight": 1, "source": "p.308", "spoiler": false}
+      ]
+    },
+    {
+      "id": "tool.new-spells",
+      "name": "New Spells (Zhi Hui's Six)",
+      "scene": "Six rank-4 rare spells preserved by Zhi Hui, founder of the Tan Sugi monastery; they exist in the adventure only as six fragile scrolls hidden in a secret room of the Tan Sugi monastery ruins. Themed to fate, life, light, and warding the nindorus/undead.",
+      "location": "Tan Sugi Monastery ruins (secret room)",
+      "source": "p.309",
+      "threads": ["Equip for the haunting", "Recover the lost Tan Sugi spells"],
+      "characters": ["Zhi Hui"],
+      "elements": ["entangle fate", "life's fresh bloom", "prophet's luck", "sacred nimbus", "tomorrow's dawn", "wall of mirrors", "six fragile scrolls"],
+      "themes": ["Mystery", "Action"],
+      "gate": "found only as six fragile scrolls in a secret room of the Tan Sugi monastery ruins",
+      "fragments": [
+        {"plot_point": "SPELL - entangle fate (rank 4, rare, arcane/occult, 30 ft, 2-4 creatures, Will, 3 rounds): off-guard by save degree; if multiple targets fail, also stupefied 1; crit fail adds enfeebled 1 and clumsy 1.", "themes": ["Action", "Mystery"], "weight": 1, "source": "p.309", "spoiler": false},
+        {"plot_point": "SPELL - life's fresh bloom (rank 4, rare, healing/vitality, divine/primal, 20-ft burst, sustained 5 rounds): living/non-nindoru creatures heal 1d6 + gain +5 ft Speed each turn; nindorus/undead instead sickened 1 (Fort negates). Heightened 7th 1d8/sick 2, 10th 1d10/sick 3.", "themes": ["Personal", "Tension"], "weight": 1, "source": "p.309", "spoiler": false},
+        {"plot_point": "SPELL - prophet's luck (rank 4, rare, reaction, arcane/divine, 60 ft, 1 creature, 10 min): predict a save as success or failure; target +1/-1 to that save; predict correctly = +1 to your saves, incorrectly = -1 to target's saves. Heightened 6th +/-2, 9th +/-3.", "themes": ["Mystery"], "weight": 1, "source": "p.309", "spoiler": false},
+        {"plot_point": "SPELL - sacred nimbus (rank 4, rare, holy, divine/primal, 10-ft square, Reflex, sustained 1 min): rains sanctified water, 5d6 spirit to fiends/undead/spirit-weak at end of turn; sustain to move it (fly 15 ft). Heightened +1: +1d6.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.309", "spoiler": false},
+        {"plot_point": "SPELL - tomorrow's dawn (rank 4, rare, light, occult/primal, Will, sustained 1 min): radiate bright light (20 ft) + mental resistance 5; nindorus/undead starting adjacent must save - sickened/slowed by degree. Heightened 6th resist 10, 8th resist 15.", "themes": ["Tension", "Action"], "weight": 1, "source": "p.309", "spoiler": false},
+        {"plot_point": "SPELL - wall of mirrors (rank 4, rare, arcane/occult, 120 ft): 50x20-ft reflective glass wall (each 10x10 section AC 10, Hard 10, HP 40); concealment across it; striking it deals the attacker 4d4 mental (basic Will). Heightened +1: +10 HP/section.", "themes": ["Action", "Mystery"], "weight": 1, "source": "p.309", "spoiler": false}
+      ]
+    },
+    {
+      "id": "tool.rituals",
+      "name": "New Rituals",
+      "scene": "Folk and story-critical rituals. NOTE: open the wall of ghosts and transmigrate are REQUIRED to progress the plot - reduce DCs by 2-5 on repeat attempts if PCs struggle. Several are seasonal community rituals (regale the lost ones, sweetest solstice, winter's breath) that grant Hope/Food/Security Points and ward a settlement; mindscape shift and transmigrate move PCs between mindscapes / into the living world.",
+      "location": "Willowshore mindscape / Tan Sugi / settlements",
+      "source": "p.310",
+      "threads": ["Open the Wall of Ghosts", "Escape/transmigrate the Willowshore mindscape", "Protect Willowshore through the seasons"],
+      "characters": ["Heh Shan-Bao", "Lao Shu Po", "Tan Sugi / Eternal Lantern"],
+      "elements": ["gnaw at the moon", "last night's vigil", "mindscape shift", "open the wall of ghosts", "ransack the night", "regale the lost ones", "sweetest solstice", "transmigrate", "winter's breath", "Preparation Points", "Hope Points"],
+      "themes": ["Mystery", "Tension"],
+      "gate": "open the wall of ghosts and transmigrate are story-required; the 5th-rank transmigrate needs the Tan Sugi standing, Eternal Lantern lit, and day 72 of Act 3 (new year in the mindscape)",
+      "fragments": [
+        {"plot_point": "RITUAL - gnaw at the moon (rank 2, rare, Cast 1 hr, 100 gp mooncakes/tea, 3 secondary, Diplomacy expert): moon-only, full moon -2 DC. Crit success darkvision, success low-light vision, crit fail drained 1 24 hrs. Honors Lao Shu Po.", "themes": ["Mystery"], "weight": 1, "source": "p.310", "spoiler": false},
+        {"plot_point": "RITUAL - last night's vigil (rank 2, rare, healing, Cast 8 hrs, 10 gp incense, Occultism trained/Survival expert): night ritual beside an ill loved one; restores their HP and reduces a disease's stage (crit success more); winter -1 DC, last night of winter -2. Heightened 4th curses, 6th both.", "themes": ["Personal"], "weight": 1, "source": "p.311", "spoiler": false},
+        {"plot_point": "RITUAL - mindscape shift (rank 3, rare, teleportation, Cast 1 hr, 28 gp, 3 secondary, Arcana/Occultism expert or Willowshore Lore): teleport casters between adjacent near-identical mindscapes (e.g. Willowshore to Heh Shan-Bao's mindscape). Crit success leaves a 24-hr portal back; crit fail 9d6 mental (DC 26 basic Will). Heightened 8th any known mindscape.", "themes": ["Mystery"], "weight": 1, "source": "p.311", "spoiler": false},
+        {"plot_point": "RITUAL (STORY-REQUIRED) - open the wall of ghosts (rank 2, rare, consecration, Cast 1 day, 60 gp, 3 secondary, Occultism/Religion expert): opens a doorway through the Wall of Ghosts west of town (built from Zoudou's notes + Sangpotshi theory); must be cast during crescent/new moon. Crit success +2 AC/saves within the wall; crit fail two ghost commoners tear free and attack. See p.113.", "themes": ["Mystery", "Tension"], "weight": 1, "source": "p.311", "spoiler": false},
+        {"plot_point": "RITUAL - ransack the night (rank 3, rare, darkness, Cast 1 hr, 25 gp x rank, 3 secondary, Religion expert): night-only Laoite ritual; -2 DC in fiend/undead-haunted areas; success treats you as concealed to fiends/undead of 5th level or lower (crit fail: you treat THEM as concealed for 24 hrs). Heightened +1: +2 levels.", "themes": ["Tension"], "weight": 1, "source": "p.312", "spoiler": false},
+        {"plot_point": "RITUAL - regale the lost ones (rank 2, rare, Cast 4 hrs, opera-troupe fees, 3 secondary, Performance expert): a Tian opera performance that placates a settlement's spirits for 1 year; fall -2 DC; reduces affected haunt Disable DCs and (crit success) starts undead frightened 1. In Act 2/3 grants Hope Points (3 crit / 1 success / -3 crit fail). Once per year per settlement. Heightened +1: +2 levels.", "themes": ["Social", "Tension"], "weight": 1, "source": "p.313", "spoiler": false},
+        {"plot_point": "RITUAL - sweetest solstice (rank 2, rare, Cast 1 hr, sesame/rice-ball ingredients, 3 secondary, Cooking Lore expert): cooks a communal black-sesame soup; winter-only, solstice -2 DC; success feeds the settlement and grants casters +1 to saves vs fear/emotion. Crit fail taints the soup, spreading food poisoning (a plot hazard in Act 3) and sickened 4 for 12 hrs.", "themes": ["Social", "Tension"], "weight": 1, "source": "p.314", "spoiler": false},
+        {"plot_point": "RITUAL (STORY-REQUIRED) - transmigrate (rank 4, unique, healing, Cast 4 hrs, heron feathers/incense/sakaki, 2 secondary, Occultism/Religion): bake the PCs in clay kilns to send their trapped souls into the living world as ectoplasmic bodies for 1 month (face the border-between-life-and-death encounter, p.191). Crit fail 9d6 fire (DC 24 basic Fort). Heightened 5th transmigrates the ENTIRE Willowshore mindscape (Cast 5 days, requires Tan Sugi standing + Eternal Lantern lit + day 72 of Act 3; outcome scales with Preparation Points, see p.213).", "themes": ["Mystery", "Tension"], "weight": 1, "source": "p.314", "spoiler": false},
+        {"plot_point": "RITUAL - winter's breath (rank 3, rare, Cast 1 hr, 15 gp, 1 secondary, Cooking/Tea Lore expert): summons a tea pavilion; non-winter +2 DC (summer +4). Crit success serves clear mind, environmental endurance, sound body, sure footing + 10 temp HP and +1 saves vs emotion 12 hrs; crit fail sickened 3 for 12 hrs. Heightened +1: +1 rank/+2 temp HP.", "themes": ["Social"], "weight": 1, "source": "p.315", "spoiler": false}
+      ]
+    },
+    {
+      "id": "tool.transmigrated-state",
+      "name": "Haunting the Living (transmigrated PCs)",
+      "scene": "Rules for when PCs transmigrate into the living world in Act 3 as ectoplasmic, undead-adjacent beings. They gain spirit powers but risk soul degradation. WITHHOLD spirit powers from play outside Chapter 10. Each transmigrated PC selects 2 minor + 1 major spirit power, reselectable on daily preparations; saves use the higher of class/spell DC.",
+      "location": "Willowshore living world (Act 3, Ch.10)",
+      "source": "p.316",
+      "threads": ["Escape/transmigrate the Willowshore mindscape", "Restore Willowshore to life"],
+      "characters": [],
+      "elements": ["transmigrated body", "spirit powers", "soul degradation", "Undead Vision", "Transmigrated Survival/Protection"],
+      "themes": ["Tension", "Personal"],
+      "gate": "spirit powers are intended only for Chapter 10 - do not use outside it; PCs gain them only while transmigrated",
+      "fragments": [
+        {"plot_point": "RULE - transmigrated state: living but undead-adjacent ectoplasmic bodies; susceptible to void, healed by vitality. Undead Vision (low-light, or darkvision if already low-light); Transmigrated Survival (never gain wounded, instead exposed to soul degradation on recovering from dying; dying while transmigrated = wake alive in the mindscape with doomed 1); Transmigrated Protection (+2 circ vs disease/poison/sleep/paralyzed).", "themes": ["Tension", "Personal"], "weight": 1, "source": "p.316", "spoiler": false},
+        {"plot_point": "RULE - spirit powers: each transmigrated PC gains 2 minor + 1 major spirit power, reselectable on daily preparations. Saves use the higher of class/spell DC; attack rolls use that DC -10; counteract uses the PC's level. Intended only for Chapter 10.", "themes": ["Tension"], "weight": 1, "source": "p.316", "spoiler": false},
+        {"plot_point": "CURSE - soul degradation (curse 7, rare, DC 23 Will): checked each time a transmigrated PC recovers from dying. Stage 1 spirit weakness 5; stage 2 weakness 10; stage 3+ weakness 10 and stunned 1 on a crit-failed attack/skill check; stage 6 the PC becomes an uncontrolled looping haunt. Ends when the curse is removed or the transmigrate ritual ends.", "themes": ["Tension", "Personal"], "weight": 1, "source": "p.316", "spoiler": false}
+      ]
+    },
+    {
+      "id": "tool.minor-spirit-powers",
+      "name": "Minor Spirit Powers",
+      "scene": "Eight emotion/willpower-themed minor spirit powers a transmigrated PC chooses two of - literal acts of haunting (curiosity, delusion, love, obsession, passion, duty, spite, and the fire-themed power). Encourage players to pick powers matching their character's desires and grudges; GM may rename/reflavor. Only for Chapter 10.",
+      "location": "Willowshore living world (Ch.10)",
+      "source": "p.316",
+      "threads": ["Restore Willowshore to life"],
+      "characters": [],
+      "elements": ["curiosity", "delusion", "love", "obsession", "passion", "duty", "spite", "fire spirit power"],
+      "themes": ["Personal", "Tension"],
+      "gate": "available only to transmigrated PCs in Chapter 10",
+      "fragments": [
+        {"plot_point": "MINOR SPIRIT POWER - Curiosity (rare, linguistic/mental/occult): touch an adjacent living target (Will save, then immune); success read surface thoughts/relative Int; failure probe one telepathic question (target Deception resists, crit success gives a false answer); crit fail target forgets the event.", "themes": ["Mystery"], "weight": 1, "source": "p.316", "spoiler": false},
+        {"plot_point": "MINOR SPIRIT POWER - Delusion (rare, illusion/occult/visual/auditory/olfactory): +2 status to Deception; 1/day cast 5th-rank illusory creature, illusory object, or illusory scene as innate occult. Images appear macabre (blood/bone/shadow) to non-undead viewers.", "themes": ["Mystery"], "weight": 1, "source": "p.317", "spoiler": false},
+        {"plot_point": "MINOR SPIRIT POWER - Love (rare, mental/occult): speak with and use Diplomacy on animals; +1 status to Will saves within 30 ft of a trusted ally (+2 if a loved ally is in range).", "themes": ["Personal", "Social"], "weight": 1, "source": "p.317", "spoiler": false},
+        {"plot_point": "MINOR SPIRIT POWER - Obsession (rare, occult): cast telekinetic projectile at will as a 5th-rank innate cantrip; 1/day cast 5th-rank animated assault, charitable urge, or telekinetic haul.", "themes": ["Action"], "weight": 1, "source": "p.317", "spoiler": false},
+        {"plot_point": "MINOR SPIRIT POWER - Duty (rare, incapacitation/linguistic/mental/occult): whisper to a target within 30 ft (Will, then immune); success frightened 1; failure obey a suggested course of action 1 min; crit fail 1 hr.", "themes": ["Tension", "Social"], "weight": 1, "source": "p.317", "spoiler": false},
+        {"plot_point": "MINOR SPIRIT POWER - Passion (rare, fire/occult): for 1 min engulf in flames (bright light 40 ft), melee Strikes +1d6 fire, fire resistance 10, and Reactive Scorch reaction (a creature that Strikes you takes 2d6 fire, basic Reflex).", "themes": ["Action"], "weight": 1, "source": "p.318", "spoiler": false},
+        {"plot_point": "MINOR SPIRIT POWER - Spite (rare, curse/occult): point at a target within 30 ft (Will, then immune); success itching (off-guard if it doesn't scratch) 1 min; failure enfeebled 2/clumsy 2/drained 2 for 24 hrs; crit fail also slowed 1.", "themes": ["Tension"], "weight": 1, "source": "p.318", "spoiler": false}
+      ]
+    },
+    {
+      "id": "tool.major-spirit-powers",
+      "name": "Major Spirit Powers",
+      "scene": "Nine potent ghost-themed major spirit powers a transmigrated PC chooses one of - dematerialize, flickering figure, flight, chilling paralysis, grudge, resist death, river's reflection, sap life, undying flesh. These tap the PCs' undead-adjacent state for creative solutions. Only for Chapter 10.",
+      "location": "Willowshore living world (Ch.10)",
+      "source": "p.318",
+      "threads": ["Restore Willowshore to life"],
+      "characters": [],
+      "elements": ["dematerialize", "flickering figure", "flight", "chilling paralysis", "grudge", "resist death", "river's reflection", "sap life", "undying flesh"],
+      "themes": ["Action", "Tension"],
+      "gate": "available only to transmigrated PCs in Chapter 10",
+      "fragments": [
+        {"plot_point": "MAJOR SPIRIT POWER - Dematerialize (rare, occult, 1/day): become incorporeal 1 round, sustain up to 5 rounds.", "themes": ["Action"], "weight": 1, "source": "p.318", "spoiler": false},
+        {"plot_point": "MAJOR SPIRIT POWER - Flickering Figure (rare, illusion/occult/visual, 1/day): become concealed and use that concealment to Hide; lasts 10 min.", "themes": ["Mystery"], "weight": 1, "source": "p.318", "spoiler": false},
+        {"plot_point": "MAJOR SPIRIT POWER - Flight (rare, occult, 1/day): gain a fly Speed equal to your Speed or 30 ft (whichever is greater) for 10 min.", "themes": ["Action"], "weight": 1, "source": "p.318", "spoiler": false},
+        {"plot_point": "MAJOR SPIRIT POWER - Chilling Paralysis (rare, cold/incapacitation/occult, 1/hr): a Strike + Fort save; success slowed 1, failure paralyzed 1 round then slowed 1, crit fail paralyzed 1 min (new save each turn, DC drops by 1).", "themes": ["Tension", "Action"], "weight": 1, "source": "p.318", "spoiler": false},
+        {"plot_point": "MAJOR SPIRIT POWER - Grudge (rare, emotion/fear/incapacitation/mental/occult): a creature within 30 ft aware of you, Will save (then immune 24 hrs); success frightened 1; failure frightened 2 + prone + fleeing; crit fail faints then frightened 2/fleeing.", "themes": ["Tension"], "weight": 1, "source": "p.319", "spoiler": false},
+        {"plot_point": "MAJOR SPIRIT POWER - Resist Death (rare, occult): next time reduced to 0 HP within 24 hrs you go to 10 HP instead and are exposed to soul degradation.", "themes": ["Tension"], "weight": 1, "source": "p.319", "spoiler": false},
+        {"plot_point": "MAJOR SPIRIT POWER - River's Reflection (rare, manipulate/occult/spellshape): if your next action casts a vitality or void spell, its effects on living and undead targets are reversed (void<->vitality, healing swapped).", "themes": ["Action", "Mystery"], "weight": 1, "source": "p.319", "spoiler": false},
+        {"plot_point": "MAJOR SPIRIT POWER - Sap Life (rare, occult/void): unarmed Strike; on a hit deal 4d6 void and restore 10 HP to yourself.", "themes": ["Action"], "weight": 1, "source": "p.319", "spoiler": false},
+        {"plot_point": "MAJOR SPIRIT POWER - Undying Flesh (rare, occult): choose bludgeoning, piercing, or slashing; gain resistance 10 to it (choice is permanent).", "themes": ["Tension"], "weight": 1, "source": "p.319", "spoiler": false}
+      ]
+    },
+    {
+      "id": "tool.reincarnation-feats",
+      "name": "Reincarnation Ancestry Feats",
+      "scene": "Rare ancestry feats for any character who has reincarnated at least once - which includes ALL Season of Ghosts PCs once they begin the final act. They draw on memory/experience from past lives: rerolls, downtime perks, soul-sibling speak-with feats, innate spells, and combat resilience.",
+      "location": "campaign-wide (esp. Act 4)",
+      "source": "p.319",
+      "threads": ["Grow stronger across lifetimes"],
+      "characters": [],
+      "elements": ["Let's Try That Again", "Like a Roach", "I've Had Many Jobs", "Reincarnated Ridiculer", "Weight of Experience", "Wisdom from Another Life", "Animal/Plant/Stone Soul Siblings", "Empathy Incarnate", "Sleep of the Reborn", "Clinging to Life", "Lingering Echoes", "Rapid Retraining", "You Seem Somewhat Familiar", "I Sense Malevolence", "Linguistic Revival", "Pain is Temporary", "Unbreakable Resolve", "Boneyard Acquaintance", "Indomitable Spirit", "Release the Light", "This is What It's Like to Die", "See You in Hell"],
+      "themes": ["Personal", "Action"],
+      "gate": "available to any character who has reincarnated at least once; all Season of Ghosts PCs qualify once Act 4 begins",
+      "fragments": [
+        {"plot_point": "FEATS (rank 1, reincarnated): Let's Try That Again (1/day reroll a failed skill check, fortune); Like a Roach (downtime: -2 to Subsist DC, no min proficiency/penalty); I've Had Many Jobs (downtime: Earn Income as trained, -2 DC if expert+); Reincarnated Ridiculer (Demoralize doesn't grant temp immunity unless you crit fail; -4 DC if they crit hit you last turn); Weight of Experience (gain a trained skill + Assurance in it).", "themes": ["Personal"], "weight": 1, "source": "p.319", "spoiler": false},
+        {"plot_point": "FEATS (rank 5, reincarnated): Wisdom from Another Life (gain a trained skill + Additional Lore); Animal Soul Siblings (speak with animals 1/day, +1 Gather Info from animals); Empathy Incarnate (-2 Diplomacy DC to Make Impression/Request, success vs lower-level = crit, can't crit-fail Gather Info); Sleep of the Reborn (8-hr rest grants long-term rest benefits); Clinging to Life (1/day at 0 HP not killed, go to 1 HP, no wounded).", "themes": ["Personal", "Social"], "weight": 1, "source": "p.320", "spoiler": false},
+        {"plot_point": "FEATS (rank 9, reincarnated): Lingering Echoes (talking corpse 1/day, +1 question); Plant Soul Siblings (speak with plants 1/day; prereq Animal Soul Siblings); Rapid Retraining (downtime retrain in 4 days/1 week, no teacher needed); You Seem Somewhat Familiar (after a successful RK, +2 to next attack/damage/save vs that creature, once per creature).", "themes": ["Personal", "Mystery"], "weight": 1, "source": "p.321", "spoiler": false},
+        {"plot_point": "FEATS (rank 13, reincarnated): I Sense Malevolence (spirit sense 6th-rank innate 1/day); Linguistic Revival (truespeech 5th-rank self 1/day, +2 Diplomacy in non-Common); Pain is Temporary (1/10 min, resistance 10 to all damage till end of next turn); Stone Soul Siblings (speak with stones 1/day; prereq Plant Soul Siblings); Unbreakable Resolve (1/10 min reroll a failed Will save, keep better).", "themes": ["Personal", "Tension"], "weight": 1, "source": "p.321", "spoiler": false},
+        {"plot_point": "FEATS (rank 17, reincarnated): Boneyard Acquaintance (spiritual guardian 9th-rank divine innate 1/day); Indomitable Spirit (1/day, you + adjacent allies gain +4 circ AC and quickened till end of next turn); Release the Light (1/day below 20 HP, 30-ft bright light, sighted enemies Fort or blinded/dazzled); This is What It's Like to Die (phantasmagoria 1/day, can swap mental damage for 2 chosen types); See You in Hell (1/day reduced to 0 HP not killed, attacker takes spirit damage equal to the amount that dropped you, basic Will).", "themes": ["Action", "Personal"], "weight": 1, "source": "p.322", "spoiler": false}
+      ]
+    }
+  ]
+}

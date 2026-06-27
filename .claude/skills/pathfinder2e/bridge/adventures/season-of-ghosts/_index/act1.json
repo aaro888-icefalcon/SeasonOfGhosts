@@ -1,0 +1,563 @@
+{
+  "slice": "act1-summer",
+  "source_file": "hardcover.md",
+  "source_pages": "p.26-88",
+  "act": "Act 1: The Summer That Never Was",
+  "clusters": [
+    {
+      "id": "a1.clearing",
+      "name": "Strange Aggression (Wooded-Clearing Opening)",
+      "scene": "The PCs wake on the first day of summer in a forest clearing east of town (W38), abducted overnight for the Reenactment Festival, still blindfolded in straw mats. A westward game trail leads home, but the miller Choe Chung-hu who should ransom them never came. Two giant centipedes attack, hissing the body parts they crave.",
+      "location": "Forest clearing east of Willowshore (area W38)",
+      "source": "p.28",
+      "threads": ["Get back to Willowshore", "Understand what is wrong"],
+      "characters": ["Choe Chung-hu", "Giant centipedes"],
+      "elements": ["Forest clearing W38", "Game trail", "Red blindfolds", "Reenactment Festival"],
+      "themes": ["Mystery", "Tension", "Action"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "PCs wake blindfolded in the clearing with memories of last night's Reenactment Festival; DC 10 Survival/Willowshore Lore finds the westward game trail home.", "themes": ["Mystery"], "weight": 1, "source": "p.28", "spoiler": false},
+        {"plot_point": "The miller Choe Chung-hu never arrived with the promised ransom breakfast, unsettling since he never breaks his word.", "themes": ["Mystery"], "weight": 1, "source": "p.28", "spoiler": false},
+        {"plot_point": "TRIVIAL 1 combat: two GIANT CENTIPEDES (Creature -1) attack hissing the body parts they crave; they speak Common and fight without fear.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.28", "spoiler": false},
+        {"plot_point": "SINISTER ANIMALS clue: DC 15 Nature/Survival notes the unnatural aggression; DC 15 Occultism/Religion reveals the beasts are influenced by an evil spirit (Kugaptee manifestations, Int +0, speak Common).", "themes": ["Mystery"], "weight": 1, "source": "p.29", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.bridge-mist",
+      "name": "Maze of Mist, Rain of Blood (Crossing Home)",
+      "scene": "A supernatural fog thickens on the trail; at the Duyue River bridge a DC 13 Society/Willowshore Lore check may recall that the Eternal Lantern has gone out. While it is dark, three manifestations plague the land: Mirage Mist by day, Crimson Moon and Blood Rain by night.",
+      "location": "Duyue River bridge, eastern Willowshore",
+      "source": "p.29",
+      "threads": ["Reach home", "Light the Eternal Lantern"],
+      "characters": [],
+      "elements": ["Duyue River bridge", "Mirage mist", "Crimson moon", "Blood rain", "Lantern poem"],
+      "themes": ["Tension", "Mystery"],
+      "gate": "cross the river bridge toward town",
+      "fragments": [
+        {"plot_point": "Secret DC 13 Society/Willowshore Lore Recall Knowledge: success recalls the rhyme that the Eternal Lantern is extinguished; crit failure plants the false 'summer fog brings sickness' legend.", "themes": ["Mystery"], "weight": 1, "source": "p.29", "spoiler": false},
+        {"plot_point": "MIRAGE MIST (day): obscures past 500 ft, concealment past 100 ft; -1 status to vision Perception, +5 to Sense Direction DCs.", "themes": ["Tension"], "weight": 1, "source": "p.30", "spoiler": false},
+        {"plot_point": "CRIMSON MOON (night): emotion/fear/mental. Each hour under it, DC 15 Will save or frightened increases (max 4), persisting until dawn.", "themes": ["Tension"], "weight": 1, "source": "p.30", "spoiler": false},
+        {"plot_point": "BLOOD RAIN: each sunset a DC 14 flat check (DC 18 if entrance lantern refilled); on success gory rain falls at night, forcing a crimson-moon save (-4 if outdoors); a worsened frightened state makes a PC flee indoors.", "themes": ["Tension"], "weight": 1, "source": "p.30", "spoiler": false},
+        {"plot_point": "Lighting the Eternal Lantern at Dawnstep Bridge ends all three manifestations and reverts the sapient animals, the core objective of Chapter 1.", "themes": ["Mystery"], "weight": 1, "source": "p.30", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.spider-gate",
+      "name": "The Spiderless Gate (Missing Ugly Cute)",
+      "scene": "At Spider Gate (W33) the stone guardian spider 'Ugly Cute' is gone, its entrance lantern toppled and empty. Furrows lead east to the river where DC 15 Survival to Track shows the statue animated and walked into the water before the trail vanishes.",
+      "location": "Spider Gate, eastern entrance (area W33)",
+      "source": "p.31",
+      "threads": ["Find out what happened to Ugly Cute", "Light the Eternal Lantern"],
+      "characters": ["Ugly Cute"],
+      "elements": ["Spider Gate W33", "Empty shrine", "Entrance lantern", "Furrow tracks"],
+      "themes": ["Mystery"],
+      "gate": "arriving at the eastern gate",
+      "fragments": [
+        {"plot_point": "The stone spider 'Ugly Cute' (horse-sized, solid stone) is missing from its shrine; DC 15 Survival to Track shows it animated and walked east into the river.", "themes": ["Mystery"], "weight": 1, "source": "p.31", "spoiler": false},
+        {"plot_point": "The empty entrance lantern can be refilled with oil for a +2 item bonus vs crimson moon and DC 18 blood-rain flat check. Reward: 20 XP for lighting it.", "themes": ["Tension"], "weight": 1, "source": "p.31", "spoiler": false},
+        {"plot_point": "SPOILER (GM): Ugly Cute's real-world death is what weakened Kugaptee's prison; the spider is now trapped alive in the mindscape, found later at the Gorge of Fangs and Teeth.", "themes": ["Mystery"], "weight": 1, "source": "p.31", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a1.watchtower",
+      "name": "Eastern Watchtower (Ha Hai-er's Tale)",
+      "scene": "Four bodies (two guards dead of snake venom, two jinkins) lie at the watchtower. Survivor Ha Hai-er demands the PCs recite 4 of the 8 Practices of the season of ghosts before she trusts them, then shares what she saw and her fears for her family.",
+      "location": "Eastern watchtower",
+      "source": "p.31",
+      "threads": ["Reach home", "Recruit allies", "Light the Eternal Lantern"],
+      "characters": ["Ha Hai-er", "Jinkin gremlins", "Town guards"],
+      "elements": ["Eastern watchtower", "The Eight Practices", "Lantern oil cask", "Tower bell"],
+      "themes": ["Social", "Tension", "Mystery"],
+      "gate": "traveling west past the gate",
+      "fragments": [
+        {"plot_point": "Ha Hai-er (Creature 1, wary guard) won't trust the PCs until they recite 4 of the 8 Practices (DC 10 Religion/Society/Willowshore Lore) or DC 15 Diplomacy shifts her from unfriendly.", "themes": ["Social"], "weight": 1, "source": "p.31", "spoiler": false},
+        {"plot_point": "Hai-er's account: Chung-hu's masked crew carried the PCs out and returned without them; after midnight 'horrible little blue monsters' with serpents attacked; the other guards died; town has gone silent since dawn.", "themes": ["Mystery"], "weight": 1, "source": "p.31", "spoiler": false},
+        {"plot_point": "Hai-er fears for her daughter (with Granny Hu) and husband (at the Matsuki estate). Made friendly, she joins, fighting with crossbow then melee, fleeing under 6 HP; reuniting her with family grants 1 Reputation both factions.", "themes": ["Social", "Personal"], "weight": 1, "source": "p.32", "spoiler": false},
+        {"plot_point": "Treasure at the tower: a ladder marvelous miniature, a shining crossbow bolt, and a small cask of lantern oil.", "themes": ["Action"], "weight": 1, "source": "p.32", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.southbank-matsuki",
+      "name": "Meeting Old Matsuki (Southbank)",
+      "scene": "In the Matsuki estate banquet hall, Southbank elder Old Matsuki (Matsuki Shou) welcomes the PCs, hears their story, and lays out four goals: contact Northridge, aid Ugly Cute via the Silvermist hunters, defeat the bridge buso, and relight the Eternal Lantern with three blessed coins.",
+      "location": "Matsuki Estate (area W5), Southbank",
+      "source": "p.35",
+      "threads": ["Ally with an elder", "Light the Eternal Lantern", "Liberate Willowshore"],
+      "characters": ["Old Matsuki / Matsuki Shou"],
+      "elements": ["Matsuki estate W5", "Thrice-Blessed Inn W6", "Three copper coins", "Dawnstep Bridge"],
+      "themes": ["Social", "Mystery"],
+      "gate": "arriving in Southbank",
+      "fragments": [
+        {"plot_point": "Old Matsuki tasks the PCs to contact Granny Hu at the trade office and provide aid to Northridge across the monster-held bridge.", "themes": ["Social"], "weight": 1, "source": "p.35", "spoiler": false},
+        {"plot_point": "Matsuki shares that refugees saw a horse-sized stone spider striding the mist; asks the PCs to relay this to a Silvermist hunter (The Trapped Hunter).", "themes": ["Mystery"], "weight": 1, "source": "p.35", "spoiler": false},
+        {"plot_point": "Matsuki warns of the buso and jinkins on Dawnstep Bridge; the jinkins fear the buso and it loves drink, so he suggests an offering of poisoned wine (get lethargy poison from Doctor Dami).", "themes": ["Tension"], "weight": 1, "source": "p.36", "spoiler": false},
+        {"plot_point": "Matsuki teaches the lantern prayer, gives three copper coins to bless at three shrines, then relight the Eternal Lantern. Reward: 40 XP for making contact.", "themes": ["Mystery"], "weight": 1, "source": "p.36", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.northridge-hu",
+      "name": "Meeting Granny Hu (Northridge)",
+      "scene": "At the Ceiba-Duyue Exchange trade office, Northridge elder Granny Hu (Hu Ban-niang) and her cleric aide Kim Gu-won mark monster sightings on a map. She gives the same three priorities as Matsuki with a different slant, favoring downtown over the bridge.",
+      "location": "Trade office / Ceiba-Duyue Exchange (area W29), Northridge",
+      "source": "p.37",
+      "threads": ["Ally with an elder", "Light the Eternal Lantern", "Liberate Willowshore"],
+      "characters": ["Granny Hu / Hu Ban-niang", "Kim Gu-won"],
+      "elements": ["Trade office W29", "Eight Paces game pieces"],
+      "themes": ["Social", "Mystery"],
+      "gate": "reaching Northridge (cross the water first)",
+      "fragments": [
+        {"plot_point": "Granny Hu has heard the monsters' 'brain' is named Mo Douqiu, maybe a human with occult powers or a human-like yokai; she prioritizes the downtown creatures over reopening the bridge.", "themes": ["Mystery"], "weight": 1, "source": "p.37", "spoiler": false},
+        {"plot_point": "She dismisses Ugly Cute 'waking up' as superstition (suspects magic or a haunt) and warns against assuming it's friendly.", "themes": ["Mystery"], "weight": 1, "source": "p.38", "spoiler": false},
+        {"plot_point": "Gu-won recounts that Master Zhi Hui lit the Eternal Lantern with coins blessed by Calistria, Kofusachi, and Shelyn; suggests those shrines.", "themes": ["Mystery"], "weight": 1, "source": "p.38", "spoiler": false},
+        {"plot_point": "Granny Hu's extra requests: check on Doctor Dami at the Hand of Spring and find her missing grandchildren at the drying yards. Reward: 40 XP for making contact.", "themes": ["Social", "Personal"], "weight": 1, "source": "p.38", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.crossing-water",
+      "name": "Crossing the Water (Dam & Drowned Lake)",
+      "scene": "While monsters hold Dawnstep Bridge, crossing means swimming the deep Ceiba River, manipulating the Willowshore Dam, crossing the dam as a bridge, or braving the corpse-choked Woodraft Lake haunted by the Grasping Currents.",
+      "location": "Ceiba River, Willowshore Dam (W18), Woodraft Lake (W17)",
+      "source": "p.36",
+      "threads": ["Reach Northridge", "Liberate Willowshore"],
+      "characters": [],
+      "elements": ["Ceiba River", "Willowshore Dam W18", "Woodraft Lake W17", "Rowboats"],
+      "themes": ["Tension", "Action"],
+      "gate": "needing to cross while the bridge is held",
+      "fragments": [
+        {"plot_point": "Ceiba River is 20-25 ft deep: DC 15 Athletics to Swim or rowboat via Piloting (crit fail capsizes/sinks). Invoke the 3rd Practice for unease.", "themes": ["Tension"], "weight": 1, "source": "p.36", "spoiler": false},
+        {"plot_point": "Willowshore Dam: a 10-min DC 15 Athletics or DC 13 Engineering Lore activity drops river depth to 10 ft and cuts cross DCs by 5 for 2 hours; crit fail jams it for days. Each attempt triggers a random-encounter flat check.", "themes": ["Action"], "weight": 1, "source": "p.36", "spoiler": false},
+        {"plot_point": "Crossing the dam as a bridge requires five DC 17 Acrobatics checks over a 5-minute crossing.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.36", "spoiler": false},
+        {"plot_point": "GRASPING CURRENTS (Complex Haunt, Hazard 3): Stealth +20; triggered by swimming/piloting the lake (-2 to the check), then rolls initiative and Grapples (Athletics +12) to drown or capsize. Disable DC 23 Religion or light the Lantern. First trip to Northridge = 40 XP.", "themes": ["Tension", "Action"], "weight": 1, "source": "p.36", "spoiler": false},
+        {"plot_point": "Finding a boat: 10-min Search + DC 13 Perception finds a broken rowboat on the south bank (crit = intact); a functional rowboat is automatic on the north bank after 10 min.", "themes": ["Action"], "weight": 1, "source": "p.36", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.trapped-hunter",
+      "name": "A1. The Trapped Hunter (Abacus Sisters)",
+      "scene": "SEVERE 1. A small farm where the Abacus Sisters (jinkins Midori and Murasaki, weasel Noodles, raven Sparrow) have trapped wounded Silvermist hunter Sumika. The PCs can fight, distract them in a battle of wits, or trade barbs to free her.",
+      "location": "Small farm in Southbank",
+      "source": "p.37",
+      "threads": ["Aid Ugly Cute / contact Silvermist", "Rescue townsfolk"],
+      "characters": ["Midori", "Murasaki", "Noodles", "Sparrow", "Sumika"],
+      "elements": ["Small Farm map", "Spring-loaded spear trap"],
+      "themes": ["Social", "Action"],
+      "gate": "agreeing to seek a Silvermist hunter for Matsuki",
+      "fragments": [
+        {"plot_point": "The Abacus Sisters (Midori & Murasaki jinkins Creature 1, Sparrow raven Creature -1, Noodles weasel Creature -1) taunt the trapped hunter and covet any PC's animal companion.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.38", "spoiler": false},
+        {"plot_point": "Battle of wits: each PC DC 13 Deception/Diplomacy/Intimidation; if over half succeed, Sumika escapes. DC 17 Society/DC 15 Farming Lore reveals 'abactor' (cattle-thief) not 'abacus', which auto-wins.", "themes": ["Social"], "weight": 1, "source": "p.39", "spoiler": false},
+        {"plot_point": "Rescuing Sumika: she gives supplies for two spirit traps + two 1st-level snares, suggests the Ketephys shrine at the western Silvermist lodge (W7a), and promises to relay the Ugly Cute request. Full XP regardless of method.", "themes": ["Social"], "weight": 1, "source": "p.39", "spoiler": false},
+        {"plot_point": "If Midori, Murasaki, and Noodles survive, they reappear later at the lumber camp guest house (area E13).", "themes": ["Mystery"], "weight": 1, "source": "p.39", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.clinic",
+      "name": "A2. Clash at the Clinic (Hand of Spring)",
+      "scene": "LOW 1. The Hand of Spring clinic shelters wounded townsfolk. Giant centipedes attack a guardian phantom gecko; three more break through to attack the PCs. Doctor Dami shouts to spare the gecko and rewards help, opening his Qi Zhong shrine and offering lethargy poison.",
+      "location": "Hand of Spring clinic (area W27)",
+      "source": "p.39",
+      "threads": ["Check on Doctor Dami", "Light the Eternal Lantern", "Defeat the bridge buso"],
+      "characters": ["Doctor Dami", "Phantom gecko", "Igawa Jubei", "Huo Tian-Zhe"],
+      "elements": ["Hand of Spring clinic W27", "Qi Zhong shrine A2d"],
+      "themes": ["Action", "Social"],
+      "gate": "visiting the clinic (Granny Hu's request)",
+      "fragments": [
+        {"plot_point": "Combat: GIANT CENTIPEDES (3, Creature -1) attack; PHANTOM GECKO (Creature 1, clinic guardian) Demoralizes but won't initiate, sparing it earns full XP.", "themes": ["Action"], "weight": 1, "source": "p.40", "spoiler": false},
+        {"plot_point": "Doctor Dami rewards help with two lesser antidotes (plus a lesser darkvision elixir if the gecko lives), free Treat Wounds while monsters remain, and opens his Qi Zhong shrine; Jubei points to the Nalinivati shrine at Mother's Coil (W28).", "themes": ["Social"], "weight": 1, "source": "p.40", "spoiler": false},
+        {"plot_point": "Told of the plan to drug the buso, Dami reluctantly supplies one dose of lethargy poison, warning to use it only on the monster.", "themes": ["Tension"], "weight": 1, "source": "p.40", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.worst-puzzle",
+      "name": "The Worst Puzzle (Trapped Revelers)",
+      "scene": "TRIVIAL 1. Granny Hu's grandchildren and a friend (four Endangered Revelers) are caged in a deadly trip-wired lumber trap by jinkins near the Mushroom House. The PCs must disable the Haphazard Wood Pile hazard without collapsing it.",
+      "location": "Lumber drying yard near the Mushroom House (area W32)",
+      "source": "p.40",
+      "threads": ["Find Granny Hu's grandchildren", "Rescue townsfolk"],
+      "characters": ["Endangered Revelers"],
+      "elements": ["Lumber drying yard", "Mushroom House W32", "Haphazard Wood Pile"],
+      "themes": ["Tension", "Action"],
+      "gate": "investigating the drying yards (Granny Hu's request)",
+      "fragments": [
+        {"plot_point": "HAPHAZARD WOOD PILE (Hazard 1): Disable DC 17 Thievery/Crafting/Engineering Lore. Collapse Inward triggers if a reveler Moves (1d6+5 bludgeoning, DC 17 Reflex + persistent); Collapse Outward triggers on crit-fail disable or climbing in.", "themes": ["Tension"], "weight": 1, "source": "p.40", "spoiler": false},
+        {"plot_point": "Reward: 20 XP per surviving reveler; 1 Reputation with Northridge if all four live.", "themes": ["Personal"], "weight": 1, "source": "p.40", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.shrines",
+      "name": "Blessing the Coins (Willowshore's Shrines)",
+      "scene": "To relight the Eternal Lantern the PCs bless three copper coins at shrines via Invoke Shrine Blessing, a 10-minute activity (DC 15 Religion/deity Lore or DC 17 associated skill). Many shrines must be discovered with Willowshore Lore. Each god's blessing grants a +1 item bonus to that deity's divine skill.",
+      "location": "Town shrines across Willowshore",
+      "source": "p.41",
+      "threads": ["Light the Eternal Lantern"],
+      "characters": [],
+      "elements": ["Town shrines", "Copper coins"],
+      "themes": ["Social", "Mystery"],
+      "gate": "holding unblessed copper coins",
+      "fragments": [
+        {"plot_point": "INVOKE SHRINE BLESSING: place coin, pray 10 min, DC 15 Religion/deity Lore or DC 17 deity skill. Crit = blessed coin + heal 1d8+8 + free guidance 24h. Crit fail = coin vanishes, angered deity, stupefied 1 for an hour.", "themes": ["Social"], "weight": 1, "source": "p.41", "spoiler": false},
+        {"plot_point": "Shrine roster (deity/area/DC): Abadar W4, Daikitsu W16, Kofusachi W29, Pharasma W9 (auto); Shelyn B17 (12), Qi Zhong W27 (13), Ketephys W7a (14), Nalinivati/Shizuru/Tsukiyo W28 (15), Desna W23b (16), Lao Shu Po W32 (17), Yaezhing W36 (18), Calistria W6 (19), Lady Nanbyo W17 underwater (20).", "themes": ["Mystery"], "weight": 1, "source": "p.41", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.dawnstep-buso",
+      "name": "Liberating the Bridge: Retaking Dawnstep (Gurglegut)",
+      "scene": "MODERATE 1. The buso Gurglegut lounges drunk on a furniture-throne on Dawnstep Bridge amid capering jinkins. Spying (DC 15 Perception) learns the three ringleader names. Only Gurglegut confronts attackers; poisoned wine works; the jinkins flee any real attack.",
+      "location": "Dawnstep Bridge (area W11)",
+      "source": "p.42",
+      "threads": ["Liberate Willowshore", "Reopen the bridge", "Light the Eternal Lantern"],
+      "characters": ["Gurglegut", "Jinkins"],
+      "elements": ["Dawnstep Bridge W11", "The Eternal Lantern", "Three ancient copper coins"],
+      "themes": ["Action", "Tension"],
+      "gate": "investigating the bridge",
+      "fragments": [
+        {"plot_point": "Spying (DC 15 Perception, 10 min): crit reveals the names Gurglegut/Gray Butcher/Mo Douqiu (no IDs) and the buso's drunken Fey poetry; success notes jinkins and buso share no language. Reward: 10 XP + 1 Reputation both factions.", "themes": ["Mystery"], "weight": 1, "source": "p.42", "spoiler": false},
+        {"plot_point": "GURGLEGUT (Unique buso, Creature 3, HP 48, kukri +11): only he steps forward, jinkins flee any attack. Effectively sickened 2 from drink; gulps offered poisoned wine. Fights to the death.", "themes": ["Action"], "weight": 1, "source": "p.43", "spoiler": false},
+        {"plot_point": "Treasure: silver scepter (15 gp), jewelry case (5 gp) with a ring of discretion, and the three original lantern coins (now worth 3 cp). Reward: 1 Reputation each faction for reopening the bridge.", "themes": ["Action"], "weight": 1, "source": "p.43", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.light-the-night",
+      "name": "Light the Night (The Eternal Lantern)",
+      "scene": "The Eternal Lantern, a 15th-level stone lamp on Dawnstep Bridge, holds a cold-iron cage for three coins. Placing three blessed coins relights it, ending the mist/moon/blood-rain and reverting the sapient animals, and grants each PC +1 item bonuses to the blessed deities' skills.",
+      "location": "Dawnstep Bridge (areas W10/W11)",
+      "source": "p.43",
+      "threads": ["Light the Eternal Lantern", "Liberate Willowshore"],
+      "characters": ["Master Zhi Hui"],
+      "elements": ["The Eternal Lantern", "Three blessed copper coins", "Dawnstep Bridge"],
+      "themes": ["Mystery", "Action"],
+      "gate": "having three blessed coins at the lantern",
+      "fragments": [
+        {"plot_point": "Placing three blessed coins relights the Eternal Lantern: mirage mist, crimson moon, and blood rain immediately end, and the sapient speaking animals revert and leave town.", "themes": ["Action"], "weight": 1, "source": "p.43", "spoiler": false},
+        {"plot_point": "Each PC gains a +1 item bonus to the divine skill of each god whose blessing was used. Reward: 80 XP first time + 1 Reputation both factions.", "themes": ["Social"], "weight": 1, "source": "p.43", "spoiler": false},
+        {"plot_point": "SPOILER (GM): the lantern is a mindscape echo of Zhi Hui's protections; it suppresses Kugaptee's local manifestations but does nothing to the deeper curse, mists, or Wall of Ghosts.", "themes": ["Mystery"], "weight": 1, "source": "p.43", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a1.downtown-barracks",
+      "name": "Liberating Downtown: The Barracks (B1-B8)",
+      "scene": "With the Lantern lit, downtown is still monster-held and the Governor's Manor (B1) has vanished, leaving only defaced lions. The barracks complex holds caged guards (Zheng Peng), prisoners, an armory, infested stables, and a trail to the kappa bathhouse.",
+      "location": "Downtown Willowshore (area W19), barracks complex",
+      "source": "p.46",
+      "threads": ["Liberate downtown", "Rescue townsfolk", "Find the missing governor"],
+      "characters": ["Zheng Peng", "Town guards", "Imprisoned villagers"],
+      "elements": ["Empty Lot B1", "Stone lions", "Prison B4", "Armory B6", "Infested Stables B8"],
+      "themes": ["Action", "Mystery", "Social"],
+      "gate": "Eternal Lantern lit; entering downtown",
+      "fragments": [
+        {"plot_point": "B1 EMPTY LOT: the Governor's Manor has vanished, only two defaced guardian lions remain, a central mystery of the chapter.", "themes": ["Mystery"], "weight": 1, "source": "p.46", "spoiler": false},
+        {"plot_point": "SPOILER (GM): Governor Heh and his whole manor are trapped in a parallel mindscape; the town rediscovers his disappearance every reset.", "themes": ["Mystery"], "weight": 1, "source": "p.46", "spoiler": true},
+        {"plot_point": "B4 PRISON: Zheng Peng (Creature 3) + 10 town guards (Creature 1) caged, fatigued, 1 HP, enfeebled 3. Spare keys under a brick (DC 20 Perception). Zheng saw the bald, sharp-toothed, swivel-necked man (Mo Douqiu). Reward: 40 XP + 1 Reputation Northridge.", "themes": ["Action", "Social"], "weight": 1, "source": "p.46", "spoiler": false},
+        {"plot_point": "B5 OUTDOOR CELL: four imprisoned villagers (Creature -1); free via DC 22 Athletics, smashing (AC 16/H5/HP 20), or the B4 keys. Reward: 20 XP + 1 Reputation Southbank.", "themes": ["Social"], "weight": 1, "source": "p.48", "spoiler": false},
+        {"plot_point": "B6 ARMORY (key from B4): scale mail/studded leather, 10 crossbows + 100 bolts, weapons, four lesser frost vials, a cold iron dagger, cold iron buckler, silver shortsword, and a +1 spear.", "themes": ["Action"], "weight": 1, "source": "p.48", "spoiler": false},
+        {"plot_point": "B8 INFESTED STABLES (Low 1): a cockroach swarm (Creature 2) nesting in dead horses fights to the death. B7 bloody tracks lead (DC 9 Survival) to the kappa bathhouse B15.", "themes": ["Action"], "weight": 1, "source": "p.48", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.downtown-residences",
+      "name": "Liberating Downtown: Residences & Star-Crossed Lovers (B9-B12)",
+      "scene": "The Mudwall House (B11) is full of drunken jinkins terrorizing the Sanmi family; secret lovers Yuli Sanmi and Hu Lelong plotted to elope. Hidden letters (B10) reveal the romance; the Sanmi family shelters in the backyard storage (B12).",
+      "location": "Downtown residences (B9-B12)",
+      "source": "p.48",
+      "threads": ["Liberate downtown", "Rescue townsfolk"],
+      "characters": ["Yuli Sanmi", "Hu Lelong", "Nadoya Sanmi", "Drunken jinkins"],
+      "elements": ["Treesparrow's Rest B9", "Sanmi Household B10", "Mudwall House B11", "Backyard Storage B12", "Love letters", "Cursed necklace"],
+      "themes": ["Social", "Personal", "Action"],
+      "gate": "exploring downtown residences",
+      "fragments": [
+        {"plot_point": "B10: hidden letters reveal the secret romance of Yuli Sanmi and Hu Lelong; DC 10 Willowshore Lore/DC 15 Society recalls the traditional Sanmi family would never approve.", "themes": ["Personal", "Social"], "weight": 1, "source": "p.48", "spoiler": false},
+        {"plot_point": "B11 MUDWALL HOUSE (Moderate 1): six VERY DRUNKEN JINKINS (Creature -1, weak) wreck the house, mistaking PCs for oni. DC 17 Intimidation routs all six; otherwise they fight to the death or burn the place down.", "themes": ["Action"], "weight": 1, "source": "p.49", "spoiler": false},
+        {"plot_point": "Star-Crossed Lovers: Yuli & Lelong (Creature -1) are steadfast about eloping; if they elope they're later found at the Hunter's Hut (D6). Aiding elopement loses 1 Reputation Southbank and turns Nadoya unfriendly.", "themes": ["Personal", "Social"], "weight": 1, "source": "p.49", "spoiler": false},
+        {"plot_point": "Treasure: a PC's family necklace (10 gp), jinkin-cursed to reek of garlic (-1 item Diplomacy/Stealth). Other jewelry totals 75 gp belonging to townsfolk; returning it earns 1 Reputation Northridge.", "themes": ["Action"], "weight": 1, "source": "p.49", "spoiler": false},
+        {"plot_point": "B12 BACKYARD STORAGE: Nadoya Sanmi and family shelter here; clearing B11 earns a crying angel pendant talisman and cucumbers. Reward: 20 XP + 1 Reputation Southbank for their safety.", "themes": ["Social"], "weight": 1, "source": "p.50", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.happy-kappa",
+      "name": "Liberating Downtown: The Happy Kappa (B13-B15)",
+      "scene": "The hypochondriac halfling owner De-ge hides stuck in a locker (B14) while five kappas (B15, Extreme 1 but social) relax in the baths. Invited by Mo Douqiu and now regretful, they'll leave peacefully if made friendly (cucumbers help) and reveal who he is.",
+      "location": "Happy Kappa bathhouse (B13-B15)",
+      "source": "p.50",
+      "threads": ["Liberate downtown", "Rescue townsfolk"],
+      "characters": ["De-ge", "Kappas"],
+      "elements": ["Bathhouse foyer B13", "Lockers B14", "Mostly Happy Kappas B15"],
+      "themes": ["Social", "Mystery"],
+      "gate": "tracking the bloody prints / exploring the bathhouse",
+      "fragments": [
+        {"plot_point": "B14: De-ge (Creature 1) wedged in a locker (DC 10 Perception to hear); free via DC 17 Athletics or DC 15 Thievery (damaging it hurts him). He begs to be taken to the Hand of Spring clinic; 20 XP to escort.", "themes": ["Social"], "weight": 1, "source": "p.50", "spoiler": false},
+        {"plot_point": "B15: five KAPPAS (Creature 2) reveal Mo Douqiu (a rokurokubi) invited them to take over Willowshore; jinkins killed the horses. DC 17 Diplomacy (cucumbers improve one degree) sends them home; they flee rather than fight. 60 XP + a 50 gp pearl tip.", "themes": ["Social", "Mystery"], "weight": 1, "source": "p.50", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.gray-butcher",
+      "name": "A Parade of Cookware (Gray Butcher)",
+      "scene": "MODERATE 1. The ittan-momen Gray Butcher leads a clattering parade of animated cookware. They challenge the PCs; refusing the 'parade duty' enrages them, and the cookware swarms attack while Gray Butcher hangs back. Also covers the stage jinkins (B16) and boarded Shelyn shrine (B17).",
+      "location": "Downtown streets",
+      "source": "p.51",
+      "threads": ["Liberate Willowshore", "Defeat the ringleaders"],
+      "characters": ["Gray Butcher"],
+      "elements": ["Animated cookware swarms", "Public Stage B16", "Shelyn Shrine B17"],
+      "themes": ["Action", "Social"],
+      "gate": "GM-timed encounter in downtown streets",
+      "fragments": [
+        {"plot_point": "GRAY BUTCHER (Unique ittan-momen, Creature 2, HP 20, weakness slashing 5): passes as a blood-soaked apron (auto 26), Engulf + Constrict. Begins unfriendly; refusing the parade enrages them. Hangs back, then finishes the fight.", "themes": ["Action"], "weight": 1, "source": "p.52", "spoiler": false},
+        {"plot_point": "ANIMATED COOKWARE SWARMS (2, Creature 1): Slice and Pound 1d6 bludgeoning/slashing (DC 17 Reflex) to each enemy in their space.", "themes": ["Action"], "weight": 1, "source": "p.52", "spoiler": false},
+        {"plot_point": "Treasure: two oil of potency, two mesmerizing opal talismans, two potency crystals, a +1 silver dagger in a 10 gp sheath. Reward: 1 Reputation each faction.", "themes": ["Action"], "weight": 1, "source": "p.52", "spoiler": false},
+        {"plot_point": "B16 PUBLIC STAGE (Severe 1): three JINKINS (Creature 1) perform a mocking play then hurl shingles, fleeing when one is hurt. B17: boarded Shelyn shrine survives; Force Open (five DC 15 Athletics) to bless coins, but re-barricade or monsters destroy it (-2 Reputation per faction).", "themes": ["Social", "Action"], "weight": 1, "source": "p.51", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.teahouse",
+      "name": "Cerulean Teahouse: Mo Douqiu the Hedonist (C1-C4)",
+      "scene": "The mastermind rokurokubi Mo Douqiu holds the Cerulean Teahouse. Ground floor (C1) has the giant toad Warty, a set table for the lumber-camp noppera-bos, and Qing Mai-Lai's will. The pantry-prison (C2) holds 12 villagers; Mo Douqiu lounges in the gore-strewn banquet hall (C3); the scorpion Stingy lurks upstairs (C4).",
+      "location": "Cerulean Teahouse (area W22)",
+      "source": "p.53",
+      "threads": ["Liberate Willowshore", "Defeat the ringleaders", "Free captives"],
+      "characters": ["Mo Douqiu", "Warty", "Stingy", "Fluffy Whiskers", "Imprisoned villagers"],
+      "elements": ["Cerulean Teahouse W22", "Qing Mai-Lai's will", "Set table for noppera-bos"],
+      "themes": ["Action", "Mystery", "Tension"],
+      "gate": "learning the teahouse is Mo Douqiu's base",
+      "fragments": [
+        {"plot_point": "C1: WARTY (Unique giant toad, Creature 2, HP 36, poison, tongue grab, swallow whole) roams freely; Mo Douqiu ignores the noise, assuming Warty is frisky.", "themes": ["Action"], "weight": 1, "source": "p.53", "spoiler": false},
+        {"plot_point": "C1 clue: searching the counter finds 'The Last Will and Testament of Qing Mai-Lai', the key to legally claiming the teahouse (The Teahouse Owner's Will).", "themes": ["Mystery"], "weight": 1, "source": "p.54", "spoiler": false},
+        {"plot_point": "C1 clue (set table): Mo Douqiu prepared a table to host the western lumber camp's noppera-bos but hasn't sent the invitation, foreshadowing Chapter 4.", "themes": ["Mystery"], "weight": 1, "source": "p.53", "spoiler": false},
+        {"plot_point": "C2 PANTRY PRISON: 12 imprisoned villagers (Creature -1), bound and fatigued; ammonia forces DC 15 Fortitude or sickened 1. Doors: key, three DC 20 Thievery each, or one DC 25 Athletics each. Reward: 40 XP + 1 Reputation each faction.", "themes": ["Social"], "weight": 1, "source": "p.54", "spoiler": false},
+        {"plot_point": "C3 MO DOUQIU (Unique rokurokubi, Creature 2, HP 30): demands a 'performance', philosophizes Willowshore deserved a horror story, won't strike first (initiative with Society). Threatening Lunge / Extend Neck / Drop Corpse; commands Warty, Stingy, or weasel. Fights to the death, laughing.", "themes": ["Action", "Mystery"], "weight": 1, "source": "p.54", "spoiler": false},
+        {"plot_point": "C3 reward: defeating Mo Douqiu = 1 Reputation each faction; presenting the hanging bodies for proper funerals = 1 more each. Treasure: legerdemain handkerchief + the C2 keys.", "themes": ["Action", "Personal"], "weight": 1, "source": "p.55", "spoiler": false},
+        {"plot_point": "C4 SECOND FLOOR (Trivial 1): noisy stairs (Stealth -4) alert STINGY (Unique forest scorpion, Creature 1, HP 18, venom), who ambushes from the rafters. Fights to the death.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.55", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.mindscape-border",
+      "name": "Into the Hinterlands: The Mindscape Border",
+      "scene": "Sent to ride to Karahai to report the attack, the PCs hit an unnaturally thick fog near Gourd Lake; whatever direction they go (even flying) they end up where they started. This is the mindscape border ringing the hinterlands; Recall Knowledge fails, and they must return to Willowshore.",
+      "location": "Road to Karahai / mindscape border, near Gourd Lake (D2)",
+      "source": "p.57",
+      "threads": ["Reach Karahai", "Understand the curse"],
+      "characters": [],
+      "elements": ["Mindscape border", "Gourd Lake D2", "Road to Karahai", "Green Silk Peak D5"],
+      "themes": ["Mystery", "Tension"],
+      "gate": "leaving for Karahai after the town is freed",
+      "fragments": [
+        {"plot_point": "Crossing the mindscape border (anywhere, including flight) loops the traveler back to entry; mapping a hex's border takes 4 hours Searching (two hexes/day before fatigue).", "themes": ["Mystery"], "weight": 1, "source": "p.57", "spoiler": false},
+        {"plot_point": "Recall Knowledge / spells on the fog reveal nothing usable beyond 'some strange curse tied to the invasion and the governor's vanishing'.", "themes": ["Mystery"], "weight": 1, "source": "p.58", "spoiler": false},
+        {"plot_point": "SPOILER (GM): the border is the wall of the mindscape; the view of Karahai/Sea of Ghosts from Green Silk Peak (D5) is a potent illusion of the real world the dead souls can no longer reach.", "themes": ["Mystery"], "weight": 1, "source": "p.58", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a1.shinzo",
+      "name": "The Mysterious Merchant (Shinzo & Yix)",
+      "scene": "The day after liberation, a nondescript Tian merchant named Shinzo arrives with a raven and sets up a downtown stall. Friendly, he sells common items up to party level, buys, and fetches ordered goods on later visits, a service that grows vital across the campaign.",
+      "location": "Downtown Willowshore (merchant stall)",
+      "source": "p.57",
+      "threads": ["Acquire supplies / shopping"],
+      "characters": ["Shinzo", "Yix"],
+      "elements": ["Merchant's cart", "Downtown stall"],
+      "themes": ["Social", "Mystery"],
+      "gate": "the day after Willowshore is liberated",
+      "fragments": [
+        {"plot_point": "Shinzo offers and orders gear (party-level cap) and buys at normal prices; his ability to come and go from the cursed region becomes a vital supply line.", "themes": ["Social"], "weight": 1, "source": "p.57", "spoiler": false},
+        {"plot_point": "SPOILER (GM): Shinzo is a shinigami (Creature 17) doing penance for Pharasma; his 'raven' Yix is a nosoi psychopomp observing him. His cart/horse are constructs. He secretly works to free the trapped souls and is evasive about where he goes.", "themes": ["Mystery"], "weight": 1, "source": "p.57", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a1.opportunities",
+      "name": "Hinterlands Opportunities (Victory-Point Tasks)",
+      "scene": "As the PCs grow famous, locals bring abridged exploration-mode requests, often using Victory Points, that fill summer and build reputation, wealth, and XP, including the Cerulean Teahouse inheritance that becomes a major Act 2 business.",
+      "location": "Willowshore & hinterlands",
+      "source": "p.62",
+      "threads": ["Build reputation", "Aid Willowshore", "Claim the teahouse"],
+      "characters": ["Rajul Samudra", "Choe Chung-hu", "Kum Soon-chong", "Yong Wu-Xiu", "Yun Mong-un", "Luo Xi Yang", "Mountain Summit Grass"],
+      "elements": ["Gourd Lake D2", "Eyes of Fumeiyoshi D9", "Old Village Expansion D8", "Peachwood Groves", "Cerulean Teahouse"],
+      "themes": ["Social", "Action"],
+      "gate": "the PCs become locally known",
+      "fragments": [
+        {"plot_point": "MISSING BOATS (Rajul Samudra): kappas stole boats to Gourd Lake; win 3 of 5 sumo matches (DC 17 Athletics/Deception), only 1 if the Ch.2 kappas were befriended. Reward: 40 XP + 1 Reputation Northridge.", "themes": ["Social", "Action"], "weight": 1, "source": "p.62", "spoiler": false},
+        {"plot_point": "FIXING THE RANCH (Kum Soon-chong), MOVING DESNA'S SHRINE (Choe Chung-hu; shikigami Kohoshi, DC 19 Diplomacy), and INVESTIGATE THE OLD EXPANSION (Matsuki, D8) are VP tasks granting XP + Reputation; the old expansion becomes a food site with Act 2 repercussions.", "themes": ["Social", "Action"], "weight": 1, "source": "p.62", "spoiler": false},
+        {"plot_point": "SMITH TROUBLES (Yong Wu-Xiu vs Zheng Peng) and COLLECTING PEACHWOOD (Yun Mong-un; harvest fallen branches from three groves, DC 18 Nature/Survival; unlocks rare fulu formulas) are second-month VP tasks.", "themes": ["Social"], "weight": 1, "source": "p.63", "spoiler": false},
+        {"plot_point": "THE TEAHOUSE OWNER'S WILL (Luo Xi Yang): retrieve the two pearls from the Eyes of Fumeiyoshi (D9) to claim the Cerulean Teahouse as an Act 2 business (40 XP). TEA FARM INFESTATION (Mountain Summit Grass) then helps stock it.", "themes": ["Mystery", "Social"], "weight": 1, "source": "p.63", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.hinterlands-wilds",
+      "name": "Exploring the Hinterlands (Wilds & Eyes of Fumeiyoshi)",
+      "scene": "Trapped by the curse, the PCs roam the hinterlands (~2nd level), with a DC 17 flat check once/day for wandering encounters. Notable sites include Gourd Lake, Treacherous Trail, Green Silk Peak, the Hunter's Hut, the Eyes of Fumeiyoshi pools, and the Peachwood Groves.",
+      "location": "Willowshore hinterlands",
+      "source": "p.59",
+      "threads": ["Explore the region", "Pursue clues"],
+      "characters": ["Wandering monsters", "Eloped lovers"],
+      "elements": ["Hinterlands map", "Gourd Lake D2", "Treacherous Trail D3", "Green Silk Peak D5", "Hunter's Hut D6", "Eyes of Fumeiyoshi D9", "Peachwood Groves"],
+      "themes": ["Action", "Tension", "Mystery"],
+      "gate": "traveling the hinterlands",
+      "fragments": [
+        {"plot_point": "HINTERLANDS RANDOM ENCOUNTERS (DC 17 flat/day): giant centipedes, slime mold, thatchlings, hunting spiders, wolves, jinkins, the lone giant stag beetle, four noppera-bo grunts, boars. Animals only fight if attacked; jinkins flee when hurt; noppera-bos fight to the death.", "themes": ["Action"], "weight": 1, "source": "p.59", "spoiler": false},
+        {"plot_point": "D9 EYES OF FUMEIYOSHI: two brackish pools (Left Eye 25 ft deep, Right Eye <10 ft with two hunting spiders). Steep sides DC 16 Athletics. Hold the pearls for the teahouse will.", "themes": ["Mystery", "Action"], "weight": 1, "source": "p.60", "spoiler": false},
+        {"plot_point": "D6 HUNTER'S HUT: if Yuli & Lelong eloped they shelter here, unable to leave; DC 13 Diplomacy/Intimidation convinces them home (20 XP + 1 Reputation Southbank).", "themes": ["Personal", "Social"], "weight": 1, "source": "p.60", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.canary-inn",
+      "name": "The Missing Governor: Songs at Canary Inn (Fan Hongrui)",
+      "scene": "LOW 2 / MODERATE 2. The elders' only governor lead: fugitive singer Fan Hongrui, arrested by Heh three years ago, died in the Canary Inn fire cursing all who serve Lung Wa; she rose as a red-hooded thatchling spawning the woods' thatchlings. The PCs meet thatchlings en route, then Hongrui disguised as a singing child.",
+      "location": "Canary Inn (area D4)",
+      "source": "p.64",
+      "threads": ["Find the missing governor", "Investigate the curse"],
+      "characters": ["Fan Hongrui", "Thatchlings", "Chi Hongxin", "Nanzhe Hongban"],
+      "elements": ["Canary Inn D4", "Tall grass clearing", "Shallow graves", "Hongrui's red cloak"],
+      "themes": ["Mystery", "Tension", "Social"],
+      "gate": "investigating the governor (sent by the elders)",
+      "fragments": [
+        {"plot_point": "GHOSTS IN THE GRASS (Low 2): three THATCHLINGS (Creature 0, vulnerable to fire) ambush en route. DC 14 Religion RK; crit knows a red-hooded thatchling spawns them and lurks nearby.", "themes": ["Action", "Mystery"], "weight": 1, "source": "p.65", "spoiler": false},
+        {"plot_point": "SONGS AT CANARY INN (Moderate 2): FAN HONGRUI (Creature 2, red-hooded thatchling) disguised as a singing child via illusory disguise, flanked by two thatchlings. DC 22 Perception sees through it.", "themes": ["Mystery", "Tension"], "weight": 1, "source": "p.65", "spoiler": false},
+        {"plot_point": "A DC 17 Performance soothes Hongrui (crit: she drops the illusion, answers questions, the three rest peacefully; success: one question; failure: they attack). She knows nothing of the mindscape; of the governor she says rulers always abuse or abandon their charge.", "themes": ["Social", "Mystery"], "weight": 1, "source": "p.66", "spoiler": false},
+        {"plot_point": "Treasure/closure: DC 16 Perception finds two shallow graves; proper burial stops the thatchlings rejuvenating and turns Hongrui's red cloak into 'Hongrui's Gratitude' (claiming it ungratefully curses it instead).", "themes": ["Personal"], "weight": 1, "source": "p.66", "spoiler": false},
+        {"plot_point": "Resolution: laying the thatchlings to rest = 40 XP, removes thatchlings from the region's encounters, +1 Reputation both factions. This lead is a dead end for the governor.", "themes": ["Mystery"], "weight": 1, "source": "p.67", "spoiler": false},
+        {"plot_point": "SPOILER (GM): the governor mystery has no resolution here; Heh and his manor are trapped in a parallel mindscape. Hongrui's curse-oath is a red herring re: the real cause (Kugaptee).", "themes": ["Mystery"], "weight": 1, "source": "p.64", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a1.great-willow",
+      "name": "The Mists: Visiting Great Willow & Into the Infestation",
+      "scene": "SEVERE 2 / MODERATE 2. To gauge the curse, the elders send the PCs to the kodama Great Willow atop the northern hill (bring an offering). Hostile and fungus-infested, Great Willow asks the PCs to save their grove-friend to the south first, where the myceloid Xungu lurks (Into the Infestation, D7).",
+      "location": "Great Willow hilltop (W37) & Infested Grove (D7)",
+      "source": "p.68",
+      "threads": ["Understand the curse's extent", "Aid Great Willow"],
+      "characters": ["Great Willow", "Xungu"],
+      "elements": ["Great Willow W37", "Shimenawa offering", "Infested Grove D7", "Dragonfly Creek"],
+      "themes": ["Social", "Mystery", "Action"],
+      "gate": "investigating the mists (sent by the elders)",
+      "fragments": [
+        {"plot_point": "VISITING GREAT WILLOW (Severe 2): GREAT WILLOW (kodama, Creature 5, Distracting Gaze) starts unfriendly. DC 24 to Make an Impression (DC 14 with an offering; a handmade shimenawa improves one degree). Hostile = attacks to frighten, retreats below 30 HP. Can't be made friendly until the infestation is cleared.", "themes": ["Social", "Action"], "weight": 1, "source": "p.68", "spoiler": false},
+        {"plot_point": "Great Willow confirms a powerful curse encircles the region ('we are in a cage'), senses something even more potent to the west (the Wall of Ghosts), but won't help further until their grove-friend is saved.", "themes": ["Mystery"], "weight": 1, "source": "p.68", "spoiler": false},
+        {"plot_point": "INTO THE INFESTATION (Moderate 2, D7): XUNGU (myceloid, Creature 4) tells a false pity-story to lure a lone PC (+0 Deception), then attacks; tries to capture PCs for purple pox to tenderize them. Killing it clears the grove and auto-succeeds future purple-pox saves.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.69", "spoiler": false},
+        {"plot_point": "RETURNING TO GREAT WILLOW: now helpful, treats purple pox, estimates the cursed region as ~10-16 miles in every direction, and reaffirms the strong evil to the west. Gift: a lesser twisting twine.", "themes": ["Mystery", "Social"], "weight": 1, "source": "p.70", "spoiler": false},
+        {"plot_point": "SPOILER (GM, The Last Kodama): Great Willow is the only kodama left, having died near Heh's ritual and been trapped in the mindscape; they grow more withdrawn each act, restored only if the souls return to the modern age in Act 4.", "themes": ["Personal", "Mystery"], "weight": 1, "source": "p.70", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a1.ugly-cute",
+      "name": "Searching for Ugly Cute (Gorge of Fangs and Teeth)",
+      "scene": "MODERATE 2. The one mystery giving a real lead on the curse. Insight points to the Gorge of Fangs and Teeth (D10), Ugly Cute's stone 'birthplace', where two cruel living boulders torment the battered guardian. Rescuing it yields key leads about the lumber camp and Wall of Ghosts.",
+      "location": "Gorge of Fangs and Teeth (area D10)",
+      "source": "p.70",
+      "threads": ["Find Ugly Cute", "Investigate the curse", "Locate the source of the noppera-bos"],
+      "characters": ["Ugly Cute", "Living boulders", "Sumika"],
+      "elements": ["Gorge of Fangs and Teeth D10", "Spider Gate W33"],
+      "themes": ["Action", "Mystery", "Personal"],
+      "gate": "investigating Ugly Cute (sent by the elders / Silvermist)",
+      "fragments": [
+        {"plot_point": "CONSULTING SILVERMIST: hunters have no trail. DC 16 Hunting Lore/DC 18 Nature reasons Ugly Cute fled to a 'birthplace' lair; DC 16 Willowshore Lore/DC 18 Society recalls its stone came from the Gorge of Fangs and Teeth (D10).", "themes": ["Mystery"], "weight": 1, "source": "p.71", "spoiler": false},
+        {"plot_point": "RESCUING UGLY CUTE (Moderate 2): two LIVING BOULDERS (Creature 2, understand Aklo, sadistic) torment the near-destroyed stone spider; they burst into red butterflies when slain.", "themes": ["Action"], "weight": 1, "source": "p.72", "spoiler": false},
+        {"plot_point": "UGLY CUTE (stone spider, Creature 5, at 5 HP): grateful, knows the PCs by name, recovers by resting, returns to its Spider Gate post. Rescue = XP-as-defeated + 2 Reputation both factions. Gift: 'Ugly Cute's Gift' (carapace piece).", "themes": ["Personal", "Social"], "weight": 1, "source": "p.73", "spoiler": false},
+        {"plot_point": "Ugly Cute's revelations: faceless monsters (noppera-bos) now hold an old lumber camp west of town near the Ceiba's source; further west lies a stronger evil it cannot reach (the Wall of Ghosts); the curse struck during the Reenactment Festival.", "themes": ["Mystery"], "weight": 1, "source": "p.73", "spoiler": false},
+        {"plot_point": "SPOILER (GM): Ugly Cute, like the PCs, doesn't know it died; it thinks the 115 years were 'a dream/vision' (it died 115 years in the PCs' future). Saved for a later act.", "themes": ["Mystery"], "weight": 1, "source": "p.73", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a1.wall-of-ghosts",
+      "name": "The Wall of Ghosts (Mindscape's Western Barrier)",
+      "scene": "An impenetrable 50-ft wall of mist where silently screaming ghosts ripple seals the northwest mindscape. Sprung from Kugaptee's power to guard his grave, it turns back anyone (even flyers) and floods the mind with terror. Removing it is an Act 2 task; for now it's a foreboding clue, near the Ritual Site (D12) and Road to Enlightenment (D13).",
+      "location": "Wall of Ghosts, western mindscape edge",
+      "source": "p.60",
+      "threads": ["Investigate the curse", "Find the source of evil"],
+      "characters": [],
+      "elements": ["Wall of Ghosts", "Ritual Site D12", "Road to Enlightenment D13"],
+      "themes": ["Tension", "Mystery"],
+      "gate": "approaching the western mindscape edge",
+      "fragments": [
+        {"plot_point": "Approaching within 10 ft of the Wall (or flying over) loops you back AND forces a DC 24 Will save: failure = frightened 1 on emerging, crit failure = frightened 3 and fleeing while frightened.", "themes": ["Tension"], "weight": 1, "source": "p.60", "spoiler": false},
+        {"plot_point": "SPOILER (GM): the Wall of Ghosts is Kugaptee's barrier around his grave (the Tan Sugi monastery, where corrupted monks dwell). Breaking through and reaching the monastery is the spine of Act 2.", "themes": ["Mystery"], "weight": 1, "source": "p.60", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a1.who-leads",
+      "name": "Who Leads Willowshore? (The Duel)",
+      "scene": "In the third month of summer, Old Matsuki publicly challenges Granny Hu for leadership; they agree to a champions' duel in seven days. Dread of a bloodbath spreads, and a trusted NPC asks the PCs to de-escalate, back one faction, or stand as a third candidate. Resolution hinges on Influence Points.",
+      "location": "Willowshore",
+      "source": "p.73",
+      "threads": ["Decide Willowshore's leadership", "Prevent bloodshed"],
+      "characters": ["Old Matsuki", "Granny Hu"],
+      "elements": ["Willowshore dueling tradition", "Influence stat blocks"],
+      "themes": ["Social", "Personal", "Tension"],
+      "gate": "third month of summer",
+      "fragments": [
+        {"plot_point": "To make one elder cede, the PCs must reach 7 Influence Points with that elder; they may already have it from play, letting them choose the interim governor.", "themes": ["Social"], "weight": 1, "source": "p.74", "spoiler": false},
+        {"plot_point": "If unresolved, the elder the party favors less wins; optionally a PC can serve as a champion (GM Core dueling rules). Peaceful resolution = 80 XP + 2 Reputation with the winning faction.", "themes": ["Social", "Personal"], "weight": 1, "source": "p.74", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.lumber-camp-outer",
+      "name": "The Lumber Camp: Approach & Outer Areas (E1-E9)",
+      "scene": "CHAPTER 4. Once Willowshore has a leader, the noppera-bos repeat the inciting abduction, raiding Willowshore Stables. The camp (~8 miles west) is held by faceless noppera-bos split into the Prayers (zealots under Zoudou) and Rovers (warmongers under Mugirou). Shinzo gifts a cape of justice or a noppera-bo hood by the PCs' chosen approach.",
+      "location": "Lumber Camp (area D11 / E1-E9), ~8 miles west",
+      "source": "p.76",
+      "threads": ["Rescue the abductees", "Find the curse's source", "Reach the Wall of Ghosts"],
+      "characters": ["Noppera-bo tricksters", "Noppera-bo grunts", "Jerky", "Shinzo", "Injured kappa", "Hunting spiders"],
+      "elements": ["Lumber Camp D11", "Willowshore Stables", "Secret door E6", "Stockade"],
+      "themes": ["Action", "Mystery", "Tension"],
+      "gate": "PCs ~3rd level; abduction galvanizes them (or Ugly Cute / exploration leads them here)",
+      "fragments": [
+        {"plot_point": "Advance Knowledge: DC 15 Willowshore Lore/DC 18 Society (or 2 hr Gather Info + DC 16) maps the camp; crit reveals the E6 secret door. The noppera-bos won't rush to aid fights in other areas.", "themes": ["Mystery"], "weight": 1, "source": "p.76", "spoiler": false},
+        {"plot_point": "The Merchant Returns: Shinzo asks whether the PCs will bring 'furious ruin' or 'fool them'. Vengeance = cape of justice; subtlety = noppera-bo hood (the other stays for sale).", "themes": ["Social", "Mystery"], "weight": 1, "source": "p.76", "spoiler": false},
+        {"plot_point": "E1 ENTRANCE (Trivial 3): two NOPPERA-BO TRICKSTERS (Creature 1) disguised as men, plus feral dog Jerky (DC 14 Nature to turn; crit makes him attack his 'masters'). Questions about the abduction expose the PCs and start a fight (Remove Face). Doors barred (3 Interact or DC 30 Athletics).", "themes": ["Action", "Social"], "weight": 1, "source": "p.77", "spoiler": false},
+        {"plot_point": "E4 GUARD DORMITORY (Low 3): four ROVER NOPPERA-BO GRUNTS (Creature 0) in a crossbow contest, indifferent until they detect intruders, then fight to the death. E2 guard tower empty the first visit.", "themes": ["Action"], "weight": 1, "source": "p.78", "spoiler": false},
+        {"plot_point": "E5 LOADING ISLAND (Low 3): four PRAYER GRUNTS bully a captured INJURED KAPPA (Creature 2, 5 HP, possibly a kappa the PCs met before). Claiming allegiance to Zoudou (Lie) can get the PCs escorted inside; rescuing the kappa yields camp gossip. Treasure: hidden +1 battle axe (DC 20 Perception).", "themes": ["Social", "Action"], "weight": 1, "source": "p.79", "spoiler": false},
+        {"plot_point": "E7 COURTYARD (Moderate 3): six ROVER GRUNTS bet on two caged GIANT RATS (Creature -1); freeing the rats exposes the PCs; grunts flee to E16 once two fall. E8 KITCHEN (Low 3): three HUNTING SPIDERS (Creature 1) fight to the death; a body holds a moderate blasting stone.", "themes": ["Action"], "weight": 1, "source": "p.79", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.lumber-camp-inner",
+      "name": "The Lumber Camp: Inner Buildings (E10-E17)",
+      "scene": "CHAPTER 4. Inner buildings hold prisoners (Kum Soon-chong), a trapped office, a treasury, the shifting Kugaptee effigy worshipped by occultists, and the Rover leader Mugirou on his throne with caged abductees; the log piles (E17) lead to the Wall of Ghosts.",
+      "location": "Lumber Camp interior (E10-E17)",
+      "source": "p.80",
+      "threads": ["Rescue the abductees", "Defeat the noppera-bo leaders", "Reach the ritual site"],
+      "characters": ["Kum Soon-chong", "Noppera-bo occultists", "Mugirou", "Captured farmers", "Abacus Sisters"],
+      "elements": ["Manager's Dormitory E10", "Camp Office E11", "Worker's Dormitory E14", "Kugaptee effigy", "Mugirou's Throne E16", "Log Piles E17"],
+      "themes": ["Action", "Mystery", "Social"],
+      "gate": "penetrating the inner camp",
+      "fragments": [
+        {"plot_point": "E10 MANAGER'S DORMITORY (Low 3): two PRAYER OCCULTISTS (Creature 2) guard prisoner KUM SOON-CHONG (Creature 3, 2 HP); they attack on sight (one may flee to warn the ritual site). Soon-chong begs the PCs to save his son Meng-sung, taken NW for his 'old soul'. Rescue = 40 XP + 1 Reputation both factions.", "themes": ["Action", "Social", "Personal"], "weight": 1, "source": "p.80", "spoiler": false},
+        {"plot_point": "E11 CAMP OFFICE (Low 3): SUMMONING RUNES (3, Hazard 1) trigger ELITE AIR WISPS (3, Creature 1) that attack friend and foe alike. Treasure: 15 gp + oil of mending. E12 TREASURY: hidden trapdoor (DC 18) holds an invisibility potion and a 100 gp silver ingot.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.81", "spoiler": false},
+        {"plot_point": "E13 GUEST HOUSE (Trivial 3): if they survived, the Abacus Sisters (Midori, Murasaki, weasel Noodles) are captives here; freeing them yields the clue that the noppera-bos believe 'paradise' lies beyond the Wall of Ghosts, but they refuse to speak of 'Kugaptee'.", "themes": ["Social", "Mystery"], "weight": 1, "source": "p.82", "spoiler": false},
+        {"plot_point": "E14 WORKER'S DORMITORY (Low 3): a shifting KUGAPTEE EFFIGY (smokeless red candles) hints at the fiend without revealing it. Two PRAYER OCCULTISTS ('Teeth of Kugaptee') worship it, indifferent unless the candles/effigy are touched; they'll bargain to spare sacrifices if the PCs humiliate/defeat Mugirou. Treasure: pendant of the occult.", "themes": ["Mystery", "Social", "Action"], "weight": 1, "source": "p.82", "spoiler": false},
+        {"plot_point": "E16 MUGIROU'S THRONE (Moderate 3): MUGIROU THE REBEL (Elite noppera-bo trickster, Creature 2) with four GRUNTS guarding four caged farmers. He denies the abduction (blames Zoudou), bargains (kill all occultists to free the prisoners), and honors a surrender. Treasure: battle medic's baton; rescued farmers later send a crafter's eyepiece.", "themes": ["Action", "Social"], "weight": 1, "source": "p.83", "spoiler": false},
+        {"plot_point": "E17 LOG PILES: the well-traveled trail north winds ~6 miles west to the Wall of Ghosts ritual site where Zoudou performs her rite. WHO IS KUGAPTEE? clue: DC 28 Religion/Society/Willowshore Lore only recalls it as an ancient long-dead monster.", "themes": ["Mystery"], "weight": 1, "source": "p.84", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a1.ritual-site",
+      "name": "The Ritual Site: Zoudou's Rite & Horror From Beyond",
+      "scene": "MODERATE 3 / SEVERE 3. At a clearing bisected by the Wall, Zoudou the Zealous leads a 3-day consecrate ritual to Kugaptee over bound Kum Meng-sung. The PCs can interrupt, refuse Zoudou's monstrous soul-bargain, or arrive too late; either way the rite warps the noppera-bos into Kugaptee's Blessings.",
+      "location": "Ritual Site at the Wall of Ghosts (area D12)",
+      "source": "p.84",
+      "threads": ["Rescue Meng-sung", "Stop the ritual", "Confront the curse's source"],
+      "characters": ["Zoudou the Zealous", "Noppera-bo occultists", "Kum Meng-sung", "Kugaptee's Blessings"],
+      "elements": ["Ritual Site D12", "Corrupted shrine", "Wall of Ghosts", "Zoudou's ledger"],
+      "themes": ["Action", "Mystery", "Tension", "Personal"],
+      "gate": "following the trail from the lumber camp to the Wall",
+      "fragments": [
+        {"plot_point": "ZOUDOU'S RITE (Moderate 3): ZOUDOU (Unique noppera-bo, Creature 3, HP 45, Steal Face / Identity Crisis / divine spells / consecrate) over bound Meng-sung with two OCCULTISTS as secondary casters. The rite needs at least one focused caster to continue. -4 Perception (incl. initiative) until the PCs are impossible to ignore.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.84", "spoiler": false},
+        {"plot_point": "Zoudou's bargain (anathema): she spares Meng-sung only if a PC takes his place via an oath that severs their soul from the cycle, with no immediate effect, but on death their soul is absorbed by Kugaptee (no resurrection; rescuable only in the final act, or via atone).", "themes": ["Personal", "Mystery"], "weight": 1, "source": "p.85", "spoiler": true},
+        {"plot_point": "Treasure: Zoudou's tattered ledger (Aklo + Chthonian) holds notes on Kugaptee, the Wall, and the 'paradise'; it teaches consecrate AND is the Act 2 key to opening a doorway through the Wall of Ghosts.", "themes": ["Mystery"], "weight": 1, "source": "p.86", "spoiler": false},
+        {"plot_point": "HORROR FROM BEYOND: disrupting (or completing) the rite summons a glimmer of Kugaptee; the noppera-bo bodies burst into KUGAPTEE'S BLESSINGS (Creature 2, variant zombie brutes, wicker-cage heads of red butterflies). Interrupting = three (Moderate 3); arriving too late = four incl. Meng-sung (Severe 3). They bow to the Wall when not attacked.", "themes": ["Action", "Tension", "Mystery"], "weight": 1, "source": "p.86", "spoiler": false},
+        {"plot_point": "SPOILER (GM): Zoudou's faith is self-delusion; Kugaptee gave her only his name and loyalty; the 'paradise' is false; her ritual cannot achieve her goals, and Meng-sung's 'old soul' theory is faulty.", "themes": ["Mystery"], "weight": 1, "source": "p.86", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a1.conclusion",
+      "name": "Concluding Act 1",
+      "scene": "With their leaders defeated, the surviving noppera-bos disband. Returning the abductees alive makes the PCs heroes (3 Reputation with both factions). Willowshore's effective level rises to 5. Summer ends in dreary rain, leaving the Wall of Ghosts and the name 'Kugaptee' as the chief clues as new hauntings and food fears open Act 2.",
+      "location": "Willowshore",
+      "source": "p.88",
+      "threads": ["Survive the cursed summer", "Carry clues into fall"],
+      "characters": [],
+      "elements": ["Wall of Ghosts", "Kugaptee (name)", "Willowshore town level 5"],
+      "themes": ["Mystery", "Personal"],
+      "gate": "lumber-camp leaders defeated",
+      "fragments": [
+        {"plot_point": "Returning the stable abductees alive = greeted as heroes, 3 Reputation with both factions (reduced for losses). Willowshore's effective level rises to 5.", "themes": ["Social"], "weight": 1, "source": "p.88", "spoiler": false},
+        {"plot_point": "Act 1 ends with the Wall of Ghosts and the name 'Kugaptee' as the primary leads; new strange hauntings and winter food fears begin to surface, opening Act 2.", "themes": ["Mystery"], "weight": 1, "source": "p.88", "spoiler": false}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+ "kind": "thread",
+ "new_weight": 2,
+ "entries": [
+  {
+   "name": "Escape the wrong, looping summer day",
+   "weight": 1
+  },
+  {
+   "name": "Find the missing miller Choe Chung-hu",
+   "weight": 1
+  },
+  {
+   "name": "Get back home to Willowshore",
+   "weight": 1
+  },
+  {
+   "name": "Protect the townsfolk",
+   "weight": 1
+  },
+  {
+   "name": "Relight the Eternal Lantern",
+   "weight": 1
+  },
+  {
+   "name": "Understand what is wrong with the town",
+   "weight": 1
+  }
+ ]
+}

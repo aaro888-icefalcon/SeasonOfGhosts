@@ -1,0 +1,466 @@
+{
+  "slice": "act2-fall",
+  "source_file": "hardcover.md",
+  "source_pages": "p.93-149",
+  "act": "Act 2: Let the Leaves Fall",
+  "clusters": [
+    {
+      "id": "a2.prep-points",
+      "name": "Preparing for Winter: Hope, Food & Security",
+      "scene": "The engine of Act 2: PCs accumulate three categories of Preparation Points (Victory Points) via weekly preparation downtime - Hope (morale), Food (stores), Security (infrastructure). Up to 4 PCs each do one preparation activity per week plus one other downtime. Totals decide how Willowshore endures Act 3.",
+      "location": "Willowshore",
+      "source": "p.93",
+      "threads": ["Prepare Willowshore for winter"],
+      "characters": ["town elder/governor", "Zheng Peng", "Nadoya Sanmi"],
+      "elements": ["Hope Points", "Food Points", "Security Points", "weekly downtime"],
+      "themes": ["Tension", "Social"],
+      "gate": "this act's downtime framework; pauses while PCs are out of town for Ch.6/7",
+      "fragments": [
+        {"plot_point": "Starting points depend on the Act 1 leader: Old Matsuki gives 3 Food; Granny Hu gives 3 Security; PCs always start 3 Hope. Otherwise that category starts at 0.", "themes": ["Social"], "weight": 1, "source": "p.93", "spoiler": false},
+        {"plot_point": "Targets: 12 Food = minimum to survive winter; 12 Security = prepared for an average winter; more gives a cushion. No fixed Hope target.", "themes": ["Tension"], "weight": 1, "source": "p.93", "spoiler": false},
+        {"plot_point": "Negative Hope at a week's start: all Preparation checks take -1 circumstance. Hope is most often reduced - each supernatural event costs 1 Hope.", "themes": ["Tension"], "weight": 1, "source": "p.93", "spoiler": false},
+        {"plot_point": "Reward: first time reaching 12 in any category = 40 XP + 1 Reputation Point (max 120 XP / 3 points for all three).", "themes": ["Social"], "weight": 1, "source": "p.94", "spoiler": false},
+        {"plot_point": "Reputation: PCs likely admired by one faction entering the act; chances here to become revered by act's end.", "themes": ["Social"], "weight": 1, "source": "p.95", "spoiler": false},
+        {"plot_point": "Gathering Food: Aid Harvest (DC 17 Farming Lore / 19 Athletics / 21 Nature) and Aid Hunt (DC 17 Fishing or Hunting Lore / 19 Survival / 21 Nature). Crit=2, Success=1, Crit Fail=-1. The Act 1 village expansion gives Aid Harvest +1 and first weekly roll +1 degree. Nadoya Sanmi advises.", "themes": ["Social"], "weight": 1, "source": "p.96", "spoiler": false},
+        {"plot_point": "Increasing Security: Aid Townsfolk (DC 17 Athletics / 19 Willowshore Lore / 21 Performance) and Reinforce Buildings (DC 17 Architecture/Engineering Lore / 19 Crafting / 21 Athletics). Reinforce crit-fail: -1 Security + DC 20 Fort or enfeebled/clumsy 1 for a week. Zheng Peng advises.", "themes": ["Action", "Social"], "weight": 1, "source": "p.97", "spoiler": false},
+        {"plot_point": "Some extra days: each fall month has 2-3 days beyond the 4 weeks; GM may add recovery, Ch.6/7 time, a repeat vanishing, or a homebrew point-earning event.", "themes": ["Tension"], "weight": 1, "source": "p.111", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a2.who-leads",
+      "name": "Who Leads Willowshore? (town elder / governor)",
+      "scene": "Act 1 settled who replaces the missing governor; locals assume it's temporary and hope Heh Shan-Bao returns. The campaign assumes Old Matsuki or Granny Hu (or another NPC/PC). Whoever leads is the 'town elder' - the act's adviser and quest-giver.",
+      "location": "Willowshore",
+      "source": "p.93",
+      "threads": ["Prepare Willowshore for winter"],
+      "characters": ["town elder/governor", "Old Matsuki", "Granny Hu", "Heh Shan-Bao"],
+      "elements": ["Willowshore governance"],
+      "themes": ["Social", "Personal"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "If a PC leads, pick an allied NPC as adviser/quest-giver. Who exactly rules is largely irrelevant mechanically.", "themes": ["Social"], "weight": 1, "source": "p.93", "spoiler": false},
+        {"plot_point": "SECRET: Heh Shan-Bao will NOT return as the locals hope; his fate (trapped in his own mindscape; his failed ritual created the Willowshore mindscape and killed the town) unfolds in Act 3. Withhold.", "themes": ["Mystery", "Personal"], "weight": 1, "source": "p.93", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a2.teahouse",
+      "name": "Restoring the Cerulean Teahouse (and Yami)",
+      "scene": "PCs hold the neglected Cerulean Teahouse (award it if unclaimed) - a future base. The returning gray cat Yami comes with it. Restoring the teahouse, befriending Yami, and hosting tea ceremonies are key Hope-earning activities.",
+      "location": "Willowshore (Cerulean Teahouse)",
+      "source": "p.95",
+      "threads": ["Restore the teahouse / bolster Hope"],
+      "characters": ["Yami", "town elder"],
+      "elements": ["Cerulean Teahouse", "tea ware", "Yami's gifts"],
+      "themes": ["Social", "Personal"],
+      "gate": "Host Ceremony requires the teahouse fully repaired and a tea ware set (4 gp artisan's / 50 gp sterling from Leshy's Salon)",
+      "fragments": [
+        {"plot_point": "Repair and Restore (downtime, preparation): DC 19 Crafting / 21 Architecture or Labor Lore / 24 Athletics; 10 gp gives +1 degree. 5 Restoration Points = fully restored, 80 XP + 1 Rep with both factions. Crit=2, Success=1, Crit Fail=-1.", "themes": ["Social"], "weight": 1, "source": "p.95", "spoiler": false},
+        {"plot_point": "Befriend Yami (downtime, preparation): DC 14 Nature. Crit ends the activity and bonds Yami to one PC = 80 XP + 1 Hope, then weekly DC 11 flat for a gift. Crit fail: Yami flees, locked this and next week.", "themes": ["Social", "Personal"], "weight": 1, "source": "p.95", "spoiler": false},
+        {"plot_point": "Yami's Gifts (1d8): potato; undergarments; 1 gp; a haiku about the PC; jade cat talisman*; minor armory bracelet*; emerald silver dagger (100 gp)*; wand of crushing leaps*. (*once only, else 1 pp.)", "themes": ["Social"], "weight": 1, "source": "p.95", "spoiler": false},
+        {"plot_point": "Host Ceremony (downtime, preparation): DC 19 Performance / 21 Society; spend 10 gp (or 100 gp to treat failure as success). Crit=15 gp + 2 Hope; Success=1 Hope; Crit Fail=-1 Hope + blocks next week.", "themes": ["Social"], "weight": 1, "source": "p.96", "spoiler": false},
+        {"plot_point": "SECRET: Yami is a bakeneko (Creature 3, female, Perception +9) - awakened by long life, made far stronger by the repeating mindscape years while keeping a small cat form. DC 15 Willowshore Lore may recognize her. Withhold her true nature.", "themes": ["Mystery"], "weight": 1, "source": "p.95", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a2.research-curse",
+      "name": "Researching the Curse",
+      "scene": "PCs Research the curse as downtime (stacks with one preparation activity). Reaching 10+ Research Points develops the Open the Wall of Ghosts ritual and gates Ch.6. Avenues: You So-Jin, Igawa Jubei, Great Willow, solo work, Zoudou's notes.",
+      "location": "Willowshore",
+      "source": "p.98",
+      "threads": ["Research the curse / open the Wall of Ghosts"],
+      "characters": ["You So-Jin", "Igawa Jubei", "Great Willow", "Asahina Shinzo"],
+      "elements": ["Wall of Ghosts", "Tan Sugi monastery", "Kugaptee", "nindorus", "Open the Wall of Ghosts ritual", "Zoudou's notes"],
+      "themes": ["Mystery"],
+      "gate": "Ch.6 begins only after 10+ Research Points AND PCs are 5th level",
+      "fragments": [
+        {"plot_point": "Avenues (Research 4): You So-Jin (max RP 2; DC 17 Willowshore Lore / 19 Diplomacy); Igawa Jubei (max RP 2; DC 17 Library Lore / 19 Arcana); Great Willow (max RP 2; DC 19 Nature); Solo (max RP 4; DC 17 Sangpotshi Lore / 19 Occultism); Zoudou's notes if Aklo+Chthonian (max RP 3; DC 17 Academia Lore / 19 Religion).", "themes": ["Mystery"], "weight": 1, "source": "p.98", "spoiler": false},
+        {"plot_point": "RP milestones: 2 = the west Wall of Ghosts is removable and the Tan Sugi monastery lies beyond; 4 = the noppera-bo worshipped 'Kugaptee,' tied to nindorus; 6 = Kugaptee, a nindoru, was defeated centuries ago by Tan Sui-Jing, who reincarnated into the great sugi tree.", "themes": ["Mystery"], "weight": 1, "source": "p.99", "spoiler": true},
+        {"plot_point": "RP milestones cont.: 8 = the curse is likely Kugaptee's influence seeping from the hidden monastery; 10+ = develop the Open the Wall of Ghosts ritual and know the rest lies beyond the Wall. 120 XP for completing the research.", "themes": ["Mystery"], "weight": 1, "source": "p.99", "spoiler": true},
+        {"plot_point": "Getting help: if PCs lack the skills/languages for 10+ RP, experts can finish it in the last month of fall (no XP, tighter timeline).", "themes": ["Mystery"], "weight": 1, "source": "p.100", "spoiler": false},
+        {"plot_point": "SECRET context: clues all blame Kugaptee and the GM should not dissuade that belief - but the hauntings are actually modern exorcists (Mago Kai) and the 'curse' is a mindscape. Reveal only in Act 3.", "themes": ["Mystery"], "weight": 1, "source": "p.100", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a2.spirits-hauntings",
+      "name": "Spirits & Hauntings: the fall escalation",
+      "scene": "As weeks pass, mundane events give way to supernatural ones; each supernatural event costs 1 Hope. Townsfolk (and PCs) believe the curse is strengthening. A missed event resolves a day after return; First Long Night is fixed to week 3.",
+      "location": "Willowshore",
+      "source": "p.100",
+      "threads": ["Survive the fall hauntings / preserve Hope"],
+      "characters": ["town elder", "Mago Kai"],
+      "elements": ["supernatural events", "Hope erosion"],
+      "themes": ["Tension", "Mystery"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Fall Timeline (12 weeks): W1 Offering for Daikitsu; W2 A Slithering Situation; W3 First Long Night; W4 Haunted Hair*; W5 The Missing Corpse; W6 The Faceless Ghost*; W7 An Icy Grasp*; W8 Stable Fire*; W9 Kimchi's Ascent; W10 Feast of the Kami; W11 The Face at the Foot of the Bed*; W12 Vanishings*. (*=supernatural, -1 Hope.)", "themes": ["Tension"], "weight": 1, "source": "p.100", "spoiler": false},
+        {"plot_point": "SECRET: some 'hauntings' are caused by modern-world exorcists led by lumber baron Mago Kai, cleansing Willowshore's ruins - discovered and fought in Act 3. Withhold.", "themes": ["Mystery"], "weight": 1, "source": "p.100", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a2.w1-daikitsu",
+      "name": "Week 1: An Offering for Daikitsu",
+      "scene": "The boy Minhwan, who cared for a vanished injured fox, dreams a white fox blessed his kindness and shyly asks a PC what cheap gift to offer Daikitsu, offering a favor in return.",
+      "location": "Willowshore",
+      "source": "p.100",
+      "threads": ["Survive the fall hauntings / preserve Hope"],
+      "characters": ["Minhwan"],
+      "elements": ["Daikitsu", "Nine Ear Shrine", "inarizushi"],
+      "themes": ["Social", "Personal"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "DC 15 Religion (Daikitsu worshippers +1 degree): a simple tasty food, esp. inarizushi, left at Nine Ear Shrine. Any sincere idea works. Reward: helping in earnest = 1 Hope + 80 XP.", "themes": ["Social"], "weight": 1, "source": "p.100", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a2.w2-vipers",
+      "name": "Week 2: A Slithering Situation",
+      "scene": "Trivial 4. Nervous cook Matsu (W12) begs the PCs to clear a viper nest from his outhouse for 2 gp and a dinner invitation. The snakes attack when the door opens.",
+      "location": "Willowshore (Matsu's home, W12)",
+      "source": "p.101",
+      "threads": ["Survive the fall hauntings / preserve Hope"],
+      "characters": ["Matsu"],
+      "elements": ["Matsu's outhouse (W12)", "ghost touch rune"],
+      "themes": ["Action", "Social"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Creature: Viper Swarm (Creature 4, MC2 295, Perception +12). Combat, or a cunning plan via one GM-chosen DC 19 skill check (Nature bait / Survival smoke-out / Crafting device / Diplomacy with Animal Empathy). Failure = combat.", "themes": ["Action"], "weight": 1, "source": "p.101", "spoiler": false},
+        {"plot_point": "Treasure/Reward: removing vipers without property damage = 1 Hope; Matsu's dinner and his gift of a ghost touch rune; 80 XP regardless.", "themes": ["Social"], "weight": 1, "source": "p.101", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a2.w3-first-long-night",
+      "name": "Week 3: First Long Night",
+      "scene": "First Long Night (fall equinox, last day of week 3) is the PCs' best Hope-earning chance. Celebrations 6 PM-midnight on the downtown town square with three Victory-Point contests. Shinzo visits with a tailored, 10%-off cart.",
+      "location": "Willowshore (town square)",
+      "source": "p.101",
+      "threads": ["Bolster Hope at the festival"],
+      "characters": ["Asahina Shinzo", "Yix", "You So-Jin", "town NPCs"],
+      "elements": ["town square", "First Long Night", "three contests"],
+      "themes": ["Social", "Personal"],
+      "gate": "occurs on week 3 even if PCs are away (missing it forfeits major Hope)",
+      "fragments": [
+        {"plot_point": "Aid Festival Preparations (downtime, preparation, week 3 only): DC 17 Lore (Food/Games/Labor/Willowshore) / 19 Crafting / 21 Society. Crit=2 Hope + contest bonus; Success=1 Hope; Crit Fail=-1 Hope + contest penalty.", "themes": ["Social"], "weight": 1, "source": "p.101", "spoiler": false},
+        {"plot_point": "Contests (each PC once): Admiring the Moon (4 VP=1 Hope; 6 VP=a moderate mutagen); Bundle-Cutting (4 VP=1 Hope; 6 VP=striking or ghost touch weapon rune); Lantern Making (single winner; 4 VP=1 Hope; 6 VP=three lesser elixirs of life; grand prize 100 gp silk pouch, defaults to You So-Jin).", "themes": ["Social", "Action"], "weight": 1, "source": "p.102", "spoiler": false},
+        {"plot_point": "Reward: participating = 1 Hope + 120 XP. Win 1 contest = 1 Rep; win all 3 = 1 Rep to both factions.", "themes": ["Social"], "weight": 1, "source": "p.102", "spoiler": false},
+        {"plot_point": "Shinzo's limits: he sadly declines to supply town food - a restriction barring too much aid to imperiled mortals that frustrates him.", "themes": ["Mystery", "Social"], "weight": 1, "source": "p.103", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a2.w4-haunted-hair",
+      "name": "Week 4: Haunted Hair",
+      "scene": "Low 4, supernatural (-1 Hope). Mama Bao's steamed buns (W21) fill with reappearing human hair. The PCs spend the night and face the ghost of Hinode Akari, murdered for her hair by Mama Bao's grandfather, agitated by modern exorcists.",
+      "location": "Willowshore (steamed-bun shop, W21)",
+      "source": "p.103",
+      "threads": ["Survive the fall hauntings / preserve Hope"],
+      "characters": ["Nakamura Mama Bao Yu Ming", "Hinode Akari (ghost)"],
+      "elements": ["steamed-bun shop (W21)", "Gourd Lake"],
+      "themes": ["Mystery", "Tension", "Personal"],
+      "gate": "the active haunt triggers when PCs spend the night in the shop",
+      "fragments": [
+        {"plot_point": "Clues: DC 14 Perception (one head's hair); DC 17 Society/Medicine (plucked at root, not cut). DC 21 Willowshore Lore / Gather Information recalls herbalist Hinode Akari found near Gourd Lake with all hair plucked.", "themes": ["Mystery"], "weight": 1, "source": "p.103", "spoiler": false},
+        {"plot_point": "Hazard: WRITHING HAIR (Hazard 5, unique complex haunt). AC 22, Fort +9, Ref +15; HP 54; immune crit/precision; weakness vitality 5. Disable DC 23 Diplomacy / 21 Religion (+2 if you use Akari's name/show understanding). Cyclone of Hair DC 22 Reflex or immobilized; Routine strangles a random target 2d8+7 mental, DC 22 basic Will.", "themes": ["Tension", "Action"], "weight": 1, "source": "p.104", "spoiler": false},
+        {"plot_point": "Reward: defeat/disable = 1 Hope; discovering the story = +1 Hope; +1 Rep with Northridge for helping a downtown business.", "themes": ["Social"], "weight": 1, "source": "p.104", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a2.w5-missing-corpse",
+      "name": "Week 5: The Missing Corpse",
+      "scene": "Priestess Elizeth Candora asks the PCs to find a corpse that walked away. A shambling trail (Survival tracking) leads to the PCs' own teahouse - the culprit is Yami the bakeneko, who animated a zombie of a woman who'd fed her.",
+      "location": "Willowshore (church, Cerulean Teahouse)",
+      "source": "p.104",
+      "threads": ["Survive the fall hauntings / preserve Hope"],
+      "characters": ["Elizeth Candora", "Yami", "zombie shambler"],
+      "elements": ["missing corpse", "Cerulean Teahouse", "You So-Jin (red herring)"],
+      "themes": ["Mystery", "Personal"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Investigation: 10 min Investigating + DC 19 Perception for tracks; DC 20/18/20 Survival follows the trail (into/out of the river) to the teahouse. You So-Jin is a red herring; accusing her lowers her attitude.", "themes": ["Mystery"], "weight": 1, "source": "p.104", "spoiler": true},
+        {"plot_point": "SECRET: Yami the necromantically-curious bakeneko animated a zombie (a woman who fed her) as 'repaying a favor'; on discovery she confesses and asks to keep it. Auto-known if already befriended. Withhold otherwise.", "themes": ["Mystery", "Personal"], "weight": 1, "source": "p.104", "spoiler": true},
+        {"plot_point": "Resolution: convince Yami to release the zombie with DC 21 Diplomacy or Intimidation (+1 degree if befriended). Destroying it / using Intimidation makes her abandon town. Treasure: returning the corpse to Elizeth = 1 Hope + four lesser healing potions + a vitalizing property runestone; keeping Yami's friendship = +1 Hope. 80 XP.", "themes": ["Social", "Personal"], "weight": 1, "source": "p.105", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a2.w6-faceless-ghost",
+      "name": "Week 6: The Faceless Ghost",
+      "scene": "Low 4, supernatural (-1 Hope). Bachelor guard Ho Jeong-hui (W24) saw a misty, stone-masked figure - a dalgyal gwishin drawn by his popularity and stirred by exorcists. It haunts his home nightly and will kill him if not stopped in 3 days.",
+      "location": "Willowshore (Jeong-hui's home, W24)",
+      "source": "p.105",
+      "threads": ["Survive the fall hauntings / preserve Hope"],
+      "characters": ["Ho Jeong-hui", "dalgyal gwishin"],
+      "elements": ["Jeong-hui's home (W24)", "stone mask"],
+      "themes": ["Tension", "Action", "Mystery"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Creature: Dalgyal Gwishin (Creature 5, p.326, Perception +12). DC 22 Religion identifies it. Not defeated in 3 days: it hunts Jeong-hui; if unprotected, his faceless corpse is found and it next targets the highest-Cha PC.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.105", "spoiler": false},
+        {"plot_point": "Reward: defeat = 1 Hope + 1 Rep with Northridge. Jeong-hui dies first = -1 Hope, -1 Rep with Northridge.", "themes": ["Social"], "weight": 1, "source": "p.105", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a2.w7-icy-grasp",
+      "name": "Week 7: An Icy Grasp",
+      "scene": "Low 4, supernatural (-1 Hope). Old fisher Goh, who let his brother drown 50 years ago, feels hands grab his ankles in the Ceiba River. It's not his brother but Goh's own shame manifesting; PCs must save him from drowning.",
+      "location": "Willowshore (Ceiba River, Goh's home)",
+      "source": "p.105",
+      "threads": ["Survive the fall hauntings / preserve Hope"],
+      "characters": ["Goh"],
+      "elements": ["Ceiba River", "Goh's home"],
+      "themes": ["Personal", "Tension", "Action"],
+      "gate": "the haunt triggers only when Goh steps into the river",
+      "fragments": [
+        {"plot_point": "Insight: DC 19 Sense Motive (crit: Diplomacy to forgive Goh could end it). The haunt won't manifest until Goh re-enters the water.", "themes": ["Mystery", "Personal"], "weight": 1, "source": "p.105", "spoiler": false},
+        {"plot_point": "Hazard: GOH'S SHAME (Hazard 5, unique complex haunt). AC 22, Fort +9, Ref +15; HP 54; immune crit/precision; weakness vitality 5, resist fire 5. Disable DC 21 Diplomacy / 23 Religion / 25 Intimidation. Routine grapples to drown Goh (Fort DC 19; crit 29+ restrains; 2nd crit kills) + fear image DC 22 Will. Pull Goh out to weaken it.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.106", "spoiler": false},
+        {"plot_point": "Reward: disable/destroy = 1 Hope unless Goh dies (then -1 Hope).", "themes": ["Personal"], "weight": 1, "source": "p.106", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a2.w8-stable-fire",
+      "name": "Week 8: Stable Fire",
+      "scene": "Supernatural (-1 Hope). A barn at Willowshore Stables burns, threatening the pasture and town. PCs Fight the Barn Fire (Victory Points). The ruin holds a charred, beheaded tengu skeleton with a mark of crime - the risen arsonist Nin Nok.",
+      "location": "Willowshore (Willowshore Stables; Bones of the Forgotten)",
+      "source": "p.106",
+      "threads": ["Survive the fall hauntings / preserve Hope"],
+      "characters": ["Kum Soon-chong", "Nin Nok (undead arsonist)"],
+      "elements": ["Willowshore Stables", "Bones of the Forgotten graveyard"],
+      "themes": ["Action", "Tension", "Mystery"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Fight Barn Fire (exploration): DC 19 Athletics / 21 Diplomacy, or expend spells (DC 17/19/21 for 3/2/1 spells). Crit=2 VP + 1 Hope; Success=1 VP; Fail=3d6 fire DC 19 Ref; Crit Fail=spread, 3d10 fire, -1 VP.", "themes": ["Action"], "weight": 1, "source": "p.106", "spoiler": false},
+        {"plot_point": "Outcome by total VP: 3+ controlled; 0-2 field damaged; -1 or less barn and field burn (tragic), costing 2 Food + 2 Security.", "themes": ["Tension"], "weight": 1, "source": "p.106", "spoiler": false},
+        {"plot_point": "Investigation: DC 17 Willowshore Lore / Gather Information recalls arsonist Nin Nok (beheaded, mark of crime, buried in the Bones of the Forgotten NW of town); her grave is dug up from within. Reward: 3+ VP = 80 XP (+40 mystery) + 1 Rep Southbank; below 0 VP = -1 Rep Southbank.", "themes": ["Mystery"], "weight": 1, "source": "p.106", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a2.w9-kimchi",
+      "name": "Week 9: Kimchi's Ascent",
+      "scene": "A light beat: the cat Kimchi is stuck 30 ft up a tree outside town, too dangerous for villagers to retrieve.",
+      "location": "Willowshore (tree outside town)",
+      "source": "p.107",
+      "threads": ["Survive the fall hauntings / preserve Hope"],
+      "characters": ["Kimchi"],
+      "elements": ["tall tree outside town"],
+      "themes": ["Social", "Personal"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Rescue: DC 15 Athletics to Climb, then DC 19 Athletics to grapple the cat (crit fail = PC falls!); DC 19 Diplomacy with Animal Empathy can coax her down. Reward: save Kimchi = 1 Hope + 10 XP; her or a youth's death = -1 Hope.", "themes": ["Social"], "weight": 1, "source": "p.107", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a2.w10-feast-kami",
+      "name": "Week 10: Feast of the Kami",
+      "scene": "A respite. Shinzo suggests hosting a feast for Willowshore's ~40 hidden kami at the rebuilt teahouse. Over a week each PC Prepares for the Feast x3 (no other downtime), earning Decoration/Banquet/Entertainment points. If the teahouse is still ruined the event is skipped and the PCs lose 2 Hope.",
+      "location": "Willowshore (Cerulean Teahouse)",
+      "source": "p.107",
+      "threads": ["Bolster the town's spiritual health"],
+      "characters": ["Asahina Shinzo", "Yix", "Great Willow", "Kohoshi", "shikigami kami"],
+      "elements": ["Cerulean Teahouse", "tea ceremony", "magic teas book", "Winter's Breath ritual"],
+      "themes": ["Social", "Personal"],
+      "gate": "requires the Cerulean Teahouse rebuilt (else -2 Hope and no event)",
+      "fragments": [
+        {"plot_point": "Prepare for the Feast (exploration, x3/PC): Decoration (DC 17 Art Lore / 19 Performance), Banquet (DC 17 Food/Drink Lore / 19 Crafting), Entertainment/invitations (DC 17 Religion / 19 Diplomacy). Need 4 points per category. Inviting Great Willow gives +1 to later checks.", "themes": ["Social"], "weight": 1, "source": "p.108", "spoiler": false},
+        {"plot_point": "Feast night: ~40 kami parade in. Decoration thresholds (<=3 rowdy, -1 Security + repair; 4-5 respectful; 6+ +2 Security). Banquet shifts the tea ceremony degree. Entertainment gives -2/+1/+1&+1-degree to entertain checks (DC 19, any apt skill).", "themes": ["Social"], "weight": 1, "source": "p.108", "spoiler": false},
+        {"plot_point": "Tea Ceremony: organizer DC 17 Tea Lore / 21 Society (others Aid; modified by Banquet). Crit=+1 status to future Host Ceremony & tea Crafting + 1 Food + 1 Hope; Success=1 Food; Crit Fail=-1 Food, -1 Hope.", "themes": ["Social"], "weight": 1, "source": "p.109", "spoiler": false},
+        {"plot_point": "After the Feast: 1 Hope + 40 XP regardless. 4+ Decoration=1 Security+20 XP; 4+ Banquet=1 Food+20 XP; 4+ Entertainment=1 Hope+20 XP; 10+ total=1 Rep. If 2+ PCs succeeded entertaining, each PC gets a 5th-level permanent item.", "themes": ["Social"], "weight": 1, "source": "p.109", "spoiler": false},
+        {"plot_point": "Shinzo returns next day with a green tea-scented book of all Toolbox magic teas and the Winter's Breath ritual (if the PCs at least tried).", "themes": ["Social"], "weight": 1, "source": "p.110", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a2.w11-face-at-bed",
+      "name": "Week 11: The Face at the Foot of the Bed",
+      "scene": "Supernatural (-1 Hope). A random PC dreams of butterfly-headed townsfolk and a stalker, then wakes to their own upside-down ghostly face bursting into razor-winged red butterflies, leaving them cursed by Kugaptee's growing influence.",
+      "location": "Willowshore",
+      "source": "p.110",
+      "threads": ["Survive the fall hauntings / preserve Hope"],
+      "characters": ["a random PC"],
+      "elements": ["red butterflies", "Face at the Foot of the Bed curse"],
+      "themes": ["Tension", "Mystery", "Personal"],
+      "gate": "targets one random PC during week 11",
+      "fragments": [
+        {"plot_point": "FACE AT THE FOOT OF THE BED (Curse 5, rare, magical). DC 19 Will. Effect: -1 to saves vs fear; each time reduced to 0 HP, stupefied 1 for 24 hours (resets, no stack).", "themes": ["Tension"], "weight": 1, "source": "p.110", "spoiler": false},
+        {"plot_point": "SECRET: the curse is Kugaptee's influence growing because Mago Kai's exorcists inadvertently empower his spirit while exorcising the ruins. Withhold the cause.", "themes": ["Mystery"], "weight": 1, "source": "p.110", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a2.w12-vanishings",
+      "name": "Week 12: Vanishings",
+      "scene": "Supernatural (-1 Hope), best on the last day of fall. A befriended villager vanishes - the first 'true death' in the mindscape's 115 years - because Mago Kai's exorcists completed one exorcism, banishing the soul to a hidden mindscape behind Willowshore.",
+      "location": "Willowshore",
+      "source": "p.111",
+      "threads": ["Survive the fall hauntings / preserve Hope"],
+      "characters": ["a befriended villager"],
+      "elements": ["the Vanishing", "the hidden mindscape"],
+      "themes": ["Tension", "Mystery", "Personal"],
+      "gate": "time to the last day of fall to open Act 3 on this note",
+      "fragments": [
+        {"plot_point": "SECRET: the vanished villager won't return on reset nor pass on - banished to a hidden mindscape behind Willowshore where Kugaptee's influence is stronger. Withhold the mechanism.", "themes": ["Mystery"], "weight": 1, "source": "p.111", "spoiler": true},
+        {"plot_point": "Choose a befriended NPC without a future plot role: De-ge, Goh, Ha Hai-er, Ho Jeong-hui, Matsu, Kum Soon-chong, Sumika, or Mama Bao. (Cross-reference Acts 3-4.)", "themes": ["Personal"], "weight": 1, "source": "p.111", "spoiler": false}
+      ]
+    },
+    {
+      "id": "ch6.wall-of-ghosts",
+      "name": "Ch.6: Opening the Wall of Ghosts",
+      "scene": "With the ritual researched (10+ RP) and PCs 5th level, they pierce the 50-ft silvery mist wall west of town. Only the Pilgrim's Path (NW) runs through. An NPC may nudge PCs toward it if they fixate on the unreachable coastal fortress of Karahai.",
+      "location": "Willowshore hinterlands (Wall of Ghosts)",
+      "source": "p.113",
+      "threads": ["Open the Wall of Ghosts / reach the monastery"],
+      "characters": ["town elder", "Asahina Shinzo", "two ghosts"],
+      "elements": ["Wall of Ghosts", "Pilgrim's Path", "Open the Wall of Ghosts ritual", "Karahai (unreachable)"],
+      "themes": ["Mystery", "Action"],
+      "gate": "requires the ritual (10+ RP), PCs 5th level, and a crescent/new moon (weeks 3-4, 7-8, 11-12) unless GM adjusts",
+      "fragments": [
+        {"plot_point": "Performing the ritual: rice + incense worth 60 gp (free if admired by a faction). Cast within 40 ft, takes a day. Success ripples the wall; thereafter any caster within 40 ft opens a 10-ft fog tunnel onto the Pilgrim's Path. Crit fail = fight two ghosts. 80 XP.", "themes": ["Action", "Mystery"], "weight": 1, "source": "p.113", "spoiler": false},
+        {"plot_point": "NOTE: the FOCUS's 'Karahai village haunting' does not appear in this slice. Karahai is named only as Willowshore's coastal-fortress trade partner the PCs cannot reach; an NPC redirects them to the Wall of Ghosts instead.", "themes": ["Mystery"], "weight": 1, "source": "p.113", "spoiler": false}
+      ]
+    },
+    {
+      "id": "ch6.within-wall",
+      "name": "Ch.6: Within the Wall of Ghosts (Kugaptee's grave mindscape)",
+      "scene": "Stepping onto the Path traps PCs in a fog-bound mindscape of dead Kugaptee's dreams - a history where Tan Sui-Jing's soul-seed was removed so the sugi never grew. PCs must restore her stolen heart to her grave to pass.",
+      "location": "Within the Wall of Ghosts (A1-A3)",
+      "source": "p.114",
+      "threads": ["Open the Wall of Ghosts / reach the monastery"],
+      "characters": ["Tan Sui-Jing (echo)", "heart-eating vulture", "cacodaemons"],
+      "elements": ["'Kugaptee' in Aklo", "Tan Sui-Jing's grave", "the soul-seed"],
+      "themes": ["Mystery", "Action", "Tension"],
+      "gate": "entered after casting the ritual; static until resolved",
+      "fragments": [
+        {"plot_point": "A1 Entrance: a static 20-ft gap remains while unresolved; exiting drops PCs on the road to Willowshore; re-entry restarts here.", "themes": ["Mystery"], "weight": 1, "source": "p.115", "spoiler": false},
+        {"plot_point": "A2 Tan Sui-Jing's Grave: a slab carved 'Kugaptee' (Aklo) and her heart-torn corpse, hand pointing north. DC 20 Willowshore Lore / 22 Religion or Society IDs the heroine; a whisper says 'Find the seed.' Trail (DC 18-25 Survival) leads to the vulture.", "themes": ["Mystery"], "weight": 1, "source": "p.115", "spoiler": true},
+        {"plot_point": "A3 The Soulthief's Nest (Low 5): Heart-Eating Vulture (Creature 4, unique, HP 68, Death Burst 5d6 slashing DC 18 Ref + drops heart, carrion fever) + 3 Cacodaemons (Creature 1, MC 72), fight to death, can't leave. Treasure: 2 grim trophy talisman feathers.", "themes": ["Action"], "weight": 1, "source": "p.116", "spoiler": false},
+        {"plot_point": "Planting the Soul Seed (Low 5): taking the heart turns it night and triggers KUGAPTEE'S ANGER (Hazard 6, unique complex haunt; Stealth +22; disable only by placing the heart, or DC 23 Nature/Religion to cut its routine to 1 action for a round). Terrifying Roar DC 22 Will; Routine roar + clawed branches 4d6 slashing DC 22 basic Ref (heart-bearer +4 item, cover/prone bonuses). Returning the heart grows the sugi, ends the haunt, opens the Path. 60 XP.", "themes": ["Action", "Tension", "Mystery"], "weight": 1, "source": "p.116", "spoiler": true}
+      ]
+    },
+    {
+      "id": "ch6.pilgrims-path",
+      "name": "Ch.6: Walking the Pilgrim's Path",
+      "scene": "The traditional 4-day, 3-night pilgrimage to the Tan Sugi monastery, a contained mindscape with fixed pacing (8 hours between shrines; return never over an hour). The three shrines (Bridge/Garden/Mountain) represent past/future/current lives; enlightenment at each grants a lasting +1 to a save type. Weather changes by day.",
+      "location": "Pilgrim's Path",
+      "source": "p.117",
+      "threads": ["Walk the Pilgrim's Path / reach the monastery"],
+      "characters": ["Master Zhi Hui (history)", "Enko the kappa", "Iogaka the storm hag"],
+      "elements": ["Pilgrim's Path", "three shrines", "Tan Sugi monastery", "Night of Broken Blades"],
+      "themes": ["Mystery", "Tension", "Action"],
+      "gate": "fixed-pace travel; leaving restarts the trek; enlightenment requires beating each shrine's threat and spending the night",
+      "fragments": [
+        {"plot_point": "Common knowledge: monastery founded 7020 by monk Zhi Hui around an ancient sugi tree, abandoned by 7062 after the Night of Broken Blades (woodcutters returned as undead, killing dozens). DC 20 Occultism reveals the Path is a tighter version of Willowshore's curse, hinting at a deeper revelation ahead.", "themes": ["Mystery"], "weight": 1, "source": "p.117", "spoiler": false},
+        {"plot_point": "Day 1: B1 Tormented Kappa (Low 5): Enko (Creature 2, MC2 208), dumped far from water by Iogaka, who taunts him one-way (DC 15 Perception to overhear). Escorting/refilling his bowl warms him; he warns Iogaka hates burning incense.", "themes": ["Social", "Tension"], "weight": 1, "source": "p.119", "spoiler": false},
+        {"plot_point": "Day 1: B2 Serpent Ambush (Low 5): 2 Amphisbaenas (Creature 4, MC2 25) ambush from both sides (one targets Enko). If Enko survives, he gifts a +1 striking silver shortsword and a wand of environmental endurance on a minor sturdy shield. 40 XP for the escort.", "themes": ["Action"], "weight": 1, "source": "p.120", "spoiler": false},
+        {"plot_point": "Day 1 evening: B3 Bridge Shrine (Moderate 5, past lives). 2 Brood Leech Swarms + ARMS OF THE DROWNED (Creature 4 MC2 212 + Hazard 3 complex haunt: Stealth +20; disable DC 20 Religion / 23 Intimidation; knocks prone DC 20 Ref + dumps leeches; Routine grapples/drags into the river). Enlightenment: clear both, sleep over = 6 vials become moderate ghost charges + +1 item to Reflex saves until act's end. 40 XP.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.121", "spoiler": false},
+        {"plot_point": "Day 2 (rain, fatigue DC 18 Fort): C1 Hungry Foliage (Low 5): 2 Mandragoras (Creature 4, MC2 219), each drops a fear gem talisman. C2 The Girl in the Tree (Low 5): 'Yeri' (Elite penanggalan Creature 6, MC2 249), reborn as the thing that killed her; DC 22 Perception spots her neck scar, DC 20 Willowshore Lore / 25 Society IDs her. She transforms at night, fights to death, drops a charm of resistance (mental 5), asks the PCs to save her sister Yuni.", "themes": ["Action", "Tension", "Personal"], "weight": 1, "source": "p.122", "spoiler": true},
+        {"plot_point": "Day 2 evening: C3 Garden Shrine (Moderate 5, future lives). 4 Shrine Caretakers (Creature 3 variant combusted, HP 65, Intense Heat aura, weakness cold 5 & water 5). Treasure: lavender incense, a wind/rain-proof dragon incense burner. Lighting all 6 lanterns slows them; a night here = +1 item to Will saves + 6 healing-vapor orchids. 40 XP.", "themes": ["Action"], "weight": 1, "source": "p.124", "spoiler": false},
+        {"plot_point": "Day 3 (fog/wind/thunderstorm): D1 A Voice in the Fog (Low 5): a Will-o'-Wisp (Creature 6, MC 349) lures a PC off a 30-ft cliff; appears as red butterflies. D2 A Whisper in the Woods (Low 5): hanging whispering heads + a Taunting Monk's Skull (Creature 6, unique undead, HP 100; Behold the Promises of Kugaptee DC 24 Will incapacitation).", "themes": ["Action", "Tension"], "weight": 1, "source": "p.126", "spoiler": true},
+        {"plot_point": "Day 3 evening: D3 Mountain Shrine (Moderate 5, current life). Iogaka the storm hag (Creature 5 variant, MC2 186; Sickened by Incense DC 27 Fort), cause of the foul weather, + 2 Spark Moths (Creature 2, MC2 144). Raft/lightning-bolt waterfall set-piece. Defeating her ends the storm. Treasure: invigorating soap, a lesser thurible of revelation. Bathe + sleep = +1 item to Fortitude saves until act's end. 40 XP.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.128", "spoiler": false},
+        {"plot_point": "Final day: approaching the monastery the chill abates. Zhi Hui's spirit rewards pilgrims by shrines enlightened: all three = tailored pilgrimage gift per PC (Toolbox p.306); fewer = nudged to return for missed shrines.", "themes": ["Mystery", "Personal"], "weight": 1, "source": "p.129", "spoiler": false}
+      ]
+    },
+    {
+      "id": "ch7.monastery-overview",
+      "name": "Ch.7: Tan Sugi Monastery & Purifying the Statues",
+      "scene": "The ruined monastery in a forested caldera, built around the 100-ft sugi tree over Kugaptee's grave. Undead monks and nindorus serve Xin Yue. PCs purify four desecrated statues (in any order) to weaken Kugaptee, free Zhi Hui's ghost, and open the way below.",
+      "location": "Tan Sugi monastery",
+      "source": "p.129",
+      "threads": ["Cleanse the monastery / stop Kugaptee's revival"],
+      "characters": ["Master Zhi Hui (ghost)", "Xin Yue", "Yen Rui", "corrupted monks", "nindorus"],
+      "elements": ["four statues", "the Tan Sugi tree", "the hidden library", "Kugaptee's grave"],
+      "themes": ["Mystery", "Action", "Tension"],
+      "gate": "access to Kugaptee's grave (E15/E16) requires all four statues purified",
+      "fragments": [
+        {"plot_point": "Resting: the ruins are unsafe; until the hidden library (E11) is found, retreat to the Mountain Shrine. Sleeping in the ruins inflicts nightmare (DC 23 Will) until all four statues are purified; nightmares can hint that purifying is the path forward.", "themes": ["Tension"], "weight": 1, "source": "p.129", "spoiler": false},
+        {"plot_point": "Purify Statue (exploration, concentrate; requires area hostiles defeated): DC 20 Religion / 22 Crafting / 24 Thievery, 10 min. Crit=purified; Success=purified but 2d6 mental DC 22 Will; Fail=5d6 mental to you and Aiders; Crit Fail=10d6 mental, locked 1 hour. 40 XP per statue.", "themes": ["Action"], "weight": 1, "source": "p.131", "spoiler": false},
+        {"plot_point": "Progression: 1st frees Zhi Hui (1 question); 2nd unlocks/illuminates the hidden library doors (2 questions, 'Seek the hidden library... Yen Rui...'); 3rd lifts the psychic oppression and ends/vanishes Iogaka (3 questions); 4th heals the trees, clears the courtyard, drops the wall of force over the grave, and lets Zhi Hui aid the final fight.", "themes": ["Mystery"], "weight": 1, "source": "p.132", "spoiler": true},
+        {"plot_point": "SECRET (Zhi Hui's warning after 4th): to fully remove Kugaptee's influence, descend into his grave and defeat Xin Yue, who let the corruption spread.", "themes": ["Mystery"], "weight": 1, "source": "p.133", "spoiler": true}
+      ]
+    },
+    {
+      "id": "ch7.e1-e3",
+      "name": "Ch.7: Gate, Courtyard & Main Hall (E1-E3)",
+      "scene": "The southern gate (with surviving magic fulus), the courtyard with the kodama statue and Yuni's ghost, and the main hall with the half-size sugi statue haunted by Kugaptee's tree.",
+      "location": "Tan Sugi monastery (E1-E3)",
+      "source": "p.133",
+      "threads": ["Cleanse the monastery / stop Kugaptee's revival"],
+      "characters": ["Yuni (ghost)", "ittan-momen tsukumogami"],
+      "elements": ["grand gate fulus", "kodama statue", "sugi statue", "Fiendish Reflection"],
+      "themes": ["Action", "Tension", "Mystery"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "E1 Grand Gate: shredded fulus; treasure: an escape fulu and two stumbling fulus survived.", "themes": ["Action"], "weight": 1, "source": "p.134", "spoiler": false},
+        {"plot_point": "E2 Courtyard (Low 6): kodama statue (purify). Yuni (Creature 7, unique human ghost, HP 82, rejuvenation; Tiger Attack 4d6 slashing DC 25 Ref, Frightful Moan DC 25), slain by the monks' tiger. Carrying Yeri's charm stops her attack and she demands it; returning it + revealing Yeri's fate (truth or a good Lie) lets her move on. Hazards: polluted water (DC 15 Fort) and FIENDISH REFLECTION (Hazard 3, DC 20 Will or frightened 2; disable DC 20 Religion / 23 Intimidation). 40 XP to purify.", "themes": ["Action", "Personal", "Tension"], "weight": 1, "source": "p.134", "spoiler": true},
+        {"plot_point": "E3 Main Hall (Moderate 6): sugi statue (purify) haunted by KUGAPTEE'S TREE (Hazard 6, unique complex haunt; Hardness 14, HP 50, weakness vitality 10; disable DC 25 Religion / 28 Intimidation; Pulse of Fear DC 21 Will; Routine 3 branch Strikes +17, 1d8+9 + 1d8 mental, reach 40 ft) + 4 Ittan-momen (Creature 2, p.51, use Gray Butcher). Treasure: spellguard shield. 40 XP to purify.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.135", "spoiler": true}
+      ]
+    },
+    {
+      "id": "ch7.e4-e8",
+      "name": "Ch.7: Infirmary, Pharasma's Shrine, Refectory, Kitchen & Stores (E4-E8)",
+      "scene": "The eastern wing: wrecked infirmary (2 kurobozus), defiled Pharasma's shrine (3 sojiruhs, a hollow 'race' challenge), refectory (3 kurobozus satisfiable with a tea ceremony), the haunted kitchen stew, and the pantry with hidden loot.",
+      "location": "Tan Sugi monastery (E4-E8)",
+      "source": "p.136",
+      "threads": ["Cleanse the monastery / stop Kugaptee's revival"],
+      "characters": ["Monks of Kugaptee (kurobozus)", "sojiruh nindorus", "guhdggi (cook)"],
+      "elements": ["Pharasma statue", "haunted stew", "Kalen Bray's stash", "Pharasma's missing head"],
+      "themes": ["Action", "Mystery", "Social"],
+      "gate": "Pharasma's statue can't be purified until its head (from E13) is reattached",
+      "fragments": [
+        {"plot_point": "E4 Infirmary (Moderate 6): 2 Monks of Kugaptee (Rare Creature 6 variant kurobozu, HP 90 void healing; sagebane stupefied, Scarlet Apoxia disease - stage 4 reincarnates as a nindoru unless given a funeral; Steal Breath, Stunning Flurry). Treasure: 2 moderate healing potions, expanded healer's tools, healer's gloves.", "themes": ["Action"], "weight": 1, "source": "p.136", "spoiler": true},
+        {"plot_point": "E5 Pharasma's Shrine (Low 6): headless, rope-bound Pharasma statue (purify). 3 Sojiruhs (Creature 4, p.330) pose a hollow 'race the courtyard' challenge then attack (Stolen Scream). Head from E13 must be reattached first. Can reveal lore (monks undead, led by Xin Yue, the founder's ghost imprisoned). 40 XP to purify.", "themes": ["Action", "Mystery"], "weight": 1, "source": "p.137", "spoiler": true},
+        {"plot_point": "E6 Refectory (Severe 6): 3 Kurobozus (Creature 6) who, if served a tea ceremony (Host Ceremony, crit success), reveal Pharasma's head is in the sugi tree's boughs (E13) then crumble to dust. Failing/refusing = combat (no pursuit).", "themes": ["Social", "Action"], "weight": 1, "source": "p.138", "spoiler": false},
+        {"plot_point": "E7 Kitchen (Trivial 6): the guhdggi's haunted stew. UNHOLY HUNGER (Haunt 6; disable DC 19 Cooking Lore / 25 Religion; lifting the lid: DC 27 Fort or sickened 2 + DC 24 Will or eat it for 5d6 poison). Treasure: 5 doses of hunting spider venom residue (DC 22 Crafting) + a sterling tea artisan's toolkit.", "themes": ["Action"], "weight": 1, "source": "p.138", "spoiler": false},
+        {"plot_point": "E8 Storage: rare tea tin (150 gp; +1 to magic tea Crafting or +2 to the E6 ceremony). DC 27 Perception finds a type II spacious pouch (200 gp of stolen Willowshore art, Kalen Bray's loot). Returning the goods to Willowshore = 60 XP + 2 Hope Points.", "themes": ["Social", "Mystery"], "weight": 1, "source": "p.139", "spoiler": false}
+      ]
+    },
+    {
+      "id": "ch7.e9-e12",
+      "name": "Ch.7: Dorms, Library, Hidden Library & Burial Garden (E9-E12)",
+      "scene": "The western wing: dorms (guhdggi + meokdans), the burned library (2 ijdas), the sealed hidden library where Yen Rui's spirit guards crucial Sangpotshi lore, and the burial garden (stag statue + fungal horrors).",
+      "location": "Tan Sugi monastery (E9-E12)",
+      "source": "p.139",
+      "threads": ["Cleanse the monastery / stop Kugaptee's revival"],
+      "characters": ["guhdggi", "meokdans", "ijda nindorus", "Yen Rui (spirit)"],
+      "elements": ["stag statue", "Watchers of the Cycle", "reincarnate ritual", "hidden library collection"],
+      "themes": ["Action", "Mystery"],
+      "gate": "the hidden library (E11) door is auto-revealed after two statues are purified",
+      "fragments": [
+        {"plot_point": "E9 Dorms (Moderate 6): a Guhdggi nindoru (Creature 5, p.328) + 5 Meokdans (Creature 2, p.328); it invites story-swapping then to fetch the haunted stew. DC 22 Sense Motive spots their hunger. It starts the fight sickened 2, meokdans slowed 1 for 2 rounds. Treasure: a spiritsight ring (DC 22 Perception).", "themes": ["Action", "Social"], "weight": 1, "source": "p.139", "spoiler": false},
+        {"plot_point": "E10 Library (Moderate 6): 2 Ijda nindorus (Creature 6, p.333) asking 'Do you remember?'; DC 22 Deception/Diplomacy - crit reveals a hidden book of warding prayers; crit fail makes them quickened. Treasure: book of warding prayers.", "themes": ["Action", "Mystery"], "weight": 1, "source": "p.140", "spoiler": true},
+        {"plot_point": "E11 Hidden Library (Severe 6): Yen Rui, the last loyal monk, whose spirit infuses the texts (can manifest 3 Elite Poltergeists, Creature 6, if forced). She guides the PCs and lets them rest safely. The collection grants +2 Sangpotshi/Nindoru Lore & Religion and is vital next act. Gifts if friendly: lesser tome of restorative cleansing, six scrolls, Watchers of the Cycle (rituals incl. reincarnate). 120 XP to learn what she knows.", "themes": ["Mystery", "Social"], "weight": 1, "source": "p.141", "spoiler": true},
+        {"plot_point": "SECRET (reincarnate caveat): a creature reincarnated via the ritual remains part of the mindscape with no insight into it - 'alive' only as a trapped soul. Knowledge of reincarnate becomes vital later for undoing the mindscape. Withhold the deeper implication.", "themes": ["Mystery"], "weight": 1, "source": "p.143", "spoiler": true},
+        {"plot_point": "E12 Burial Garden (Moderate 6): the stag statue (purify); humid spore air (DC 20 Fort or sickened). 6 Fungus Leshies (Creature 2, MC 217) + 2 Slime Molds (Creature 2, MC2 241), eerily silent. Treasure: a primeval mistletoe and a verdant staff. 40 XP to purify.", "themes": ["Action"], "weight": 1, "source": "p.143", "spoiler": false}
+      ]
+    },
+    {
+      "id": "ch7.e13-e15",
+      "name": "Ch.7: The Tan Sugi, Storage Room & Treasure Chamber (E13-E15)",
+      "scene": "The 100-ft Tan Sugi tree at the monastery's heart, dying from rot rising from Kugaptee's grave; guarded by the Chewer and an elite ogre spider. The basement slaughterhouse holds a kurobozu, hell hounds, and the undead prisoner Kalen Bray. The false treasury (E15) gates the descent.",
+      "location": "Tan Sugi monastery (E13-E15)",
+      "source": "p.143",
+      "threads": ["Cleanse the monastery / stop Kugaptee's revival"],
+      "characters": ["the Chewer", "elite ogre spider", "kurobozu cook", "hell hounds", "Kalen Bray"],
+      "elements": ["Tan Sugi tree", "woodcutter's axe", "Pharasma's head", "the warded grave door"],
+      "themes": ["Action", "Mystery", "Tension"],
+      "gate": "the wall of force over the grave door (E15) lifts only when all four statues are purified",
+      "fragments": [
+        {"plot_point": "E13 The Tan Sugi (Moderate 6): the Chewer (Creature 6, variant Monk of Kugaptee with +1 striking ghost touch temple sword) gnaws the roots; an Elite Ogre Spider (Creature 6, MC2 302) lurks above. Treasure: the woodcutter's axe (DC 22 Athletics) = +1 ghost touch striking silver battle axe (cursed: frightened 1 on draw, DC 20 Will, until Xin Yue dies). Pharasma's statue head is webbed 75 ft up (DC 24 Perception, lower after clearing); touching it grants +2 to purify that statue.", "themes": ["Action", "Mystery"], "weight": 1, "source": "p.144", "spoiler": true},
+        {"plot_point": "SECRET: the Tan Sugi grew from Tan Sui-Jing, who reincarnated into it to keep dead Kugaptee from reincarnating. Mago Kai's meddling accelerates the decay; if not stopped, by midwinter the tree falls, Kugaptee escapes, destroys the mindscape, absorbs the trapped souls (incl. PCs), and enters the modern world. Chopping the tree only hastens this. Withhold.", "themes": ["Mystery", "Tension"], "weight": 1, "source": "p.144", "spoiler": true},
+        {"plot_point": "E14 Storage Room (Moderate 6): a Kurobozu cook (Creature 6) + 3 Hell Hounds (Creature 3, MC 194). Prisoner: Kalen Bray (Creature 2, unique zombie, HP 60), an Absalom thief who kept his memories through every reset; he Lies (claims to be a hunter) and, if freed, reveals his E8 stash. Evil but not dangerous, no future threat.", "themes": ["Action", "Social"], "weight": 1, "source": "p.145", "spoiler": true},
+        {"plot_point": "E15 Treasure Chamber: an intentionally-empty Sangpotshi 'false treasury' (DC 17 Sangpotshi Lore / 20 Religion to know). A red spiral rune marks the grave door, barred by a wall of force until all four statues are purified. Treasure (closed chest): coins, 240 gp valuables, emerald grasshopper talisman, +1 chain shirt, wand of clear mind.", "themes": ["Mystery"], "weight": 1, "source": "p.146", "spoiler": false}
+      ]
+    },
+    {
+      "id": "ch7.e16-kugaptee",
+      "name": "Ch.7: Kugaptee's Grave & Concluding the Act (E16)",
+      "scene": "Severe 6 climax. A larger-than-life cavern of bleeding sugi roots and Kugaptee's five petrified fingers. Xin Yue works to revive him, attended by six Monks of Kugaptee. With all statues purified, Zhi Hui manifests, becomes the roots that crush the kurobozus, and leaves Xin Yue to the PCs - then a nindoru second wave erupts. Defeating them reseals the grave.",
+      "location": "Tan Sugi monastery (E16, Kugaptee's Grave)",
+      "source": "p.146",
+      "threads": ["Stop Kugaptee's revival / conclude the act"],
+      "characters": ["Xin Yue", "Master Zhi Hui", "Monks of Kugaptee", "meokdan nindorus", "Kugaptee (manifestation)"],
+      "elements": ["Kugaptee's grave", "the petrified hand", "the restored Tan Sugi"],
+      "themes": ["Action", "Tension", "Mystery"],
+      "gate": "reachable only after all four statues are purified; Zhi Hui's aid assumed",
+      "fragments": [
+        {"plot_point": "Xin Yue (Creature 7, p.362; init Diplomacy +17 or Perception +15) greets the PCs as foretold sacrifices to quicken Kugaptee's revival. With Zhi Hui's aid the tree roots crush her 6 Monks of Kugaptee, leaving her alone.", "themes": ["Action"], "weight": 1, "source": "p.146", "spoiler": true},
+        {"plot_point": "Profane Reincarnation: on death Xin Yue reincarnates as a Sojiruh nindoru and the 6 crushed kurobozus each release a Meokdan nindoru (Creature 2, p.328) - back-to-back Low 6 then Moderate 6. Zhi Hui may manifest to heal if the PCs falter.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.147", "spoiler": true},
+        {"plot_point": "Concluding: defeating the final nindoru, Kugaptee's form rises but the roots reshrink and reseal the grave; Xin Yue's human body lies at peace, the monastery cleansed, the Tan Sugi healthy. Zhi Hui appears a last time for final questions, then merges with the tree.", "themes": ["Tension", "Mystery"], "weight": 1, "source": "p.147", "spoiler": false},
+        {"plot_point": "SECRET (Zhi Hui's revelation): Willowshore isn't cursed - it's a cyclic mindscape repeating the same year, created when the governor's protective ritual against Kugaptee failed. The Kugaptee threat is removed but the PCs remain trapped. (The deepest truth - they are DEAD - is for Act 3.) Withhold.", "themes": ["Mystery", "Personal"], "weight": 1, "source": "p.148", "spoiler": true},
+        {"plot_point": "Return to Willowshore: fame grows, +2 Rep with both factions. Truth (DC 22 Diplomacy) or Lie (Deception): success=1 Hope (crit 2); failure=-1 Hope (crit -3). Keeping it secret=-4 Hope and -4 Rep with each faction. The hauntings continue - never Kugaptee - a mystery for Act 3.", "themes": ["Social", "Mystery"], "weight": 1, "source": "p.148", "spoiler": true}
+      ]
+    }
+  ]
+}
