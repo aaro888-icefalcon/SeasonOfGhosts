@@ -1,0 +1,598 @@
+{
+  "slice": "act3-winter",
+  "source_file": "hardcover.md",
+  "source_pages": "p.151-193",
+  "act": "Act 3: No Breath to Cry",
+  "clusters": [
+    {
+      "id": "a3.winter-engine",
+      "name": "Willowshore in Winter: Attrition & Preparation Points",
+      "scene": "The framing engine of Act 3: cruel winter drains the Hope/Food/Security Preparation Points banked in Act 2. Each week reduce Hope by 1d4, Food by 1, Security by 1; a fully depleted category brings dire repercussions. Track Willowshore's declining population (starts at 225) as a pressure gauge affecting the AP's ending.",
+      "location": "Willowshore (mindscape)",
+      "source": "p.151",
+      "threads": ["Survive winter / preserve Hope, Food & Security"],
+      "characters": ["town elder/governor", "Mago Kai's exorcists"],
+      "elements": ["Hope Points", "Food Points", "Security Points", "weekly attrition", "Willowshore population", "weekly downtime"],
+      "themes": ["Tension", "Social"],
+      "gate": "this act's downtime framework pauses while PCs travel to Heh Shan-Bao's mindscape or transmigrate",
+      "fragments": [
+        {"plot_point": "Weekly attrition (end of every week): Hope -1d4, Food -1, Security -1. No category below 0.", "themes": ["Tension"], "weight": 1, "source": "p.151", "spoiler": false},
+        {"plot_point": "No Hope: treat as a level 1 settlement for buying; each would-be Hope loss instead drops reputation with both factions by 2.", "themes": ["Tension", "Social"], "weight": 1, "source": "p.151", "spoiler": false},
+        {"plot_point": "No Food: each would-be Hope loss instead reduces population by 2d6. No Security: each would-be Security loss instead reduces population by 1d6.", "themes": ["Tension"], "weight": 1, "source": "p.151", "spoiler": false},
+        {"plot_point": "Declining population starts at 225 and falls from bad luck and scripted events; the final total matters at the AP's end.", "themes": ["Tension"], "weight": 1, "source": "p.151", "spoiler": false},
+        {"plot_point": "Call the Understudy: any keyed NPC who has died is swapped for a living substitute.", "themes": ["Social"], "weight": 1, "source": "p.153", "spoiler": false},
+        {"plot_point": "Run winter as week-by-week downtime: apply attrition, let each PC take a downtime activity, then play scheduled events (events don't consume the chosen downtime).", "themes": ["Social"], "weight": 1, "source": "p.174", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.red-smoke",
+      "name": "Red Smoke, Gold Eyes (Exorcism Begins)",
+      "scene": "After a citizen vanished on the last day of fall, an aggressive exorcism wave begins mid-morning. Crimson smoke rises from Cloud Paper House (W14) on Woodraft Lake's south shore as parts vanish and collapse with three civilians trapped; the PCs glimpse a four-eyed crimson-robed phantasm wielding a smoking torch.",
+      "location": "Cloud Paper House (W14), Woodraft Lake south shore",
+      "source": "p.153",
+      "threads": ["Rescue the trapped civilians / stop the exorcism"],
+      "characters": ["Mago Kai's ghostly exorcists", "frightened townsfolk"],
+      "elements": ["Cloud Paper House W14", "Woodraft Lake", "red smoke", "four-eyed exorcist phantasm"],
+      "themes": ["Mystery", "Tension", "Action"],
+      "gate": "best triggered as the PCs travel near downtown, else NPCs seek them out",
+      "fragments": [
+        {"plot_point": "Read-aloud: four golden eyes blaze in the smoke, a fanged red visage bleeds into air, black sleeves billow round a crimson body trailing incense, then collapse to ash as the eyes wink out; cries for help continue.", "themes": ["Tension", "Mystery"], "weight": 1, "source": "p.153", "spoiler": false},
+        {"plot_point": "DC 23 Religion Recall Knowledge: the figure performed a ritual but is a figment of the area's magic; crit also surmises it was projected from another mindscape, perhaps Heh Shan-Bao's.", "themes": ["Mystery"], "weight": 1, "source": "p.153", "spoiler": false},
+        {"plot_point": "SECRET: these exorcists are real people 115 years in the future (Mago Kai's crew) burning bonfires/torches in costumes to drive 'evil spirits' from Willowshore's ruins, their work seeping into the mindscape. The realization shouldn't fully land until Chapter 10. Withhold.", "themes": ["Mystery"], "weight": 1, "source": "p.153", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a3.event1-collapse",
+      "name": "Event 1: Structural Collapse (Cloud Paper House Rescue)",
+      "scene": "MODERATE 7. Part of Cloud Paper House collapses while three NPCs need rescue amid exorcism-spawned hazards. NPCs follow PC dying rules; a 6th-level-or-lower NPC who dies vanishes (exorcised), looking like a body disappearing. To save an NPC they must reach the south street and flee to the crowd.",
+      "location": "Cloud Paper House interior",
+      "source": "p.154",
+      "threads": ["Rescue the three trapped civilians"],
+      "characters": ["Aruka (kitsune apprentice, Creature -1)", "Yu Er (urchin, Creature -1)", "Zhen Luoyang (commoner, Creature -1)", "Mr. Jelly"],
+      "elements": ["collapsing rubble", "Mr. Jelly doll", "paper pulp loft"],
+      "themes": ["Action", "Tension"],
+      "gate": "triggered by Red Smoke, Gold Eyes",
+      "fragments": [
+        {"plot_point": "A1 ARUKA: pinned kitsune (can't fox-shift free), Escapes each round at +3. DC 23 Athletics to Escape/Force Open; destroy rubble (AC 15, Hardness 10, HP 30 [BT 15]) to drop the DC to 18. She has 2 HP, slowed 2; heal to full or DC 20 Medicine removes the slow.", "themes": ["Action"], "weight": 1, "source": "p.154", "spoiler": false},
+        {"plot_point": "A2 YU ER: uninjured 5-year-old refusing to leave without Mr. Jelly (six-limbed straw doll caricaturing the Taljjae; DC 20 Nature/Society to ID), snagged 20 ft up. Knock loose via ranged Strike vs AC 24 then DC 16 flat (auto on crit), telekinetic projectile, or DC 25 Athletics Climb. Each attempt risks a DC 22 Reflex/Thievery or damages the doll.", "themes": ["Action", "Personal"], "weight": 1, "source": "p.155", "spoiler": false},
+        {"plot_point": "Mr. Jelly: intact = Yu Er calms; damaged = tantrum (repair DC 25 Crafting / Quick Repair / mending / item facade). Or Lie/Request/Coerce her calm at DC 25. Intact recovery earns boots of bounding from her parents.", "themes": ["Social", "Personal"], "weight": 1, "source": "p.155", "spoiler": false},
+        {"plot_point": "A3 ZHEN LUOYANG: spry elder buried unconscious/prone; DC 20 Perception to Search and locate him. Each round DC 20 Fort (+6) to wake and limp at Speed 5; treat wounds (as Aruka) to restore Speed 25.", "themes": ["Action"], "weight": 1, "source": "p.156", "spoiler": false},
+        {"plot_point": "SPIRITUAL DISRUPTORS (2) HAZARD 7 (rare complex haunt). Stealth +21; Disable DC 23 Intimidation / DC 27 Religion / DC 30 Occultism. AC 25; HP 60 (BT 30); immune crit/precision; weakness mental 10. Manifest at the two A4 spots when PCs interact with the building; routine 10-ft emanation makes difficult terrain; smoking torch +17, 2d10+9 void; favors higher-level targets.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.156", "spoiler": false},
+        {"plot_point": "Collapse timer: a hazard active after 6 rounds collapses more structure (2d6+6 bludgeoning to all inside, DC 15 basic Reflex), repeating every 6 rounds. Collapsing with no living characters inside drops the whole structure and dismisses the disruptors. Reset: dead disruptors respawn near a random target after 1d4+2 rounds until all NPCs are out.", "themes": ["Tension"], "weight": 1, "source": "p.156", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.event2-uprising",
+      "name": "Event 2: Unnatural Uprising (Willowshore Waldgeists)",
+      "scene": "MODERATE 7. One round after the NPCs are saved, a failed mass exorcism forces spiritual energy into the mindscape at area A5, where it infuses the plants over the ruins. Two distorted willow-tree waldgeists with screaming animal faces drift in like ghostly jellyfish to attack.",
+      "location": "Cloud Paper House street, area A5",
+      "source": "p.156",
+      "threads": ["Survive the waldgeist surge"],
+      "characters": ["Willowshore waldgeists (2)"],
+      "elements": ["Area A5", "papery lignification", "storm of paper"],
+      "themes": ["Action", "Tension"],
+      "gate": "occurs after Event 1's NPCs are rescued",
+      "fragments": [
+        {"plot_point": "WILLOWSHORE WALDGEISTS (2): rare Large incorporeal spirit undead Creature 7 unholy. Perception +16; AC 24; HP 88, void healing; resist all 5 (except force/ghost touch/spirit/vitality; double vs non-magical). Fly 30; lignifying root +16, 2d8+5 void plus papery lignification. Primal innate DC 22 (wall of thorns, tangle vine; constant speak with plants).", "themes": ["Action"], "weight": 1, "source": "p.157", "spoiler": false},
+        {"plot_point": "Fleeting Existence: vanish 1 minute after first appearing. Papery Lignification (incapacitation): DC 24 Fort or slowed; stacking failures petrify into a paper statue, reverting to 0 HP unconscious when they vanish. Storm of Paper (1/day): 20-ft burst within 90 ft, 8d6 slashing (DC 24 basic Reflex; crit-fail slowed 1).", "themes": ["Action"], "weight": 1, "source": "p.157", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.event3-shadows",
+      "name": "Event 3: Tomorrow's Shadows (Familiar Shadows)",
+      "scene": "LOW 7. ~10 minutes later each PC feels a grave-chill; black forms rise from each PC's own shadow and coalesce into smoky distorted ghosts of themselves, crying out in the PCs' voices, then attacking the PC they duplicate.",
+      "location": "Cloud Paper House district",
+      "source": "p.157",
+      "threads": ["Defeat your own shadow-selves"],
+      "characters": ["Familiar shadows (one per PC)"],
+      "elements": ["PC shadows", "infested shadow curse"],
+      "themes": ["Action", "Tension", "Personal"],
+      "gate": "occurs after the waldgeists are dealt with",
+      "fragments": [
+        {"plot_point": "FAMILIAR SHADOWS (4): Creature 4 (variant shadow), Perception +10. Lack Shadow Spawn; each targets only the PC it duplicates. Assume one per PC; fight until destroyed.", "themes": ["Action"], "weight": 1, "source": "p.157", "spoiler": false},
+        {"plot_point": "Infest Shadow (curse, divine): when adjacent to its lit PC, DC 21 Will. Failure infests the shadow (-2 status Deception/Diplomacy/Stealth, unlimited duration, suppressed in darkness; only cleanse affliction removes it). Dying frees the shadow as a shadow spawn. Steal Shadow only vs the duplicated PC; enfeebled 3 auto-infests.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.158", "spoiler": false},
+        {"plot_point": "SECRET (foreshadow): these shadows are echoes of the PCs' own future hauntings reaching back through the mindscape's borders, hinting the PCs are/become haunting spirits. Reveal only as the larger truth lands.", "themes": ["Mystery", "Personal"], "weight": 1, "source": "p.157", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a3.cloud-paper-aftermath",
+      "name": "Wrapping Up Cloud Paper House (Rewards & Aftermath)",
+      "scene": "The chaos ends; tone depends on how many were saved. Rewards scale by rescues; Myna Kawaka and the town elder bring gifts; the exorcists strategically retreat to study the interfering presence, freeing the PCs to pursue their leads.",
+      "location": "Willowshore industrial district",
+      "source": "p.158",
+      "threads": ["Tally the rescue / secure rewards / pivot to investigation"],
+      "characters": ["Myna Kawaka", "Yu Er's parents", "town elder", "Shinzo"],
+      "elements": ["Hope Points", "Reputation", "faction rewards", "Cloud Paper House repair"],
+      "themes": ["Social", "Tension"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Rescue tally: all 3 = 3 Hope + 1 Rep both factions + 120 XP; 2 = 1 Hope + 1 Rep one faction + 80 XP; 1 = no Hope change + 40 XP; 0 = -2 Hope + -1 Rep each faction.", "themes": ["Social"], "weight": 1, "source": "p.158", "spoiler": false},
+        {"plot_point": "Cloud Paper House: collapse = -1 Security, mill unusable; spend 4 Security + 2 weeks to repair. Myna Kawaka's cumulative gifts: greater smokestick + 4 moderate potions (1 saved), +everlasting adhesive + 4 potions (2 saved), +potion of quickness + a resilient armor runestone (all 3). Mr. Jelly intact = boots of bounding.", "themes": ["Social"], "weight": 1, "source": "p.158", "spoiler": false},
+        {"plot_point": "Both waldgeists slain before vanishing: town elder later gives leather bands of force + phoenix celadon vase (150 gp). Shadow-cursed PCs without cure-magic: Shinzo quietly delivers free 4th-rank cleanse affliction scrolls.", "themes": ["Social"], "weight": 1, "source": "p.158", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.unprovoked-murder",
+      "name": "Unprovoked Murder (Faceless Townsfolk)",
+      "scene": "A standing rule and foreshadowing. Heh Shan-Bao's townsfolk aren't hostile but are unsettling; attacking one makes all act as commoners. A slain villager goes blank-faced and their gear turns out to be cheap props.",
+      "location": "Willowshore (mindscape)",
+      "source": "p.159",
+      "threads": ["Read the warning signs of the mindscape"],
+      "characters": ["faceless townsfolk"],
+      "elements": ["blank-faced villagers", "prop equipment"],
+      "themes": ["Mystery", "Tension"],
+      "gate": "triggered only if PCs attack a villager",
+      "fragments": [
+        {"plot_point": "Slain villagers go blank-faced with prop gear; others don't react to violence unless attacked themselves.", "themes": ["Mystery"], "weight": 1, "source": "p.159", "spoiler": false},
+        {"plot_point": "SECRET: these are NOT noppera-bos but thoughtforms maintained by the mindscape; they foreshadow the real noppera-bos at the governor's manor. Withhold the explanation.", "themes": ["Mystery"], "weight": 1, "source": "p.159", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a3.mindscape-research",
+      "name": "Researching the Willowshore Mindscape (mindscape shift)",
+      "scene": "RESEARCH 7. Freed of the exorcists, the PCs research the mindscape to develop a focused ritual to reach the lost governor Heh Shan-Bao, whose failed protective ritual formed the mindscape.",
+      "location": "Willowshore (Tan Sugi library materials)",
+      "source": "p.159",
+      "threads": ["Research the mindscape / reach Heh Shan-Bao"],
+      "characters": ["town elder", "learned locals"],
+      "elements": ["Tan Sugi library books", "mindscape shift ritual", "Heh Shan-Bao's mindscape"],
+      "themes": ["Mystery"],
+      "gate": "progressing the plot requires discovering mindscape shift",
+      "fragments": [
+        {"plot_point": "Avenues (Research 7): Solo Investigations (max RP 8; DC 21 Academia/Library Lore or DC 23 Arcana/Nature/Occultism/Religion); Brainstorming with locals (max RP 4; DC 23 Arcana/Nature/Occultism/Religion or DC 25 Diplomacy).", "themes": ["Mystery"], "weight": 1, "source": "p.159", "spoiler": false},
+        {"plot_point": "SECRET RP milestones: 2 RP = Heh's failed ritual backfired, creating the mindscape and strengthening Kugaptee. 4 RP = Kugaptee no longer directly threatens it yet it persists; he likely cast the ritual in his manor and was shunted with it into a parallel mindscape. Withhold.", "themes": ["Mystery"], "weight": 1, "source": "p.159", "spoiler": true},
+        {"plot_point": "RP cont.: 6 RP = mindscape door is the normal travel ritual; a focused variant could open a door to Heh's close mindscape, and his manor may hold references for full escape. 8 RP = PCs discover mindscape shift (p.311); 120 XP.", "themes": ["Mystery"], "weight": 1, "source": "p.159", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.seeking-heh",
+      "name": "Seeking Out Heh Shan-Bao (Casting mindscape shift)",
+      "scene": "With mindscape shift (primary DC 27, secondary DC 22), the PCs can travel from Willowshore into Heh Shan-Bao's smaller parallel mindscape, a near-duplicate town with frozen buildings and his still-standing manor. The wards block teleporting inside. Townsfolk are too friendly and don't recognize the PCs; by nightfall the facade rots and the residents besiege the warded manor.",
+      "location": "Heh Shan-Bao's parallel mindscape (Willowshore)",
+      "source": "p.160",
+      "threads": ["Enter Heh Shan-Bao's mindscape"],
+      "characters": ["mindscape townsfolk", "Heh Shan-Bao"],
+      "elements": ["mindscape shift", "governor's manor", "parallel Willowshore"],
+      "themes": ["Mystery", "Tension"],
+      "gate": "requires mindscape shift (8 RP); PCs must be within Willowshore to cast it",
+      "fragments": [
+        {"plot_point": "Arrival seems a lovely day; townsfolk are friendly but a little too friendly, prioritize routines, and don't recognize the PCs, treating them as welcome strangers. Subsidies: admired faction one casting/week, revered once/day.", "themes": ["Mystery"], "weight": 1, "source": "p.160", "spoiler": false},
+        {"plot_point": "As night nears the facade thins: glassy residents, red butterflies clustering on people and the manor, bits of town vanishing, luscious smells sparking inappropriate hunger. At nightfall all pretense drops; townsfolk surround the manor, barred by its fulus, until dawn, then forget the night.", "themes": ["Tension", "Mystery"], "weight": 1, "source": "p.160", "spoiler": false},
+        {"plot_point": "SECRET: when Heh's ritual failed it spawned these mindscapes and Kugaptee devoured him mind-body-soul; THIS mindscape is the last flickers of his panicked consciousness fighting to keep its individuality before total absorption. Withhold.", "themes": ["Mystery"], "weight": 1, "source": "p.160", "spoiler": true},
+        {"plot_point": "SOFTENED DEATH (clue): a PC who 'dies' here doesn't die; they vanish and wake in their own Willowshore at the cast spot, doomed 1 with 1 HP. They won't realize the truth until chapter's end. Withhold.", "themes": ["Mystery", "Tension"], "weight": 1, "source": "p.161", "spoiler": true},
+        {"plot_point": "ILL OMENS (d10): blood-like persimmon juice; an invisible hair-cut (1 slashing); falling silkworms; a smoke-stain with no fire; tooth fragments underfoot; fish with human eyes/teeth; a crimson butterfly melting to a bloodstain; cold death-whispers in a PC's voice; sudden dimming + chill/hunger; one PC hears another say 'Kugaptee'.", "themes": ["Mystery", "Tension"], "weight": 1, "source": "p.161", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.noppera-impersonators",
+      "name": "Your Face Is Mine (Noppera-bo Impersonators)",
+      "scene": "Faceless noppera-bos, manifested from Kugaptee's dead dreams and drawn by the intrusion, wear each PC's appearance but have no face. They avoid the PCs for now, observing to mimic them, attacking only in self-defense or if the PCs fail to catch the governor.",
+      "location": "Heh Shan-Bao's mindscape",
+      "source": "p.161",
+      "threads": ["Beware your faceless doubles"],
+      "characters": ["Noppera-bo impersonators (one per PC)"],
+      "elements": ["faceless duplicates", "red butterflies"],
+      "themes": ["Mystery", "Tension"],
+      "gate": "persistent PCs can force an early fight, else the doubles only observe",
+      "fragments": [
+        {"plot_point": "Townsfolk can't tell PCs from their doubles ('Oh, welcome back!'). Forcing an early fight: townsfolk side with the noppera-bos as the 'real' people.", "themes": ["Mystery", "Social"], "weight": 1, "source": "p.161", "spoiler": false},
+        {"plot_point": "NOPPERA-BO IMPERSONATOR: LEVEL 6 (page 340/341), Perception +14, customized per PC; each focuses on the PC it imitates.", "themes": ["Action"], "weight": 1, "source": "p.161", "spoiler": false},
+        {"plot_point": "SECRET: Kugaptee tears a sliver of each PC's soul to make a servitor eager to take their face; these doubles later follow the PCs into the Willowshore mindscape (Event 5). Withhold their origin.", "themes": ["Mystery"], "weight": 1, "source": "p.161", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a3.dead-man-walking",
+      "name": "Dead Man Walking (The Governor's Plight)",
+      "scene": "Background/setup. Guilt-wracked Heh knows he and all Willowshore died and were reborn trapped between life and death; each cycle he attempts a transmigrate ritual to escape and resurrect his people, never succeeding, his memory resetting across 115 cycles. He's out shopping at the Hand of Spring; he recognizes the PCs as real but reacts with paranoia (assuming they serve Kugaptee), which the noppera-bos reinforce.",
+      "location": "Heh Shan-Bao's mindscape (Hand of Spring / streets)",
+      "source": "p.162",
+      "threads": ["Find and approach the governor"],
+      "characters": ["Heh Shan-Bao", "mindscape residents", "noppera-bo impersonators"],
+      "elements": ["Hand of Spring", "governor's manor", "transmigrate ritual"],
+      "themes": ["Mystery", "Tension", "Personal"],
+      "gate": "PCs are in Heh Shan-Bao's mindscape",
+      "fragments": [
+        {"plot_point": "Heh's appearance: hair loose/unkempt, black robe torn and burned to a ragged gown, haunted expression fighting laughter or screaming. He knows the PCs are real but assumes they're Kugaptee-things and flees.", "themes": ["Mystery", "Personal"], "weight": 1, "source": "p.163", "spoiler": false},
+        {"plot_point": "SECRET: Heh runs transmigrate every cycle to reincarnate and rescue the town, but even success would only manifest him as a ghost, and his memory resets each of 115 cycles; the truth that he IS Kugaptee (devoured) still eludes him. Withhold.", "themes": ["Mystery", "Personal"], "weight": 1, "source": "p.162", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a3.governor-chase",
+      "name": "Where Is the Governor? (The Chase)",
+      "scene": "MODERATE 7. A 'chase down' (GM Core 192): PCs pursue the fleeing governor, going second in initiative, with Heh starting at obstacle 2 and auto-advancing one obstacle per round (each round = 10 min). Reaching an obstacle before he leaves = Caught; failing by end of round 5 = Escapes.",
+      "location": "Heh Shan-Bao's mindscape (downtown)",
+      "source": "p.163",
+      "threads": ["Catch the governor before he reaches his manor"],
+      "characters": ["Heh Shan-Bao"],
+      "elements": ["chase obstacles", "Hand of Spring", "Qi Zhong shrine", "illusory scene scroll", "manor"],
+      "themes": ["Action", "Tension"],
+      "gate": "begins once the PCs locate the governor",
+      "fragments": [
+        {"plot_point": "Obstacle 1 (CP 7): DC 21 Society / DC 19 Willowshore Lore to ID his robes, DC 23 Stealth to approach unseen, DC 25 Perception to sense his intent. Alt HEAD OFF AT THE PASS: ambush at the manor, each PC Stealth vs his Perception DC 25; at dusk he risks running in regardless.", "themes": ["Action"], "weight": 1, "source": "p.163", "spoiler": false},
+        {"plot_point": "Obstacle 2 QI ZHONG'S IRE (CP 3): he slashed a Qi Zhong shrine at the Hand of Spring, enraging the guardian gecko spirit. DC 21 Qi Zhong Lore/Religion to placate, DC 23 Diplomacy to apologize to Doctor Dami, DC 25 Crafting to repair.", "themes": ["Action", "Social"], "weight": 1, "source": "p.163", "spoiler": false},
+        {"plot_point": "Obstacle 3 PLOWING THROUGH CROWDS (CP 4): a bridge jammed with merchants. DC 23 Intimidation, DC 25 Acrobatics, or DC 27 Athletics; fly/climb/ignore-difficult-terrain grants +4.", "themes": ["Action"], "weight": 1, "source": "p.163", "spoiler": false},
+        {"plot_point": "Obstacle 4 WHICH WAY DID HE GO? (CP 4): a scroll of illusory scene spawns fakes. DC 23 Arcana/Occultism, DC 25 Survival, or DC 27 Perception; DC 28 Will to disbelieve grants +4 (all PCs +4 if dispelled).", "themes": ["Action", "Mystery"], "weight": 1, "source": "p.163", "spoiler": false},
+        {"plot_point": "Obstacle 5 LAST-DITCH (CP 3): he sprints for the manor. DC 23 Diplomacy/Deception, DC 25 Athletics, or DC 27 Intimidation; Speed 35+ = +2, 50+/teleport = +4 to Athletics.", "themes": ["Action"], "weight": 1, "source": "p.164", "spoiler": false},
+        {"plot_point": "Caught: he won't start a fight; if unattacked he agrees to talk in his manor and inks a nullifying seal on each PC's hand to pass the wards (120 XP). Escaped: he locks himself in; PCs must beat the Manor Wards or retry later.", "themes": ["Action", "Social"], "weight": 1, "source": "p.164", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.manor-wards",
+      "name": "Manor Wards (Hazard) & Breaking In",
+      "scene": "SEVERE 7 / HAZARD 10. Heh mummifies his manor in non-magical fulus each cycle; their cumulative effect, drawn from his psyche, bars undead, evil spirits, and otherworldly creatures, treating the PCs (visitors from another mindscape) as spirits. They block mindscape shift inside and wall off the sealless within 5 feet. Inside, the manor is clean but sterile and empty; Heh is its only inhabitant.",
+      "location": "Governor's manor exterior",
+      "source": "p.164",
+      "threads": ["Enter the manor without the governor's seal"],
+      "characters": ["Heh Shan-Bao"],
+      "elements": ["manor wards/fulus", "nullifying seal script", "manor interior"],
+      "themes": ["Tension", "Action"],
+      "gate": "only needed if the governor escaped or won't grant the seal",
+      "fragments": [
+        {"plot_point": "MANOR WARDS: unique environmental magical HAZARD 10. Recognizing them as wards Stealth DC 32 (master). Disable DC 35 Arcana/Occultism/Thievery (master), DC 32 Athletics to force through (only that PC), or dispel magic (5th rank, counteract DC 28). Denied! within 5 ft: DC 33 Reflex (+1 step if not adjacent); Success 2d12+13 force + push; Failure 4d12+16 force, thrown 20 ft prone + 10 fall; Crit Fail thrown 100 ft + 50 fall.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.165", "spoiler": false},
+        {"plot_point": "Investigate (10 min) then DC 25 Occultism/Religion: they bar undead/evil spirits/otherworldly creatures and read the PCs as spirits because they're from a different mindscape (a clue). Breaking in (e.g. translocate) leads to Know and Despair; any well-reasoned argument inside auto-convinces Heh to talk if the PCs don't fight.", "themes": ["Mystery"], "weight": 1, "source": "p.165", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.know-and-despair",
+      "name": "Know and Despair (The Governor's Confession)",
+      "scene": "The emotional core of the act. Heh seats the PCs in the manor meeting room with a mindscape-conjured feast; his cat Black Bean appears; he sets out rice with upright chopsticks (an offering for the DEAD). DC 25 Sense Motive reveals he treats the PCs as ghosts. As they talk, the sun sets and townsfolk pound at the doors. Through scripted dialogue Heh reveals the campaign's deepest truths, then begs the PCs to finish his transmigrate ritual and hands over his journal.",
+      "location": "Governor's manor meeting room",
+      "source": "p.166",
+      "threads": ["Learn the truth / win the governor's help"],
+      "characters": ["Heh Shan-Bao", "Black Bean"],
+      "elements": ["meeting room", "offering of rice", "Black Bean", "Heh's journal", "transmigrate notes"],
+      "themes": ["Mystery", "Personal", "Social"],
+      "gate": "PCs are inside the manor and don't initiate combat",
+      "fragments": [
+        {"plot_point": "He treats the PCs as ghosts (rice with upright chopsticks, undead-repelling fulus, the impassable barrier); DC 25 Sense Motive confirms it. He repeatedly pleads, 'You won't be cruel to Black Bean, will you?'", "themes": ["Personal", "Social"], "weight": 1, "source": "p.166", "spoiler": false},
+        {"plot_point": "SECRET CENTRAL REVEAL, Willowshore's Death: 'We are all nothing more than hungry ghosts... We're all dead. We have no breath to cry now... We've been dead since the last day of spring. Since Kugaptee killed us all.' The townsfolk are dead. Withhold until earned here.", "themes": ["Mystery", "Personal"], "weight": 1, "source": "p.167", "spoiler": true},
+        {"plot_point": "SECRET Cause: 'Kugaptee lashed out from his grave beneath the Tan Sugi.' Heh confirms the saintly-yet-evil legacy beneath Willowshore. Withhold.", "themes": ["Mystery"], "weight": 1, "source": "p.167", "spoiler": true},
+        {"plot_point": "SECRET Awakening & I Am Kugaptee: Heh provoked Kugaptee trying to hide him from the jorogumo, sought to heal the Tan Sugi, but tried to control Kugaptee 'like a mere spirit' and was devoured 'every part, inside and out.' 'I am Kugaptee, the beast that slaughtered you all. I am the villain who keeps you imprisoned here!' Withhold.", "themes": ["Mystery", "Personal"], "weight": 1, "source": "p.167", "spoiler": true},
+        {"plot_point": "SECRET The Monsters: Kugaptee, dead but imprisoned, hungers for those he's tasted; the faceless dolls and hissing creatures are his first step. The PCs' coming let him make servitors of their faceless doubles, who hammer at the doors to take their faces. 'Ghosts like us can die, too.' Withhold.", "themes": ["Mystery", "Tension"], "weight": 1, "source": "p.167", "spoiler": true},
+        {"plot_point": "If PCs claim a DIFFERENT mindscape, Heh refuses to believe it ('You've been here all along. Death does things to the mind.') and can't be convinced; he doesn't know other mindscapes exist. Withhold.", "themes": ["Mystery"], "weight": 1, "source": "p.167", "spoiler": true},
+        {"plot_point": "Asking for Help: Heh admits 'with the right tools, any cage can be opened' but he can't use them; he begs the PCs to finish his work (their souls are their own; they can transmigrate back from death) and hands over a thick journal of his Tan Sugi notes + per-cycle transmigrate work, pleading once more for Black Bean.", "themes": ["Personal", "Social"], "weight": 1, "source": "p.168", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.fighting-governor",
+      "name": "Fighting the Governor (Optional Combat)",
+      "scene": "MODERATE 7. If attacked, Heh defends as a scholar: outside the manor he flees home, inside he fights to the death, opening with defensive scrolls, then offensive, then a sword. As he dies he calls out to Kugaptee, triggering End of the Dream.",
+      "location": "Governor's manor / streets",
+      "source": "p.166",
+      "threads": ["Defeat the governor (if PCs choose violence)"],
+      "characters": ["Heh Shan-Bao (Creature 9)"],
+      "elements": ["defensive/offensive scrolls", "longsword"],
+      "themes": ["Action", "Personal"],
+      "gate": "only if the PCs attack the governor or damage his home",
+      "fragments": [
+        {"plot_point": "HEH SHAN-BAO: Creature 9 (page 352), Perception +15. Keeps distance; defensive scrolls first, then offensive, then swordplay. Outside flees home; inside fights to the death.", "themes": ["Action"], "weight": 1, "source": "p.166", "spoiler": false},
+        {"plot_point": "SECRET dying words: 'I offer thee my soul, Kugaptee! Unbind me from that which was my fate!' His soul loses its last grip on humanity (End of the Dream). Killing him deliberately destroys what remained of his soul (Shinzo condemns this). Withhold.", "themes": ["Mystery", "Personal"], "weight": 1, "source": "p.166", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a3.end-of-dream",
+      "name": "End of the Dream (Mindscape Collapse)",
+      "scene": "SEVERE 7. The instant Heh hands over the journal (or begs Kugaptee after defeat), his body convulses, rips open, and crimson butterflies erupt. The manor doors smash in; the four noppera-bo impersonators surge through with a mob of howling townsfolk. Kugaptee's residual influence tries to stop the PCs; the noppera-bos fight while the townsfolk only cheer. The last double's death (or a TPK) ends the mindscape, returning the PCs to where they cast mindscape shift.",
+      "location": "Governor's manor courtyard",
+      "source": "p.167",
+      "threads": ["Survive the mindscape's collapse"],
+      "characters": ["Noppera-bo impersonators (4)", "howling townsfolk"],
+      "elements": ["crimson butterflies", "manor courtyard", "Heh's treasure/journal"],
+      "themes": ["Action", "Tension", "Mystery"],
+      "gate": "triggered by handing over the journal or defeating the governor",
+      "fragments": [
+        {"plot_point": "NOPPERA-BO IMPERSONATORS (4): LEVEL 6 (page 340), Perception +14, customized; each targets its mimic; townsfolk cheer but don't fight. Each bursts into red butterflies when slain; the last death (or TPK) ends the mindscape and returns the PCs home.", "themes": ["Action"], "weight": 1, "source": "p.168", "spoiler": false},
+        {"plot_point": "Treasure: Heh's journal + greater choker of elocution, +1 striking longsword, +1 resilient padded armor, greater sleeves of storage manifest with the PCs. The journal becomes a moderate tome of restorative cleansing; its loose sheets hold the next chapter's research plus the formula for resurrect. Reward 120 XP (if he helped willingly, also XP as if defeated).", "themes": ["Mystery", "Social"], "weight": 1, "source": "p.168", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.winter-return",
+      "name": "Chapter 9: Winter in Willowshore (Return & Black Bean)",
+      "scene": "Ending Heh's mindscape, his soul becomes Kugaptee's prisoner and his manor returns to Willowshore as if it never vanished, doors ripped open and fulus in tatters. No villager dares enter. Investigating finds Black Bean, the governor's little black cat, shut starving in a cupboard but healthy. Winter advances with continued weekly attrition.",
+      "location": "Willowshore (restored governor's manor)",
+      "source": "p.169",
+      "threads": ["Settle back into Willowshore / continue surviving winter"],
+      "characters": ["Black Bean", "town elder"],
+      "elements": ["restored governor's manor", "Black Bean"],
+      "themes": ["Personal", "Tension"],
+      "gate": "occurs after returning from Heh Shan-Bao's mindscape",
+      "fragments": [
+        {"plot_point": "The manor is back, open and unwarded; villagers avoid it. Investigating finds Black Bean starving in a cupboard, echoing Heh's final pleas.", "themes": ["Personal"], "weight": 1, "source": "p.169", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.shinzo-answers",
+      "name": "Event 4: Shinzo's Answers (The Shinigami Reveals Himself)",
+      "scene": "Soon after returning, Shinzo and his raven Yix find the PCs. Now that they know what they are, he is allowed to answer: he is a shinigami; the PCs are dead-but-not-passed; this is likely their last of 115 cycles; the living world is jorogumo-ruled with Mago Kai exorcising the ruins; the path home is to complete transmigrate and relight the Eternal Lantern. He gifts heroic-legacy items and warns of coming events.",
+      "location": "Willowshore (Cerulean Teahouse or in the streets)",
+      "source": "p.169",
+      "threads": ["Learn the truth from Shinzo / chart the path home"],
+      "characters": ["Asahina Shinzo (shinigami)", "Yix (nosoi raven)", "Mago Kai"],
+      "elements": ["Eternal Lantern's flame", "transmigrate", "heroic legacies", "Pharasma", "jorogumo rule"],
+      "themes": ["Mystery", "Social", "Personal"],
+      "gate": "occurs the day after returning from Heh Shan-Bao's mindscape",
+      "fragments": [
+        {"plot_point": "SECRET: Shinzo is a shinigami, a reaper of those who subvert the celestial order (DC 26 Occultism/Religion; legends warn shinigami close to mortals end in tragedy). The PCs are dead yet still alive, trapped between life and death. Withhold until earned here.", "themes": ["Mystery"], "weight": 1, "source": "p.169", "spoiler": true},
+        {"plot_point": "SECRET timeline: he arrived 7 years after Willowshore died and kept vigil 108 more; the PCs have repeated their year 115 times. 'This may be the last.' They forgot he told them they were dead because unquiet spirits forget the truth the instant it's spoken. Withhold.", "themes": ["Mystery"], "weight": 1, "source": "p.170", "spoiler": true},
+        {"plot_point": "SECRET living world: jorogumo rule Shenmen, taking tribute in silver, lumber, and people; mothers scar children's faces. Willowshore lies in ruins; Mago Kai seeks it as a base to harvest lumber and exorcises the ruins. Withhold.", "themes": ["Mystery"], "weight": 1, "source": "p.170", "spoiler": true},
+        {"plot_point": "Why exorcists/why now: each repeated year here = a year forward outside; after a century the town's resources drew Mago Kai. The hauntings disrupt his work, so he must banish them; success kills the PCs for good, and felling the Tan Sugi lets Kugaptee reincarnate. DC 24 Sense Motive: Shinzo is biased toward revival, at odds with Yix.", "themes": ["Mystery", "Tension"], "weight": 1, "source": "p.170", "spoiler": true},
+        {"plot_point": "Warnings/predictions: a severe winter storm with heavy fog in ~3 weeks; a 'version' of jorogumo princess Ren Mei Li visits at/after the solstice to force fealty (a duplicate but can still kill). He returns every other week to trade/advise. Yix is a typical nosoi but acts as an observer-minder for powers serving Pharasma.", "themes": ["Mystery", "Social"], "weight": 1, "source": "p.171", "spoiler": true},
+        {"plot_point": "SECRET path home: transmigration is salvation; complete Heh's research. But Mago Kai took the Eternal Lantern's flame to Karahai, so the PCs can only manifest temporarily as spirits. Return the flame from Karahai to Willowshore's ruins as anchor and lure to truly return to life. Withhold until earned.", "themes": ["Mystery", "Personal"], "weight": 1, "source": "p.171", "spoiler": true},
+        {"plot_point": "Treasure & Reward: Shinzo gifts four heroic-legacy magic items (replicas of famous past relics, p.305). Reward 120 XP for discovering the 115-cycle truth and learning of Mago Kai.", "themes": ["Social"], "weight": 1, "source": "p.172", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.spreading-news",
+      "name": "Spreading the News (Telling Willowshore It's Dead)",
+      "scene": "If the PCs tell the villagers they're all dead ghosts, the response is anguish and anger but Willowshore proves resilient. Telling the truth costs morale unless paired with hope of revival; sitting on big truths erodes trust if they later surface.",
+      "location": "Willowshore",
+      "source": "p.172",
+      "threads": ["Decide how much truth to share / manage morale"],
+      "characters": ["town elder", "Granny Hu", "devout Pharasmins"],
+      "elements": ["Hope Points", "Security Points", "Reputation", "public revelations"],
+      "themes": ["Social", "Personal", "Tension"],
+      "gate": "only matters if the PCs reveal the truth(s) to the town",
+      "fragments": [
+        {"plot_point": "Revealing everyone is dead = -2d6 Hope, minimized to -2 if also told a recovered ritual may bring them back. 'Let death take its course' (Pharasmin) is wildly unpopular.", "themes": ["Social", "Personal"], "weight": 1, "source": "p.172", "spoiler": false},
+        {"plot_point": "Revealing Heh's fault = open resentment, -1d4+2 Security; crediting him with a revival ritual + DC 20 Diplomacy reduces it to 1 Security. Hidden truths that later surface = -2 Reputation each faction per revelation.", "themes": ["Social"], "weight": 1, "source": "p.172", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.transmigration-research",
+      "name": "Notes on Transmigration & the transmigrate Ritual (RESEARCH 8)",
+      "scene": "RESEARCH 8. Heh's journal (Common, 8 hrs to read) outlines transmigrate: using the Eternal Lantern's light as a pathway to carry slain souls into their original bodies in the living world. His notes are incomplete; with reincarnate/resurrect formulas the PCs can finish it, then build a kiln and gather components.",
+      "location": "Willowshore (downtime/research)",
+      "source": "p.173",
+      "threads": ["Complete & prepare the transmigrate ritual"],
+      "characters": ["Igawa Jubei", "Great Willow (kodama)", "Shinzo", "Elizeth Candora", "Yong Wu-Xiu"],
+      "elements": ["transmigrate ritual", "Eternal Lantern", "heron feathers", "sakaki slats", "the kiln", "Eternal Blaze Ironworks"],
+      "themes": ["Mystery", "Social"],
+      "gate": "requires Heh's journal; casting transmigrate gates the act's climax (Chapter 10)",
+      "fragments": [
+        {"plot_point": "Avenues (RESEARCH 8; reincarnate -2 DC, both -4): Solo (max RP 3; DC 22 Academia/Library Lore or DC 24 Arcana/Occultism); Consulting Experts (max RP 2/NPC; DC 22 Arcana w/ Igawa Jubei, Nature w/ Great Willow, Occultism w/ Shinzo, Religion w/ Elizeth Candora); Introspection at a Shrine (max RP 3; DC 24 Occultism/Religion).", "themes": ["Mystery"], "weight": 1, "source": "p.173", "spoiler": false},
+        {"plot_point": "RP milestones: 2 RP = use the Eternal Lantern's light in place of a body (10 XP); 4 RP = components (living-heron feathers, rare incense, treated sakaki slats) + hints of a greater multi-soul version (20 XP); 6 RP = internalize the sacrifice by firing the target in a clay shell in a kiln (failure = lethal burns); greater version may transmigrate buildings too (30 XP).", "themes": ["Mystery"], "weight": 1, "source": "p.173", "spoiler": false},
+        {"plot_point": "8 RP: PCs complete the transmigrate formula (powered by the Eternal Lantern); 60 XP. SECRET: while the Lantern stays unlit they can only cast the 4th-rank (temporary) version, not the 5th-rank permanent return. Withhold the lantern detail until learned.", "themes": ["Mystery"], "weight": 1, "source": "p.174", "spoiler": true},
+        {"plot_point": "Preparations: Build a kiln (1 week, 25 gp, DC 20 Crafting, or free via Yong Wu-Xiu of Eternal Blaze Ironworks). Heron feathers: 1 day, DC 20 Survival (success = 2 castings, crit = 6) or free from Silvermist Lodge/Nine Ear Shrine. Sakaki slats: soak ~6 weeks in 25 gp oils (a supportive faction can pay); earliest cast mid-winter.", "themes": ["Social"], "weight": 1, "source": "p.174", "spoiler": false},
+        {"plot_point": "SECRET: Mago Kai's exorcists erected spiritual wards around the region using a holy temple bell, which block transmigrate from working fully (PCs return only temporarily, closer to undeath) until destroyed. Most likely discovered at the Seance; else Shinzo warns them. Withhold.", "themes": ["Mystery"], "weight": 1, "source": "p.172", "spoiler": true},
+        {"plot_point": "Create Food doesn't bolster Food Points (lasts a day) but can save lives on a 0-Food week: feeding 12+ people within an hour of a Hope loss prevents the 2d6 starvation deaths.", "themes": ["Social"], "weight": 1, "source": "p.173", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.winter-timeline",
+      "name": "Winter Timeline & Unexpected Troubles",
+      "scene": "A pacing engine: 13 events occur in roughly a set order ('Any' = unkeyed). Each week's start, a DC 16 flat check may trigger Unexpected Troubles (extra attrition minimizable with a downtime skill check). Earliest transmigrate is day 44; the 5th-rank version unlocks day 72 (New Year). Ren Mei Li visits day 71.",
+      "location": "Willowshore",
+      "source": "p.174",
+      "threads": ["Pace and survive the winter weeks"],
+      "characters": ["town elder"],
+      "elements": ["winter timeline", "Unexpected Troubles table", "weekly downtime"],
+      "themes": ["Tension", "Social"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "WINTER TIMELINE: Day1 = Ch.8 (then mindscape shift); day after returning = Event 4 Shinzo + Event 5 Faceless Evil begins + research opens; every 7 days Event 6 Little Gifts; Any: Events 7/9/11/12; Day10 Event 8 A Lonely Home; Day21 Event 10 Claylight (first true winter day); Day44 sakaki slats ready; Day71 Event 13 Interview with a Spider; Day72 (New Year) 5th-rank transmigrate.", "themes": ["Tension"], "weight": 1, "source": "p.175", "spoiler": false},
+        {"plot_point": "UNEXPECTED TROUBLES: each week start DC 16 flat; on success roll 1d6: 1-2 lose 1d4 Food (minimize DC 24 Nature/Survival); 3-4 lose 1d4+2 Hope (DC 24 Diplomacy/Performance); 5-6 lose 1d4 Security (DC 24 Athletics/Crafting). Downtime + check minimizes (crit 0, success 1, crit-fail double).", "themes": ["Tension"], "weight": 1, "source": "p.175", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.event5-faceless-evil",
+      "name": "Event 5: Faceless Evil (Noppera-bos in Willowshore)",
+      "scene": "MODERATE 8. The noppera-bo impersonators followed the PCs home (more appear even if slain earlier). Wearing the PCs' faces, they work where the PCs aren't, escalating from spiteful pranks to murder, framing the PCs and eroding reputation until stopped.",
+      "location": "Willowshore",
+      "source": "p.174",
+      "threads": ["Unmask and stop your faceless doubles"],
+      "characters": ["Noppera-bo impersonators (4)"],
+      "elements": ["framed reputation", "sabotage/murder incidents"],
+      "themes": ["Mystery", "Action", "Social"],
+      "gate": "occurs after returning from Heh Shan-Bao's mindscape",
+      "fragments": [
+        {"plot_point": "Incidents every 1d4 days; PCs alerted the day after the first by an un-befriended NPC accusing a PC of putting needles in food (DC 20 Diplomacy averts -1 Rep that day). Each later incident -1 Rep; the 5th 'prank' kills a minor NPC (-1 pop), and every murder after = -3 Rep both factions.", "themes": ["Social", "Tension"], "weight": 1, "source": "p.175", "spoiler": false},
+        {"plot_point": "Investigate once/day: secret DC 22 Willowshore Lore / DC 24 Society / DC 26 Perception. Success confirms impersonators; crit lets the PCs ambush/lure one. NOPPERA-BO IMPERSONATORS (4): LEVEL 6 (page 84), Perception +14; they gather and fight to the death.", "themes": ["Action", "Mystery"], "weight": 1, "source": "p.176", "spoiler": false},
+        {"plot_point": "Reward: publicly revealing their nature costs 1 Hope (1d6 if a murder happened). Lost Reputation is restored if no murders (each murder lowers restoration by 2). 40 XP if no murders (-10 XP per murdered local).", "themes": ["Social"], "weight": 1, "source": "p.176", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.event6-little-gifts",
+      "name": "Event 6: Little Gifts (Yami's Winter Presents)",
+      "scene": "If Yami was befriended in Act 2, the bakeneko keeps bringing gifts every 7 days to favored PCs. Yami tolerates but bullies Black Bean if both cats are at the teahouse.",
+      "location": "Cerulean Teahouse",
+      "source": "p.175",
+      "threads": ["Maintain Yami's friendship"],
+      "characters": ["Yami (bakeneko)", "Black Bean"],
+      "elements": ["Yami's gift table", "Cerulean Teahouse"],
+      "themes": ["Social", "Personal"],
+      "gate": "requires Yami befriended in Act 2",
+      "fragments": [
+        {"plot_point": "More of Yami's Gifts (1d8): 1 chewed origami crane; 2 half-eaten sparrow; 3 squished lemon; 4 fresh dumpling; 5 bloody human-ear trophy talisman*; 6 saffron bag 100 gp*; 7 greater smoke ball*; 8 greater mage's hat (zhanjiao putou)*. (*once only, else 1 platinum coin.)", "themes": ["Social"], "weight": 1, "source": "p.175", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.event7-fox-ghost",
+      "name": "Event 7: The Fox Ghost (Rin)",
+      "scene": "TRIVIAL 8. Hunters find traps ripped open and burned. The culprit is Rin, a half-feral kitsune-ghost girl clutching a burned fox kit, trapped many cycles ago after a human trapper village burned her mountain home, killing her and her brother Yuu. She hates human trappers; befriending her is a tender side-quest.",
+      "location": "Willowshore hinterlands",
+      "source": "p.175",
+      "threads": ["Befriend (or lay to rest) the fox ghost"],
+      "characters": ["Rin (kitsune ghost, Creature 8)"],
+      "elements": ["burned traps", "foxfire curse", "singe marks"],
+      "themes": ["Social", "Personal"],
+      "gate": "Rin runs unless calmed; kitsune PCs get a bonus",
+      "fragments": [
+        {"plot_point": "Rin starts unfriendly; flees when caught unless DC 27 Diplomacy stops her (kitsune revealing themselves +2). Attacking/threatening/crit-failing = foxfire curse + flee; track again at DC 28 Survival. Indifferent = she answers tearfully; friendly = she lives near the town's youths.", "themes": ["Social", "Personal"], "weight": 1, "source": "p.176", "spoiler": false},
+        {"plot_point": "RIN: unique Small ghost incorporeal kitsune spirit undead Creature 8. Perception +15; AC 26; HP 100, rejuvenation, void healing; resist all 10 (except force/ghost touch/spirit/vitality). Mindscape Bound. burning touch +18 (agile, finesse) 2d8+12 fire + foxfire curse (DC 25 Will or cursed: each crit hit sears allies in reach 1d6 persistent fire). Change Shape to a tailless human.", "themes": ["Action"], "weight": 1, "source": "p.177", "spoiler": false},
+        {"plot_point": "Treasure/Reward: befriending (friendly) = flaming weapon runestone (once) + 120 XP. Letting her live in town costs 1d4 Hope at first, then +1 Hope each week as locals warm to her. She can be helped further when the town transmigrates (Concluding the Act, p.209).", "themes": ["Social", "Personal"], "weight": 1, "source": "p.177", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.event8-lonely-home",
+      "name": "Event 8: A Lonely Home (Tenon the Silsyche)",
+      "scene": "TRIVIAL 8 (Day 10). Aruka begs the PCs to help Myna Kawaka, who won't leave his late parents' decrepit woods home (near collapsed barn W34) and fought rescuers while debris flew. The house isn't ghost-haunted but home to a lonely silsyche, Tenon, who fears dying when the house finally crumbles.",
+      "location": "Myna family home, woods south of town (near W34)",
+      "source": "p.176",
+      "threads": ["Free Kawaka / resolve Tenon's loneliness"],
+      "characters": ["Tenon (silsyche, Creature 6)", "Myna Kawaka", "Aruka"],
+      "elements": ["Myna family home (near W34)", "Hallucinatory Home", "Kawaka's mother's shortbow"],
+      "themes": ["Mystery", "Social", "Personal"],
+      "gate": "occurs ~Day 10 (or whenever the PCs investigate Kawaka's home)",
+      "fragments": [
+        {"plot_point": "Tenon uses Hallucinatory Home to trap the PCs, then tearfully begs them to live with him; he won't attack unless provoked but fights to the death (rejuvenating). He's bound to the home and dies if no one lives in it and it erodes. TENON: Creature 6 male silsyche (page 346), Stealth +15.", "themes": ["Mystery", "Personal"], "weight": 1, "source": "p.177", "spoiler": false},
+        {"plot_point": "Solving Tenon's Problem (exploration, secret, once; Aid DC 20): DC 22 Diplomacy / DC 24 Society / DC 24 Willowshore Lore (a PC volunteering to live there shifts the result up a degree). Crit = house shored free + townsfolk visit, 120 XP + 1d4+1 Hope. Success = spend 400 gp or 2 Security, 80 XP + 1 Hope. Failure = a PC must visit weekly or Tenon despairs and dies (-1 Hope), 40 XP. Crit-fail = a grieving local's grief cycle ends in a fatal fire (-1 pop, -1d4+1 Hope).", "themes": ["Social", "Personal"], "weight": 1, "source": "p.178", "spoiler": false},
+        {"plot_point": "Treasure: befriending Tenon reveals a hidden +1 thundering shortbow under the floorboards (Kawaka's mother's, thought lost); Kawaka gifts it to the PCs.", "themes": ["Social"], "weight": 1, "source": "p.178", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.event9-crane-wife",
+      "name": "Event 9: The Crane-Wife (Moral Quandary)",
+      "scene": "A hunter kills and eats a large crane; the next day a strange beautiful woman arrives in cut-off Willowshore, sobbing and calling a PC's name, revealing her husband was slain and she has come to seek death too, refusing to leave until killed or starved. She doesn't become a crane on death. Not a combat: a Victory-Point moral quandary.",
+      "location": "Willowshore",
+      "source": "p.178",
+      "threads": ["Resolve the crane-wife's plea"],
+      "characters": ["the crane-wife"],
+      "elements": ["the slain crane", "Victory Points"],
+      "themes": ["Personal", "Social", "Mystery"],
+      "gate": "triggered by a hunter killing a crane",
+      "fragments": [
+        {"plot_point": "DC 18 Willowshore Lore / DC 20 Society: cranes mate for life; crit recalls a tale of a grieving spouse who asked to die too. She may be a despair-born thoughtform, a naiad/nixie, or a vengeful local with a mage's hat; what matters is the PCs' handling.", "themes": ["Mystery", "Personal"], "weight": 1, "source": "p.178", "spoiler": false},
+        {"plot_point": "Resolved via DC 24 Victory-Point checks (each PC one attempt, max 4): Deception/Diplomacy/Intimidation, Society/Willowshore Lore (folklore), or Nature (primal). Reward: 5+ VP = right call, 120 XP; 2-4 = unsettled, 60 XP -1 Hope; 1 or fewer = haunted town, 0 XP -1d4+1 Hope.", "themes": ["Social", "Personal"], "weight": 1, "source": "p.178", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.event10-claylight",
+      "name": "Event 10: The Claylight Festival (Winter Solstice)",
+      "scene": "Winter truly arrives with the solstice on day 21. Ouh Ba-Ming of Nine Ear Shrine proposes celebrating Claylight: villagers make small lit clay huts in fields/streets, grill vegetables, and pray for fortune. A morale opportunity needing a week of prep.",
+      "location": "Willowshore (Nine Ear Shrine / fields)",
+      "source": "p.178",
+      "threads": ["Boost morale via the Claylight Festival"],
+      "characters": ["Ouh Ba-Ming"],
+      "elements": ["Claylight Festival", "clay light-huts", "sweetest solstice ritual"],
+      "themes": ["Social", "Personal"],
+      "gate": "occurs ~Day 21 (the solstice)",
+      "fragments": [
+        {"plot_point": "Each participating PC devotes that week's downtime: DC 25 Crafting or DC 24 Religion. Treasure: each success finds a moderate healing potion (max 4) on the teahouse porch. Reward: 1+ success = +1 Hope, 80 XP; all PCs participate (1+ success) = +2 Hope, 120 XP; nobody = -1d4 Hope.", "themes": ["Social"], "weight": 1, "source": "p.179", "spoiler": false},
+        {"plot_point": "Sweetest Solstice: if learned in Act 2, cast during Claylight: crit success +4 Food, success +1 Food, crit fail poisons the town (-2d6 Preparation Points, at least half from Hope).", "themes": ["Social"], "weight": 1, "source": "p.181", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.event11-nosois-brunch",
+      "name": "Event 11: Nosois' Brunch (Tea with the Psychopomps)",
+      "scene": "MODERATE 8. After the PCs return, four nosois (green-eyed crows) arrive, agitating the sparrows. They are Yix's colleagues, aware of Shinzo's biased meddling, and scheme to help Mago Kai banish the mindscape. Days after the solstice they approach the PCs at the Cerulean Teahouse for tea, a formal tea-ceremony social encounter.",
+      "location": "Cerulean Teahouse",
+      "source": "p.179",
+      "threads": ["Win over (or repel) the nosois"],
+      "characters": ["Nosoi psychopomps (Yamaguchi, Sakaguchi, Iguchi, Noguchi)", "Shinzo"],
+      "elements": ["agitated sparrows", "Cerulean Teahouse", "sweet mochi", "tea ceremony"],
+      "themes": ["Social", "Mystery"],
+      "gate": "occurs after returning from Heh's mindscape; tea a few days after Day 21",
+      "fragments": [
+        {"plot_point": "Four nosois (an unlucky number) observe ominously and don't interfere unless tempted. Confronting them in combat makes them flee and abandon the mindscape (counts as crit-failing the social encounter). NOSOI PSYCHOPOMPS (4): Creature 1 (Monster Core 274), Perception +6.", "themes": ["Mystery", "Tension"], "weight": 1, "source": "p.180", "spoiler": false},
+        {"plot_point": "Tea ceremony steps (split labor, Aid allowed): 1) tea DC 22 Tea Lore / DC 24 Crafting; 2) sweet mochi DC 22 Athletics / DC 24 Crafting; 3) ceremony DC 22 Tea Lore / DC 24 Society; 4) decorum DC 24 Deception/Diplomacy. Total successes (+1/crit, -1/crit-fail).", "themes": ["Social"], "weight": 1, "source": "p.181", "spoiler": false},
+        {"plot_point": "Results: 1 or fewer = offended, later aid the exorcists (Karahai C9); 2-3 = depart (no change); 4-5 = they gossip, SECRET that Shinzo is punished by Pharasma and barred from directly interfering (rumored why: abused powers, spared a life, let a fiend escape, or fell in love), and pay; 6+ = also offer later aid ('purify at a Pharasma shrine' hint for Karahai C9). Withhold the Shinzo-punishment secret.", "themes": ["Social", "Mystery"], "weight": 1, "source": "p.181", "spoiler": true},
+        {"plot_point": "Treasure (4+ successes): a gallows tooth, a jade bauble, a silver-and-sapphire ring (800 gp), and a frost weapon runestone. Reward: 4+ successes = 120 XP; 1-3 (at least 1) = 60 XP.", "themes": ["Social"], "weight": 1, "source": "p.182", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.event12-seance",
+      "name": "Event 12: The Seance (Mago Kai's Exorcists)",
+      "scene": "MODERATE 8. ~A month after their first failure, Mago Kai's exorcists try a seance. The PCs are yanked into a windowless Karahai chamber dominated by a massive bronze temple bell glowing with the stolen Eternal Lantern light, with caged birds and a circle of scrolls. Three ghostly priests (Cao Chen, Pan Fenfang, Sha Guanghao) appear. Run as Influence: the priests compel answers while the PCs Discover/Influence them, the PCs' first glimpse of what awaits transmigration and where they learn of the warding bell.",
+      "location": "Karahai seance chamber (area C11)",
+      "source": "p.181",
+      "threads": ["Survive the seance / learn about the warding bell"],
+      "characters": ["Cao Chen", "Pan Fenfang", "Sha \"Shagua\" Guanghao", "Mago Kai"],
+      "elements": ["Karahai seance chamber", "bronze warding bell", "Eternal Lantern's light", "caged birds", "Influence subsystem"],
+      "themes": ["Mystery", "Social", "Tension"],
+      "gate": "should occur before the PCs begin Chapter 10",
+      "fragments": [
+        {"plot_point": "Arrival: DC 24 Perception places them inside Karahai east of Willowshore; DC 24 Occultism/Religion identifies a seance and that the temple bell is a powerful holy item warding against ghosts that interferes with spiritual/undead magic. PCs can only take the encounter's listed actions.", "themes": ["Mystery"], "weight": 1, "source": "p.182", "spoiler": false},
+        {"plot_point": "Each round Cao Chen asks a question; a random PC must DC 26 Will or answer truthfully. Q1 'Who are you?' Q2 'What do you want?' (come back to life) Q3 'Why haven't you moved on?' (we are trapped) Q4 'How did you die?' (slain when our governor failed a ritual to imprison Kugaptee). If not compelled, a PC can DC 24 Deception/Diplomacy/Intimidation for +2/+4 (crit) to that round's checks.", "themes": ["Social", "Mystery"], "weight": 1, "source": "p.183", "spoiler": false},
+        {"plot_point": "CAO CHEN (leader): Will +20; Discovery DC 24 Occultism/DC 26 Perception/DC 22 Religion; Influence DC 22 Diplomacy/DC 24 Religion/DC 26 Intimidation. Infl 2: phantoms can't affect the material world without focus. Infl 4: the holy bell, infused with the PCs' own Eternal Lantern light, blocks their influence/magic ('as long as this bell shines in Karahai, you cannot harm us').", "themes": ["Social", "Mystery"], "weight": 1, "source": "p.183", "spoiler": true},
+        {"plot_point": "PAN FENFANG (nervous, secret): Will +18; Discovery DC 21 Occultism/DC 23 Perception/DC 25 Religion; Influence DC 21 Deception/DC 23 Intimidation/DC 25 Religion. SECRET WEAKNESS: she secretly belongs to a hidden nindoru cult; the 'Tan Sui-Jing' that answered her prayers was Kugaptee. DC 22 Occultism/Religion spots she's unknowingly nindoru-influenced (crimson butterflies in her mind). Mentioning nindorus -1 to her DCs; Kugaptee -2. Withhold the cult truth.", "themes": ["Mystery", "Social"], "weight": 1, "source": "p.184", "spoiler": true},
+        {"plot_point": "SHA 'SHAGUA' GUANGHAO (young, brash): Will +16; Discovery DC 20 Occultism/DC 24 Perception/DC 22 Religion; Influence DC 20 Deception/DC 22 Religion/DC 24 Diplomacy. Infl 2: comic question about just harvesting trees. Infl 4: clumsily reveals 'Lord Mago' has a 'magic bell ringer' that can banish the spirits.", "themes": ["Social"], "weight": 1, "source": "p.184", "spoiler": false},
+        {"plot_point": "Ending: Cao Chen taps the bell; the PCs are hurled back, DC 24 Will or drained 1 (drained 2 crit-fail), and find they'd lain unconscious for minutes. Calming townsfolk needs DC 24 Diplomacy or -1d4 Hope. SECRET confirmed: the bell holds the Eternal Lantern's light (so it's unlit in the living world), limiting them to 4th-rank transmigrate. Reward: 4 Influence with one exorcist = 80 XP; all 12 = 120 XP.", "themes": ["Mystery", "Social"], "weight": 1, "source": "p.184", "spoiler": true}
+      ]
+    },
+    {
+      "id": "a3.event13-interview-spider",
+      "name": "Event 13: Interview with a Spider (Ren Mei Li)",
+      "scene": "MODERATE 8 (Day 71). A mindscape copy of jorogumo princess Ren Mei Li visits, believing herself the real princess. A silver-collared messenger announces at sunrise that Willowshore is now under Lady Lang Loi and that Princess Ren arrives that evening expecting a royal welcome the town can't provide, a cruel game to drive them to despair before punishment. A high-stakes 6-round Influence encounter; failure or any attack leads to a deadly level-13 fight.",
+      "location": "Cerulean Teahouse (or chosen site)",
+      "source": "p.183",
+      "threads": ["Survive Ren Mei Li's visit / win her over"],
+      "characters": ["Ren Mei Li (jorogumo princess, Creature 13)", "town elder", "Granny Hu", "Old Matsuki"],
+      "elements": ["Cerulean Teahouse", "silver collars", "gift worth 50 gp", "Influence subsystem", "tea etiquette ploys"],
+      "themes": ["Social", "Tension", "Personal"],
+      "gate": "occurs Day 71 (or after Chapter 10 if running late)",
+      "fragments": [
+        {"plot_point": "Prep (~8 hrs): advice DC 22 Society/Gather Info (jorogumo hate tengu & peachwood, keep folk illiterate, eat pretty men, maim pretty women; crit = prepare a 50+ gp gift). Prepare for Royalty (exploration, 8 hrs, Aid): DC 24 Crafting/Society/Tea Lore (-4 if site wasn't built up). Crit = +1 all Influence; Success = -1 Food; Failure = -1d4+1 Food; Crit-fail = -2 all Influence.", "themes": ["Social"], "weight": 1, "source": "p.185", "spoiler": false},
+        {"plot_point": "REN MEI LI Influence target: Perception +18, Will +18; Discovery DC 20 Jorogumo Lore / DC 22 Diplomacy / DC 24 Society / DC 26 Perception; Influence DC 22 Performance / DC 24 Diplomacy / DC 26 Occultism / DC 28 Deception / DC 30 Intimidation. Penalty: any non-white-lie failed deception triggers mind reading (DC 34; failure auto-reduces next Influence a step). Resistances: tengu/peachwood +2 DC; jealous of pretty women +2 DC (negate via disguise/self-scar). Weakness: attractive charismatic men -2 DC (crit-fail = she claims him with a collar).", "themes": ["Social", "Tension"], "weight": 1, "source": "p.186", "spoiler": false},
+        {"plot_point": "Influence milestones: 4 = annoyed (DC 24 Diplomacy or she casts outcast's curse DC 34 on a random PC); 8 = declares jorogumo rule (annual people-tithe [nonnegotiable], execute tengu, ban literacy, destroy coins & peachwood); easiest to agree and ignore (+1 future Influence), negotiating removes one non-tithe demand; 12 = asks about the Tan Sugi (plead ignorance, or tell truth -> she wants it protected + gives a messenger's ring; removes 2nd demand); 16 = gives 4 doses dust of corpse animation (removes 3rd demand).", "themes": ["Social", "Mystery"], "weight": 1, "source": "p.186", "spoiler": false},
+        {"plot_point": "Six rounds: R1 (1 min) demands a gift (50+ gp = 1 IP; 100+ gp = 2 IP but +1 to R2 DCs; Discovery only). R2 (30 min) palanquin tour, humiliates villagers, mocks sub-6-Security town (-1 Hope). R3 (10 min) questions venue, expects hot tea at the door (DC 24 Society/DC 22 Tea Lore). R4 (30 min) tea ploys: DC 24 Crafting/Tea Lore to Influence or she fakes a burn (DC 28 Diplomacy/Deception or punish the server; a poisoned NPC dies). R5 (30 min) +1 to DCs if she hasn't tormented anyone. R6 (1 hr) demands entertainment (free Influence; crit = a silver collar).", "themes": ["Social", "Tension"], "weight": 1, "source": "p.186", "spoiler": false},
+        {"plot_point": "Parting Ways: <6 IP or any attack = she fights (level 13: summons a giant tarantula, climbs, suggestion/web trap, captures offenders, flees at 45 HP, vaporizes with her thoughtform servants if slain). 7-12 IP = tries to 'collect' pretty men/collared PCs (DC 28 Deception/Diplomacy to refuse). 12+ IP = leaves peacefully (hints she'll take some at the spring tithe). Treasure (12+ IP): hardwood chest with six 25 gp moonstones, a greater persona mask, a desolation locket, + four silver collars. Reward (no fight): 160 XP + 1d4 Hope.", "themes": ["Action", "Social"], "weight": 1, "source": "p.187", "spoiler": false},
+        {"plot_point": "Silver Collars: a jorogumo's mortal property-mark; in modern Shenmen they grant the wearer free travel, literacy, and free trade (worth 50 gp each). PCs can wear them for social advantage in Act 4. Recognize via Expert+ Jorogumo/Willowshore Lore or Shinzo.", "themes": ["Social", "Mystery"], "weight": 1, "source": "p.187", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.event14-trees-live",
+      "name": "Event 14: The Trees Live (Vengeful Forest Guardians)",
+      "scene": "MODERATE 8 (optional). Long-memoried nature spirits resentful of Willowshore's old lumber harvests catch the PCs in a thicket: two arboreal reapers and an awakened tree. They demand an accounting for the wilds' pain (or hold an abducted NPC) before attacking; a peaceful resolution is possible.",
+      "location": "Forest surrounding Willowshore",
+      "source": "p.189",
+      "threads": ["Placate (or fight) the forest guardians"],
+      "characters": ["Arboreal reapers (2)", "awakened tree"],
+      "elements": ["angry thicket", "deadwood gift"],
+      "themes": ["Action", "Social", "Tension"],
+      "gate": "optional; while wandering the forest or tracking a missing NPC",
+      "fragments": [
+        {"plot_point": "Arboreals start unfriendly; made indifferent they let the PCs go (friendly required to free an abducted NPC). Any failed attitude attempt makes them hostile, fighting to the death. ARBOREAL REAPERS (2): Creature 7 (Monster Core 2 34); AWAKENED TREE: Creature 6 (Monster Core 25).", "themes": ["Action", "Social"], "weight": 1, "source": "p.189", "spoiler": false},
+        {"plot_point": "Reward (peaceful): XP as if defeated; one week later a neat stack of naturally-fallen deadwood appears at the town's edge = +2 Security Points.", "themes": ["Social"], "weight": 1, "source": "p.189", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.event15-reprisal",
+      "name": "Event 15: Reprisal (Kugaptee's Centipede)",
+      "scene": "LOW 8 (optional). Kugaptee's lingering influence sends a nearly-hundred-foot orange centipede formed from the dead fiend's thoughts to avenge the PCs' Act-2 actions. Like the first centipedes it roars body parts, and on spotting the PCs full sentences: 'You must pay! Kugaptee will rise! Time to die!' It can be aimed at the PCs in the wilds or at the town's edge.",
+      "location": "Hinterlands or town outskirts",
+      "source": "p.189",
+      "threads": ["Destroy Kugaptee's centipede"],
+      "characters": ["Kugaptee's Centipede (nindoru, Creature 9)"],
+      "elements": ["hinterlands", "town outskirts"],
+      "themes": ["Action", "Tension"],
+      "gate": "optional; triggered at the GM's discretion",
+      "fragments": [
+        {"plot_point": "If sent at the town it scuttles toward the PCs; acting fast limits damage, but delay/flight lets it reduce Security by 1d4.", "themes": ["Tension"], "weight": 1, "source": "p.189", "spoiler": false},
+        {"plot_point": "KUGAPTEE'S CENTIPEDE: unique Gargantuan beast fiend nindoru Creature 9 unholy. Perception +18; AC 28; HP 155; immune death effects; weakness silver 10; resist void 10. Speed 50/climb 50; mandibles +21 (reach 20 ft) 2d10+12 piercing + void venom; foot +19 2d8+10. Impaling Critical (1d6 persistent bleed + off-guard); Trample DC 28; Undulate (move through 10-ft gaps); Void Venom DC 28 Fort (stupefied/slowed stages).", "themes": ["Action"], "weight": 1, "source": "p.189", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.event16-one-kind-favor",
+      "name": "Event 16: One Kind Favor (The Forgotten Spirit)",
+      "scene": "MODERATE 8 (optional). Rumors spread of a black-haired, white-eyed ghost standing silent in a cemetery at night. The town elder asks the PCs to investigate. She beckons them on a long circuitous night journey (always hugging rivers) to a dry riverbed where her bones lie, then back to be reburied where she stood, but that spot is the graveyard of the four criminals who murdered her, who rise as revenants.",
+      "location": "Cemetery, forest, and a dry riverbed",
+      "source": "p.190",
+      "threads": ["Lay the forgotten spirit to rest"],
+      "characters": ["Forgotten Spirit (ghost, Creature 4)", "Revenants (4, Creature 6)"],
+      "elements": ["cemetery", "dry riverbed", "buried bones", "the four murderers' graves"],
+      "themes": ["Mystery", "Action", "Personal"],
+      "gate": "optional; resolved by following and obeying the ghost",
+      "fragments": [
+        {"plot_point": "She ignores the PCs unless asked what she wants, then beckons them off-path (3 hrs). Keep pace: DC 22 Survival or DC 25 Perception (Aid); failure = fatigued. At a dry riverbed, dig: tools two DC 21 Athletics (or one crit), by hand DC 25 (crit-fail fatigued); ~3 ft down are bones in a burlap shroud. She leads them back directly (30 min) to rebury; refusal makes her haunt the PCs personally.", "themes": ["Mystery", "Action"], "weight": 1, "source": "p.190", "spoiler": false},
+        {"plot_point": "Burying her bones wakes the four criminals as revenants ('It wasn't us!' then 'You'll die just as well!'), attacking ghost and PCs alike. FORGOTTEN SPIRIT: Creature 4 ghost commoner (Monster Core 161); REVENANTS (4): Creature 6 (Monster Core 292). Destroying the ghost only delays (rejuvenates); only reburial gives peace. Reward: burying the bones = XP as if she were defeated.", "themes": ["Action", "Personal"], "weight": 1, "source": "p.191", "spoiler": false}
+      ]
+    },
+    {
+      "id": "a3.transmigrating-borderland",
+      "name": "Transmigrating & Between Life and Death (Act 3 Climax)",
+      "scene": "SEVERE 8. The PCs cast transmigrate (at least 8th level), limited to the 4th-rank version (Lantern unlit). As the kiln-fire bakes them in clay shells, a baleful Heh-like voice urges them to be consumed by emotion to rip free of death (players name their characters' driving feelings, guiding their Act-4 ghostly powers). They wake not in the living world but in a looping stone borderland, a 'crumb catcher' for souls Kugaptee didn't fully consume, with an altar slowly opening a portal to Dawnstep Bridge. Three kagekuma nindorus must be defeated to step through into Chapter 10.",
+      "location": "The Between-Life-and-Death borderland mindscape",
+      "source": "p.192",
+      "threads": ["Complete the transmigration / break through to the living world"],
+      "characters": ["Kagekumas (3, Creature 8)"],
+      "elements": ["transmigrate ritual", "clay shells", "borderland mindscape", "looping corridors", "altar portal to Dawnstep Bridge"],
+      "themes": ["Action", "Tension", "Mystery", "Personal"],
+      "gate": "requires the completed transmigrate ritual, kiln, and components; PCs ~8th level",
+      "fragments": [
+        {"plot_point": "Casting transmigrate: name each PC's most powerful motivating feelings (guides Act-4 ghostly powers, Haunting the Living p.315). They emerge into a 30x60-ft looping stone hallway: two carved wooden sliding doors (Hardness 5, HP 20 [BT 10], greater cover) cap the ends; a ritual altar centers the room; corridors B1-B4 loop into their counterparts. DC 22 Arcana/Occultism: a borderland 'crumb catcher' between Willowshore and the living world.", "themes": ["Mystery", "Personal"], "weight": 1, "source": "p.192", "spoiler": false},
+        {"plot_point": "Each round the altar's aura clarifies into a portal to Dawnstep Bridge; the PCs must first beat the nindorus. Whispers (lies that Willowshore feels betrayed) come from three KAGEKUMAS manifesting at the B5 spots: Creature 8 (page 334), Perception +16. They start bundled (Speed 15); on spotting a PC a kagekuma Sheds its Bundle to lurch and attack; below 50 HP it translocates back, re-bundles for an AC bonus, and resumes stalking.", "themes": ["Action", "Tension"], "weight": 1, "source": "p.192", "spoiler": false},
+        {"plot_point": "Through the Portal: once the last kagekuma dies the portal solidifies; stepping through completes transmigration and begins Chapter 10 (Act 4); 80 XP. Softened death: a PC who 'dies' isn't truly slain unless the WHOLE party dies; as long as one PC steps through, all wake in the ruins of Willowshore (the dead are doomed 1).", "themes": ["Action", "Tension"], "weight": 1, "source": "p.193", "spoiler": false}
+      ]
+    }
+  ]
+}
