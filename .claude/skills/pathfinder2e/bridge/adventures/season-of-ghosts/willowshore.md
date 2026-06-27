@@ -147,13 +147,13 @@ fragments:
   - plot_point: "If helpful, she crafts fulus up to 2nd level, 1st-level divine/primal spell scrolls, and the wolf fang, hunter's bane, monkey pin, and bronze bull pendant talismans."   themes: [Action]   weight: 1   (p.18)
   - plot_point: "The miraculous fox-skulk rescue of the Ouh baby foreshadows kitsune/Daikitsu and fox-spirit themes important later."   themes: [Mystery]   weight: 1   (p.18)
 
-### cluster: loc.w17-woodraft-lake — "W17. Woodraft Lake"   (source: p.16)
+### cluster: loc.w17-woodraft-lake — "W17. Woodraft Lake"   (source: p.18)
 scene: The reservoir created by the Willowshore Dam, built to tame the Ceiba River and store wet wood. Its creation drowned homes, farmland, and the village's old shrine to Lady Nanbyo (the Widow of Suffering); protesters were jailed. The promoting governor was later buried by a landslide on a sunny day — so villagers treat the lake as a shrine to Lady Nanbyo.
 threads: [Investigate Willowshore's secrets]   characters: [Lady Nanbyo (Widow of Suffering)]   elements: [Woodraft Lake, drowned Nanbyo shrine, Willowshore Dam]   themes: [Mystery]
 location: Willowshore (behind the dam)
 fragments:
-  - plot_point: "Villagers quietly venerate the lake as a shrine to Lady Nanbyo, the Widow of Suffering, whose original shrine the lake drowned. The promoting governor's freak landslide death is read as her curse."   themes: [Mystery]   weight: 1   (p.16)
-  - plot_point: "SPOILER: Lady Nanbyo / suffering-deity reverence foreshadows the campaign's deeper sinister force; do not connect dots for the player until earned."   themes: [Mystery]   weight: 1   spoiler   (p.16)
+  - plot_point: "Villagers quietly venerate the lake as a shrine to Lady Nanbyo, the Widow of Suffering, whose original shrine the lake drowned. The promoting governor's freak landslide death is read as her curse."   themes: [Mystery]   weight: 1   (p.18)
+  - plot_point: "SPOILER: Lady Nanbyo / suffering-deity reverence foreshadows the campaign's deeper sinister force; do not connect dots for the player until earned."   themes: [Mystery]   weight: 1   spoiler   (p.18)
 
 ### cluster: loc.w18-dam — "W18. Willowshore Dam"   (source: p.18)
 scene: A minor engineering marvel of precisely fitted dark-gray marble slabs with calculated curvature. Two giant wooden gates can be opened to lower the lake; turning the control wheel rings a warning bell so those downriver can flee. Maintained by Huo Tian-Zhe (W26), tasked by Yong Wu-Xiu.

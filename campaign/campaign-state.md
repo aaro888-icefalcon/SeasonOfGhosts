@@ -1,17 +1,18 @@
-# Campaign State — <campaign name>
+# Campaign State — Season of Ghosts (Willowshore)
 
 > The single source of truth. Overwrite this at the end of **every** scene.
 > If a change happened in the fiction but isn't written here, it didn't happen.
 
 ## Frame
-- **Adventure Source mode:** Pure Mythic | Adventure Crafter | Prepared Adventure
-- **RPG / System Profile:** <name or "rules-light (Fate Questions only)"> → `system-profile.md`
-- **Setting / canon:** <name> → `setting-canon.md`
-- **Genre & stakes vocabulary:** <e.g. grimdark-survival — death/maiming/capture>
-- **Resolution:** Fate Chart | Fate Check   ·   **Chaos flavor:** normal | mid | low | no
+- **Adventure Source mode:** Prepared Adventure (ingested "Season of Ghosts" AP, run as an atomized sandbox)
+- **RPG / System Profile:** Pathfinder 2e → `.claude/skills/pathfinder2e/bridge/system-profile.md`
+- **Setting / canon:** Willowshore / Shenmen (Tian Xia) → `setting-canon.md`
+- **Genre & stakes vocabulary:** folk-horror + cozy + mystery — death/maiming/capture, dread, the wrongness beneath small-town comfort
+- **Resolution:** Fate Check   ·   **Chaos flavor:** normal
 - **Discipline:** HARDCORE (no softening; Peril Points OFF unless player opts in)
+- **Diminisher:** 1/2 (single PC — Fate/Random-Event/etc. counts halved per Mythic solo-PC scaling)
 
-## CURRENT ADVENTURE: <title>
+## CURRENT ADVENTURE: Act 1 — The Summer That Never Was
 _Each adventure has its **own** Threads & Characters Lists and Theme priority. The Lists + Theme order +
 tens-counter are the machine source of truth in **`threads.json` / `characters.json` / `adventure.json`**
 (the dice roll those, any length); the sections below are a human-readable **snapshot** — keep them
@@ -20,8 +21,8 @@ _A **new adventure** begins when the current one's main Thread(s) Conclude (`thr
 player declares one — then roll new Themes (`adventure_crafter.py themes --campaign <dir>`), clear the
 Threads List, carry over only still-relevant Characters, archive the rest._
 
-- **Adventure status:** active | concluding | concluded
-- **Theme priority (this adventure):** in `adventure.json` → `state.py adventure show <campaign>`  _(rolled per RPG style)_
+- **Adventure status:** active
+- **Theme priority (this adventure):** Tension, Mystery, Personal, Social, Action — in `adventure.json` → `state.py adventure show <campaign>`  _(rolled per RPG style)_
 
 ## Chaos Factor: 5
 _(1–9; −1 if the PC was mostly in control of the last scene, +1 if it was chaotic)_
@@ -31,19 +32,52 @@ _Manage with `state.py thread add|weight|remove|show <campaign> "<name>"`. **Wei
 when Invoked/featured → that Thread is weight× as likely. Base list = 25 weighted slots; a longer list
 still fully rolls over (two-stage roll: NEW / PRE-EXISTING / CHOOSE MOST LOGICAL). Remove all of a
 concluded Thread. Curate — prune the irrelevant._
-1.
-2.
+1. Escape the wrong, looping summer day
+2. Find the missing miller Choe Chung-hu
+3. Get back home to Willowshore
+4. Protect the townsfolk
+5. Relight the Eternal Lantern
+6. Understand what is wrong with the town
 
 ## Characters List (NPCs/forces; PC is NOT listed) — snapshot of `characters.json`
 _Same: `state.py char add|weight|remove|show <campaign> "<name>"`; weight = re-add (max 3); the dice roll
 the JSON. Add/weight when an NPC is introduced or featured; remove when it permanently exits._
-1.
-2.
+1. Granny Hu (Hu Ban-niang) — Northridge elder / power-broker
+2. Old Matsuki (Matsuki Shou) — Southbank elder / living history
+3. Heh Shan-Bao (Governor) — appointed governor (vanished with his manor)
+4. Choe Chung-hu (miller) — Reenactment Festival organizer; never arrived with the ransom breakfast
+5. Ha Hai-er (town guard) — watchtower survivor
+6. Kim Gu-won (Kofusachi cleric) — Granny Hu's aide / Exchange Manager
+7. Doctor Dami (Mababangloob) — charitable doctor, Hand of Spring
+8. Zheng Peng (watch officer) — imperial barracks
+9. Ugly Cute (stone guardian) — missing Spider Gate spider
 
 ## Tens-cycle counter (Theme-die 10s rolled so far): in `adventure.json` _(auto-updated by turning-point)_
 
 ## Adventure Features List (prepared-adventure mode only)
-1.
+_Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals withheld). PF2e difficulties noted where the module sets them._
+1. Wooded Clearing (W38) — campaign-start; PCs wake blindfolded after the Reenactment Festival; giant centipedes attack (Trivial 1)
+2. Game trail / Duyue River bridge — the road home; Mirage Mist (day), Crimson Moon + Blood Rain (night) plague the land while the Lantern is dark
+3. Spider Gate (W33) — guardian spider "Ugly Cute" missing; empty entrance lantern (refillable for +2 vs the manifestations)
+4. Eastern Watchtower — Ha Hai-er; recite 4 of the 8 Practices to earn trust; lantern-oil cask
+5. The Eight Practices of the season of ghosts — social/survival rule-set
+6. Matsuki Estate (W5), Southbank — Old Matsuki; learn the lantern prayer, get 3 copper coins to bless
+7. Ceiba-Duyue Exchange / Trade Office (W29), Northridge — Granny Hu & Kim Gu-won
+8. Crossing the water — Ceiba River swim / Willowshore Dam (W18) / Woodraft Lake + Grasping Currents haunt
+9. Town shrines — Invoke Shrine Blessing to bless the 3 coins (Abadar/Daikitsu/Kofusachi/Pharasma + others)
+10. Dawnstep Bridge (W11) + The Eternal Lantern (W10) — buso Gurglegut holds it (Moderate 1); relighting ends mist/moon/blood-rain (core Ch.1 objective)
+11. Hand of Spring clinic (W27) — Doctor Dami; phantom gecko; source of lethargy poison
+12. Downtown Willowshore (W19) — barracks/prison, the vanished Governor's Manor (empty lot B1), residences, Happy Kappa bathhouse
+13. Cerulean Teahouse (W22) — Mo Douqiu the rokurokubi mastermind; captive villagers; Qing Mai-Lai's will
+14. The Mindscape Border — fog ring near Gourd Lake that loops all travel back; blocks the road to Karahai
+15. Shinzo & Yix — the mysterious traveling merchant; vital supply line
+16. Willowshore Hinterlands — Gourd Lake, Eyes of Fumeiyoshi (D9), Canary Inn (D4), Hunter's Hut (D6), Peachwood Groves; ~2nd-level wilds
+17. The Great Willow (W37) — kodama kami; "we are in a cage"; Into the Infestation (D7, Xungu)
+18. Gorge of Fangs and Teeth (D10) — rescue Ugly Cute; leads to the lumber camp & Wall of Ghosts
+19. The Wall of Ghosts — impenetrable mist barrier sealing the western mindscape
+20. Who Leads Willowshore? — Matsuki vs Granny Hu leadership duel (Influence subsystem)
+21. The Lumber Camp (E1-E17), ~8 miles west — noppera-bo Prayers (Zoudou) & Rovers (Mugirou); abducted townsfolk
+22. The Ritual Site (D12) — Zoudou's rite over Kum Meng-sung at the Wall; the name "Kugaptee" surfaces as the chief clue
 
 ## Campaign roster (persists across adventures: recurring NPCs, long arcs)
 -
@@ -60,10 +94,10 @@ the JSON. Add/weight when an NPC is introduced or featured; remove when it perma
 - none
 
 ## Adventure Crafter state (crafter mode)
-- Active Turning Point: —   ·   Theme priority: Action, Tension, Mystery, Social, Personal
+- Active Turning Point: —   ·   Theme priority: Tension, Mystery, Personal, Social, Action
 
 ## Scene
-- **Last scene recap (2–3 sentences):** <the campaign opens here>
+- **Last scene recap (2–3 sentences):** The campaign opens here. The PC wakes blindfolded in a forest clearing east of Willowshore (W38) on the first day of summer, "abducted" overnight as part of the Reenactment Festival — but the miller Choe Chung-hu, who should have arrived at dawn with the ransom breakfast, never came, and the woods feel wrong. A westward game trail leads home.
 - **Self-audit drift counter (consecutive soft scenes):** 0
 
 ## Archive pointer

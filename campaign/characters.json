@@ -1,5 +1,42 @@
 {
  "kind": "character",
  "new_weight": 4,
- "entries": []
+ "entries": [
+  {
+   "name": "Granny Hu (Hu Ban-niang)",
+   "weight": 1
+  },
+  {
+   "name": "Old Matsuki (Matsuki Shou)",
+   "weight": 1
+  },
+  {
+   "name": "Heh Shan-Bao (Governor)",
+   "weight": 1
+  },
+  {
+   "name": "Choe Chung-hu (miller)",
+   "weight": 1
+  },
+  {
+   "name": "Ha Hai-er (town guard)",
+   "weight": 1
+  },
+  {
+   "name": "Kim Gu-won (Kofusachi cleric)",
+   "weight": 1
+  },
+  {
+   "name": "Doctor Dami (Mababangloob)",
+   "weight": 1
+  },
+  {
+   "name": "Zheng Peng (watch officer)",
+   "weight": 1
+  },
+  {
+   "name": "Ugly Cute (stone guardian)",
+   "weight": 1
+  }
+ ]
 }

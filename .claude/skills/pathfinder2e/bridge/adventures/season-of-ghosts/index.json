@@ -1,0 +1,7572 @@
+{
+ "module": "Season of Ghosts",
+ "engine": "mythic-gm>=2",
+ "fidelity": "light",
+ "files": {
+  "willowshore": "willowshore.md",
+  "act1-summer": "act1-summer.md",
+  "act2-fall": "act2-fall.md",
+  "act3-winter": "act3-winter.md",
+  "act4-spring": "act4-spring.md",
+  "toolbox": "toolbox.md",
+  "bestiary": "bestiary.md"
+ },
+ "clusters": [
+  {
+   "id": "loc.w1-ironworks",
+   "slice": "willowshore",
+   "name": "W1. Eternal Blaze Ironworks",
+   "location": "Willowshore, Southbank",
+   "file": "willowshore.md",
+   "source": "p.14",
+   "themes": [
+    "Social"
+   ],
+   "threads": [
+    "Survive & restore Willowshore",
+    "Equip for the haunting"
+   ],
+   "characters": [
+    "Yong Wu-Xiu"
+   ],
+   "elements": [
+    "Eternal Blaze Ironworks",
+    "cold iron",
+    "silver",
+    "Willowshore Dam"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w2-stables",
+   "slice": "willowshore",
+   "name": "W2. Willowshore Stables",
+   "location": "Willowshore, Southbank",
+   "file": "willowshore.md",
+   "source": "p.15",
+   "themes": [
+    "Personal",
+    "Social"
+   ],
+   "threads": [
+    "Survive & restore Willowshore",
+    "Help Willowshore recover"
+   ],
+   "characters": [
+    "Kum Soon-chong",
+    "Meng-sung"
+   ],
+   "elements": [
+    "Willowshore Stables",
+    "scattered cattle/oxen"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "loc.w3-graveside",
+   "slice": "willowshore",
+   "name": "W3. Graveside Manners",
+   "location": "Willowshore, Southbank",
+   "file": "willowshore.md",
+   "source": "p.15",
+   "themes": [
+    "Mystery",
+    "Social"
+   ],
+   "threads": [
+    "Equip for the haunting",
+    "Investigate Willowshore's secrets"
+   ],
+   "characters": [
+    "You So-Jin"
+   ],
+   "elements": [
+    "Graveside Manners",
+    "alchemist's lab",
+    "old cremation cemetery"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w4-abadar-shrine",
+   "slice": "willowshore",
+   "name": "W4. Abadar Shrine",
+   "location": "Willowshore",
+   "file": "willowshore.md",
+   "source": "p.15",
+   "themes": [
+    "Social"
+   ],
+   "threads": [
+    "Investigate Willowshore's secrets"
+   ],
+   "characters": [],
+   "elements": [
+    "Abadar Shrine",
+    "limestone statue"
+   ],
+   "spoiler": false,
+   "fragment_count": 1
+  },
+  {
+   "id": "loc.w5-matsuki-estate",
+   "slice": "willowshore",
+   "name": "W5. Matsuki Estate",
+   "location": "Willowshore, Southbank",
+   "file": "willowshore.md",
+   "source": "p.15",
+   "themes": [
+    "Social"
+   ],
+   "threads": [
+    "Survive & restore Willowshore"
+   ],
+   "characters": [
+    "Matsuki Shou"
+   ],
+   "elements": [
+    "Matsuki Estate",
+    "blessed salts",
+    "holy water"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w6-thrice-blessed-inn",
+   "slice": "willowshore",
+   "name": "W6. Thrice-Blessed Inn",
+   "location": "Willowshore, Southbank",
+   "file": "willowshore.md",
+   "source": "p.15",
+   "themes": [
+    "Social"
+   ],
+   "threads": [
+    "Survive & restore Willowshore",
+    "Gather information"
+   ],
+   "characters": [
+    "Reverent Mother Otis",
+    "Luo Xi Yang"
+   ],
+   "elements": [
+    "Thrice-Blessed Inn",
+    "privacy shutters",
+    "triple blessing"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "loc.w7-silvermist-lodges",
+   "slice": "willowshore",
+   "name": "W7. Silvermist Lodges",
+   "location": "Willowshore, Southbank (south of town)",
+   "file": "willowshore.md",
+   "source": "p.16",
+   "themes": [
+    "Social"
+   ],
+   "threads": [
+    "Equip for the haunting",
+    "Hunt in the hinterlands"
+   ],
+   "characters": [
+    "Aiomena"
+   ],
+   "elements": [
+    "Silvermist Lodges",
+    "snare supplies"
+   ],
+   "spoiler": false,
+   "fragment_count": 1
+  },
+  {
+   "id": "loc.w8-milling-houses",
+   "slice": "willowshore",
+   "name": "W8. Milling Houses",
+   "location": "Willowshore, Southbank",
+   "file": "willowshore.md",
+   "source": "p.16",
+   "themes": [
+    "Social"
+   ],
+   "threads": [
+    "Earn income / downtime",
+    "Help Willowshore recover"
+   ],
+   "characters": [
+    "Choe Chung-hu"
+   ],
+   "elements": [
+    "Milling Houses"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w9-lady-of-souls",
+   "slice": "willowshore",
+   "name": "W9. Her Fluvial Lady of Souls",
+   "location": "Willowshore (Unaffiliated)",
+   "file": "willowshore.md",
+   "source": "p.16",
+   "themes": [
+    "Mystery",
+    "Social"
+   ],
+   "threads": [
+    "Equip for the haunting",
+    "Combat the dead"
+   ],
+   "characters": [
+    "Elizeth Candora"
+   ],
+   "elements": [
+    "Lady of Souls cathedral",
+    "graveyard",
+    "ghost touch / merciful runes"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "loc.w10-eternal-lantern",
+   "slice": "willowshore",
+   "name": "W10. Eternal Lantern",
+   "location": "Willowshore (near Dawnstep Bridge / town entrance)",
+   "file": "willowshore.md",
+   "source": "p.16",
+   "themes": [
+    "Mystery",
+    "Tension"
+   ],
+   "threads": [
+    "Relight the Eternal Lantern",
+    "Drive back the supernatural weather"
+   ],
+   "characters": [
+    "Master Zhi Hui (legacy)"
+   ],
+   "elements": [
+    "Eternal Lantern (minor artifact)",
+    "Dawnstep Bridge"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w11-dawnstep-bridge",
+   "slice": "willowshore",
+   "name": "W11. Dawnstep Bridge",
+   "location": "Willowshore (between Northridge and Southbank)",
+   "file": "willowshore.md",
+   "source": "p.16",
+   "themes": [
+    "Social"
+   ],
+   "threads": [
+    "Relight the Eternal Lantern"
+   ],
+   "characters": [],
+   "elements": [
+    "Dawnstep Bridge",
+    "Eternal Lantern",
+    "Woodraft Lake"
+   ],
+   "spoiler": false,
+   "fragment_count": 1
+  },
+  {
+   "id": "loc.w12-matsu-home",
+   "slice": "willowshore",
+   "name": "W12. Matsu's Home",
+   "location": "Willowshore, Southbank",
+   "file": "willowshore.md",
+   "source": "p.17",
+   "themes": [
+    "Personal",
+    "Social"
+   ],
+   "threads": [
+    "Befriend Willowshore's residents"
+   ],
+   "characters": [
+    "Matsu"
+   ],
+   "elements": [
+    "Matsu's Home"
+   ],
+   "spoiler": false,
+   "fragment_count": 1
+  },
+  {
+   "id": "loc.w13-jadeite-essentials",
+   "slice": "willowshore",
+   "name": "W13. Jadeite Essentials",
+   "location": "Willowshore, Northridge",
+   "file": "willowshore.md",
+   "source": "p.17",
+   "themes": [
+    "Personal",
+    "Social"
+   ],
+   "threads": [
+    "Help Willowshore recover",
+    "Earn income / downtime"
+   ],
+   "characters": [
+    "Shioli"
+   ],
+   "elements": [
+    "Jadeite Essentials",
+    "glassblowing facility"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w14-cloud-paper-house",
+   "slice": "willowshore",
+   "name": "W14. Cloud Paper House",
+   "location": "Willowshore, Southbank",
+   "file": "willowshore.md",
+   "source": "p.17",
+   "themes": [
+    "Social",
+    "Personal"
+   ],
+   "threads": [
+    "Help Willowshore recover",
+    "Earn income / downtime",
+    "Investigate Willowshore's secrets"
+   ],
+   "characters": [
+    "Myna Kawaka"
+   ],
+   "elements": [
+    "Cloud Paper House",
+    "Industrial District",
+    "spellbooks/formula books"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "loc.w15-rebels-leatherworks",
+   "slice": "willowshore",
+   "name": "W15. Rebel's Leatherworks",
+   "location": "Willowshore (Unaffiliated)",
+   "file": "willowshore.md",
+   "source": "p.17",
+   "themes": [
+    "Social"
+   ],
+   "threads": [
+    "Earn income / downtime"
+   ],
+   "characters": [
+    "Vitumniar"
+   ],
+   "elements": [
+    "Rebel's Leatherworks"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w16-nine-ear-shrine",
+   "slice": "willowshore",
+   "name": "W16. Nine Ear Shrine",
+   "location": "Willowshore, Southbank",
+   "file": "willowshore.md",
+   "source": "p.18",
+   "themes": [
+    "Mystery",
+    "Social"
+   ],
+   "threads": [
+    "Equip for the haunting",
+    "Combat the dead"
+   ],
+   "characters": [
+    "Ouh Ba-Ming"
+   ],
+   "elements": [
+    "Nine Ear Shrine",
+    "nine-tailed fox statue",
+    "Daikitsu",
+    "fulus"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "loc.w17-woodraft-lake",
+   "slice": "willowshore",
+   "name": "W17. Woodraft Lake",
+   "location": "Willowshore (behind the dam)",
+   "file": "willowshore.md",
+   "source": "p.16",
+   "themes": [
+    "Mystery"
+   ],
+   "threads": [
+    "Investigate Willowshore's secrets"
+   ],
+   "characters": [
+    "Lady Nanbyo (Widow of Suffering)"
+   ],
+   "elements": [
+    "Woodraft Lake",
+    "drowned Nanbyo shrine",
+    "Willowshore Dam"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w18-dam",
+   "slice": "willowshore",
+   "name": "W18. Willowshore Dam",
+   "location": "Willowshore (between shores)",
+   "file": "willowshore.md",
+   "source": "p.18",
+   "themes": [
+    "Tension"
+   ],
+   "threads": [
+    "Investigate Willowshore's secrets"
+   ],
+   "characters": [
+    "Huo Tian-Zhe"
+   ],
+   "elements": [
+    "Willowshore Dam",
+    "gate wheel",
+    "warning bell",
+    "Woodraft Lake"
+   ],
+   "spoiler": false,
+   "fragment_count": 1
+  },
+  {
+   "id": "loc.w19-downtown",
+   "slice": "willowshore",
+   "name": "W19. Downtown Willowshore",
+   "location": "Willowshore, downtown",
+   "file": "willowshore.md",
+   "source": "p.18",
+   "themes": [
+    "Mystery",
+    "Action",
+    "Social"
+   ],
+   "threads": [
+    "Reclaim downtown Willowshore",
+    "Investigate the vanished governor"
+   ],
+   "characters": [
+    "Kazuma Oono",
+    "Nadoya Sanmi",
+    "Hua De-ge",
+    "Zheng Peng"
+   ],
+   "elements": [
+    "empty governor's lot",
+    "imperial barracks",
+    "Shu Opera stage",
+    "Seven-Colored Songbird theater",
+    "Treesparrow's Rest",
+    "Happy Kappa bathhouse",
+    "Guard Office"
+   ],
+   "spoiler": false,
+   "fragment_count": 5
+  },
+  {
+   "id": "loc.w20-luo-and-laws",
+   "slice": "willowshore",
+   "name": "W20. Luo and Laws",
+   "location": "Willowshore (Unaffiliated)",
+   "file": "willowshore.md",
+   "source": "p.19",
+   "themes": [
+    "Social",
+    "Mystery"
+   ],
+   "threads": [
+    "Research Willowshore's secrets",
+    "Earn income / downtime"
+   ],
+   "characters": [
+    "Luo Xi Yang"
+   ],
+   "elements": [
+    "Luo & Laws",
+    "Imperial Compendium",
+    "legal library"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w21-mama-bao",
+   "slice": "willowshore",
+   "name": "W21. Mama Bao's",
+   "location": "Willowshore, Northridge",
+   "file": "willowshore.md",
+   "source": "p.19",
+   "themes": [
+    "Social"
+   ],
+   "threads": [
+    "Earn income / downtime",
+    "Befriend Willowshore's residents"
+   ],
+   "characters": [
+    "Nakamura Yu Ming (Mama Bao)"
+   ],
+   "elements": [
+    "Mama Bao's",
+    "steamed buns"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w22-cerulean-teahouse",
+   "slice": "willowshore",
+   "name": "W22. The Cerulean Teahouse",
+   "location": "Willowshore (near old lumber-lord estates)",
+   "file": "willowshore.md",
+   "source": "p.19",
+   "themes": [
+    "Mystery",
+    "Social"
+   ],
+   "threads": [
+    "Investigate Willowshore's secrets",
+    "Acquire the teahouse"
+   ],
+   "characters": [
+    "Qing Mai-Lai (deceased)",
+    "Yami (cat)"
+   ],
+   "elements": [
+    "Cerulean Teahouse",
+    "Mai-Lai's remnant",
+    "undetermined ownership"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w23-abandoned-estates",
+   "slice": "willowshore",
+   "name": "W23. Abandoned Estates",
+   "location": "Willowshore",
+   "file": "willowshore.md",
+   "source": "p.19",
+   "themes": [
+    "Mystery",
+    "Social"
+   ],
+   "threads": [
+    "Investigate Willowshore's secrets"
+   ],
+   "characters": [
+    "Desna (abandoned shrine)"
+   ],
+   "elements": [
+    "Abandoned lumber-lord estates",
+    "Desna shrine"
+   ],
+   "spoiler": false,
+   "fragment_count": 1
+  },
+  {
+   "id": "loc.w24-ho-home",
+   "slice": "willowshore",
+   "name": "W24. Ho Jeong-hui's Home",
+   "location": "Willowshore",
+   "file": "willowshore.md",
+   "source": "p.20",
+   "themes": [
+    "Social",
+    "Personal"
+   ],
+   "threads": [
+    "Befriend Willowshore's residents"
+   ],
+   "characters": [
+    "Ho Jeong-hui"
+   ],
+   "elements": [
+    "Ho Jeong-hui's Home"
+   ],
+   "spoiler": false,
+   "fragment_count": 1
+  },
+  {
+   "id": "loc.w25-woodcarvers-guild",
+   "slice": "willowshore",
+   "name": "W25. Woodcarver's Guild",
+   "location": "Willowshore, Northridge",
+   "file": "willowshore.md",
+   "source": "p.20",
+   "themes": [
+    "Social",
+    "Mystery"
+   ],
+   "threads": [
+    "Equip for the haunting",
+    "Earn income / downtime"
+   ],
+   "characters": [
+    "Yun Mong-un"
+   ],
+   "elements": [
+    "Woodcarver's Guild",
+    "peachwood",
+    "fulus",
+    "peachwood paper"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w26-second-best",
+   "slice": "willowshore",
+   "name": "W26. Second Best",
+   "location": "Willowshore (Unaffiliated)",
+   "file": "willowshore.md",
+   "source": "p.20",
+   "themes": [
+    "Social"
+   ],
+   "threads": [
+    "Equip for the haunting",
+    "Earn income / downtime"
+   ],
+   "characters": [
+    "Huo Tian-Zhe"
+   ],
+   "elements": [
+    "Second Best",
+    "alchemical bombs/ammunition",
+    "clockwork gadgets",
+    "Willowshore Dam"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w27-hand-of-spring",
+   "slice": "willowshore",
+   "name": "W27. The Hand of Spring",
+   "location": "Willowshore (Unaffiliated)",
+   "file": "willowshore.md",
+   "source": "p.20",
+   "themes": [
+    "Social"
+   ],
+   "threads": [
+    "Equip for the haunting",
+    "Recover from injury"
+   ],
+   "characters": [
+    "Damihansig 'Dami' Mababangloob"
+   ],
+   "elements": [
+    "The Hand of Spring",
+    "healing items"
+   ],
+   "spoiler": false,
+   "fragment_count": 1
+  },
+  {
+   "id": "loc.w28-mothers-coil",
+   "slice": "willowshore",
+   "name": "W28. Mother's Coil",
+   "location": "Willowshore (Unaffiliated)",
+   "file": "willowshore.md",
+   "source": "p.21",
+   "themes": [
+    "Mystery",
+    "Social"
+   ],
+   "threads": [
+    "Equip for the haunting",
+    "Research magic"
+   ],
+   "characters": [
+    "Igawa Jubei",
+    "Anjal of Thulsadus (deceased)"
+   ],
+   "elements": [
+    "Mother's Coil tower",
+    "spellbooks",
+    "wands",
+    "magic-item recipes"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w29-trade-office",
+   "slice": "willowshore",
+   "name": "W29. Trade Office",
+   "location": "Willowshore, Northridge",
+   "file": "willowshore.md",
+   "source": "p.21",
+   "themes": [
+    "Mystery",
+    "Social"
+   ],
+   "threads": [
+    "Investigate Willowshore's secrets",
+    "Equip for the haunting",
+    "Earn income / downtime"
+   ],
+   "characters": [
+    "Kim Gu-won",
+    "Granny Hu",
+    "Governor Heh Shan-Bao"
+   ],
+   "elements": [
+    "Trade Office",
+    "Karahai trade",
+    "illicit packages",
+    "Mushroom House link",
+    "Granny Hu's suite"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w30-fisheries",
+   "slice": "willowshore",
+   "name": "W30. Fisheries",
+   "location": "Willowshore, Northridge",
+   "file": "willowshore.md",
+   "source": "p.22",
+   "themes": [
+    "Social"
+   ],
+   "threads": [
+    "Help Willowshore recover",
+    "Earn income / downtime"
+   ],
+   "characters": [
+    "Zataku"
+   ],
+   "elements": [
+    "Fisheries",
+    "fish ponds",
+    "weather sense"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w31-dock",
+   "slice": "willowshore",
+   "name": "W31. Dock",
+   "location": "Willowshore, Northridge (mouth of the Ceiba River)",
+   "file": "willowshore.md",
+   "source": "p.22",
+   "themes": [
+    "Social"
+   ],
+   "threads": [
+    "Travel the rivers",
+    "Equip for the haunting"
+   ],
+   "characters": [
+    "Rajul Samudra"
+   ],
+   "elements": [
+    "Willowshore Dock",
+    "Ceiba-Duyue Exchange",
+    "rowboats",
+    "Ceiba River"
+   ],
+   "spoiler": false,
+   "fragment_count": 1
+  },
+  {
+   "id": "loc.w32-mushroom-house",
+   "slice": "willowshore",
+   "name": "W32. The Mushroom House",
+   "location": "Willowshore, Northridge (remote)",
+   "file": "willowshore.md",
+   "source": "p.22",
+   "themes": [
+    "Mystery",
+    "Social"
+   ],
+   "threads": [
+    "Investigate Willowshore's secrets",
+    "Acquire contraband",
+    "Earn income / downtime"
+   ],
+   "characters": [
+    "Luda Bama",
+    "Granny Hu"
+   ],
+   "elements": [
+    "Mushroom House",
+    "drugs",
+    "poisons",
+    "illicit goods"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w33-spider-gate",
+   "slice": "willowshore",
+   "name": "W33. Spider Gate",
+   "location": "Willowshore (town entrance)",
+   "file": "willowshore.md",
+   "source": "p.22",
+   "themes": [
+    "Mystery",
+    "Tension"
+   ],
+   "threads": [
+    "Relight the lanterns",
+    "Investigate Willowshore's secrets"
+   ],
+   "characters": [
+    "Ugly Cute (guardian spirit)"
+   ],
+   "elements": [
+    "Spider Gate",
+    "stone guardian spider",
+    "entrance lantern",
+    "Tan Sugi"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w34-kawaka-home",
+   "slice": "willowshore",
+   "name": "W34. Kawaka's Home",
+   "location": "Willowshore",
+   "file": "willowshore.md",
+   "source": "p.22",
+   "themes": [
+    "Personal"
+   ],
+   "threads": [
+    "Befriend Willowshore's residents"
+   ],
+   "characters": [
+    "Myna Kawaka"
+   ],
+   "elements": [
+    "Kawaka's Home (vacant)"
+   ],
+   "spoiler": false,
+   "fragment_count": 1
+  },
+  {
+   "id": "loc.w35-leshys-salon",
+   "slice": "willowshore",
+   "name": "W35. The Leshy's Salon",
+   "location": "Willowshore (Unaffiliated)",
+   "file": "willowshore.md",
+   "source": "p.22",
+   "themes": [
+    "Social"
+   ],
+   "threads": [
+    "Befriend Willowshore's residents",
+    "Equip for the haunting"
+   ],
+   "characters": [
+    "Mountain Summit Grass"
+   ],
+   "elements": [
+    "Leshy's Salon",
+    "tea farm",
+    "tea ware"
+   ],
+   "spoiler": false,
+   "fragment_count": 1
+  },
+  {
+   "id": "loc.w36-bones-forgotten",
+   "slice": "willowshore",
+   "name": "W36. Bones of the Forgotten",
+   "location": "Willowshore (overgrown outskirts)",
+   "file": "willowshore.md",
+   "source": "p.23",
+   "themes": [
+    "Mystery",
+    "Tension"
+   ],
+   "threads": [
+    "Investigate Willowshore's secrets",
+    "Combat the dead"
+   ],
+   "characters": [
+    "the unquiet dead"
+   ],
+   "elements": [
+    "Bones of the Forgotten",
+    "Mark of Crime",
+    "paper shuriken posts",
+    "Specterwood"
+   ],
+   "spoiler": false,
+   "fragment_count": 1
+  },
+  {
+   "id": "loc.hinterlands",
+   "slice": "willowshore",
+   "name": "Willowshore Hinterlands (overview)",
+   "location": "Willowshore Hinterlands",
+   "file": "willowshore.md",
+   "source": "p.23",
+   "themes": [
+    "Tension",
+    "Mystery"
+   ],
+   "threads": [
+    "Explore the hinterlands",
+    "Investigate the curse"
+   ],
+   "characters": [
+    "wandering monsters",
+    "hinterland ghosts"
+   ],
+   "elements": [
+    "Hinterlands map (1 hex = 2 miles)",
+    "Mindscape Border",
+    "Wall of Ghosts",
+    "Pilgrim's Path",
+    "Specterwood",
+    "Trimountains"
+   ],
+   "spoiler": true,
+   "fragment_count": 3
+  },
+  {
+   "id": "loc.w37-great-willow",
+   "slice": "willowshore",
+   "name": "W37. The Great Willow",
+   "location": "Willowshore Hinterlands (Trimountains, lowest peak)",
+   "file": "willowshore.md",
+   "source": "p.23",
+   "themes": [
+    "Mystery",
+    "Personal"
+   ],
+   "threads": [
+    "Explore the hinterlands",
+    "Seek the kami's knowledge"
+   ],
+   "characters": [
+    "Great Willow"
+   ],
+   "elements": [
+    "Great Willow",
+    "Trimountains",
+    "Tan Sugi grove",
+    "Master Zhi Hui's legacy"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.w38-wooded-clearing",
+   "slice": "willowshore",
+   "name": "W38. Wooded Clearing",
+   "location": "Willowshore Hinterlands (woods just east of town)",
+   "file": "willowshore.md",
+   "source": "p.23",
+   "themes": [
+    "Mystery",
+    "Personal"
+   ],
+   "threads": [
+    "Wake and return to town",
+    "Begin the campaign"
+   ],
+   "characters": [
+    "the abducted PCs",
+    "festival organizers"
+   ],
+   "elements": [
+    "Wooded Clearing",
+    "Reenactment Festival"
+   ],
+   "spoiler": false,
+   "fragment_count": 1
+  },
+  {
+   "id": "loc.rumormill",
+   "slice": "willowshore",
+   "name": "The Willowshore Rumormill",
+   "location": "Willowshore (townwide)",
+   "file": "willowshore.md",
+   "source": "p.24",
+   "themes": [
+    "Mystery",
+    "Social"
+   ],
+   "threads": [
+    "Gather information",
+    "Foreshadow the campaign"
+   ],
+   "characters": [
+    "Matsu",
+    "You So-Jin",
+    "Yami",
+    "the Fox Ghost",
+    "Great Willow"
+   ],
+   "elements": [
+    "Idle Rumors table (d20)",
+    "Pilgrim's Path monastery",
+    "giant stag beetle",
+    "cranes"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "a1.clearing",
+   "slice": "act1-summer",
+   "name": "Strange Aggression (Wooded-Clearing Opening)",
+   "location": "Forest clearing east of Willowshore (area W38)",
+   "file": "act1-summer.md",
+   "source": "p.28",
+   "themes": [
+    "Mystery",
+    "Tension",
+    "Action"
+   ],
+   "threads": [
+    "Get back to Willowshore",
+    "Understand what is wrong"
+   ],
+   "characters": [
+    "Choe Chung-hu",
+    "Giant centipedes"
+   ],
+   "elements": [
+    "Forest clearing W38",
+    "Game trail",
+    "Red blindfolds",
+    "Reenactment Festival"
+   ],
+   "spoiler": false,
+   "fragment_count": 4
+  },
+  {
+   "id": "a1.bridge-mist",
+   "slice": "act1-summer",
+   "name": "Maze of Mist, Rain of Blood (Crossing Home)",
+   "location": "Duyue River bridge, eastern Willowshore",
+   "file": "act1-summer.md",
+   "source": "p.29",
+   "themes": [
+    "Tension",
+    "Mystery"
+   ],
+   "threads": [
+    "Reach home",
+    "Light the Eternal Lantern"
+   ],
+   "characters": [],
+   "elements": [
+    "Duyue River bridge",
+    "Mirage mist",
+    "Crimson moon",
+    "Blood rain",
+    "Lantern poem"
+   ],
+   "spoiler": false,
+   "fragment_count": 5
+  },
+  {
+   "id": "a1.spider-gate",
+   "slice": "act1-summer",
+   "name": "The Spiderless Gate (Missing Ugly Cute)",
+   "location": "Spider Gate, eastern entrance (area W33)",
+   "file": "act1-summer.md",
+   "source": "p.31",
+   "themes": [
+    "Mystery"
+   ],
+   "threads": [
+    "Find out what happened to Ugly Cute",
+    "Light the Eternal Lantern"
+   ],
+   "characters": [
+    "Ugly Cute"
+   ],
+   "elements": [
+    "Spider Gate W33",
+    "Empty shrine",
+    "Entrance lantern",
+    "Furrow tracks"
+   ],
+   "spoiler": true,
+   "fragment_count": 3
+  },
+  {
+   "id": "a1.watchtower",
+   "slice": "act1-summer",
+   "name": "Eastern Watchtower (Ha Hai-er's Tale)",
+   "location": "Eastern watchtower",
+   "file": "act1-summer.md",
+   "source": "p.31",
+   "themes": [
+    "Social",
+    "Tension",
+    "Mystery"
+   ],
+   "threads": [
+    "Reach home",
+    "Recruit allies",
+    "Light the Eternal Lantern"
+   ],
+   "characters": [
+    "Ha Hai-er",
+    "Jinkin gremlins",
+    "Town guards"
+   ],
+   "elements": [
+    "Eastern watchtower",
+    "The Eight Practices",
+    "Lantern oil cask",
+    "Tower bell"
+   ],
+   "spoiler": false,
+   "fragment_count": 4
+  },
+  {
+   "id": "a1.southbank-matsuki",
+   "slice": "act1-summer",
+   "name": "Meeting Old Matsuki (Southbank)",
+   "location": "Matsuki Estate (area W5), Southbank",
+   "file": "act1-summer.md",
+   "source": "p.35",
+   "themes": [
+    "Social",
+    "Mystery"
+   ],
+   "threads": [
+    "Ally with an elder",
+    "Light the Eternal Lantern",
+    "Liberate Willowshore"
+   ],
+   "characters": [
+    "Old Matsuki / Matsuki Shou"
+   ],
+   "elements": [
+    "Matsuki estate W5",
+    "Thrice-Blessed Inn W6",
+    "Three copper coins",
+    "Dawnstep Bridge"
+   ],
+   "spoiler": false,
+   "fragment_count": 4
+  },
+  {
+   "id": "a1.northridge-hu",
+   "slice": "act1-summer",
+   "name": "Meeting Granny Hu (Northridge)",
+   "location": "Trade office / Ceiba-Duyue Exchange (area W29), Northridge",
+   "file": "act1-summer.md",
+   "source": "p.37",
+   "themes": [
+    "Social",
+    "Mystery"
+   ],
+   "threads": [
+    "Ally with an elder",
+    "Light the Eternal Lantern",
+    "Liberate Willowshore"
+   ],
+   "characters": [
+    "Granny Hu / Hu Ban-niang",
+    "Kim Gu-won"
+   ],
+   "elements": [
+    "Trade office W29",
+    "Eight Paces game pieces"
+   ],
+   "spoiler": false,
+   "fragment_count": 4
+  },
+  {
+   "id": "a1.crossing-water",
+   "slice": "act1-summer",
+   "name": "Crossing the Water (Dam & Drowned Lake)",
+   "location": "Ceiba River, Willowshore Dam (W18), Woodraft Lake (W17)",
+   "file": "act1-summer.md",
+   "source": "p.36",
+   "themes": [
+    "Tension",
+    "Action"
+   ],
+   "threads": [
+    "Reach Northridge",
+    "Liberate Willowshore"
+   ],
+   "characters": [],
+   "elements": [
+    "Ceiba River",
+    "Willowshore Dam W18",
+    "Woodraft Lake W17",
+    "Rowboats"
+   ],
+   "spoiler": false,
+   "fragment_count": 5
+  },
+  {
+   "id": "a1.trapped-hunter",
+   "slice": "act1-summer",
+   "name": "A1. The Trapped Hunter (Abacus Sisters)",
+   "location": "Small farm in Southbank",
+   "file": "act1-summer.md",
+   "source": "p.37",
+   "themes": [
+    "Social",
+    "Action"
+   ],
+   "threads": [
+    "Aid Ugly Cute / contact Silvermist",
+    "Rescue townsfolk"
+   ],
+   "characters": [
+    "Midori",
+    "Murasaki",
+    "Noodles",
+    "Sparrow",
+    "Sumika"
+   ],
+   "elements": [
+    "Small Farm map",
+    "Spring-loaded spear trap"
+   ],
+   "spoiler": false,
+   "fragment_count": 4
+  },
+  {
+   "id": "a1.clinic",
+   "slice": "act1-summer",
+   "name": "A2. Clash at the Clinic (Hand of Spring)",
+   "location": "Hand of Spring clinic (area W27)",
+   "file": "act1-summer.md",
+   "source": "p.39",
+   "themes": [
+    "Action",
+    "Social"
+   ],
+   "threads": [
+    "Check on Doctor Dami",
+    "Light the Eternal Lantern",
+    "Defeat the bridge buso"
+   ],
+   "characters": [
+    "Doctor Dami",
+    "Phantom gecko",
+    "Igawa Jubei",
+    "Huo Tian-Zhe"
+   ],
+   "elements": [
+    "Hand of Spring clinic W27",
+    "Qi Zhong shrine A2d"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "a1.worst-puzzle",
+   "slice": "act1-summer",
+   "name": "The Worst Puzzle (Trapped Revelers)",
+   "location": "Lumber drying yard near the Mushroom House (area W32)",
+   "file": "act1-summer.md",
+   "source": "p.40",
+   "themes": [
+    "Tension",
+    "Action"
+   ],
+   "threads": [
+    "Find Granny Hu's grandchildren",
+    "Rescue townsfolk"
+   ],
+   "characters": [
+    "Endangered Revelers"
+   ],
+   "elements": [
+    "Lumber drying yard",
+    "Mushroom House W32",
+    "Haphazard Wood Pile"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a1.shrines",
+   "slice": "act1-summer",
+   "name": "Blessing the Coins (Willowshore's Shrines)",
+   "location": "Town shrines across Willowshore",
+   "file": "act1-summer.md",
+   "source": "p.41",
+   "themes": [
+    "Social",
+    "Mystery"
+   ],
+   "threads": [
+    "Light the Eternal Lantern"
+   ],
+   "characters": [],
+   "elements": [
+    "Town shrines",
+    "Copper coins"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a1.dawnstep-buso",
+   "slice": "act1-summer",
+   "name": "Liberating the Bridge: Retaking Dawnstep (Gurglegut)",
+   "location": "Dawnstep Bridge (area W11)",
+   "file": "act1-summer.md",
+   "source": "p.42",
+   "themes": [
+    "Action",
+    "Tension"
+   ],
+   "threads": [
+    "Liberate Willowshore",
+    "Reopen the bridge",
+    "Light the Eternal Lantern"
+   ],
+   "characters": [
+    "Gurglegut",
+    "Jinkins"
+   ],
+   "elements": [
+    "Dawnstep Bridge W11",
+    "The Eternal Lantern",
+    "Three ancient copper coins"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "a1.light-the-night",
+   "slice": "act1-summer",
+   "name": "Light the Night (The Eternal Lantern)",
+   "location": "Dawnstep Bridge (areas W10/W11)",
+   "file": "act1-summer.md",
+   "source": "p.43",
+   "themes": [
+    "Mystery",
+    "Action"
+   ],
+   "threads": [
+    "Light the Eternal Lantern",
+    "Liberate Willowshore"
+   ],
+   "characters": [
+    "Master Zhi Hui"
+   ],
+   "elements": [
+    "The Eternal Lantern",
+    "Three blessed copper coins",
+    "Dawnstep Bridge"
+   ],
+   "spoiler": true,
+   "fragment_count": 3
+  },
+  {
+   "id": "a1.downtown-barracks",
+   "slice": "act1-summer",
+   "name": "Liberating Downtown: The Barracks (B1-B8)",
+   "location": "Downtown Willowshore (area W19), barracks complex",
+   "file": "act1-summer.md",
+   "source": "p.46",
+   "themes": [
+    "Action",
+    "Mystery",
+    "Social"
+   ],
+   "threads": [
+    "Liberate downtown",
+    "Rescue townsfolk",
+    "Find the missing governor"
+   ],
+   "characters": [
+    "Zheng Peng",
+    "Town guards",
+    "Imprisoned villagers"
+   ],
+   "elements": [
+    "Empty Lot B1",
+    "Stone lions",
+    "Prison B4",
+    "Armory B6",
+    "Infested Stables B8"
+   ],
+   "spoiler": true,
+   "fragment_count": 6
+  },
+  {
+   "id": "a1.downtown-residences",
+   "slice": "act1-summer",
+   "name": "Liberating Downtown: Residences & Star-Crossed Lovers (B9-B12)",
+   "location": "Downtown residences (B9-B12)",
+   "file": "act1-summer.md",
+   "source": "p.48",
+   "themes": [
+    "Social",
+    "Personal",
+    "Action"
+   ],
+   "threads": [
+    "Liberate downtown",
+    "Rescue townsfolk"
+   ],
+   "characters": [
+    "Yuli Sanmi",
+    "Hu Lelong",
+    "Nadoya Sanmi",
+    "Drunken jinkins"
+   ],
+   "elements": [
+    "Treesparrow's Rest B9",
+    "Sanmi Household B10",
+    "Mudwall House B11",
+    "Backyard Storage B12",
+    "Love letters",
+    "Cursed necklace"
+   ],
+   "spoiler": false,
+   "fragment_count": 5
+  },
+  {
+   "id": "a1.happy-kappa",
+   "slice": "act1-summer",
+   "name": "Liberating Downtown: The Happy Kappa (B13-B15)",
+   "location": "Happy Kappa bathhouse (B13-B15)",
+   "file": "act1-summer.md",
+   "source": "p.50",
+   "themes": [
+    "Social",
+    "Mystery"
+   ],
+   "threads": [
+    "Liberate downtown",
+    "Rescue townsfolk"
+   ],
+   "characters": [
+    "De-ge",
+    "Kappas"
+   ],
+   "elements": [
+    "Bathhouse foyer B13",
+    "Lockers B14",
+    "Mostly Happy Kappas B15"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a1.gray-butcher",
+   "slice": "act1-summer",
+   "name": "A Parade of Cookware (Gray Butcher)",
+   "location": "Downtown streets",
+   "file": "act1-summer.md",
+   "source": "p.51",
+   "themes": [
+    "Action",
+    "Social"
+   ],
+   "threads": [
+    "Liberate Willowshore",
+    "Defeat the ringleaders"
+   ],
+   "characters": [
+    "Gray Butcher"
+   ],
+   "elements": [
+    "Animated cookware swarms",
+    "Public Stage B16",
+    "Shelyn Shrine B17"
+   ],
+   "spoiler": false,
+   "fragment_count": 4
+  },
+  {
+   "id": "a1.teahouse",
+   "slice": "act1-summer",
+   "name": "Cerulean Teahouse: Mo Douqiu the Hedonist (C1-C4)",
+   "location": "Cerulean Teahouse (area W22)",
+   "file": "act1-summer.md",
+   "source": "p.53",
+   "themes": [
+    "Action",
+    "Mystery",
+    "Tension"
+   ],
+   "threads": [
+    "Liberate Willowshore",
+    "Defeat the ringleaders",
+    "Free captives"
+   ],
+   "characters": [
+    "Mo Douqiu",
+    "Warty",
+    "Stingy",
+    "Fluffy Whiskers",
+    "Imprisoned villagers"
+   ],
+   "elements": [
+    "Cerulean Teahouse W22",
+    "Qing Mai-Lai's will",
+    "Set table for noppera-bos"
+   ],
+   "spoiler": false,
+   "fragment_count": 7
+  },
+  {
+   "id": "a1.mindscape-border",
+   "slice": "act1-summer",
+   "name": "Into the Hinterlands: The Mindscape Border",
+   "location": "Road to Karahai / mindscape border, near Gourd Lake (D2)",
+   "file": "act1-summer.md",
+   "source": "p.57",
+   "themes": [
+    "Mystery",
+    "Tension"
+   ],
+   "threads": [
+    "Reach Karahai",
+    "Understand the curse"
+   ],
+   "characters": [],
+   "elements": [
+    "Mindscape border",
+    "Gourd Lake D2",
+    "Road to Karahai",
+    "Green Silk Peak D5"
+   ],
+   "spoiler": true,
+   "fragment_count": 3
+  },
+  {
+   "id": "a1.shinzo",
+   "slice": "act1-summer",
+   "name": "The Mysterious Merchant (Shinzo & Yix)",
+   "location": "Downtown Willowshore (merchant stall)",
+   "file": "act1-summer.md",
+   "source": "p.57",
+   "themes": [
+    "Social",
+    "Mystery"
+   ],
+   "threads": [
+    "Acquire supplies / shopping"
+   ],
+   "characters": [
+    "Shinzo",
+    "Yix"
+   ],
+   "elements": [
+    "Merchant's cart",
+    "Downtown stall"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "a1.opportunities",
+   "slice": "act1-summer",
+   "name": "Hinterlands Opportunities (Victory-Point Tasks)",
+   "location": "Willowshore & hinterlands",
+   "file": "act1-summer.md",
+   "source": "p.62",
+   "themes": [
+    "Social",
+    "Action"
+   ],
+   "threads": [
+    "Build reputation",
+    "Aid Willowshore",
+    "Claim the teahouse"
+   ],
+   "characters": [
+    "Rajul Samudra",
+    "Choe Chung-hu",
+    "Kum Soon-chong",
+    "Yong Wu-Xiu",
+    "Yun Mong-un",
+    "Luo Xi Yang",
+    "Mountain Summit Grass"
+   ],
+   "elements": [
+    "Gourd Lake D2",
+    "Eyes of Fumeiyoshi D9",
+    "Old Village Expansion D8",
+    "Peachwood Groves",
+    "Cerulean Teahouse"
+   ],
+   "spoiler": false,
+   "fragment_count": 4
+  },
+  {
+   "id": "a1.hinterlands-wilds",
+   "slice": "act1-summer",
+   "name": "Exploring the Hinterlands (Wilds & Eyes of Fumeiyoshi)",
+   "location": "Willowshore hinterlands",
+   "file": "act1-summer.md",
+   "source": "p.59",
+   "themes": [
+    "Action",
+    "Tension",
+    "Mystery"
+   ],
+   "threads": [
+    "Explore the region",
+    "Pursue clues"
+   ],
+   "characters": [
+    "Wandering monsters",
+    "Eloped lovers"
+   ],
+   "elements": [
+    "Hinterlands map",
+    "Gourd Lake D2",
+    "Treacherous Trail D3",
+    "Green Silk Peak D5",
+    "Hunter's Hut D6",
+    "Eyes of Fumeiyoshi D9",
+    "Peachwood Groves"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "a1.canary-inn",
+   "slice": "act1-summer",
+   "name": "The Missing Governor: Songs at Canary Inn (Fan Hongrui)",
+   "location": "Canary Inn (area D4)",
+   "file": "act1-summer.md",
+   "source": "p.64",
+   "themes": [
+    "Mystery",
+    "Tension",
+    "Social"
+   ],
+   "threads": [
+    "Find the missing governor",
+    "Investigate the curse"
+   ],
+   "characters": [
+    "Fan Hongrui",
+    "Thatchlings",
+    "Chi Hongxin",
+    "Nanzhe Hongban"
+   ],
+   "elements": [
+    "Canary Inn D4",
+    "Tall grass clearing",
+    "Shallow graves",
+    "Hongrui's red cloak"
+   ],
+   "spoiler": true,
+   "fragment_count": 6
+  },
+  {
+   "id": "a1.great-willow",
+   "slice": "act1-summer",
+   "name": "The Mists: Visiting Great Willow & Into the Infestation",
+   "location": "Great Willow hilltop (W37) & Infested Grove (D7)",
+   "file": "act1-summer.md",
+   "source": "p.68",
+   "themes": [
+    "Social",
+    "Mystery",
+    "Action"
+   ],
+   "threads": [
+    "Understand the curse's extent",
+    "Aid Great Willow"
+   ],
+   "characters": [
+    "Great Willow",
+    "Xungu"
+   ],
+   "elements": [
+    "Great Willow W37",
+    "Shimenawa offering",
+    "Infested Grove D7",
+    "Dragonfly Creek"
+   ],
+   "spoiler": true,
+   "fragment_count": 5
+  },
+  {
+   "id": "a1.ugly-cute",
+   "slice": "act1-summer",
+   "name": "Searching for Ugly Cute (Gorge of Fangs and Teeth)",
+   "location": "Gorge of Fangs and Teeth (area D10)",
+   "file": "act1-summer.md",
+   "source": "p.70",
+   "themes": [
+    "Action",
+    "Mystery",
+    "Personal"
+   ],
+   "threads": [
+    "Find Ugly Cute",
+    "Investigate the curse",
+    "Locate the source of the noppera-bos"
+   ],
+   "characters": [
+    "Ugly Cute",
+    "Living boulders",
+    "Sumika"
+   ],
+   "elements": [
+    "Gorge of Fangs and Teeth D10",
+    "Spider Gate W33"
+   ],
+   "spoiler": true,
+   "fragment_count": 5
+  },
+  {
+   "id": "a1.wall-of-ghosts",
+   "slice": "act1-summer",
+   "name": "The Wall of Ghosts (Mindscape's Western Barrier)",
+   "location": "Wall of Ghosts, western mindscape edge",
+   "file": "act1-summer.md",
+   "source": "p.60",
+   "themes": [
+    "Tension",
+    "Mystery"
+   ],
+   "threads": [
+    "Investigate the curse",
+    "Find the source of evil"
+   ],
+   "characters": [],
+   "elements": [
+    "Wall of Ghosts",
+    "Ritual Site D12",
+    "Road to Enlightenment D13"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "a1.who-leads",
+   "slice": "act1-summer",
+   "name": "Who Leads Willowshore? (The Duel)",
+   "location": "Willowshore",
+   "file": "act1-summer.md",
+   "source": "p.73",
+   "themes": [
+    "Social",
+    "Personal",
+    "Tension"
+   ],
+   "threads": [
+    "Decide Willowshore's leadership",
+    "Prevent bloodshed"
+   ],
+   "characters": [
+    "Old Matsuki",
+    "Granny Hu"
+   ],
+   "elements": [
+    "Willowshore dueling tradition",
+    "Influence stat blocks"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a1.lumber-camp-outer",
+   "slice": "act1-summer",
+   "name": "The Lumber Camp: Approach & Outer Areas (E1-E9)",
+   "location": "Lumber Camp (area D11 / E1-E9), ~8 miles west",
+   "file": "act1-summer.md",
+   "source": "p.76",
+   "themes": [
+    "Action",
+    "Mystery",
+    "Tension"
+   ],
+   "threads": [
+    "Rescue the abductees",
+    "Find the curse's source",
+    "Reach the Wall of Ghosts"
+   ],
+   "characters": [
+    "Noppera-bo tricksters",
+    "Noppera-bo grunts",
+    "Jerky",
+    "Shinzo",
+    "Injured kappa",
+    "Hunting spiders"
+   ],
+   "elements": [
+    "Lumber Camp D11",
+    "Willowshore Stables",
+    "Secret door E6",
+    "Stockade"
+   ],
+   "spoiler": false,
+   "fragment_count": 6
+  },
+  {
+   "id": "a1.lumber-camp-inner",
+   "slice": "act1-summer",
+   "name": "The Lumber Camp: Inner Buildings (E10-E17)",
+   "location": "Lumber Camp interior (E10-E17)",
+   "file": "act1-summer.md",
+   "source": "p.80",
+   "themes": [
+    "Action",
+    "Mystery",
+    "Social"
+   ],
+   "threads": [
+    "Rescue the abductees",
+    "Defeat the noppera-bo leaders",
+    "Reach the ritual site"
+   ],
+   "characters": [
+    "Kum Soon-chong",
+    "Noppera-bo occultists",
+    "Mugirou",
+    "Captured farmers",
+    "Abacus Sisters"
+   ],
+   "elements": [
+    "Manager's Dormitory E10",
+    "Camp Office E11",
+    "Worker's Dormitory E14",
+    "Kugaptee effigy",
+    "Mugirou's Throne E16",
+    "Log Piles E17"
+   ],
+   "spoiler": false,
+   "fragment_count": 6
+  },
+  {
+   "id": "a1.ritual-site",
+   "slice": "act1-summer",
+   "name": "The Ritual Site: Zoudou's Rite & Horror From Beyond",
+   "location": "Ritual Site at the Wall of Ghosts (area D12)",
+   "file": "act1-summer.md",
+   "source": "p.84",
+   "themes": [
+    "Action",
+    "Mystery",
+    "Tension",
+    "Personal"
+   ],
+   "threads": [
+    "Rescue Meng-sung",
+    "Stop the ritual",
+    "Confront the curse's source"
+   ],
+   "characters": [
+    "Zoudou the Zealous",
+    "Noppera-bo occultists",
+    "Kum Meng-sung",
+    "Kugaptee's Blessings"
+   ],
+   "elements": [
+    "Ritual Site D12",
+    "Corrupted shrine",
+    "Wall of Ghosts",
+    "Zoudou's ledger"
+   ],
+   "spoiler": true,
+   "fragment_count": 5
+  },
+  {
+   "id": "a1.conclusion",
+   "slice": "act1-summer",
+   "name": "Concluding Act 1",
+   "location": "Willowshore",
+   "file": "act1-summer.md",
+   "source": "p.88",
+   "themes": [
+    "Mystery",
+    "Personal"
+   ],
+   "threads": [
+    "Survive the cursed summer",
+    "Carry clues into fall"
+   ],
+   "characters": [],
+   "elements": [
+    "Wall of Ghosts",
+    "Kugaptee (name)",
+    "Willowshore town level 5"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a2.prep-points",
+   "slice": "act2-fall",
+   "name": "Preparing for Winter: Hope, Food & Security",
+   "location": "Willowshore",
+   "file": "act2-fall.md",
+   "source": "p.93",
+   "themes": [
+    "Tension",
+    "Social"
+   ],
+   "threads": [
+    "Prepare Willowshore for winter"
+   ],
+   "characters": [
+    "town elder/governor",
+    "Zheng Peng",
+    "Nadoya Sanmi"
+   ],
+   "elements": [
+    "Hope Points",
+    "Food Points",
+    "Security Points",
+    "weekly downtime"
+   ],
+   "spoiler": false,
+   "fragment_count": 8
+  },
+  {
+   "id": "a2.who-leads",
+   "slice": "act2-fall",
+   "name": "Who Leads Willowshore? (town elder / governor)",
+   "location": "Willowshore",
+   "file": "act2-fall.md",
+   "source": "p.93",
+   "themes": [
+    "Social",
+    "Personal"
+   ],
+   "threads": [
+    "Prepare Willowshore for winter"
+   ],
+   "characters": [
+    "town elder/governor",
+    "Old Matsuki",
+    "Granny Hu",
+    "Heh Shan-Bao"
+   ],
+   "elements": [
+    "Willowshore governance"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "a2.teahouse",
+   "slice": "act2-fall",
+   "name": "Restoring the Cerulean Teahouse (and Yami)",
+   "location": "Willowshore (Cerulean Teahouse)",
+   "file": "act2-fall.md",
+   "source": "p.95",
+   "themes": [
+    "Social",
+    "Personal"
+   ],
+   "threads": [
+    "Restore the teahouse / bolster Hope"
+   ],
+   "characters": [
+    "Yami",
+    "town elder"
+   ],
+   "elements": [
+    "Cerulean Teahouse",
+    "tea ware",
+    "Yami's gifts"
+   ],
+   "spoiler": true,
+   "fragment_count": 5
+  },
+  {
+   "id": "a2.research-curse",
+   "slice": "act2-fall",
+   "name": "Researching the Curse",
+   "location": "Willowshore",
+   "file": "act2-fall.md",
+   "source": "p.98",
+   "themes": [
+    "Mystery"
+   ],
+   "threads": [
+    "Research the curse / open the Wall of Ghosts"
+   ],
+   "characters": [
+    "You So-Jin",
+    "Igawa Jubei",
+    "Great Willow",
+    "Asahina Shinzo"
+   ],
+   "elements": [
+    "Wall of Ghosts",
+    "Tan Sugi monastery",
+    "Kugaptee",
+    "nindorus",
+    "Open the Wall of Ghosts ritual",
+    "Zoudou's notes"
+   ],
+   "spoiler": true,
+   "fragment_count": 5
+  },
+  {
+   "id": "a2.spirits-hauntings",
+   "slice": "act2-fall",
+   "name": "Spirits & Hauntings: the fall escalation",
+   "location": "Willowshore",
+   "file": "act2-fall.md",
+   "source": "p.100",
+   "themes": [
+    "Tension",
+    "Mystery"
+   ],
+   "threads": [
+    "Survive the fall hauntings / preserve Hope"
+   ],
+   "characters": [
+    "town elder",
+    "Mago Kai"
+   ],
+   "elements": [
+    "supernatural events",
+    "Hope erosion"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "a2.w1-daikitsu",
+   "slice": "act2-fall",
+   "name": "Week 1: An Offering for Daikitsu",
+   "location": "Willowshore",
+   "file": "act2-fall.md",
+   "source": "p.100",
+   "themes": [
+    "Social",
+    "Personal"
+   ],
+   "threads": [
+    "Survive the fall hauntings / preserve Hope"
+   ],
+   "characters": [
+    "Minhwan"
+   ],
+   "elements": [
+    "Daikitsu",
+    "Nine Ear Shrine",
+    "inarizushi"
+   ],
+   "spoiler": false,
+   "fragment_count": 1
+  },
+  {
+   "id": "a2.w2-vipers",
+   "slice": "act2-fall",
+   "name": "Week 2: A Slithering Situation",
+   "location": "Willowshore (Matsu's home, W12)",
+   "file": "act2-fall.md",
+   "source": "p.101",
+   "themes": [
+    "Action",
+    "Social"
+   ],
+   "threads": [
+    "Survive the fall hauntings / preserve Hope"
+   ],
+   "characters": [
+    "Matsu"
+   ],
+   "elements": [
+    "Matsu's outhouse (W12)",
+    "ghost touch rune"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a2.w3-first-long-night",
+   "slice": "act2-fall",
+   "name": "Week 3: First Long Night",
+   "location": "Willowshore (town square)",
+   "file": "act2-fall.md",
+   "source": "p.101",
+   "themes": [
+    "Social",
+    "Personal"
+   ],
+   "threads": [
+    "Bolster Hope at the festival"
+   ],
+   "characters": [
+    "Asahina Shinzo",
+    "Yix",
+    "You So-Jin",
+    "town NPCs"
+   ],
+   "elements": [
+    "town square",
+    "First Long Night",
+    "three contests"
+   ],
+   "spoiler": false,
+   "fragment_count": 4
+  },
+  {
+   "id": "a2.w4-haunted-hair",
+   "slice": "act2-fall",
+   "name": "Week 4: Haunted Hair",
+   "location": "Willowshore (steamed-bun shop, W21)",
+   "file": "act2-fall.md",
+   "source": "p.103",
+   "themes": [
+    "Mystery",
+    "Tension",
+    "Personal"
+   ],
+   "threads": [
+    "Survive the fall hauntings / preserve Hope"
+   ],
+   "characters": [
+    "Nakamura Mama Bao Yu Ming",
+    "Hinode Akari (ghost)"
+   ],
+   "elements": [
+    "steamed-bun shop (W21)",
+    "Gourd Lake"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "a2.w5-missing-corpse",
+   "slice": "act2-fall",
+   "name": "Week 5: The Missing Corpse",
+   "location": "Willowshore (church, Cerulean Teahouse)",
+   "file": "act2-fall.md",
+   "source": "p.104",
+   "themes": [
+    "Mystery",
+    "Personal"
+   ],
+   "threads": [
+    "Survive the fall hauntings / preserve Hope"
+   ],
+   "characters": [
+    "Elizeth Candora",
+    "Yami",
+    "zombie shambler"
+   ],
+   "elements": [
+    "missing corpse",
+    "Cerulean Teahouse",
+    "You So-Jin (red herring)"
+   ],
+   "spoiler": true,
+   "fragment_count": 3
+  },
+  {
+   "id": "a2.w6-faceless-ghost",
+   "slice": "act2-fall",
+   "name": "Week 6: The Faceless Ghost",
+   "location": "Willowshore (Jeong-hui's home, W24)",
+   "file": "act2-fall.md",
+   "source": "p.105",
+   "themes": [
+    "Tension",
+    "Action",
+    "Mystery"
+   ],
+   "threads": [
+    "Survive the fall hauntings / preserve Hope"
+   ],
+   "characters": [
+    "Ho Jeong-hui",
+    "dalgyal gwishin"
+   ],
+   "elements": [
+    "Jeong-hui's home (W24)",
+    "stone mask"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a2.w7-icy-grasp",
+   "slice": "act2-fall",
+   "name": "Week 7: An Icy Grasp",
+   "location": "Willowshore (Ceiba River, Goh's home)",
+   "file": "act2-fall.md",
+   "source": "p.105",
+   "themes": [
+    "Personal",
+    "Tension",
+    "Action"
+   ],
+   "threads": [
+    "Survive the fall hauntings / preserve Hope"
+   ],
+   "characters": [
+    "Goh"
+   ],
+   "elements": [
+    "Ceiba River",
+    "Goh's home"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "a2.w8-stable-fire",
+   "slice": "act2-fall",
+   "name": "Week 8: Stable Fire",
+   "location": "Willowshore (Willowshore Stables; Bones of the Forgotten)",
+   "file": "act2-fall.md",
+   "source": "p.106",
+   "themes": [
+    "Action",
+    "Tension",
+    "Mystery"
+   ],
+   "threads": [
+    "Survive the fall hauntings / preserve Hope"
+   ],
+   "characters": [
+    "Kum Soon-chong",
+    "Nin Nok (undead arsonist)"
+   ],
+   "elements": [
+    "Willowshore Stables",
+    "Bones of the Forgotten graveyard"
+   ],
+   "spoiler": true,
+   "fragment_count": 3
+  },
+  {
+   "id": "a2.w9-kimchi",
+   "slice": "act2-fall",
+   "name": "Week 9: Kimchi's Ascent",
+   "location": "Willowshore (tree outside town)",
+   "file": "act2-fall.md",
+   "source": "p.107",
+   "themes": [
+    "Social",
+    "Personal"
+   ],
+   "threads": [
+    "Survive the fall hauntings / preserve Hope"
+   ],
+   "characters": [
+    "Kimchi"
+   ],
+   "elements": [
+    "tall tree outside town"
+   ],
+   "spoiler": false,
+   "fragment_count": 1
+  },
+  {
+   "id": "a2.w10-feast-kami",
+   "slice": "act2-fall",
+   "name": "Week 10: Feast of the Kami",
+   "location": "Willowshore (Cerulean Teahouse)",
+   "file": "act2-fall.md",
+   "source": "p.107",
+   "themes": [
+    "Social",
+    "Personal"
+   ],
+   "threads": [
+    "Bolster the town's spiritual health"
+   ],
+   "characters": [
+    "Asahina Shinzo",
+    "Yix",
+    "Great Willow",
+    "Kohoshi",
+    "shikigami kami"
+   ],
+   "elements": [
+    "Cerulean Teahouse",
+    "tea ceremony",
+    "magic teas book",
+    "Winter's Breath ritual"
+   ],
+   "spoiler": false,
+   "fragment_count": 5
+  },
+  {
+   "id": "a2.w11-face-at-bed",
+   "slice": "act2-fall",
+   "name": "Week 11: The Face at the Foot of the Bed",
+   "location": "Willowshore",
+   "file": "act2-fall.md",
+   "source": "p.110",
+   "themes": [
+    "Tension",
+    "Mystery",
+    "Personal"
+   ],
+   "threads": [
+    "Survive the fall hauntings / preserve Hope"
+   ],
+   "characters": [
+    "a random PC"
+   ],
+   "elements": [
+    "red butterflies",
+    "Face at the Foot of the Bed curse"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "a2.w12-vanishings",
+   "slice": "act2-fall",
+   "name": "Week 12: Vanishings",
+   "location": "Willowshore",
+   "file": "act2-fall.md",
+   "source": "p.111",
+   "themes": [
+    "Tension",
+    "Mystery",
+    "Personal"
+   ],
+   "threads": [
+    "Survive the fall hauntings / preserve Hope"
+   ],
+   "characters": [
+    "a befriended villager"
+   ],
+   "elements": [
+    "the Vanishing",
+    "the hidden mindscape"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "ch6.wall-of-ghosts",
+   "slice": "act2-fall",
+   "name": "Ch.6: Opening the Wall of Ghosts",
+   "location": "Willowshore hinterlands (Wall of Ghosts)",
+   "file": "act2-fall.md",
+   "source": "p.113",
+   "themes": [
+    "Mystery",
+    "Action"
+   ],
+   "threads": [
+    "Open the Wall of Ghosts / reach the monastery"
+   ],
+   "characters": [
+    "town elder",
+    "Asahina Shinzo",
+    "two ghosts"
+   ],
+   "elements": [
+    "Wall of Ghosts",
+    "Pilgrim's Path",
+    "Open the Wall of Ghosts ritual",
+    "Karahai (unreachable)"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "ch6.within-wall",
+   "slice": "act2-fall",
+   "name": "Ch.6: Within the Wall of Ghosts (Kugaptee's grave mindscape)",
+   "location": "Within the Wall of Ghosts (A1-A3)",
+   "file": "act2-fall.md",
+   "source": "p.114",
+   "themes": [
+    "Mystery",
+    "Action",
+    "Tension"
+   ],
+   "threads": [
+    "Open the Wall of Ghosts / reach the monastery"
+   ],
+   "characters": [
+    "Tan Sui-Jing (echo)",
+    "heart-eating vulture",
+    "cacodaemons"
+   ],
+   "elements": [
+    "'Kugaptee' in Aklo",
+    "Tan Sui-Jing's grave",
+    "the soul-seed"
+   ],
+   "spoiler": true,
+   "fragment_count": 4
+  },
+  {
+   "id": "ch6.pilgrims-path",
+   "slice": "act2-fall",
+   "name": "Ch.6: Walking the Pilgrim's Path",
+   "location": "Pilgrim's Path",
+   "file": "act2-fall.md",
+   "source": "p.117",
+   "themes": [
+    "Mystery",
+    "Tension",
+    "Action"
+   ],
+   "threads": [
+    "Walk the Pilgrim's Path / reach the monastery"
+   ],
+   "characters": [
+    "Master Zhi Hui (history)",
+    "Enko the kappa",
+    "Iogaka the storm hag"
+   ],
+   "elements": [
+    "Pilgrim's Path",
+    "three shrines",
+    "Tan Sugi monastery",
+    "Night of Broken Blades"
+   ],
+   "spoiler": true,
+   "fragment_count": 9
+  },
+  {
+   "id": "ch7.monastery-overview",
+   "slice": "act2-fall",
+   "name": "Ch.7: Tan Sugi Monastery & Purifying the Statues",
+   "location": "Tan Sugi monastery",
+   "file": "act2-fall.md",
+   "source": "p.129",
+   "themes": [
+    "Mystery",
+    "Action",
+    "Tension"
+   ],
+   "threads": [
+    "Cleanse the monastery / stop Kugaptee's revival"
+   ],
+   "characters": [
+    "Master Zhi Hui (ghost)",
+    "Xin Yue",
+    "Yen Rui",
+    "corrupted monks",
+    "nindorus"
+   ],
+   "elements": [
+    "four statues",
+    "the Tan Sugi tree",
+    "the hidden library",
+    "Kugaptee's grave"
+   ],
+   "spoiler": true,
+   "fragment_count": 4
+  },
+  {
+   "id": "ch7.e1-e3",
+   "slice": "act2-fall",
+   "name": "Ch.7: Gate, Courtyard & Main Hall (E1-E3)",
+   "location": "Tan Sugi monastery (E1-E3)",
+   "file": "act2-fall.md",
+   "source": "p.133",
+   "themes": [
+    "Action",
+    "Tension",
+    "Mystery"
+   ],
+   "threads": [
+    "Cleanse the monastery / stop Kugaptee's revival"
+   ],
+   "characters": [
+    "Yuni (ghost)",
+    "ittan-momen tsukumogami"
+   ],
+   "elements": [
+    "grand gate fulus",
+    "kodama statue",
+    "sugi statue",
+    "Fiendish Reflection"
+   ],
+   "spoiler": true,
+   "fragment_count": 3
+  },
+  {
+   "id": "ch7.e4-e8",
+   "slice": "act2-fall",
+   "name": "Ch.7: Infirmary, Pharasma's Shrine, Refectory, Kitchen & Stores (E4-E8)",
+   "location": "Tan Sugi monastery (E4-E8)",
+   "file": "act2-fall.md",
+   "source": "p.136",
+   "themes": [
+    "Action",
+    "Mystery",
+    "Social"
+   ],
+   "threads": [
+    "Cleanse the monastery / stop Kugaptee's revival"
+   ],
+   "characters": [
+    "Monks of Kugaptee (kurobozus)",
+    "sojiruh nindorus",
+    "guhdggi (cook)"
+   ],
+   "elements": [
+    "Pharasma statue",
+    "haunted stew",
+    "Kalen Bray's stash",
+    "Pharasma's missing head"
+   ],
+   "spoiler": true,
+   "fragment_count": 5
+  },
+  {
+   "id": "ch7.e9-e12",
+   "slice": "act2-fall",
+   "name": "Ch.7: Dorms, Library, Hidden Library & Burial Garden (E9-E12)",
+   "location": "Tan Sugi monastery (E9-E12)",
+   "file": "act2-fall.md",
+   "source": "p.139",
+   "themes": [
+    "Action",
+    "Mystery"
+   ],
+   "threads": [
+    "Cleanse the monastery / stop Kugaptee's revival"
+   ],
+   "characters": [
+    "guhdggi",
+    "meokdans",
+    "ijda nindorus",
+    "Yen Rui (spirit)"
+   ],
+   "elements": [
+    "stag statue",
+    "Watchers of the Cycle",
+    "reincarnate ritual",
+    "hidden library collection"
+   ],
+   "spoiler": true,
+   "fragment_count": 5
+  },
+  {
+   "id": "ch7.e13-e15",
+   "slice": "act2-fall",
+   "name": "Ch.7: The Tan Sugi, Storage Room & Treasure Chamber (E13-E15)",
+   "location": "Tan Sugi monastery (E13-E15)",
+   "file": "act2-fall.md",
+   "source": "p.143",
+   "themes": [
+    "Action",
+    "Mystery",
+    "Tension"
+   ],
+   "threads": [
+    "Cleanse the monastery / stop Kugaptee's revival"
+   ],
+   "characters": [
+    "the Chewer",
+    "elite ogre spider",
+    "kurobozu cook",
+    "hell hounds",
+    "Kalen Bray"
+   ],
+   "elements": [
+    "Tan Sugi tree",
+    "woodcutter's axe",
+    "Pharasma's head",
+    "the warded grave door"
+   ],
+   "spoiler": true,
+   "fragment_count": 4
+  },
+  {
+   "id": "ch7.e16-kugaptee",
+   "slice": "act2-fall",
+   "name": "Ch.7: Kugaptee's Grave & Concluding the Act (E16)",
+   "location": "Tan Sugi monastery (E16, Kugaptee's Grave)",
+   "file": "act2-fall.md",
+   "source": "p.146",
+   "themes": [
+    "Action",
+    "Tension",
+    "Mystery"
+   ],
+   "threads": [
+    "Stop Kugaptee's revival / conclude the act"
+   ],
+   "characters": [
+    "Xin Yue",
+    "Master Zhi Hui",
+    "Monks of Kugaptee",
+    "meokdan nindorus",
+    "Kugaptee (manifestation)"
+   ],
+   "elements": [
+    "Kugaptee's grave",
+    "the petrified hand",
+    "the restored Tan Sugi"
+   ],
+   "spoiler": true,
+   "fragment_count": 5
+  },
+  {
+   "id": "a3.winter-engine",
+   "slice": "act3-winter",
+   "name": "Willowshore in Winter: Attrition & Preparation Points",
+   "location": "Willowshore (mindscape)",
+   "file": "act3-winter.md",
+   "source": "p.151",
+   "themes": [
+    "Tension",
+    "Social"
+   ],
+   "threads": [
+    "Survive winter / preserve Hope, Food & Security"
+   ],
+   "characters": [
+    "town elder/governor",
+    "Mago Kai's exorcists"
+   ],
+   "elements": [
+    "Hope Points",
+    "Food Points",
+    "Security Points",
+    "weekly attrition",
+    "Willowshore population",
+    "weekly downtime"
+   ],
+   "spoiler": false,
+   "fragment_count": 6
+  },
+  {
+   "id": "a3.red-smoke",
+   "slice": "act3-winter",
+   "name": "Red Smoke, Gold Eyes (Exorcism Begins)",
+   "location": "Cloud Paper House (W14), Woodraft Lake south shore",
+   "file": "act3-winter.md",
+   "source": "p.153",
+   "themes": [
+    "Mystery",
+    "Tension",
+    "Action"
+   ],
+   "threads": [
+    "Rescue the trapped civilians / stop the exorcism"
+   ],
+   "characters": [
+    "Mago Kai's ghostly exorcists",
+    "frightened townsfolk"
+   ],
+   "elements": [
+    "Cloud Paper House W14",
+    "Woodraft Lake",
+    "red smoke",
+    "four-eyed exorcist phantasm"
+   ],
+   "spoiler": true,
+   "fragment_count": 3
+  },
+  {
+   "id": "a3.event1-collapse",
+   "slice": "act3-winter",
+   "name": "Event 1: Structural Collapse (Cloud Paper House Rescue)",
+   "location": "Cloud Paper House interior",
+   "file": "act3-winter.md",
+   "source": "p.154",
+   "themes": [
+    "Action",
+    "Tension"
+   ],
+   "threads": [
+    "Rescue the three trapped civilians"
+   ],
+   "characters": [
+    "Aruka (kitsune apprentice, Creature -1)",
+    "Yu Er (urchin, Creature -1)",
+    "Zhen Luoyang (commoner, Creature -1)",
+    "Mr. Jelly"
+   ],
+   "elements": [
+    "collapsing rubble",
+    "Mr. Jelly doll",
+    "paper pulp loft"
+   ],
+   "spoiler": false,
+   "fragment_count": 6
+  },
+  {
+   "id": "a3.event2-uprising",
+   "slice": "act3-winter",
+   "name": "Event 2: Unnatural Uprising (Willowshore Waldgeists)",
+   "location": "Cloud Paper House street, area A5",
+   "file": "act3-winter.md",
+   "source": "p.156",
+   "themes": [
+    "Action",
+    "Tension"
+   ],
+   "threads": [
+    "Survive the waldgeist surge"
+   ],
+   "characters": [
+    "Willowshore waldgeists (2)"
+   ],
+   "elements": [
+    "Area A5",
+    "papery lignification",
+    "storm of paper"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a3.event3-shadows",
+   "slice": "act3-winter",
+   "name": "Event 3: Tomorrow's Shadows (Familiar Shadows)",
+   "location": "Cloud Paper House district",
+   "file": "act3-winter.md",
+   "source": "p.157",
+   "themes": [
+    "Action",
+    "Tension",
+    "Personal"
+   ],
+   "threads": [
+    "Defeat your own shadow-selves"
+   ],
+   "characters": [
+    "Familiar shadows (one per PC)"
+   ],
+   "elements": [
+    "PC shadows",
+    "infested shadow curse"
+   ],
+   "spoiler": true,
+   "fragment_count": 3
+  },
+  {
+   "id": "a3.cloud-paper-aftermath",
+   "slice": "act3-winter",
+   "name": "Wrapping Up Cloud Paper House (Rewards & Aftermath)",
+   "location": "Willowshore industrial district",
+   "file": "act3-winter.md",
+   "source": "p.158",
+   "themes": [
+    "Social",
+    "Tension"
+   ],
+   "threads": [
+    "Tally the rescue / secure rewards / pivot to investigation"
+   ],
+   "characters": [
+    "Myna Kawaka",
+    "Yu Er's parents",
+    "town elder",
+    "Shinzo"
+   ],
+   "elements": [
+    "Hope Points",
+    "Reputation",
+    "faction rewards",
+    "Cloud Paper House repair"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "a3.unprovoked-murder",
+   "slice": "act3-winter",
+   "name": "Unprovoked Murder (Faceless Townsfolk)",
+   "location": "Willowshore (mindscape)",
+   "file": "act3-winter.md",
+   "source": "p.159",
+   "themes": [
+    "Mystery",
+    "Tension"
+   ],
+   "threads": [
+    "Read the warning signs of the mindscape"
+   ],
+   "characters": [
+    "faceless townsfolk"
+   ],
+   "elements": [
+    "blank-faced villagers",
+    "prop equipment"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "a3.mindscape-research",
+   "slice": "act3-winter",
+   "name": "Researching the Willowshore Mindscape (mindscape shift)",
+   "location": "Willowshore (Tan Sugi library materials)",
+   "file": "act3-winter.md",
+   "source": "p.159",
+   "themes": [
+    "Mystery"
+   ],
+   "threads": [
+    "Research the mindscape / reach Heh Shan-Bao"
+   ],
+   "characters": [
+    "town elder",
+    "learned locals"
+   ],
+   "elements": [
+    "Tan Sugi library books",
+    "mindscape shift ritual",
+    "Heh Shan-Bao's mindscape"
+   ],
+   "spoiler": true,
+   "fragment_count": 3
+  },
+  {
+   "id": "a3.seeking-heh",
+   "slice": "act3-winter",
+   "name": "Seeking Out Heh Shan-Bao (Casting mindscape shift)",
+   "location": "Heh Shan-Bao's parallel mindscape (Willowshore)",
+   "file": "act3-winter.md",
+   "source": "p.160",
+   "themes": [
+    "Mystery",
+    "Tension"
+   ],
+   "threads": [
+    "Enter Heh Shan-Bao's mindscape"
+   ],
+   "characters": [
+    "mindscape townsfolk",
+    "Heh Shan-Bao"
+   ],
+   "elements": [
+    "mindscape shift",
+    "governor's manor",
+    "parallel Willowshore"
+   ],
+   "spoiler": true,
+   "fragment_count": 5
+  },
+  {
+   "id": "a3.noppera-impersonators",
+   "slice": "act3-winter",
+   "name": "Your Face Is Mine (Noppera-bo Impersonators)",
+   "location": "Heh Shan-Bao's mindscape",
+   "file": "act3-winter.md",
+   "source": "p.161",
+   "themes": [
+    "Mystery",
+    "Tension"
+   ],
+   "threads": [
+    "Beware your faceless doubles"
+   ],
+   "characters": [
+    "Noppera-bo impersonators (one per PC)"
+   ],
+   "elements": [
+    "faceless duplicates",
+    "red butterflies"
+   ],
+   "spoiler": true,
+   "fragment_count": 3
+  },
+  {
+   "id": "a3.dead-man-walking",
+   "slice": "act3-winter",
+   "name": "Dead Man Walking (The Governor's Plight)",
+   "location": "Heh Shan-Bao's mindscape (Hand of Spring / streets)",
+   "file": "act3-winter.md",
+   "source": "p.162",
+   "themes": [
+    "Mystery",
+    "Tension",
+    "Personal"
+   ],
+   "threads": [
+    "Find and approach the governor"
+   ],
+   "characters": [
+    "Heh Shan-Bao",
+    "mindscape residents",
+    "noppera-bo impersonators"
+   ],
+   "elements": [
+    "Hand of Spring",
+    "governor's manor",
+    "transmigrate ritual"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "a3.governor-chase",
+   "slice": "act3-winter",
+   "name": "Where Is the Governor? (The Chase)",
+   "location": "Heh Shan-Bao's mindscape (downtown)",
+   "file": "act3-winter.md",
+   "source": "p.163",
+   "themes": [
+    "Action",
+    "Tension"
+   ],
+   "threads": [
+    "Catch the governor before he reaches his manor"
+   ],
+   "characters": [
+    "Heh Shan-Bao"
+   ],
+   "elements": [
+    "chase obstacles",
+    "Hand of Spring",
+    "Qi Zhong shrine",
+    "illusory scene scroll",
+    "manor"
+   ],
+   "spoiler": false,
+   "fragment_count": 6
+  },
+  {
+   "id": "a3.manor-wards",
+   "slice": "act3-winter",
+   "name": "Manor Wards (Hazard) & Breaking In",
+   "location": "Governor's manor exterior",
+   "file": "act3-winter.md",
+   "source": "p.164",
+   "themes": [
+    "Tension",
+    "Action"
+   ],
+   "threads": [
+    "Enter the manor without the governor's seal"
+   ],
+   "characters": [
+    "Heh Shan-Bao"
+   ],
+   "elements": [
+    "manor wards/fulus",
+    "nullifying seal script",
+    "manor interior"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a3.know-and-despair",
+   "slice": "act3-winter",
+   "name": "Know and Despair (The Governor's Confession)",
+   "location": "Governor's manor meeting room",
+   "file": "act3-winter.md",
+   "source": "p.166",
+   "themes": [
+    "Mystery",
+    "Personal",
+    "Social"
+   ],
+   "threads": [
+    "Learn the truth / win the governor's help"
+   ],
+   "characters": [
+    "Heh Shan-Bao",
+    "Black Bean"
+   ],
+   "elements": [
+    "meeting room",
+    "offering of rice",
+    "Black Bean",
+    "Heh's journal",
+    "transmigrate notes"
+   ],
+   "spoiler": true,
+   "fragment_count": 7
+  },
+  {
+   "id": "a3.fighting-governor",
+   "slice": "act3-winter",
+   "name": "Fighting the Governor (Optional Combat)",
+   "location": "Governor's manor / streets",
+   "file": "act3-winter.md",
+   "source": "p.166",
+   "themes": [
+    "Action",
+    "Personal"
+   ],
+   "threads": [
+    "Defeat the governor (if PCs choose violence)"
+   ],
+   "characters": [
+    "Heh Shan-Bao (Creature 9)"
+   ],
+   "elements": [
+    "defensive/offensive scrolls",
+    "longsword"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "a3.end-of-dream",
+   "slice": "act3-winter",
+   "name": "End of the Dream (Mindscape Collapse)",
+   "location": "Governor's manor courtyard",
+   "file": "act3-winter.md",
+   "source": "p.167",
+   "themes": [
+    "Action",
+    "Tension",
+    "Mystery"
+   ],
+   "threads": [
+    "Survive the mindscape's collapse"
+   ],
+   "characters": [
+    "Noppera-bo impersonators (4)",
+    "howling townsfolk"
+   ],
+   "elements": [
+    "crimson butterflies",
+    "manor courtyard",
+    "Heh's treasure/journal"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a3.winter-return",
+   "slice": "act3-winter",
+   "name": "Chapter 9: Winter in Willowshore (Return & Black Bean)",
+   "location": "Willowshore (restored governor's manor)",
+   "file": "act3-winter.md",
+   "source": "p.169",
+   "themes": [
+    "Personal",
+    "Tension"
+   ],
+   "threads": [
+    "Settle back into Willowshore / continue surviving winter"
+   ],
+   "characters": [
+    "Black Bean",
+    "town elder"
+   ],
+   "elements": [
+    "restored governor's manor",
+    "Black Bean"
+   ],
+   "spoiler": false,
+   "fragment_count": 1
+  },
+  {
+   "id": "a3.shinzo-answers",
+   "slice": "act3-winter",
+   "name": "Event 4: Shinzo's Answers (The Shinigami Reveals Himself)",
+   "location": "Willowshore (Cerulean Teahouse or in the streets)",
+   "file": "act3-winter.md",
+   "source": "p.169",
+   "themes": [
+    "Mystery",
+    "Social",
+    "Personal"
+   ],
+   "threads": [
+    "Learn the truth from Shinzo / chart the path home"
+   ],
+   "characters": [
+    "Asahina Shinzo (shinigami)",
+    "Yix (nosoi raven)",
+    "Mago Kai"
+   ],
+   "elements": [
+    "Eternal Lantern's flame",
+    "transmigrate",
+    "heroic legacies",
+    "Pharasma",
+    "jorogumo rule"
+   ],
+   "spoiler": true,
+   "fragment_count": 7
+  },
+  {
+   "id": "a3.spreading-news",
+   "slice": "act3-winter",
+   "name": "Spreading the News (Telling Willowshore It's Dead)",
+   "location": "Willowshore",
+   "file": "act3-winter.md",
+   "source": "p.172",
+   "themes": [
+    "Social",
+    "Personal",
+    "Tension"
+   ],
+   "threads": [
+    "Decide how much truth to share / manage morale"
+   ],
+   "characters": [
+    "town elder",
+    "Granny Hu",
+    "devout Pharasmins"
+   ],
+   "elements": [
+    "Hope Points",
+    "Security Points",
+    "Reputation",
+    "public revelations"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a3.transmigration-research",
+   "slice": "act3-winter",
+   "name": "Notes on Transmigration & the transmigrate Ritual (RESEARCH 8)",
+   "location": "Willowshore (downtime/research)",
+   "file": "act3-winter.md",
+   "source": "p.173",
+   "themes": [
+    "Mystery",
+    "Social"
+   ],
+   "threads": [
+    "Complete & prepare the transmigrate ritual"
+   ],
+   "characters": [
+    "Igawa Jubei",
+    "Great Willow (kodama)",
+    "Shinzo",
+    "Elizeth Candora",
+    "Yong Wu-Xiu"
+   ],
+   "elements": [
+    "transmigrate ritual",
+    "Eternal Lantern",
+    "heron feathers",
+    "sakaki slats",
+    "the kiln",
+    "Eternal Blaze Ironworks"
+   ],
+   "spoiler": true,
+   "fragment_count": 6
+  },
+  {
+   "id": "a3.winter-timeline",
+   "slice": "act3-winter",
+   "name": "Winter Timeline & Unexpected Troubles",
+   "location": "Willowshore",
+   "file": "act3-winter.md",
+   "source": "p.174",
+   "themes": [
+    "Tension",
+    "Social"
+   ],
+   "threads": [
+    "Pace and survive the winter weeks"
+   ],
+   "characters": [
+    "town elder"
+   ],
+   "elements": [
+    "winter timeline",
+    "Unexpected Troubles table",
+    "weekly downtime"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a3.event5-faceless-evil",
+   "slice": "act3-winter",
+   "name": "Event 5: Faceless Evil (Noppera-bos in Willowshore)",
+   "location": "Willowshore",
+   "file": "act3-winter.md",
+   "source": "p.174",
+   "themes": [
+    "Mystery",
+    "Action",
+    "Social"
+   ],
+   "threads": [
+    "Unmask and stop your faceless doubles"
+   ],
+   "characters": [
+    "Noppera-bo impersonators (4)"
+   ],
+   "elements": [
+    "framed reputation",
+    "sabotage/murder incidents"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "a3.event6-little-gifts",
+   "slice": "act3-winter",
+   "name": "Event 6: Little Gifts (Yami's Winter Presents)",
+   "location": "Cerulean Teahouse",
+   "file": "act3-winter.md",
+   "source": "p.175",
+   "themes": [
+    "Social",
+    "Personal"
+   ],
+   "threads": [
+    "Maintain Yami's friendship"
+   ],
+   "characters": [
+    "Yami (bakeneko)",
+    "Black Bean"
+   ],
+   "elements": [
+    "Yami's gift table",
+    "Cerulean Teahouse"
+   ],
+   "spoiler": false,
+   "fragment_count": 1
+  },
+  {
+   "id": "a3.event7-fox-ghost",
+   "slice": "act3-winter",
+   "name": "Event 7: The Fox Ghost (Rin)",
+   "location": "Willowshore hinterlands",
+   "file": "act3-winter.md",
+   "source": "p.175",
+   "themes": [
+    "Social",
+    "Personal"
+   ],
+   "threads": [
+    "Befriend (or lay to rest) the fox ghost"
+   ],
+   "characters": [
+    "Rin (kitsune ghost, Creature 8)"
+   ],
+   "elements": [
+    "burned traps",
+    "foxfire curse",
+    "singe marks"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "a3.event8-lonely-home",
+   "slice": "act3-winter",
+   "name": "Event 8: A Lonely Home (Tenon the Silsyche)",
+   "location": "Myna family home, woods south of town (near W34)",
+   "file": "act3-winter.md",
+   "source": "p.176",
+   "themes": [
+    "Mystery",
+    "Social",
+    "Personal"
+   ],
+   "threads": [
+    "Free Kawaka / resolve Tenon's loneliness"
+   ],
+   "characters": [
+    "Tenon (silsyche, Creature 6)",
+    "Myna Kawaka",
+    "Aruka"
+   ],
+   "elements": [
+    "Myna family home (near W34)",
+    "Hallucinatory Home",
+    "Kawaka's mother's shortbow"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "a3.event9-crane-wife",
+   "slice": "act3-winter",
+   "name": "Event 9: The Crane-Wife (Moral Quandary)",
+   "location": "Willowshore",
+   "file": "act3-winter.md",
+   "source": "p.178",
+   "themes": [
+    "Personal",
+    "Social",
+    "Mystery"
+   ],
+   "threads": [
+    "Resolve the crane-wife's plea"
+   ],
+   "characters": [
+    "the crane-wife"
+   ],
+   "elements": [
+    "the slain crane",
+    "Victory Points"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a3.event10-claylight",
+   "slice": "act3-winter",
+   "name": "Event 10: The Claylight Festival (Winter Solstice)",
+   "location": "Willowshore (Nine Ear Shrine / fields)",
+   "file": "act3-winter.md",
+   "source": "p.178",
+   "themes": [
+    "Social",
+    "Personal"
+   ],
+   "threads": [
+    "Boost morale via the Claylight Festival"
+   ],
+   "characters": [
+    "Ouh Ba-Ming"
+   ],
+   "elements": [
+    "Claylight Festival",
+    "clay light-huts",
+    "sweetest solstice ritual"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a3.event11-nosois-brunch",
+   "slice": "act3-winter",
+   "name": "Event 11: Nosois' Brunch (Tea with the Psychopomps)",
+   "location": "Cerulean Teahouse",
+   "file": "act3-winter.md",
+   "source": "p.179",
+   "themes": [
+    "Social",
+    "Mystery"
+   ],
+   "threads": [
+    "Win over (or repel) the nosois"
+   ],
+   "characters": [
+    "Nosoi psychopomps (Yamaguchi, Sakaguchi, Iguchi, Noguchi)",
+    "Shinzo"
+   ],
+   "elements": [
+    "agitated sparrows",
+    "Cerulean Teahouse",
+    "sweet mochi",
+    "tea ceremony"
+   ],
+   "spoiler": true,
+   "fragment_count": 4
+  },
+  {
+   "id": "a3.event12-seance",
+   "slice": "act3-winter",
+   "name": "Event 12: The Seance (Mago Kai's Exorcists)",
+   "location": "Karahai seance chamber (area C11)",
+   "file": "act3-winter.md",
+   "source": "p.181",
+   "themes": [
+    "Mystery",
+    "Social",
+    "Tension"
+   ],
+   "threads": [
+    "Survive the seance / learn about the warding bell"
+   ],
+   "characters": [
+    "Cao Chen",
+    "Pan Fenfang",
+    "Sha \"Shagua\" Guanghao",
+    "Mago Kai"
+   ],
+   "elements": [
+    "Karahai seance chamber",
+    "bronze warding bell",
+    "Eternal Lantern's light",
+    "caged birds",
+    "Influence subsystem"
+   ],
+   "spoiler": true,
+   "fragment_count": 6
+  },
+  {
+   "id": "a3.event13-interview-spider",
+   "slice": "act3-winter",
+   "name": "Event 13: Interview with a Spider (Ren Mei Li)",
+   "location": "Cerulean Teahouse (or chosen site)",
+   "file": "act3-winter.md",
+   "source": "p.183",
+   "themes": [
+    "Social",
+    "Tension",
+    "Personal"
+   ],
+   "threads": [
+    "Survive Ren Mei Li's visit / win her over"
+   ],
+   "characters": [
+    "Ren Mei Li (jorogumo princess, Creature 13)",
+    "town elder",
+    "Granny Hu",
+    "Old Matsuki"
+   ],
+   "elements": [
+    "Cerulean Teahouse",
+    "silver collars",
+    "gift worth 50 gp",
+    "Influence subsystem",
+    "tea etiquette ploys"
+   ],
+   "spoiler": false,
+   "fragment_count": 6
+  },
+  {
+   "id": "a3.event14-trees-live",
+   "slice": "act3-winter",
+   "name": "Event 14: The Trees Live (Vengeful Forest Guardians)",
+   "location": "Forest surrounding Willowshore",
+   "file": "act3-winter.md",
+   "source": "p.189",
+   "themes": [
+    "Action",
+    "Social",
+    "Tension"
+   ],
+   "threads": [
+    "Placate (or fight) the forest guardians"
+   ],
+   "characters": [
+    "Arboreal reapers (2)",
+    "awakened tree"
+   ],
+   "elements": [
+    "angry thicket",
+    "deadwood gift"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a3.event15-reprisal",
+   "slice": "act3-winter",
+   "name": "Event 15: Reprisal (Kugaptee's Centipede)",
+   "location": "Hinterlands or town outskirts",
+   "file": "act3-winter.md",
+   "source": "p.189",
+   "themes": [
+    "Action",
+    "Tension"
+   ],
+   "threads": [
+    "Destroy Kugaptee's centipede"
+   ],
+   "characters": [
+    "Kugaptee's Centipede (nindoru, Creature 9)"
+   ],
+   "elements": [
+    "hinterlands",
+    "town outskirts"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a3.event16-one-kind-favor",
+   "slice": "act3-winter",
+   "name": "Event 16: One Kind Favor (The Forgotten Spirit)",
+   "location": "Cemetery, forest, and a dry riverbed",
+   "file": "act3-winter.md",
+   "source": "p.190",
+   "themes": [
+    "Mystery",
+    "Action",
+    "Personal"
+   ],
+   "threads": [
+    "Lay the forgotten spirit to rest"
+   ],
+   "characters": [
+    "Forgotten Spirit (ghost, Creature 4)",
+    "Revenants (4, Creature 6)"
+   ],
+   "elements": [
+    "cemetery",
+    "dry riverbed",
+    "buried bones",
+    "the four murderers' graves"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a3.transmigrating-borderland",
+   "slice": "act3-winter",
+   "name": "Transmigrating & Between Life and Death (Act 3 Climax)",
+   "location": "The Between-Life-and-Death borderland mindscape",
+   "file": "act3-winter.md",
+   "source": "p.192",
+   "themes": [
+    "Action",
+    "Tension",
+    "Mystery",
+    "Personal"
+   ],
+   "threads": [
+    "Complete the transmigration / break through to the living world"
+   ],
+   "characters": [
+    "Kagekumas (3, Creature 8)"
+   ],
+   "elements": [
+    "transmigrate ritual",
+    "clay shells",
+    "borderland mindscape",
+    "looping corridors",
+    "altar portal to Dawnstep Bridge"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "a4.waking",
+   "slice": "act4-spring",
+   "name": "Waking in Willowshore (Spring, Alive at Last)",
+   "location": "Willowshore (Dawnstep Bridge / Eternal Lantern)",
+   "file": "act4-spring.md",
+   "source": "p.215",
+   "themes": [
+    "Personal",
+    "Social",
+    "Tension"
+   ],
+   "threads": [
+    "Reintegrate Willowshore into the living world"
+   ],
+   "characters": [
+    "town elder/governor"
+   ],
+   "elements": [
+    "Eternal Lantern",
+    "Dawnstep Bridge",
+    "Preparation Points aftermath"
+   ],
+   "spoiler": false,
+   "fragment_count": 5
+  },
+  {
+   "id": "a4.manor-pass",
+   "slice": "act4-spring",
+   "name": "The Governor's Manor: Legality & the Authorization Pass",
+   "location": "Willowshore (governor's manor)",
+   "file": "act4-spring.md",
+   "source": "p.216",
+   "themes": [
+    "Social",
+    "Mystery"
+   ],
+   "threads": [
+    "Cleanse the governor's manor"
+   ],
+   "characters": [
+    "town elder/governor"
+   ],
+   "elements": [
+    "governor's manor (ruined)",
+    "authorization pass"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.manor-ruined",
+   "slice": "act4-spring",
+   "name": "The Ruined Manor (Ch.11): Hazards, Haunts & Trapped Souls",
+   "location": "Willowshore (ruined governor's manor)",
+   "file": "act4-spring.md",
+   "source": "p.217",
+   "themes": [
+    "Action",
+    "Tension",
+    "Mystery"
+   ],
+   "threads": [
+    "Cleanse the governor's manor"
+   ],
+   "characters": [
+    "Kugaptee's drakauthixes",
+    "hungry ghosts",
+    "war wraiths",
+    "akashti nindoru (False Governor)"
+   ],
+   "elements": [
+    "governor's manor",
+    "Unwelcoming Facade haunt",
+    "Weakened Floor",
+    "courtyard",
+    "servants' rooms",
+    "primary suite"
+   ],
+   "spoiler": false,
+   "fragment_count": 8
+  },
+  {
+   "id": "a4.false-gov",
+   "slice": "act4-spring",
+   "name": "The False Governor (Nindoru Impostor & Manor Climax)",
+   "location": "Willowshore (ruined manor A8)",
+   "file": "act4-spring.md",
+   "source": "p.221",
+   "themes": [
+    "Mystery",
+    "Action",
+    "Social"
+   ],
+   "threads": [
+    "Cleanse the governor's manor"
+   ],
+   "characters": [
+    "False Governor (akashti nindoru)",
+    "town elder/governor"
+   ],
+   "elements": [
+    "governor's manor A8",
+    "manifested flesh body",
+    "illusory creature"
+   ],
+   "spoiler": true,
+   "fragment_count": 5
+  },
+  {
+   "id": "a4.shinzo-farewell",
+   "slice": "act4-spring",
+   "name": "Shinzo's Farewell",
+   "location": "Willowshore",
+   "file": "act4-spring.md",
+   "source": "p.223",
+   "themes": [
+    "Social",
+    "Personal"
+   ],
+   "threads": [
+    "Reintegrate Willowshore into the living world"
+   ],
+   "characters": [
+    "Shinzo",
+    "Yix (psychopomp)"
+   ],
+   "elements": [
+    "Shinzo's store",
+    "parting gifts"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.karahai-bridge",
+   "slice": "act4-spring",
+   "name": "Rebuilding Karahai Bridge (Reopening Trade)",
+   "location": "Karahai Bridge / Karahai",
+   "file": "act4-spring.md",
+   "source": "p.222",
+   "themes": [
+    "Social",
+    "Action",
+    "Tension"
+   ],
+   "threads": [
+    "Rebuild Karahai Bridge / reopen trade"
+   ],
+   "characters": [
+    "town elder/governor",
+    "Karahai villagers"
+   ],
+   "elements": [
+    "Karahai Bridge",
+    "the gorge",
+    "temporary plank crossing",
+    "Karahai market"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a4.silkwasp-bridge",
+   "slice": "act4-spring",
+   "name": "Silkwasps at the Bridge (Lo Kuon's Extortion)",
+   "location": "Karahai Bridge",
+   "file": "act4-spring.md",
+   "source": "p.225",
+   "themes": [
+    "Social",
+    "Action",
+    "Tension"
+   ],
+   "threads": [
+    "Deal with the Silkwasp Bandits"
+   ],
+   "characters": [
+    "Lo Kuon",
+    "Silkwasp Bandits",
+    "Hong Meigui"
+   ],
+   "elements": [
+    "Karahai Bridge",
+    "bandit tents",
+    "bloodstained neck-kerchiefs",
+    "explosive arrows"
+   ],
+   "spoiler": true,
+   "fragment_count": 5
+  },
+  {
+   "id": "a4.silkwasp-intel",
+   "slice": "act4-spring",
+   "name": "Dealing with the Bandits (Intel & Escalation)",
+   "location": "Willowshore hinterlands / Karahai",
+   "file": "act4-spring.md",
+   "source": "p.227",
+   "themes": [
+    "Tension",
+    "Social",
+    "Action"
+   ],
+   "threads": [
+    "Deal with the Silkwasp Bandits"
+   ],
+   "characters": [
+    "Hong Meigui",
+    "Silkwasp Bandits",
+    "Karahai locals"
+   ],
+   "elements": [
+    "bandit raids",
+    "wasp-nest message tradition"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.silkwasp-camp",
+   "slice": "act4-spring",
+   "name": "The Silkwasp Camp (Hong Meigui's Lair)",
+   "location": "Silkwasp Camp (NE bluff over the Sea of Ghosts)",
+   "file": "act4-spring.md",
+   "source": "p.227",
+   "themes": [
+    "Action",
+    "Tension",
+    "Mystery"
+   ],
+   "threads": [
+    "Deal with the Silkwasp Bandits",
+    "Destroy Hong Meigui"
+   ],
+   "characters": [
+    "Hong Meigui",
+    "Lo Kuon",
+    "Silkwasp Bandits",
+    "emperor cobras"
+   ],
+   "elements": [
+    "Silkwasp camp B1-B10",
+    "hidden rope/granary",
+    "Hong Meigui's chest",
+    "jiang-shi bell"
+   ],
+   "spoiler": false,
+   "fragment_count": 5
+  },
+  {
+   "id": "a4.ren-mei-li-return",
+   "slice": "act4-spring",
+   "name": "Ren Mei Li Returns (The Silversilk Princess)",
+   "location": "Willowshore",
+   "file": "act4-spring.md",
+   "source": "p.231",
+   "themes": [
+    "Social",
+    "Mystery",
+    "Personal"
+   ],
+   "threads": [
+    "Earn the jorogumo's stewardship / the Fang and Key"
+   ],
+   "characters": [
+    "Ren Mei Li",
+    "town elder"
+   ],
+   "elements": [
+    "jorogumo court",
+    "stewardship",
+    "Silver Seal",
+    "the Fang and Key"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "a4.amai",
+   "slice": "act4-spring",
+   "name": "A Feline Emissary (Amai the Dweomercat)",
+   "location": "Willowshore",
+   "file": "act4-spring.md",
+   "source": "p.232",
+   "themes": [
+    "Social",
+    "Mystery"
+   ],
+   "threads": [
+    "Earn the jorogumo's stewardship / the Fang and Key"
+   ],
+   "characters": [
+    "Amai",
+    "Ren Mei Li",
+    "Yami"
+   ],
+   "elements": [
+    "silver-spidersilk collar",
+    "the seven-day invitation"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "a4.meet-princess",
+   "slice": "act4-spring",
+   "name": "Meeting the Princess (The Tea Audience)",
+   "location": "Willowshore (Cerulean Teahouse)",
+   "file": "act4-spring.md",
+   "source": "p.234",
+   "themes": [
+    "Social",
+    "Mystery",
+    "Personal"
+   ],
+   "threads": [
+    "Earn the jorogumo's stewardship / the Fang and Key"
+   ],
+   "characters": [
+    "Ren Mei Li"
+   ],
+   "elements": [
+    "Cerulean Teahouse",
+    "silver mist",
+    "Victory Points (impress her)",
+    "silver collars"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a4.princess-requests",
+   "slice": "act4-spring",
+   "name": "The Princess's Requests (Five-Season Treasures)",
+   "location": "Willowshore",
+   "file": "act4-spring.md",
+   "source": "p.234",
+   "themes": [
+    "Social",
+    "Mystery",
+    "Personal"
+   ],
+   "threads": [
+    "Earn the jorogumo's stewardship / the Fang and Key",
+    "Complete the Five-Season Treasures"
+   ],
+   "characters": [
+    "Ren Mei Li",
+    "Willowshore NPCs",
+    "Kazuma Oono"
+   ],
+   "elements": [
+    "cloisonne treasure balls",
+    "silver hair pins",
+    "Victory Points"
+   ],
+   "spoiler": true,
+   "fragment_count": 4
+  },
+  {
+   "id": "a4.event1-spring-bird",
+   "slice": "act4-spring",
+   "name": "Event 1: Bright Spring Bird (The Show)",
+   "location": "Willowshore (Seven-Colored Songbird theater)",
+   "file": "act4-spring.md",
+   "source": "p.236",
+   "themes": [
+    "Social",
+    "Personal"
+   ],
+   "threads": [
+    "Complete the Five-Season Treasures"
+   ],
+   "characters": [
+    "Ren Mei Li",
+    "Kazuma Oono",
+    "Luo Xi Yang",
+    "Huo Tian-Zhe",
+    "Kim Gu-won"
+   ],
+   "elements": [
+    "Seven-Colored Songbird theater",
+    "cloisonne bird ball",
+    "costumes/effects"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "loc.moon-marsh",
+   "slice": "act4-spring",
+   "name": "Event 2: Fiery Flower Fireworks (Moon Marsh & Isori)",
+   "location": "Moon Marsh",
+   "file": "act4-spring.md",
+   "source": "p.237",
+   "themes": [
+    "Social",
+    "Mystery",
+    "Action"
+   ],
+   "threads": [
+    "Complete the Five-Season Treasures"
+   ],
+   "characters": [
+    "Isori (awakener naga)"
+   ],
+   "elements": [
+    "Moon Marsh",
+    "Hei Feng's horn flowers",
+    "astrological trinkets",
+    "thousand-year dragonroot"
+   ],
+   "spoiler": false,
+   "fragment_count": 4
+  },
+  {
+   "id": "loc.apple-grove",
+   "slice": "act4-spring",
+   "name": "Event 3: Fall's Sweet Fruits (The Overgrown Apple Grove)",
+   "location": "Overgrown Apple Grove (south, 'Apple Road')",
+   "file": "act4-spring.md",
+   "source": "p.238",
+   "themes": [
+    "Action",
+    "Social"
+   ],
+   "threads": [
+    "Complete the Five-Season Treasures"
+   ],
+   "characters": [
+    "khravgodons"
+   ],
+   "elements": [
+    "overgrown apple grove",
+    "dead adventurer's gear"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "a4.murders-system",
+   "slice": "act4-spring",
+   "name": "The Murders Begin (Investigation Framework)",
+   "location": "Willowshore",
+   "file": "act4-spring.md",
+   "source": "p.240",
+   "themes": [
+    "Mystery",
+    "Tension"
+   ],
+   "threads": [
+    "Solve the Willowshore murders"
+   ],
+   "characters": [
+    "Heh Shan-Bao (yohoi)",
+    "murder victims"
+   ],
+   "elements": [
+    "Search for Clues activity",
+    "emaciated bodies / missing eyes / wrist runes",
+    "the portal in the ruined manor"
+   ],
+   "spoiler": true,
+   "fragment_count": 4
+  },
+  {
+   "id": "a4.murder1",
+   "slice": "act4-spring",
+   "name": "Event 4: The First Murder (Kazuma Oono)",
+   "location": "Willowshore (Seven-Colored Songbird office)",
+   "file": "act4-spring.md",
+   "source": "p.239",
+   "themes": [
+    "Mystery",
+    "Personal",
+    "Tension"
+   ],
+   "threads": [
+    "Solve the Willowshore murders"
+   ],
+   "characters": [
+    "Kazuma Oono",
+    "Heh Shan-Bao (yohoi)",
+    "Hua De-ge"
+   ],
+   "elements": [
+    "Seven-Colored Songbird office",
+    "missing play 'The Chronicle of the Water-Weaver'",
+    "Endless Shore draft"
+   ],
+   "spoiler": true,
+   "fragment_count": 3
+  },
+  {
+   "id": "loc.whisperweb",
+   "slice": "act4-spring",
+   "name": "Event 5: Spiced Tea of Winter (Whisperweb Shrine & the Algrievers)",
+   "location": "Whisperweb Shrine (NW)",
+   "file": "act4-spring.md",
+   "source": "p.241",
+   "themes": [
+    "Social",
+    "Mystery",
+    "Action"
+   ],
+   "threads": [
+    "Complete the Five-Season Treasures"
+   ],
+   "characters": [
+    "algrievers"
+   ],
+   "elements": [
+    "Whisperweb Shrine",
+    "the pond",
+    "spidersilk",
+    "Daikitsu tea ceremony"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "a4.murder2",
+   "slice": "act4-spring",
+   "name": "Event 6: The Second Murder (Elizeth Candora)",
+   "location": "Willowshore (Her Fluvial Lady of Souls / graveyard)",
+   "file": "act4-spring.md",
+   "source": "p.243",
+   "themes": [
+    "Mystery",
+    "Tension",
+    "Personal"
+   ],
+   "threads": [
+    "Solve the Willowshore murders"
+   ],
+   "characters": [
+    "Elizeth Candora",
+    "Heh Shan-Bao (yohoi)",
+    "town elder"
+   ],
+   "elements": [
+    "Her Fluvial Lady of Souls",
+    "graveyard",
+    "broken flute",
+    "sundown curfew"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "a4.event7-final-season",
+   "slice": "act4-spring",
+   "name": "Event 7: The Final Season (Walking the Gossamer Path)",
+   "location": "Willowshore / the Gossamer Path",
+   "file": "act4-spring.md",
+   "source": "p.243",
+   "themes": [
+    "Social",
+    "Mystery",
+    "Personal"
+   ],
+   "threads": [
+    "Earn the jorogumo's stewardship / the Fang and Key",
+    "Solve the Willowshore murders"
+   ],
+   "characters": [
+    "Ren Mei Li",
+    "path maiden"
+   ],
+   "elements": [
+    "gossamer sash",
+    "sanctified beans",
+    "Gossamer Path",
+    "the strange mirror"
+   ],
+   "spoiler": true,
+   "fragment_count": 4
+  },
+  {
+   "id": "a4.murder3",
+   "slice": "act4-spring",
+   "name": "Event 8: The Third Murder (You So-Jin)",
+   "location": "Willowshore (Graveside Manners)",
+   "file": "act4-spring.md",
+   "source": "p.246",
+   "themes": [
+    "Mystery",
+    "Action",
+    "Personal"
+   ],
+   "threads": [
+    "Solve the Willowshore murders"
+   ],
+   "characters": [
+    "You So-Jin",
+    "Heh Shan-Bao (yohoi)"
+   ],
+   "elements": [
+    "Graveside Manners shop",
+    "ruined alchemy lab",
+    "family journal",
+    "silversoul bombs"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "a4.fang-and-key",
+   "slice": "act4-spring",
+   "name": "The Fang and Key (Stewardship Granted)",
+   "location": "Willowshore",
+   "file": "act4-spring.md",
+   "source": "p.247",
+   "themes": [
+    "Social",
+    "Mystery"
+   ],
+   "threads": [
+    "Earn the jorogumo's stewardship / the Fang and Key"
+   ],
+   "characters": [
+    "Ren Mei Li"
+   ],
+   "elements": [
+    "Fang and Key",
+    "Five-Season cloisonne balls",
+    "Victory Point rewards"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "a4.un-weavers",
+   "slice": "act4-spring",
+   "name": "Bonus: The Un-Weavers (Quintessivore Bargain)",
+   "location": "Willowshore (downtown streets)",
+   "file": "act4-spring.md",
+   "source": "p.248",
+   "themes": [
+    "Action",
+    "Social",
+    "Tension"
+   ],
+   "threads": [
+    "Defend Willowshore from opportunist fiends"
+   ],
+   "characters": [
+    "quintessivores (Un-Weavers)"
+   ],
+   "elements": [
+    "downtown Willowshore streets"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a4.fiend-two-worlds",
+   "slice": "act4-spring",
+   "name": "A Fiend in Two Worlds (Ch.13 Opens / The Restored Manor)",
+   "location": "Willowshore (governor's manor)",
+   "file": "act4-spring.md",
+   "source": "p.249",
+   "themes": [
+    "Mystery",
+    "Tension",
+    "Action"
+   ],
+   "threads": [
+    "Defeat Heh Shan-Bao / stop Kugaptee's reincarnation"
+   ],
+   "characters": [
+    "Heh Shan-Bao (yohoi)",
+    "Ren Mei Li",
+    "town elder"
+   ],
+   "elements": [
+    "restored governor's manor",
+    "the Fang and Key",
+    "the mindscape door"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "loc.restored-manor",
+   "slice": "act4-spring",
+   "name": "The Restored Manor (Ch.13 Dungeon & Links to Heh's Past)",
+   "location": "Willowshore (restored governor's manor)",
+   "file": "act4-spring.md",
+   "source": "p.250",
+   "themes": [
+    "Action",
+    "Mystery",
+    "Personal"
+   ],
+   "threads": [
+    "Defeat Heh Shan-Bao / stop Kugaptee's reincarnation",
+    "Free Heh Shan-Bao"
+   ],
+   "characters": [
+    "jiang-shi guards",
+    "occult living rune",
+    "Ithiniak (imprecasia)",
+    "Heh Shan-Bao (absent ruler)"
+   ],
+   "elements": [
+    "Ok Jinju portrait",
+    "Wisdom of the Seven Sages + letter",
+    "camellia flower & ribbon",
+    "Fang and Key",
+    "mindscape door",
+    "Witherweird Runes safe"
+   ],
+   "spoiler": true,
+   "fragment_count": 8
+  },
+  {
+   "id": "loc.kugaptee-grasp",
+   "slice": "act4-spring",
+   "name": "Kugaptee's Grasp (The Corrupted 'What-If' Willowshore)",
+   "location": "Kugaptee's Grasp (corrupted Willowshore mindscape)",
+   "file": "act4-spring.md",
+   "source": "p.256",
+   "themes": [
+    "Mystery",
+    "Tension",
+    "Action"
+   ],
+   "threads": [
+    "Defeat Heh Shan-Bao / stop Kugaptee's reincarnation",
+    "Free the shackled souls"
+   ],
+   "characters": [
+    "Heh Shan-Bao (yohoi)",
+    "Kugaptee",
+    "phantom townsfolk"
+   ],
+   "elements": [
+    "Kugaptee's Grasp",
+    "the clawed arm",
+    "spectral shackles",
+    "wicker effigies",
+    "the mindscape door"
+   ],
+   "spoiler": true,
+   "fragment_count": 4
+  },
+  {
+   "id": "a4.chained-souls",
+   "slice": "act4-spring",
+   "name": "The Chained Spirits (Freeing the Murdered Souls)",
+   "location": "Kugaptee's Grasp (death-sites)",
+   "file": "act4-spring.md",
+   "source": "p.259",
+   "themes": [
+    "Personal",
+    "Mystery",
+    "Social"
+   ],
+   "threads": [
+    "Free the shackled souls",
+    "Defeat Heh Shan-Bao / stop Kugaptee's reincarnation"
+   ],
+   "characters": [
+    "Kazuma Oono",
+    "Elizeth Candora",
+    "You So-Jin"
+   ],
+   "elements": [
+    "Songbird Theater",
+    "the graveyard",
+    "Graveside Manners",
+    "personal tokens",
+    "the skyfang crystal"
+   ],
+   "spoiler": false,
+   "fragment_count": 4
+  },
+  {
+   "id": "loc.kugaptee-grave",
+   "slice": "act4-spring",
+   "name": "Kugaptee's Grave (Four Memory Battles)",
+   "location": "Kugaptee's Grave (maze within the Grasp)",
+   "file": "act4-spring.md",
+   "source": "p.262",
+   "themes": [
+    "Action",
+    "Personal",
+    "Mystery"
+   ],
+   "threads": [
+    "Defeat Heh Shan-Bao / stop Kugaptee's reincarnation"
+   ],
+   "characters": [
+    "Gurglegut",
+    "mountain oni",
+    "corpse sugi (Xin Yue)",
+    "kagekumas",
+    "Mago Kai (argyrzei)",
+    "akashti",
+    "path maidens"
+   ],
+   "elements": [
+    "Kugaptee's Grave maze",
+    "four seasonal chambers D1-D4"
+   ],
+   "spoiler": true,
+   "fragment_count": 4
+  },
+  {
+   "id": "a4.governors-den",
+   "slice": "act4-spring",
+   "name": "The Governor's Den (Entering the Final Manor)",
+   "location": "Kugaptee's Grave (final manor)",
+   "file": "act4-spring.md",
+   "source": "p.268",
+   "themes": [
+    "Tension",
+    "Action",
+    "Mystery"
+   ],
+   "threads": [
+    "Defeat Heh Shan-Bao / stop Kugaptee's reincarnation"
+   ],
+   "characters": [
+    "Heh Shan-Bao (yohoi)"
+   ],
+   "elements": [
+    "manor courtyard",
+    "watching red eyes",
+    "the southern door back to the Grasp"
+   ],
+   "spoiler": false,
+   "fragment_count": 1
+  },
+  {
+   "id": "a4.below-claw",
+   "slice": "act4-spring",
+   "name": "Below Kugaptee's Claw (The Final Battlefield)",
+   "location": "Kugaptee's Grave (final manor courtyard)",
+   "file": "act4-spring.md",
+   "source": "p.268",
+   "themes": [
+    "Action",
+    "Tension",
+    "Mystery"
+   ],
+   "threads": [
+    "Defeat Heh Shan-Bao / stop Kugaptee's reincarnation"
+   ],
+   "characters": [
+    "shisagishin nindorus",
+    "Heh Shan-Bao (yohoi)",
+    "Kugaptee"
+   ],
+   "elements": [
+    "the wood burl / Kugaptee's heart",
+    "impaled eyes",
+    "corpse shells"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a4.heh-arrives",
+   "slice": "act4-spring",
+   "name": "Heh Shan-Bao Arrives (Free Him or Fight Him)",
+   "location": "Kugaptee's Grave (final manor courtyard)",
+   "file": "act4-spring.md",
+   "source": "p.268",
+   "themes": [
+    "Personal",
+    "Mystery",
+    "Action"
+   ],
+   "threads": [
+    "Defeat Heh Shan-Bao / stop Kugaptee's reincarnation",
+    "Free Heh Shan-Bao"
+   ],
+   "characters": [
+    "Heh Shan-Bao (yohoi)",
+    "Unlived Lives (unrisen)",
+    "Kugaptee"
+   ],
+   "elements": [
+    "the four life-links",
+    "the Fang and Key",
+    "Influence subsystem"
+   ],
+   "spoiler": true,
+   "fragment_count": 6
+  },
+  {
+   "id": "a4.kugaptee-death",
+   "slice": "act4-spring",
+   "name": "Kugaptee's Final Death (The Four-Round Cataclysm)",
+   "location": "Kugaptee's Grave (collapsing manor)",
+   "file": "act4-spring.md",
+   "source": "p.271",
+   "themes": [
+    "Action",
+    "Tension",
+    "Mystery"
+   ],
+   "threads": [
+    "Defeat Heh Shan-Bao / stop Kugaptee's reincarnation"
+   ],
+   "characters": [
+    "Kugaptee"
+   ],
+   "elements": [
+    "the collapsing manor",
+    "the four life-links",
+    "nindoru butterfly storm"
+   ],
+   "spoiler": false,
+   "fragment_count": 2
+  },
+  {
+   "id": "a4.heroine-passes",
+   "slice": "act4-spring",
+   "name": "A Heroine Passes Her Burden (Tan Sui-Jing / Denouement)",
+   "location": "Willowshore (restored manor / vision)",
+   "file": "act4-spring.md",
+   "source": "p.271",
+   "themes": [
+    "Personal",
+    "Mystery"
+   ],
+   "threads": [
+    "Conclude the campaign"
+   ],
+   "characters": [
+    "Tan Sui-Jing",
+    "the people of Willowshore"
+   ],
+   "elements": [
+    "'The Dusklight Torch' song",
+    "the Tan Sugi tree",
+    "the restored manor"
+   ],
+   "spoiler": true,
+   "fragment_count": 2
+  },
+  {
+   "id": "tool.sangpotshi",
+   "slice": "toolbox",
+   "name": "Sangpotshi & Spiritual Connections",
+   "location": "Tian Xia (faith/setting backdrop)",
+   "file": "toolbox.md",
+   "source": "p.286",
+   "themes": [
+    "Mystery",
+    "Personal"
+   ],
+   "threads": [
+    "Understand the curse's spiritual nature",
+    "Break the cycle of destruction"
+   ],
+   "characters": [
+    "Sangpotshi mystics",
+    "Sangpots",
+    "samsarans"
+   ],
+   "elements": [
+    "Sangpotshi",
+    "River of Life",
+    "kindred ties",
+    "spiritual debt",
+    "Cycles of Life",
+    "Tan Sugi Monastery hidden library"
+   ],
+   "spoiler": false,
+   "fragment_count": 5
+  },
+  {
+   "id": "tool.nindoru-lore",
+   "slice": "toolbox",
+   "name": "Nindorus & Cycles of Destruction (GM lore)",
+   "location": "Tian Xia (Shenmen, Chu Ye, Tianjing, Zi Ha)",
+   "file": "toolbox.md",
+   "source": "p.287",
+   "themes": [
+    "Mystery",
+    "Tension"
+   ],
+   "threads": [
+    "Discover what is really cursing Willowshore",
+    "Break the cycle of destruction"
+   ],
+   "characters": [
+    "Nindorus",
+    "Sigek (Ascetic)",
+    "Kugaptee (Ascetic)",
+    "Musagani (Ascetic)",
+    "the lich Nindoru"
+   ],
+   "elements": [
+    "nindorus",
+    "nindoru butterflies",
+    "ninsat",
+    "soul-shredding",
+    "Nindoru Lore skill",
+    "Ascetics (nindoru demigods)"
+   ],
+   "spoiler": true,
+   "fragment_count": 5
+  },
+  {
+   "id": "tool.sangpotshi-options",
+   "slice": "toolbox",
+   "name": "Sangpotshi Feats & Spells",
+   "location": "Tan Sugi Monastery / Sangpotshi study",
+   "file": "toolbox.md",
+   "source": "p.288",
+   "themes": [
+    "Mystery"
+   ],
+   "threads": [
+    "Equip for the haunting",
+    "Understand the curse's spiritual nature"
+   ],
+   "characters": [],
+   "elements": [
+    "Calm and Centered",
+    "Comforting Presence",
+    "Go With the Flow",
+    "cycle of retribution",
+    "fateful condemnation",
+    "fated healing",
+    "life's flowing river"
+   ],
+   "spoiler": false,
+   "fragment_count": 7
+  },
+  {
+   "id": "tool.alchemy",
+   "slice": "toolbox",
+   "name": "Alchemical Items",
+   "location": "Willowshore / loot",
+   "file": "toolbox.md",
+   "source": "p.296",
+   "themes": [
+    "Action"
+   ],
+   "threads": [
+    "Equip for the haunting"
+   ],
+   "characters": [],
+   "elements": [
+    "energizing pill",
+    "invigorating soap",
+    "Matsuki's medicinal wine",
+    "silversoul bomb"
+   ],
+   "spoiler": false,
+   "fragment_count": 4
+  },
+  {
+   "id": "tool.armaments",
+   "slice": "toolbox",
+   "name": "Armor & Armaments",
+   "location": "Willowshore / loot",
+   "file": "toolbox.md",
+   "source": "p.297",
+   "themes": [
+    "Action"
+   ],
+   "threads": [
+    "Equip for the haunting"
+   ],
+   "characters": [
+    "Kugaptee",
+    "Ugly Cute"
+   ],
+   "elements": [
+    "dragon turtle armor",
+    "dragonfire halfbow",
+    "evil-reflecting shield",
+    "fiend's hunger (dagger)",
+    "four-tiger blade",
+    "lumber lord's axe",
+    "sensei's parasol",
+    "thundering fury dadao",
+    "Ugly Cute's gift"
+   ],
+   "spoiler": false,
+   "fragment_count": 9
+  },
+  {
+   "id": "tool.momentary",
+   "slice": "toolbox",
+   "name": "Momentary Magic (consumables)",
+   "location": "Willowshore / loot",
+   "file": "toolbox.md",
+   "source": "p.299",
+   "themes": [
+    "Action"
+   ],
+   "threads": [
+    "Equip for the haunting"
+   ],
+   "characters": [
+    "Taljjae"
+   ],
+   "elements": [
+    "ascendant dragon spirit",
+    "panaceatic salve",
+    "sanctified beans",
+    "spirit trap",
+    "taljjae tassel",
+    "thousand-year dragonroot",
+    "vengeful demon's tears"
+   ],
+   "spoiler": false,
+   "fragment_count": 7
+  },
+  {
+   "id": "tool.magic-tea",
+   "slice": "toolbox",
+   "name": "Magic Tea",
+   "location": "Willowshore (kami reward)",
+   "file": "toolbox.md",
+   "source": "p.300",
+   "themes": [
+    "Social"
+   ],
+   "threads": [
+    "Equip for the haunting",
+    "Befriend Willowshore's kami"
+   ],
+   "characters": [
+    "Willowshore's kami"
+   ],
+   "elements": [
+    "covenant tea",
+    "energizing tea",
+    "longnight tea",
+    "moon blossom tea",
+    "peace in dreams tea",
+    "resurrection tea",
+    "spiritsight tea",
+    "sterling tea ware"
+   ],
+   "spoiler": false,
+   "fragment_count": 8
+  },
+  {
+   "id": "tool.fulus",
+   "slice": "toolbox",
+   "name": "Willowshore Fulus",
+   "location": "Willowshore",
+   "file": "toolbox.md",
+   "source": "p.302",
+   "themes": [
+    "Action"
+   ],
+   "threads": [
+    "Equip for the haunting",
+    "Survive & restore Willowshore"
+   ],
+   "characters": [],
+   "elements": [
+    "privacy ward fulu",
+    "traveler's fulu",
+    "firecracker fulu",
+    "animal-turning fulu"
+   ],
+   "spoiler": false,
+   "fragment_count": 4
+  },
+  {
+   "id": "tool.trappings",
+   "slice": "toolbox",
+   "name": "Trappings of Power (worn/held items)",
+   "location": "Willowshore / Tian Xia loot",
+   "file": "toolbox.md",
+   "source": "p.302",
+   "themes": [
+    "Action",
+    "Mystery"
+   ],
+   "threads": [
+    "Equip for the haunting"
+   ],
+   "characters": [
+    "Granny Hu",
+    "Hongrui",
+    "Yaezhing (cape motif)"
+   ],
+   "elements": [
+    "cape of justice",
+    "dragon turtle artillery",
+    "fan of falling words",
+    "fortune cord",
+    "Hongrui's gratitude",
+    "jiang-shi bell",
+    "lacquered waist drum",
+    "moonsilver necklace",
+    "noppera-bo hood",
+    "phoenix fulu holder",
+    "purgatory emissary's staff",
+    "skyfang crystal",
+    "spider lily tattoo"
+   ],
+   "spoiler": false,
+   "fragment_count": 13
+  },
+  {
+   "id": "tool.heroic-legacies",
+   "slice": "toolbox",
+   "name": "Heroic Legacies (Shinzo's gifts, Ch.9)",
+   "location": "Willowshore (Shinzo)",
+   "file": "toolbox.md",
+   "source": "p.306",
+   "themes": [
+    "Action",
+    "Personal"
+   ],
+   "threads": [
+    "Equip for the haunting"
+   ],
+   "characters": [
+    "Shinzo",
+    "Injigo (jorogumo)",
+    "Kinburi",
+    "Seiji Juubun",
+    "Vashu Vigaru"
+   ],
+   "elements": [
+    "Injigo's loving embrace",
+    "Kinburi's sandals of bounding",
+    "Juubun's one thousand poems",
+    "Vashu's ninth life"
+   ],
+   "spoiler": false,
+   "fragment_count": 4
+  },
+  {
+   "id": "tool.pilgrimage-gifts",
+   "slice": "toolbox",
+   "name": "Pilgrimage Gifts (Ch.7)",
+   "location": "Tan Sugi Monastery / pilgrimage",
+   "file": "toolbox.md",
+   "source": "p.307",
+   "themes": [
+    "Action",
+    "Mystery"
+   ],
+   "threads": [
+    "Equip for the haunting",
+    "Restore the Tan Sugi monastery"
+   ],
+   "characters": [],
+   "elements": [
+    "branch of the great sugi",
+    "ghost scarf",
+    "hairpin of blooming flowers",
+    "red thread knot",
+    "resolute mind wrap",
+    "root boots",
+    "spirit fan"
+   ],
+   "spoiler": false,
+   "fragment_count": 7
+  },
+  {
+   "id": "tool.new-spells",
+   "slice": "toolbox",
+   "name": "New Spells (Zhi Hui's Six)",
+   "location": "Tan Sugi Monastery ruins (secret room)",
+   "file": "toolbox.md",
+   "source": "p.309",
+   "themes": [
+    "Mystery",
+    "Action"
+   ],
+   "threads": [
+    "Equip for the haunting",
+    "Recover the lost Tan Sugi spells"
+   ],
+   "characters": [
+    "Zhi Hui"
+   ],
+   "elements": [
+    "entangle fate",
+    "life's fresh bloom",
+    "prophet's luck",
+    "sacred nimbus",
+    "tomorrow's dawn",
+    "wall of mirrors",
+    "six fragile scrolls"
+   ],
+   "spoiler": false,
+   "fragment_count": 6
+  },
+  {
+   "id": "tool.rituals",
+   "slice": "toolbox",
+   "name": "New Rituals",
+   "location": "Willowshore mindscape / Tan Sugi / settlements",
+   "file": "toolbox.md",
+   "source": "p.310",
+   "themes": [
+    "Mystery",
+    "Tension"
+   ],
+   "threads": [
+    "Open the Wall of Ghosts",
+    "Escape/transmigrate the Willowshore mindscape",
+    "Protect Willowshore through the seasons"
+   ],
+   "characters": [
+    "Heh Shan-Bao",
+    "Lao Shu Po",
+    "Tan Sugi / Eternal Lantern"
+   ],
+   "elements": [
+    "gnaw at the moon",
+    "last night's vigil",
+    "mindscape shift",
+    "open the wall of ghosts",
+    "ransack the night",
+    "regale the lost ones",
+    "sweetest solstice",
+    "transmigrate",
+    "winter's breath",
+    "Preparation Points",
+    "Hope Points"
+   ],
+   "spoiler": false,
+   "fragment_count": 9
+  },
+  {
+   "id": "tool.transmigrated-state",
+   "slice": "toolbox",
+   "name": "Haunting the Living (transmigrated PCs)",
+   "location": "Willowshore living world (Act 3, Ch.10)",
+   "file": "toolbox.md",
+   "source": "p.316",
+   "themes": [
+    "Tension",
+    "Personal"
+   ],
+   "threads": [
+    "Escape/transmigrate the Willowshore mindscape",
+    "Restore Willowshore to life"
+   ],
+   "characters": [],
+   "elements": [
+    "transmigrated body",
+    "spirit powers",
+    "soul degradation",
+    "Undead Vision",
+    "Transmigrated Survival/Protection"
+   ],
+   "spoiler": false,
+   "fragment_count": 3
+  },
+  {
+   "id": "tool.minor-spirit-powers",
+   "slice": "toolbox",
+   "name": "Minor Spirit Powers",
+   "location": "Willowshore living world (Ch.10)",
+   "file": "toolbox.md",
+   "source": "p.316",
+   "themes": [
+    "Personal",
+    "Tension"
+   ],
+   "threads": [
+    "Restore Willowshore to life"
+   ],
+   "characters": [],
+   "elements": [
+    "curiosity",
+    "delusion",
+    "love",
+    "obsession",
+    "passion",
+    "duty",
+    "spite",
+    "fire spirit power"
+   ],
+   "spoiler": false,
+   "fragment_count": 7
+  },
+  {
+   "id": "tool.major-spirit-powers",
+   "slice": "toolbox",
+   "name": "Major Spirit Powers",
+   "location": "Willowshore living world (Ch.10)",
+   "file": "toolbox.md",
+   "source": "p.318",
+   "themes": [
+    "Action",
+    "Tension"
+   ],
+   "threads": [
+    "Restore Willowshore to life"
+   ],
+   "characters": [],
+   "elements": [
+    "dematerialize",
+    "flickering figure",
+    "flight",
+    "chilling paralysis",
+    "grudge",
+    "resist death",
+    "river's reflection",
+    "sap life",
+    "undying flesh"
+   ],
+   "spoiler": false,
+   "fragment_count": 9
+  },
+  {
+   "id": "tool.reincarnation-feats",
+   "slice": "toolbox",
+   "name": "Reincarnation Ancestry Feats",
+   "location": "campaign-wide (esp. Act 4)",
+   "file": "toolbox.md",
+   "source": "p.319",
+   "themes": [
+    "Personal",
+    "Action"
+   ],
+   "threads": [
+    "Grow stronger across lifetimes"
+   ],
+   "characters": [],
+   "elements": [
+    "Let's Try That Again",
+    "Like a Roach",
+    "I've Had Many Jobs",
+    "Reincarnated Ridiculer",
+    "Weight of Experience",
+    "Wisdom from Another Life",
+    "Animal/Plant/Stone Soul Siblings",
+    "Empathy Incarnate",
+    "Sleep of the Reborn",
+    "Clinging to Life",
+    "Lingering Echoes",
+    "Rapid Retraining",
+    "You Seem Somewhat Familiar",
+    "I Sense Malevolence",
+    "Linguistic Revival",
+    "Pain is Temporary",
+    "Unbreakable Resolve",
+    "Boneyard Acquaintance",
+    "Indomitable Spirit",
+    "Release the Light",
+    "This is What It's Like to Die",
+    "See You in Hell"
+   ],
+   "spoiler": false,
+   "fragment_count": 5
+  },
+  {
+   "id": "best.nindoru",
+   "slice": "bestiary",
+   "name": "Nindoru Fiends (the campaign's signature foes)",
+   "location": "throughout Shenmen / Willowshore",
+   "file": "bestiary.md",
+   "source": "p.329",
+   "themes": [
+    "Action",
+    "Tension"
+   ],
+   "threads": [
+    "Stop Kugaptee's rebirth",
+    "Survive the haunting",
+    "Uncover the truth"
+   ],
+   "characters": [
+    "Meokdan",
+    "Sojiruh",
+    "Guhdggi",
+    "Ijda",
+    "Kagekuma",
+    "Akashti",
+    "Shisagishin",
+    "Argyrzei",
+    "Kugaptee"
+   ],
+   "elements": [
+    "nindoru butterflies",
+    "broken weapons",
+    "Soul Shred",
+    "silver weakness",
+    "Tan Sugi"
+   ],
+   "spoiler": true,
+   "fragment_count": 9
+  },
+  {
+   "id": "best.noppera-bo",
+   "slice": "bestiary",
+   "name": "Noppera-bo (faceless yokai)",
+   "location": "Willowshore / Heh Shan-Bao's mindscape",
+   "file": "bestiary.md",
+   "source": "p.339",
+   "themes": [
+    "Tension",
+    "Mystery",
+    "Action"
+   ],
+   "threads": [
+    "Survive the haunting",
+    "Uncover the truth",
+    "Confront the false reflections"
+   ],
+   "characters": [
+    "Noppera-bo Grunt",
+    "Noppera-bo Trickster",
+    "Noppera-bo Occultist",
+    "Noppera-bo Impersonator"
+   ],
+   "elements": [
+    "stolen faces",
+    "sensitive hearing weakness",
+    "Heh Shan-Bao's mindscape"
+   ],
+   "spoiler": true,
+   "fragment_count": 4
+  },
+  {
+   "id": "best.key-npcs",
+   "slice": "bestiary",
+   "name": "Named Campaign NPCs (allies, villains, power-brokers)",
+   "location": "Willowshore / Tan Sugi monastery / Karahai",
+   "file": "bestiary.md",
+   "source": "p.351",
+   "themes": [
+    "Social",
+    "Personal",
+    "Mystery",
+    "Tension"
+   ],
+   "threads": [
+    "Choose Willowshore's leadership",
+    "Negotiate with Mago Kai",
+    "Ally with Ren Mei Li",
+    "Stop Xin Yue / Kugaptee",
+    "Uncover the truth"
+   ],
+   "characters": [
+    "Granny Hu Ban-niang",
+    "Heh Shan-Bao",
+    "Mago Kai",
+    "Ren Mei Li",
+    "Xin Yue",
+    "Zhi Hui",
+    "Old Matsuki Shou"
+   ],
+   "elements": [
+    "Influence subsystem",
+    "interim governor",
+    "Karahai warding bell",
+    "Tan Sugi monastery",
+    "the mindscape"
+   ],
+   "spoiler": true,
+   "fragment_count": 7
+  },
+  {
+   "id": "best.tianxia-fauna",
+   "slice": "bestiary",
+   "name": "Other Tian Xia Spirits & Creatures of the campaign",
+   "location": "Shenmen / Willowshore / Specterwood",
+   "file": "bestiary.md",
+   "source": "p.326",
+   "themes": [
+    "Tension",
+    "Mystery",
+    "Action"
+   ],
+   "threads": [
+    "Survive the haunting",
+    "Uncover the truth",
+    "Protect Willowshore"
+   ],
+   "characters": [
+    "Algriever",
+    "Bakeneko",
+    "Dalgyal Gwishin",
+    "Imprecasia",
+    "Path Maiden",
+    "Shimmerthief",
+    "Shinigami",
+    "Silsyche",
+    "Stone Spider",
+    "Thatchling"
+   ],
+   "elements": [
+    "shrines",
+    "stolen faces",
+    "curses",
+    "abandoned homes",
+    "town gate guardians",
+    "tall grass",
+    "the Boneyard"
+   ],
+   "spoiler": true,
+   "fragment_count": 10
+  }
+ ],
+ "by_thread": {
+  "Acquire contraband": [
+   "loc.w32-mushroom-house"
+  ],
+  "Acquire supplies / shopping": [
+   "a1.shinzo"
+  ],
+  "Acquire the teahouse": [
+   "loc.w22-cerulean-teahouse"
+  ],
+  "Aid Great Willow": [
+   "a1.great-willow"
+  ],
+  "Aid Ugly Cute / contact Silvermist": [
+   "a1.trapped-hunter"
+  ],
+  "Aid Willowshore": [
+   "a1.opportunities"
+  ],
+  "Ally with Ren Mei Li": [
+   "best.key-npcs"
+  ],
+  "Ally with an elder": [
+   "a1.southbank-matsuki",
+   "a1.northridge-hu"
+  ],
+  "Befriend (or lay to rest) the fox ghost": [
+   "a3.event7-fox-ghost"
+  ],
+  "Befriend Willowshore's kami": [
+   "tool.magic-tea"
+  ],
+  "Befriend Willowshore's residents": [
+   "loc.w12-matsu-home",
+   "loc.w21-mama-bao",
+   "loc.w24-ho-home",
+   "loc.w34-kawaka-home",
+   "loc.w35-leshys-salon"
+  ],
+  "Begin the campaign": [
+   "loc.w38-wooded-clearing"
+  ],
+  "Beware your faceless doubles": [
+   "a3.noppera-impersonators"
+  ],
+  "Bolster Hope at the festival": [
+   "a2.w3-first-long-night"
+  ],
+  "Bolster the town's spiritual health": [
+   "a2.w10-feast-kami"
+  ],
+  "Boost morale via the Claylight Festival": [
+   "a3.event10-claylight"
+  ],
+  "Break the cycle of destruction": [
+   "tool.sangpotshi",
+   "tool.nindoru-lore"
+  ],
+  "Build reputation": [
+   "a1.opportunities"
+  ],
+  "Carry clues into fall": [
+   "a1.conclusion"
+  ],
+  "Catch the governor before he reaches his manor": [
+   "a3.governor-chase"
+  ],
+  "Check on Doctor Dami": [
+   "a1.clinic"
+  ],
+  "Choose Willowshore's leadership": [
+   "best.key-npcs"
+  ],
+  "Claim the teahouse": [
+   "a1.opportunities"
+  ],
+  "Cleanse the governor's manor": [
+   "a4.manor-pass",
+   "loc.manor-ruined",
+   "a4.false-gov"
+  ],
+  "Cleanse the monastery / stop Kugaptee's revival": [
+   "ch7.monastery-overview",
+   "ch7.e1-e3",
+   "ch7.e4-e8",
+   "ch7.e9-e12",
+   "ch7.e13-e15"
+  ],
+  "Combat the dead": [
+   "loc.w9-lady-of-souls",
+   "loc.w16-nine-ear-shrine",
+   "loc.w36-bones-forgotten"
+  ],
+  "Complete & prepare the transmigrate ritual": [
+   "a3.transmigration-research"
+  ],
+  "Complete the Five-Season Treasures": [
+   "a4.princess-requests",
+   "a4.event1-spring-bird",
+   "loc.moon-marsh",
+   "loc.apple-grove",
+   "loc.whisperweb"
+  ],
+  "Complete the transmigration / break through to the living world": [
+   "a3.transmigrating-borderland"
+  ],
+  "Conclude the campaign": [
+   "a4.heroine-passes"
+  ],
+  "Confront the curse's source": [
+   "a1.ritual-site"
+  ],
+  "Confront the false reflections": [
+   "best.noppera-bo"
+  ],
+  "Deal with the Silkwasp Bandits": [
+   "a4.silkwasp-bridge",
+   "a4.silkwasp-intel",
+   "loc.silkwasp-camp"
+  ],
+  "Decide Willowshore's leadership": [
+   "a1.who-leads"
+  ],
+  "Decide how much truth to share / manage morale": [
+   "a3.spreading-news"
+  ],
+  "Defeat Heh Shan-Bao / stop Kugaptee's reincarnation": [
+   "a4.fiend-two-worlds",
+   "loc.restored-manor",
+   "loc.kugaptee-grasp",
+   "a4.chained-souls",
+   "loc.kugaptee-grave",
+   "a4.governors-den",
+   "a4.below-claw",
+   "a4.heh-arrives",
+   "a4.kugaptee-death"
+  ],
+  "Defeat the bridge buso": [
+   "a1.clinic"
+  ],
+  "Defeat the governor (if PCs choose violence)": [
+   "a3.fighting-governor"
+  ],
+  "Defeat the noppera-bo leaders": [
+   "a1.lumber-camp-inner"
+  ],
+  "Defeat the ringleaders": [
+   "a1.gray-butcher",
+   "a1.teahouse"
+  ],
+  "Defeat your own shadow-selves": [
+   "a3.event3-shadows"
+  ],
+  "Defend Willowshore from opportunist fiends": [
+   "a4.un-weavers"
+  ],
+  "Destroy Hong Meigui": [
+   "loc.silkwasp-camp"
+  ],
+  "Destroy Kugaptee's centipede": [
+   "a3.event15-reprisal"
+  ],
+  "Discover what is really cursing Willowshore": [
+   "tool.nindoru-lore"
+  ],
+  "Drive back the supernatural weather": [
+   "loc.w10-eternal-lantern"
+  ],
+  "Earn income / downtime": [
+   "loc.w8-milling-houses",
+   "loc.w13-jadeite-essentials",
+   "loc.w14-cloud-paper-house",
+   "loc.w15-rebels-leatherworks",
+   "loc.w20-luo-and-laws",
+   "loc.w21-mama-bao",
+   "loc.w25-woodcarvers-guild",
+   "loc.w26-second-best",
+   "loc.w29-trade-office",
+   "loc.w30-fisheries",
+   "loc.w32-mushroom-house"
+  ],
+  "Earn the jorogumo's stewardship / the Fang and Key": [
+   "a4.ren-mei-li-return",
+   "a4.amai",
+   "a4.meet-princess",
+   "a4.princess-requests",
+   "a4.event7-final-season",
+   "a4.fang-and-key"
+  ],
+  "Enter Heh Shan-Bao's mindscape": [
+   "a3.seeking-heh"
+  ],
+  "Enter the manor without the governor's seal": [
+   "a3.manor-wards"
+  ],
+  "Equip for the haunting": [
+   "loc.w1-ironworks",
+   "loc.w3-graveside",
+   "loc.w7-silvermist-lodges",
+   "loc.w9-lady-of-souls",
+   "loc.w16-nine-ear-shrine",
+   "loc.w25-woodcarvers-guild",
+   "loc.w26-second-best",
+   "loc.w27-hand-of-spring",
+   "loc.w28-mothers-coil",
+   "loc.w29-trade-office",
+   "loc.w31-dock",
+   "loc.w35-leshys-salon",
+   "tool.sangpotshi-options",
+   "tool.alchemy",
+   "tool.armaments",
+   "tool.momentary",
+   "tool.magic-tea",
+   "tool.fulus",
+   "tool.trappings",
+   "tool.heroic-legacies",
+   "tool.pilgrimage-gifts",
+   "tool.new-spells"
+  ],
+  "Escape/transmigrate the Willowshore mindscape": [
+   "tool.rituals",
+   "tool.transmigrated-state"
+  ],
+  "Explore the hinterlands": [
+   "loc.hinterlands",
+   "loc.w37-great-willow"
+  ],
+  "Explore the region": [
+   "a1.hinterlands-wilds"
+  ],
+  "Find Granny Hu's grandchildren": [
+   "a1.worst-puzzle"
+  ],
+  "Find Ugly Cute": [
+   "a1.ugly-cute"
+  ],
+  "Find and approach the governor": [
+   "a3.dead-man-walking"
+  ],
+  "Find out what happened to Ugly Cute": [
+   "a1.spider-gate"
+  ],
+  "Find the curse's source": [
+   "a1.lumber-camp-outer"
+  ],
+  "Find the missing governor": [
+   "a1.downtown-barracks",
+   "a1.canary-inn"
+  ],
+  "Find the source of evil": [
+   "a1.wall-of-ghosts"
+  ],
+  "Foreshadow the campaign": [
+   "loc.rumormill"
+  ],
+  "Free Heh Shan-Bao": [
+   "loc.restored-manor",
+   "a4.heh-arrives"
+  ],
+  "Free Kawaka / resolve Tenon's loneliness": [
+   "a3.event8-lonely-home"
+  ],
+  "Free captives": [
+   "a1.teahouse"
+  ],
+  "Free the shackled souls": [
+   "loc.kugaptee-grasp",
+   "a4.chained-souls"
+  ],
+  "Gather information": [
+   "loc.w6-thrice-blessed-inn",
+   "loc.rumormill"
+  ],
+  "Get back to Willowshore": [
+   "a1.clearing"
+  ],
+  "Grow stronger across lifetimes": [
+   "tool.reincarnation-feats"
+  ],
+  "Help Willowshore recover": [
+   "loc.w2-stables",
+   "loc.w8-milling-houses",
+   "loc.w13-jadeite-essentials",
+   "loc.w14-cloud-paper-house",
+   "loc.w30-fisheries"
+  ],
+  "Hunt in the hinterlands": [
+   "loc.w7-silvermist-lodges"
+  ],
+  "Investigate Willowshore's secrets": [
+   "loc.w3-graveside",
+   "loc.w4-abadar-shrine",
+   "loc.w14-cloud-paper-house",
+   "loc.w17-woodraft-lake",
+   "loc.w18-dam",
+   "loc.w22-cerulean-teahouse",
+   "loc.w23-abandoned-estates",
+   "loc.w29-trade-office",
+   "loc.w32-mushroom-house",
+   "loc.w33-spider-gate",
+   "loc.w36-bones-forgotten"
+  ],
+  "Investigate the curse": [
+   "loc.hinterlands",
+   "a1.canary-inn",
+   "a1.ugly-cute",
+   "a1.wall-of-ghosts"
+  ],
+  "Investigate the vanished governor": [
+   "loc.w19-downtown"
+  ],
+  "Lay the forgotten spirit to rest": [
+   "a3.event16-one-kind-favor"
+  ],
+  "Learn the truth / win the governor's help": [
+   "a3.know-and-despair"
+  ],
+  "Learn the truth from Shinzo / chart the path home": [
+   "a3.shinzo-answers"
+  ],
+  "Liberate Willowshore": [
+   "a1.southbank-matsuki",
+   "a1.northridge-hu",
+   "a1.crossing-water",
+   "a1.dawnstep-buso",
+   "a1.light-the-night",
+   "a1.gray-butcher",
+   "a1.teahouse"
+  ],
+  "Liberate downtown": [
+   "a1.downtown-barracks",
+   "a1.downtown-residences",
+   "a1.happy-kappa"
+  ],
+  "Light the Eternal Lantern": [
+   "a1.bridge-mist",
+   "a1.spider-gate",
+   "a1.watchtower",
+   "a1.southbank-matsuki",
+   "a1.northridge-hu",
+   "a1.clinic",
+   "a1.shrines",
+   "a1.dawnstep-buso",
+   "a1.light-the-night"
+  ],
+  "Locate the source of the noppera-bos": [
+   "a1.ugly-cute"
+  ],
+  "Maintain Yami's friendship": [
+   "a3.event6-little-gifts"
+  ],
+  "Negotiate with Mago Kai": [
+   "best.key-npcs"
+  ],
+  "Open the Wall of Ghosts": [
+   "tool.rituals"
+  ],
+  "Open the Wall of Ghosts / reach the monastery": [
+   "ch6.wall-of-ghosts",
+   "ch6.within-wall"
+  ],
+  "Pace and survive the winter weeks": [
+   "a3.winter-timeline"
+  ],
+  "Placate (or fight) the forest guardians": [
+   "a3.event14-trees-live"
+  ],
+  "Prepare Willowshore for winter": [
+   "a2.prep-points",
+   "a2.who-leads"
+  ],
+  "Prevent bloodshed": [
+   "a1.who-leads"
+  ],
+  "Protect Willowshore": [
+   "best.tianxia-fauna"
+  ],
+  "Protect Willowshore through the seasons": [
+   "tool.rituals"
+  ],
+  "Pursue clues": [
+   "a1.hinterlands-wilds"
+  ],
+  "Reach Karahai": [
+   "a1.mindscape-border"
+  ],
+  "Reach Northridge": [
+   "a1.crossing-water"
+  ],
+  "Reach home": [
+   "a1.bridge-mist",
+   "a1.watchtower"
+  ],
+  "Reach the Wall of Ghosts": [
+   "a1.lumber-camp-outer"
+  ],
+  "Reach the ritual site": [
+   "a1.lumber-camp-inner"
+  ],
+  "Read the warning signs of the mindscape": [
+   "a3.unprovoked-murder"
+  ],
+  "Rebuild Karahai Bridge / reopen trade": [
+   "loc.karahai-bridge"
+  ],
+  "Reclaim downtown Willowshore": [
+   "loc.w19-downtown"
+  ],
+  "Recover from injury": [
+   "loc.w27-hand-of-spring"
+  ],
+  "Recover the lost Tan Sugi spells": [
+   "tool.new-spells"
+  ],
+  "Recruit allies": [
+   "a1.watchtower"
+  ],
+  "Reintegrate Willowshore into the living world": [
+   "a4.waking",
+   "a4.shinzo-farewell"
+  ],
+  "Relight the Eternal Lantern": [
+   "loc.w10-eternal-lantern",
+   "loc.w11-dawnstep-bridge"
+  ],
+  "Relight the lanterns": [
+   "loc.w33-spider-gate"
+  ],
+  "Reopen the bridge": [
+   "a1.dawnstep-buso"
+  ],
+  "Rescue Meng-sung": [
+   "a1.ritual-site"
+  ],
+  "Rescue the abductees": [
+   "a1.lumber-camp-outer",
+   "a1.lumber-camp-inner"
+  ],
+  "Rescue the three trapped civilians": [
+   "a3.event1-collapse"
+  ],
+  "Rescue the trapped civilians / stop the exorcism": [
+   "a3.red-smoke"
+  ],
+  "Rescue townsfolk": [
+   "a1.trapped-hunter",
+   "a1.worst-puzzle",
+   "a1.downtown-barracks",
+   "a1.downtown-residences",
+   "a1.happy-kappa"
+  ],
+  "Research Willowshore's secrets": [
+   "loc.w20-luo-and-laws"
+  ],
+  "Research magic": [
+   "loc.w28-mothers-coil"
+  ],
+  "Research the curse / open the Wall of Ghosts": [
+   "a2.research-curse"
+  ],
+  "Research the mindscape / reach Heh Shan-Bao": [
+   "a3.mindscape-research"
+  ],
+  "Resolve the crane-wife's plea": [
+   "a3.event9-crane-wife"
+  ],
+  "Restore Willowshore to life": [
+   "tool.transmigrated-state",
+   "tool.minor-spirit-powers",
+   "tool.major-spirit-powers"
+  ],
+  "Restore the Tan Sugi monastery": [
+   "tool.pilgrimage-gifts"
+  ],
+  "Restore the teahouse / bolster Hope": [
+   "a2.teahouse"
+  ],
+  "Seek the kami's knowledge": [
+   "loc.w37-great-willow"
+  ],
+  "Settle back into Willowshore / continue surviving winter": [
+   "a3.winter-return"
+  ],
+  "Solve the Willowshore murders": [
+   "a4.murders-system",
+   "a4.murder1",
+   "a4.murder2",
+   "a4.event7-final-season",
+   "a4.murder3"
+  ],
+  "Stop Kugaptee's rebirth": [
+   "best.nindoru"
+  ],
+  "Stop Kugaptee's revival / conclude the act": [
+   "ch7.e16-kugaptee"
+  ],
+  "Stop Xin Yue / Kugaptee": [
+   "best.key-npcs"
+  ],
+  "Stop the ritual": [
+   "a1.ritual-site"
+  ],
+  "Survive & restore Willowshore": [
+   "loc.w1-ironworks",
+   "loc.w2-stables",
+   "loc.w5-matsuki-estate",
+   "loc.w6-thrice-blessed-inn",
+   "tool.fulus"
+  ],
+  "Survive Ren Mei Li's visit / win her over": [
+   "a3.event13-interview-spider"
+  ],
+  "Survive the cursed summer": [
+   "a1.conclusion"
+  ],
+  "Survive the fall hauntings / preserve Hope": [
+   "a2.spirits-hauntings",
+   "a2.w1-daikitsu",
+   "a2.w2-vipers",
+   "a2.w4-haunted-hair",
+   "a2.w5-missing-corpse",
+   "a2.w6-faceless-ghost",
+   "a2.w7-icy-grasp",
+   "a2.w8-stable-fire",
+   "a2.w9-kimchi",
+   "a2.w11-face-at-bed",
+   "a2.w12-vanishings"
+  ],
+  "Survive the haunting": [
+   "best.nindoru",
+   "best.noppera-bo",
+   "best.tianxia-fauna"
+  ],
+  "Survive the mindscape's collapse": [
+   "a3.end-of-dream"
+  ],
+  "Survive the seance / learn about the warding bell": [
+   "a3.event12-seance"
+  ],
+  "Survive the waldgeist surge": [
+   "a3.event2-uprising"
+  ],
+  "Survive winter / preserve Hope, Food & Security": [
+   "a3.winter-engine"
+  ],
+  "Tally the rescue / secure rewards / pivot to investigation": [
+   "a3.cloud-paper-aftermath"
+  ],
+  "Travel the rivers": [
+   "loc.w31-dock"
+  ],
+  "Uncover the truth": [
+   "best.nindoru",
+   "best.noppera-bo",
+   "best.key-npcs",
+   "best.tianxia-fauna"
+  ],
+  "Understand the curse": [
+   "a1.mindscape-border"
+  ],
+  "Understand the curse's extent": [
+   "a1.great-willow"
+  ],
+  "Understand the curse's spiritual nature": [
+   "tool.sangpotshi",
+   "tool.sangpotshi-options"
+  ],
+  "Understand what is wrong": [
+   "a1.clearing"
+  ],
+  "Unmask and stop your faceless doubles": [
+   "a3.event5-faceless-evil"
+  ],
+  "Wake and return to town": [
+   "loc.w38-wooded-clearing"
+  ],
+  "Walk the Pilgrim's Path / reach the monastery": [
+   "ch6.pilgrims-path"
+  ],
+  "Win over (or repel) the nosois": [
+   "a3.event11-nosois-brunch"
+  ]
+ },
+ "by_character": {
+  "Abacus Sisters": [
+   "a1.lumber-camp-inner"
+  ],
+  "Aiomena": [
+   "loc.w7-silvermist-lodges"
+  ],
+  "Akashti": [
+   "best.nindoru"
+  ],
+  "Algriever": [
+   "best.tianxia-fauna"
+  ],
+  "Amai": [
+   "a4.amai"
+  ],
+  "Anjal of Thulsadus (deceased)": [
+   "loc.w28-mothers-coil"
+  ],
+  "Arboreal reapers (2)": [
+   "a3.event14-trees-live"
+  ],
+  "Argyrzei": [
+   "best.nindoru"
+  ],
+  "Aruka": [
+   "a3.event8-lonely-home"
+  ],
+  "Aruka (kitsune apprentice, Creature -1)": [
+   "a3.event1-collapse"
+  ],
+  "Asahina Shinzo": [
+   "a2.research-curse",
+   "a2.w3-first-long-night",
+   "a2.w10-feast-kami",
+   "ch6.wall-of-ghosts"
+  ],
+  "Asahina Shinzo (shinigami)": [
+   "a3.shinzo-answers"
+  ],
+  "Bakeneko": [
+   "best.tianxia-fauna"
+  ],
+  "Black Bean": [
+   "a3.know-and-despair",
+   "a3.winter-return",
+   "a3.event6-little-gifts"
+  ],
+  "Cao Chen": [
+   "a3.event12-seance"
+  ],
+  "Captured farmers": [
+   "a1.lumber-camp-inner"
+  ],
+  "Chi Hongxin": [
+   "a1.canary-inn"
+  ],
+  "Choe Chung-hu": [
+   "loc.w8-milling-houses",
+   "a1.clearing",
+   "a1.opportunities"
+  ],
+  "Dalgyal Gwishin": [
+   "best.tianxia-fauna"
+  ],
+  "Damihansig 'Dami' Mababangloob": [
+   "loc.w27-hand-of-spring"
+  ],
+  "De-ge": [
+   "a1.happy-kappa"
+  ],
+  "Desna (abandoned shrine)": [
+   "loc.w23-abandoned-estates"
+  ],
+  "Doctor Dami": [
+   "a1.clinic"
+  ],
+  "Drunken jinkins": [
+   "a1.downtown-residences"
+  ],
+  "Elizeth Candora": [
+   "loc.w9-lady-of-souls",
+   "a2.w5-missing-corpse",
+   "a3.transmigration-research",
+   "a4.murder2",
+   "a4.chained-souls"
+  ],
+  "Eloped lovers": [
+   "a1.hinterlands-wilds"
+  ],
+  "Endangered Revelers": [
+   "a1.worst-puzzle"
+  ],
+  "Enko the kappa": [
+   "ch6.pilgrims-path"
+  ],
+  "False Governor (akashti nindoru)": [
+   "a4.false-gov"
+  ],
+  "Familiar shadows (one per PC)": [
+   "a3.event3-shadows"
+  ],
+  "Fan Hongrui": [
+   "a1.canary-inn"
+  ],
+  "Fluffy Whiskers": [
+   "a1.teahouse"
+  ],
+  "Forgotten Spirit (ghost, Creature 4)": [
+   "a3.event16-one-kind-favor"
+  ],
+  "Giant centipedes": [
+   "a1.clearing"
+  ],
+  "Goh": [
+   "a2.w7-icy-grasp"
+  ],
+  "Governor Heh Shan-Bao": [
+   "loc.w29-trade-office"
+  ],
+  "Granny Hu": [
+   "loc.w29-trade-office",
+   "loc.w32-mushroom-house",
+   "a1.who-leads",
+   "a2.who-leads",
+   "a3.spreading-news",
+   "a3.event13-interview-spider",
+   "tool.trappings"
+  ],
+  "Granny Hu / Hu Ban-niang": [
+   "a1.northridge-hu"
+  ],
+  "Granny Hu Ban-niang": [
+   "best.key-npcs"
+  ],
+  "Gray Butcher": [
+   "a1.gray-butcher"
+  ],
+  "Great Willow": [
+   "loc.w37-great-willow",
+   "loc.rumormill",
+   "a1.great-willow",
+   "a2.research-curse",
+   "a2.w10-feast-kami"
+  ],
+  "Great Willow (kodama)": [
+   "a3.transmigration-research"
+  ],
+  "Guhdggi": [
+   "best.nindoru"
+  ],
+  "Gurglegut": [
+   "a1.dawnstep-buso",
+   "loc.kugaptee-grave"
+  ],
+  "Ha Hai-er": [
+   "a1.watchtower"
+  ],
+  "Heh Shan-Bao": [
+   "a2.who-leads",
+   "a3.seeking-heh",
+   "a3.dead-man-walking",
+   "a3.governor-chase",
+   "a3.manor-wards",
+   "a3.know-and-despair",
+   "tool.rituals",
+   "best.key-npcs"
+  ],
+  "Heh Shan-Bao (Creature 9)": [
+   "a3.fighting-governor"
+  ],
+  "Heh Shan-Bao (absent ruler)": [
+   "loc.restored-manor"
+  ],
+  "Heh Shan-Bao (yohoi)": [
+   "a4.murders-system",
+   "a4.murder1",
+   "a4.murder2",
+   "a4.murder3",
+   "a4.fiend-two-worlds",
+   "loc.kugaptee-grasp",
+   "a4.governors-den",
+   "a4.below-claw",
+   "a4.heh-arrives"
+  ],
+  "Hinode Akari (ghost)": [
+   "a2.w4-haunted-hair"
+  ],
+  "Ho Jeong-hui": [
+   "loc.w24-ho-home",
+   "a2.w6-faceless-ghost"
+  ],
+  "Hong Meigui": [
+   "a4.silkwasp-bridge",
+   "a4.silkwasp-intel",
+   "loc.silkwasp-camp"
+  ],
+  "Hongrui": [
+   "tool.trappings"
+  ],
+  "Hu Lelong": [
+   "a1.downtown-residences"
+  ],
+  "Hua De-ge": [
+   "loc.w19-downtown",
+   "a4.murder1"
+  ],
+  "Hunting spiders": [
+   "a1.lumber-camp-outer"
+  ],
+  "Huo Tian-Zhe": [
+   "loc.w18-dam",
+   "loc.w26-second-best",
+   "a1.clinic",
+   "a4.event1-spring-bird"
+  ],
+  "Igawa Jubei": [
+   "loc.w28-mothers-coil",
+   "a1.clinic",
+   "a2.research-curse",
+   "a3.transmigration-research"
+  ],
+  "Ijda": [
+   "best.nindoru"
+  ],
+  "Imprecasia": [
+   "best.tianxia-fauna"
+  ],
+  "Imprisoned villagers": [
+   "a1.downtown-barracks",
+   "a1.teahouse"
+  ],
+  "Injigo (jorogumo)": [
+   "tool.heroic-legacies"
+  ],
+  "Injured kappa": [
+   "a1.lumber-camp-outer"
+  ],
+  "Iogaka the storm hag": [
+   "ch6.pilgrims-path"
+  ],
+  "Isori (awakener naga)": [
+   "loc.moon-marsh"
+  ],
+  "Ithiniak (imprecasia)": [
+   "loc.restored-manor"
+  ],
+  "Jerky": [
+   "a1.lumber-camp-outer"
+  ],
+  "Jinkin gremlins": [
+   "a1.watchtower"
+  ],
+  "Jinkins": [
+   "a1.dawnstep-buso"
+  ],
+  "Kagekuma": [
+   "best.nindoru"
+  ],
+  "Kagekumas (3, Creature 8)": [
+   "a3.transmigrating-borderland"
+  ],
+  "Kalen Bray": [
+   "ch7.e13-e15"
+  ],
+  "Kappas": [
+   "a1.happy-kappa"
+  ],
+  "Karahai locals": [
+   "a4.silkwasp-intel"
+  ],
+  "Karahai villagers": [
+   "loc.karahai-bridge"
+  ],
+  "Kazuma Oono": [
+   "loc.w19-downtown",
+   "a4.princess-requests",
+   "a4.event1-spring-bird",
+   "a4.murder1",
+   "a4.chained-souls"
+  ],
+  "Kim Gu-won": [
+   "loc.w29-trade-office",
+   "a1.northridge-hu",
+   "a4.event1-spring-bird"
+  ],
+  "Kimchi": [
+   "a2.w9-kimchi"
+  ],
+  "Kinburi": [
+   "tool.heroic-legacies"
+  ],
+  "Kohoshi": [
+   "a2.w10-feast-kami"
+  ],
+  "Kugaptee": [
+   "loc.kugaptee-grasp",
+   "a4.below-claw",
+   "a4.heh-arrives",
+   "a4.kugaptee-death",
+   "tool.armaments",
+   "best.nindoru"
+  ],
+  "Kugaptee (Ascetic)": [
+   "tool.nindoru-lore"
+  ],
+  "Kugaptee (manifestation)": [
+   "ch7.e16-kugaptee"
+  ],
+  "Kugaptee's Blessings": [
+   "a1.ritual-site"
+  ],
+  "Kugaptee's Centipede (nindoru, Creature 9)": [
+   "a3.event15-reprisal"
+  ],
+  "Kugaptee's drakauthixes": [
+   "loc.manor-ruined"
+  ],
+  "Kum Meng-sung": [
+   "a1.ritual-site"
+  ],
+  "Kum Soon-chong": [
+   "loc.w2-stables",
+   "a1.opportunities",
+   "a1.lumber-camp-inner",
+   "a2.w8-stable-fire"
+  ],
+  "Lady Nanbyo (Widow of Suffering)": [
+   "loc.w17-woodraft-lake"
+  ],
+  "Lao Shu Po": [
+   "tool.rituals"
+  ],
+  "Living boulders": [
+   "a1.ugly-cute"
+  ],
+  "Lo Kuon": [
+   "a4.silkwasp-bridge",
+   "loc.silkwasp-camp"
+  ],
+  "Luda Bama": [
+   "loc.w32-mushroom-house"
+  ],
+  "Luo Xi Yang": [
+   "loc.w6-thrice-blessed-inn",
+   "loc.w20-luo-and-laws",
+   "a1.opportunities",
+   "a4.event1-spring-bird"
+  ],
+  "Mago Kai": [
+   "a2.spirits-hauntings",
+   "a3.shinzo-answers",
+   "a3.event12-seance",
+   "best.key-npcs"
+  ],
+  "Mago Kai (argyrzei)": [
+   "loc.kugaptee-grave"
+  ],
+  "Mago Kai's exorcists": [
+   "a3.winter-engine"
+  ],
+  "Mago Kai's ghostly exorcists": [
+   "a3.red-smoke"
+  ],
+  "Master Zhi Hui": [
+   "a1.light-the-night",
+   "ch7.e16-kugaptee"
+  ],
+  "Master Zhi Hui (ghost)": [
+   "ch7.monastery-overview"
+  ],
+  "Master Zhi Hui (history)": [
+   "ch6.pilgrims-path"
+  ],
+  "Master Zhi Hui (legacy)": [
+   "loc.w10-eternal-lantern"
+  ],
+  "Matsu": [
+   "loc.w12-matsu-home",
+   "loc.rumormill",
+   "a2.w2-vipers"
+  ],
+  "Matsuki Shou": [
+   "loc.w5-matsuki-estate"
+  ],
+  "Meng-sung": [
+   "loc.w2-stables"
+  ],
+  "Meokdan": [
+   "best.nindoru"
+  ],
+  "Midori": [
+   "a1.trapped-hunter"
+  ],
+  "Minhwan": [
+   "a2.w1-daikitsu"
+  ],
+  "Mo Douqiu": [
+   "a1.teahouse"
+  ],
+  "Monks of Kugaptee": [
+   "ch7.e16-kugaptee"
+  ],
+  "Monks of Kugaptee (kurobozus)": [
+   "ch7.e4-e8"
+  ],
+  "Mountain Summit Grass": [
+   "loc.w35-leshys-salon",
+   "a1.opportunities"
+  ],
+  "Mr. Jelly": [
+   "a3.event1-collapse"
+  ],
+  "Mugirou": [
+   "a1.lumber-camp-inner"
+  ],
+  "Murasaki": [
+   "a1.trapped-hunter"
+  ],
+  "Musagani (Ascetic)": [
+   "tool.nindoru-lore"
+  ],
+  "Myna Kawaka": [
+   "loc.w14-cloud-paper-house",
+   "loc.w34-kawaka-home",
+   "a3.cloud-paper-aftermath",
+   "a3.event8-lonely-home"
+  ],
+  "Nadoya Sanmi": [
+   "loc.w19-downtown",
+   "a1.downtown-residences",
+   "a2.prep-points"
+  ],
+  "Nakamura Mama Bao Yu Ming": [
+   "a2.w4-haunted-hair"
+  ],
+  "Nakamura Yu Ming (Mama Bao)": [
+   "loc.w21-mama-bao"
+  ],
+  "Nanzhe Hongban": [
+   "a1.canary-inn"
+  ],
+  "Nin Nok (undead arsonist)": [
+   "a2.w8-stable-fire"
+  ],
+  "Nindorus": [
+   "tool.nindoru-lore"
+  ],
+  "Noodles": [
+   "a1.trapped-hunter"
+  ],
+  "Noppera-bo Grunt": [
+   "best.noppera-bo"
+  ],
+  "Noppera-bo Impersonator": [
+   "best.noppera-bo"
+  ],
+  "Noppera-bo Occultist": [
+   "best.noppera-bo"
+  ],
+  "Noppera-bo Trickster": [
+   "best.noppera-bo"
+  ],
+  "Noppera-bo grunts": [
+   "a1.lumber-camp-outer"
+  ],
+  "Noppera-bo impersonators (4)": [
+   "a3.end-of-dream",
+   "a3.event5-faceless-evil"
+  ],
+  "Noppera-bo impersonators (one per PC)": [
+   "a3.noppera-impersonators"
+  ],
+  "Noppera-bo occultists": [
+   "a1.lumber-camp-inner",
+   "a1.ritual-site"
+  ],
+  "Noppera-bo tricksters": [
+   "a1.lumber-camp-outer"
+  ],
+  "Nosoi psychopomps (Yamaguchi, Sakaguchi, Iguchi, Noguchi)": [
+   "a3.event11-nosois-brunch"
+  ],
+  "Old Matsuki": [
+   "a1.who-leads",
+   "a2.who-leads",
+   "a3.event13-interview-spider"
+  ],
+  "Old Matsuki / Matsuki Shou": [
+   "a1.southbank-matsuki"
+  ],
+  "Old Matsuki Shou": [
+   "best.key-npcs"
+  ],
+  "Ouh Ba-Ming": [
+   "loc.w16-nine-ear-shrine",
+   "a3.event10-claylight"
+  ],
+  "Pan Fenfang": [
+   "a3.event12-seance"
+  ],
+  "Path Maiden": [
+   "best.tianxia-fauna"
+  ],
+  "Phantom gecko": [
+   "a1.clinic"
+  ],
+  "Qing Mai-Lai (deceased)": [
+   "loc.w22-cerulean-teahouse"
+  ],
+  "Rajul Samudra": [
+   "loc.w31-dock",
+   "a1.opportunities"
+  ],
+  "Ren Mei Li": [
+   "a4.ren-mei-li-return",
+   "a4.amai",
+   "a4.meet-princess",
+   "a4.princess-requests",
+   "a4.event1-spring-bird",
+   "a4.event7-final-season",
+   "a4.fang-and-key",
+   "a4.fiend-two-worlds",
+   "best.key-npcs"
+  ],
+  "Ren Mei Li (jorogumo princess, Creature 13)": [
+   "a3.event13-interview-spider"
+  ],
+  "Revenants (4, Creature 6)": [
+   "a3.event16-one-kind-favor"
+  ],
+  "Reverent Mother Otis": [
+   "loc.w6-thrice-blessed-inn"
+  ],
+  "Rin (kitsune ghost, Creature 8)": [
+   "a3.event7-fox-ghost"
+  ],
+  "Sangpots": [
+   "tool.sangpotshi"
+  ],
+  "Sangpotshi mystics": [
+   "tool.sangpotshi"
+  ],
+  "Seiji Juubun": [
+   "tool.heroic-legacies"
+  ],
+  "Sha \"Shagua\" Guanghao": [
+   "a3.event12-seance"
+  ],
+  "Shimmerthief": [
+   "best.tianxia-fauna"
+  ],
+  "Shinigami": [
+   "best.tianxia-fauna"
+  ],
+  "Shinzo": [
+   "a1.shinzo",
+   "a1.lumber-camp-outer",
+   "a3.cloud-paper-aftermath",
+   "a3.transmigration-research",
+   "a3.event11-nosois-brunch",
+   "a4.shinzo-farewell",
+   "tool.heroic-legacies"
+  ],
+  "Shioli": [
+   "loc.w13-jadeite-essentials"
+  ],
+  "Shisagishin": [
+   "best.nindoru"
+  ],
+  "Sigek (Ascetic)": [
+   "tool.nindoru-lore"
+  ],
+  "Silkwasp Bandits": [
+   "a4.silkwasp-bridge",
+   "a4.silkwasp-intel",
+   "loc.silkwasp-camp"
+  ],
+  "Silsyche": [
+   "best.tianxia-fauna"
+  ],
+  "Sojiruh": [
+   "best.nindoru"
+  ],
+  "Sparrow": [
+   "a1.trapped-hunter"
+  ],
+  "Stingy": [
+   "a1.teahouse"
+  ],
+  "Stone Spider": [
+   "best.tianxia-fauna"
+  ],
+  "Sumika": [
+   "a1.trapped-hunter",
+   "a1.ugly-cute"
+  ],
+  "Taljjae": [
+   "tool.momentary"
+  ],
+  "Tan Sugi / Eternal Lantern": [
+   "tool.rituals"
+  ],
+  "Tan Sui-Jing": [
+   "a4.heroine-passes"
+  ],
+  "Tan Sui-Jing (echo)": [
+   "ch6.within-wall"
+  ],
+  "Tenon (silsyche, Creature 6)": [
+   "a3.event8-lonely-home"
+  ],
+  "Thatchling": [
+   "best.tianxia-fauna"
+  ],
+  "Thatchlings": [
+   "a1.canary-inn"
+  ],
+  "Town guards": [
+   "a1.watchtower",
+   "a1.downtown-barracks"
+  ],
+  "Ugly Cute": [
+   "a1.spider-gate",
+   "a1.ugly-cute",
+   "tool.armaments"
+  ],
+  "Ugly Cute (guardian spirit)": [
+   "loc.w33-spider-gate"
+  ],
+  "Unlived Lives (unrisen)": [
+   "a4.heh-arrives"
+  ],
+  "Vashu Vigaru": [
+   "tool.heroic-legacies"
+  ],
+  "Vitumniar": [
+   "loc.w15-rebels-leatherworks"
+  ],
+  "Wandering monsters": [
+   "a1.hinterlands-wilds"
+  ],
+  "Warty": [
+   "a1.teahouse"
+  ],
+  "Willowshore NPCs": [
+   "a4.princess-requests"
+  ],
+  "Willowshore waldgeists (2)": [
+   "a3.event2-uprising"
+  ],
+  "Willowshore's kami": [
+   "tool.magic-tea"
+  ],
+  "Xin Yue": [
+   "ch7.monastery-overview",
+   "ch7.e16-kugaptee",
+   "best.key-npcs"
+  ],
+  "Xungu": [
+   "a1.great-willow"
+  ],
+  "Yaezhing (cape motif)": [
+   "tool.trappings"
+  ],
+  "Yami": [
+   "loc.rumormill",
+   "a2.teahouse",
+   "a2.w5-missing-corpse",
+   "a4.amai"
+  ],
+  "Yami (bakeneko)": [
+   "a3.event6-little-gifts"
+  ],
+  "Yami (cat)": [
+   "loc.w22-cerulean-teahouse"
+  ],
+  "Yen Rui": [
+   "ch7.monastery-overview"
+  ],
+  "Yen Rui (spirit)": [
+   "ch7.e9-e12"
+  ],
+  "Yix": [
+   "a1.shinzo",
+   "a2.w3-first-long-night",
+   "a2.w10-feast-kami"
+  ],
+  "Yix (nosoi raven)": [
+   "a3.shinzo-answers"
+  ],
+  "Yix (psychopomp)": [
+   "a4.shinzo-farewell"
+  ],
+  "Yong Wu-Xiu": [
+   "loc.w1-ironworks",
+   "a1.opportunities",
+   "a3.transmigration-research"
+  ],
+  "You So-Jin": [
+   "loc.w3-graveside",
+   "loc.rumormill",
+   "a2.research-curse",
+   "a2.w3-first-long-night",
+   "a4.murder3",
+   "a4.chained-souls"
+  ],
+  "Yu Er (urchin, Creature -1)": [
+   "a3.event1-collapse"
+  ],
+  "Yu Er's parents": [
+   "a3.cloud-paper-aftermath"
+  ],
+  "Yuli Sanmi": [
+   "a1.downtown-residences"
+  ],
+  "Yun Mong-un": [
+   "loc.w25-woodcarvers-guild",
+   "a1.opportunities"
+  ],
+  "Yuni (ghost)": [
+   "ch7.e1-e3"
+  ],
+  "Zataku": [
+   "loc.w30-fisheries"
+  ],
+  "Zhen Luoyang (commoner, Creature -1)": [
+   "a3.event1-collapse"
+  ],
+  "Zheng Peng": [
+   "loc.w19-downtown",
+   "a1.downtown-barracks",
+   "a2.prep-points"
+  ],
+  "Zhi Hui": [
+   "tool.new-spells",
+   "best.key-npcs"
+  ],
+  "Zoudou the Zealous": [
+   "a1.ritual-site"
+  ],
+  "a befriended villager": [
+   "a2.w12-vanishings"
+  ],
+  "a random PC": [
+   "a2.w11-face-at-bed"
+  ],
+  "akashti": [
+   "loc.kugaptee-grave"
+  ],
+  "akashti nindoru (False Governor)": [
+   "loc.manor-ruined"
+  ],
+  "algrievers": [
+   "loc.whisperweb"
+  ],
+  "awakened tree": [
+   "a3.event14-trees-live"
+  ],
+  "cacodaemons": [
+   "ch6.within-wall"
+  ],
+  "corpse sugi (Xin Yue)": [
+   "loc.kugaptee-grave"
+  ],
+  "corrupted monks": [
+   "ch7.monastery-overview"
+  ],
+  "dalgyal gwishin": [
+   "a2.w6-faceless-ghost"
+  ],
+  "devout Pharasmins": [
+   "a3.spreading-news"
+  ],
+  "elite ogre spider": [
+   "ch7.e13-e15"
+  ],
+  "emperor cobras": [
+   "loc.silkwasp-camp"
+  ],
+  "faceless townsfolk": [
+   "a3.unprovoked-murder"
+  ],
+  "festival organizers": [
+   "loc.w38-wooded-clearing"
+  ],
+  "frightened townsfolk": [
+   "a3.red-smoke"
+  ],
+  "guhdggi": [
+   "ch7.e9-e12"
+  ],
+  "guhdggi (cook)": [
+   "ch7.e4-e8"
+  ],
+  "heart-eating vulture": [
+   "ch6.within-wall"
+  ],
+  "hell hounds": [
+   "ch7.e13-e15"
+  ],
+  "hinterland ghosts": [
+   "loc.hinterlands"
+  ],
+  "howling townsfolk": [
+   "a3.end-of-dream"
+  ],
+  "hungry ghosts": [
+   "loc.manor-ruined"
+  ],
+  "ijda nindorus": [
+   "ch7.e9-e12"
+  ],
+  "ittan-momen tsukumogami": [
+   "ch7.e1-e3"
+  ],
+  "jiang-shi guards": [
+   "loc.restored-manor"
+  ],
+  "kagekumas": [
+   "loc.kugaptee-grave"
+  ],
+  "khravgodons": [
+   "loc.apple-grove"
+  ],
+  "kurobozu cook": [
+   "ch7.e13-e15"
+  ],
+  "learned locals": [
+   "a3.mindscape-research"
+  ],
+  "meokdan nindorus": [
+   "ch7.e16-kugaptee"
+  ],
+  "meokdans": [
+   "ch7.e9-e12"
+  ],
+  "mindscape residents": [
+   "a3.dead-man-walking"
+  ],
+  "mindscape townsfolk": [
+   "a3.seeking-heh"
+  ],
+  "mountain oni": [
+   "loc.kugaptee-grave"
+  ],
+  "murder victims": [
+   "a4.murders-system"
+  ],
+  "nindorus": [
+   "ch7.monastery-overview"
+  ],
+  "noppera-bo impersonators": [
+   "a3.dead-man-walking"
+  ],
+  "occult living rune": [
+   "loc.restored-manor"
+  ],
+  "path maiden": [
+   "a4.event7-final-season"
+  ],
+  "path maidens": [
+   "loc.kugaptee-grave"
+  ],
+  "phantom townsfolk": [
+   "loc.kugaptee-grasp"
+  ],
+  "quintessivores (Un-Weavers)": [
+   "a4.un-weavers"
+  ],
+  "samsarans": [
+   "tool.sangpotshi"
+  ],
+  "shikigami kami": [
+   "a2.w10-feast-kami"
+  ],
+  "shisagishin nindorus": [
+   "a4.below-claw"
+  ],
+  "sojiruh nindorus": [
+   "ch7.e4-e8"
+  ],
+  "the Chewer": [
+   "ch7.e13-e15"
+  ],
+  "the Fox Ghost": [
+   "loc.rumormill"
+  ],
+  "the abducted PCs": [
+   "loc.w38-wooded-clearing"
+  ],
+  "the crane-wife": [
+   "a3.event9-crane-wife"
+  ],
+  "the lich Nindoru": [
+   "tool.nindoru-lore"
+  ],
+  "the people of Willowshore": [
+   "a4.heroine-passes"
+  ],
+  "the unquiet dead": [
+   "loc.w36-bones-forgotten"
+  ],
+  "town NPCs": [
+   "a2.w3-first-long-night"
+  ],
+  "town elder": [
+   "a2.teahouse",
+   "a2.spirits-hauntings",
+   "ch6.wall-of-ghosts",
+   "a3.cloud-paper-aftermath",
+   "a3.mindscape-research",
+   "a3.winter-return",
+   "a3.spreading-news",
+   "a3.winter-timeline",
+   "a3.event13-interview-spider",
+   "a4.ren-mei-li-return",
+   "a4.murder2",
+   "a4.fiend-two-worlds"
+  ],
+  "town elder/governor": [
+   "a2.prep-points",
+   "a2.who-leads",
+   "a3.winter-engine",
+   "a4.waking",
+   "a4.manor-pass",
+   "a4.false-gov",
+   "loc.karahai-bridge"
+  ],
+  "two ghosts": [
+   "ch6.wall-of-ghosts"
+  ],
+  "wandering monsters": [
+   "loc.hinterlands"
+  ],
+  "war wraiths": [
+   "loc.manor-ruined"
+  ],
+  "zombie shambler": [
+   "a2.w5-missing-corpse"
+  ]
+ },
+ "by_location": {
+  "Canary Inn (area D4)": [
+   "a1.canary-inn"
+  ],
+  "Ceiba River, Willowshore Dam (W18), Woodraft Lake (W17)": [
+   "a1.crossing-water"
+  ],
+  "Cemetery, forest, and a dry riverbed": [
+   "a3.event16-one-kind-favor"
+  ],
+  "Cerulean Teahouse": [
+   "a3.event6-little-gifts",
+   "a3.event11-nosois-brunch"
+  ],
+  "Cerulean Teahouse (area W22)": [
+   "a1.teahouse"
+  ],
+  "Cerulean Teahouse (or chosen site)": [
+   "a3.event13-interview-spider"
+  ],
+  "Cloud Paper House (W14), Woodraft Lake south shore": [
+   "a3.red-smoke"
+  ],
+  "Cloud Paper House district": [
+   "a3.event3-shadows"
+  ],
+  "Cloud Paper House interior": [
+   "a3.event1-collapse"
+  ],
+  "Cloud Paper House street, area A5": [
+   "a3.event2-uprising"
+  ],
+  "Dawnstep Bridge (area W11)": [
+   "a1.dawnstep-buso"
+  ],
+  "Dawnstep Bridge (areas W10/W11)": [
+   "a1.light-the-night"
+  ],
+  "Downtown Willowshore (area W19), barracks complex": [
+   "a1.downtown-barracks"
+  ],
+  "Downtown Willowshore (merchant stall)": [
+   "a1.shinzo"
+  ],
+  "Downtown residences (B9-B12)": [
+   "a1.downtown-residences"
+  ],
+  "Downtown streets": [
+   "a1.gray-butcher"
+  ],
+  "Duyue River bridge, eastern Willowshore": [
+   "a1.bridge-mist"
+  ],
+  "Eastern watchtower": [
+   "a1.watchtower"
+  ],
+  "Forest clearing east of Willowshore (area W38)": [
+   "a1.clearing"
+  ],
+  "Forest surrounding Willowshore": [
+   "a3.event14-trees-live"
+  ],
+  "Gorge of Fangs and Teeth (area D10)": [
+   "a1.ugly-cute"
+  ],
+  "Governor's manor / streets": [
+   "a3.fighting-governor"
+  ],
+  "Governor's manor courtyard": [
+   "a3.end-of-dream"
+  ],
+  "Governor's manor exterior": [
+   "a3.manor-wards"
+  ],
+  "Governor's manor meeting room": [
+   "a3.know-and-despair"
+  ],
+  "Great Willow hilltop (W37) & Infested Grove (D7)": [
+   "a1.great-willow"
+  ],
+  "Hand of Spring clinic (area W27)": [
+   "a1.clinic"
+  ],
+  "Happy Kappa bathhouse (B13-B15)": [
+   "a1.happy-kappa"
+  ],
+  "Heh Shan-Bao's mindscape": [
+   "a3.noppera-impersonators"
+  ],
+  "Heh Shan-Bao's mindscape (Hand of Spring / streets)": [
+   "a3.dead-man-walking"
+  ],
+  "Heh Shan-Bao's mindscape (downtown)": [
+   "a3.governor-chase"
+  ],
+  "Heh Shan-Bao's parallel mindscape (Willowshore)": [
+   "a3.seeking-heh"
+  ],
+  "Hinterlands or town outskirts": [
+   "a3.event15-reprisal"
+  ],
+  "Karahai Bridge": [
+   "a4.silkwasp-bridge"
+  ],
+  "Karahai Bridge / Karahai": [
+   "loc.karahai-bridge"
+  ],
+  "Karahai seance chamber (area C11)": [
+   "a3.event12-seance"
+  ],
+  "Kugaptee's Grasp (corrupted Willowshore mindscape)": [
+   "loc.kugaptee-grasp"
+  ],
+  "Kugaptee's Grasp (death-sites)": [
+   "a4.chained-souls"
+  ],
+  "Kugaptee's Grave (collapsing manor)": [
+   "a4.kugaptee-death"
+  ],
+  "Kugaptee's Grave (final manor courtyard)": [
+   "a4.below-claw",
+   "a4.heh-arrives"
+  ],
+  "Kugaptee's Grave (final manor)": [
+   "a4.governors-den"
+  ],
+  "Kugaptee's Grave (maze within the Grasp)": [
+   "loc.kugaptee-grave"
+  ],
+  "Lumber Camp (area D11 / E1-E9), ~8 miles west": [
+   "a1.lumber-camp-outer"
+  ],
+  "Lumber Camp interior (E10-E17)": [
+   "a1.lumber-camp-inner"
+  ],
+  "Lumber drying yard near the Mushroom House (area W32)": [
+   "a1.worst-puzzle"
+  ],
+  "Matsuki Estate (area W5), Southbank": [
+   "a1.southbank-matsuki"
+  ],
+  "Moon Marsh": [
+   "loc.moon-marsh"
+  ],
+  "Myna family home, woods south of town (near W34)": [
+   "a3.event8-lonely-home"
+  ],
+  "Overgrown Apple Grove (south, 'Apple Road')": [
+   "loc.apple-grove"
+  ],
+  "Pilgrim's Path": [
+   "ch6.pilgrims-path"
+  ],
+  "Ritual Site at the Wall of Ghosts (area D12)": [
+   "a1.ritual-site"
+  ],
+  "Road to Karahai / mindscape border, near Gourd Lake (D2)": [
+   "a1.mindscape-border"
+  ],
+  "Shenmen / Willowshore / Specterwood": [
+   "best.tianxia-fauna"
+  ],
+  "Silkwasp Camp (NE bluff over the Sea of Ghosts)": [
+   "loc.silkwasp-camp"
+  ],
+  "Small farm in Southbank": [
+   "a1.trapped-hunter"
+  ],
+  "Spider Gate, eastern entrance (area W33)": [
+   "a1.spider-gate"
+  ],
+  "Tan Sugi Monastery / Sangpotshi study": [
+   "tool.sangpotshi-options"
+  ],
+  "Tan Sugi Monastery / pilgrimage": [
+   "tool.pilgrimage-gifts"
+  ],
+  "Tan Sugi Monastery ruins (secret room)": [
+   "tool.new-spells"
+  ],
+  "Tan Sugi monastery": [
+   "ch7.monastery-overview"
+  ],
+  "Tan Sugi monastery (E1-E3)": [
+   "ch7.e1-e3"
+  ],
+  "Tan Sugi monastery (E13-E15)": [
+   "ch7.e13-e15"
+  ],
+  "Tan Sugi monastery (E16, Kugaptee's Grave)": [
+   "ch7.e16-kugaptee"
+  ],
+  "Tan Sugi monastery (E4-E8)": [
+   "ch7.e4-e8"
+  ],
+  "Tan Sugi monastery (E9-E12)": [
+   "ch7.e9-e12"
+  ],
+  "The Between-Life-and-Death borderland mindscape": [
+   "a3.transmigrating-borderland"
+  ],
+  "Tian Xia (Shenmen, Chu Ye, Tianjing, Zi Ha)": [
+   "tool.nindoru-lore"
+  ],
+  "Tian Xia (faith/setting backdrop)": [
+   "tool.sangpotshi"
+  ],
+  "Town shrines across Willowshore": [
+   "a1.shrines"
+  ],
+  "Trade office / Ceiba-Duyue Exchange (area W29), Northridge": [
+   "a1.northridge-hu"
+  ],
+  "Wall of Ghosts, western mindscape edge": [
+   "a1.wall-of-ghosts"
+  ],
+  "Whisperweb Shrine (NW)": [
+   "loc.whisperweb"
+  ],
+  "Willowshore": [
+   "loc.w4-abadar-shrine",
+   "loc.w23-abandoned-estates",
+   "loc.w24-ho-home",
+   "loc.w34-kawaka-home",
+   "a1.who-leads",
+   "a1.conclusion",
+   "a2.prep-points",
+   "a2.who-leads",
+   "a2.research-curse",
+   "a2.spirits-hauntings",
+   "a2.w1-daikitsu",
+   "a2.w11-face-at-bed",
+   "a2.w12-vanishings",
+   "a3.spreading-news",
+   "a3.winter-timeline",
+   "a3.event5-faceless-evil",
+   "a3.event9-crane-wife",
+   "a4.shinzo-farewell",
+   "a4.ren-mei-li-return",
+   "a4.amai",
+   "a4.princess-requests",
+   "a4.murders-system",
+   "a4.fang-and-key",
+   "tool.fulus"
+  ],
+  "Willowshore & hinterlands": [
+   "a1.opportunities"
+  ],
+  "Willowshore (Ceiba River, Goh's home)": [
+   "a2.w7-icy-grasp"
+  ],
+  "Willowshore (Cerulean Teahouse or in the streets)": [
+   "a3.shinzo-answers"
+  ],
+  "Willowshore (Cerulean Teahouse)": [
+   "a2.teahouse",
+   "a2.w10-feast-kami",
+   "a4.meet-princess"
+  ],
+  "Willowshore (Dawnstep Bridge / Eternal Lantern)": [
+   "a4.waking"
+  ],
+  "Willowshore (Graveside Manners)": [
+   "a4.murder3"
+  ],
+  "Willowshore (Her Fluvial Lady of Souls / graveyard)": [
+   "a4.murder2"
+  ],
+  "Willowshore (Jeong-hui's home, W24)": [
+   "a2.w6-faceless-ghost"
+  ],
+  "Willowshore (Matsu's home, W12)": [
+   "a2.w2-vipers"
+  ],
+  "Willowshore (Nine Ear Shrine / fields)": [
+   "a3.event10-claylight"
+  ],
+  "Willowshore (Seven-Colored Songbird office)": [
+   "a4.murder1"
+  ],
+  "Willowshore (Seven-Colored Songbird theater)": [
+   "a4.event1-spring-bird"
+  ],
+  "Willowshore (Shinzo)": [
+   "tool.heroic-legacies"
+  ],
+  "Willowshore (Tan Sugi library materials)": [
+   "a3.mindscape-research"
+  ],
+  "Willowshore (Unaffiliated)": [
+   "loc.w9-lady-of-souls",
+   "loc.w15-rebels-leatherworks",
+   "loc.w20-luo-and-laws",
+   "loc.w26-second-best",
+   "loc.w27-hand-of-spring",
+   "loc.w28-mothers-coil",
+   "loc.w35-leshys-salon"
+  ],
+  "Willowshore (Willowshore Stables; Bones of the Forgotten)": [
+   "a2.w8-stable-fire"
+  ],
+  "Willowshore (behind the dam)": [
+   "loc.w17-woodraft-lake"
+  ],
+  "Willowshore (between Northridge and Southbank)": [
+   "loc.w11-dawnstep-bridge"
+  ],
+  "Willowshore (between shores)": [
+   "loc.w18-dam"
+  ],
+  "Willowshore (church, Cerulean Teahouse)": [
+   "a2.w5-missing-corpse"
+  ],
+  "Willowshore (downtime/research)": [
+   "a3.transmigration-research"
+  ],
+  "Willowshore (downtown streets)": [
+   "a4.un-weavers"
+  ],
+  "Willowshore (governor's manor)": [
+   "a4.manor-pass",
+   "a4.fiend-two-worlds"
+  ],
+  "Willowshore (kami reward)": [
+   "tool.magic-tea"
+  ],
+  "Willowshore (mindscape)": [
+   "a3.winter-engine",
+   "a3.unprovoked-murder"
+  ],
+  "Willowshore (near Dawnstep Bridge / town entrance)": [
+   "loc.w10-eternal-lantern"
+  ],
+  "Willowshore (near old lumber-lord estates)": [
+   "loc.w22-cerulean-teahouse"
+  ],
+  "Willowshore (overgrown outskirts)": [
+   "loc.w36-bones-forgotten"
+  ],
+  "Willowshore (restored governor's manor)": [
+   "a3.winter-return",
+   "loc.restored-manor"
+  ],
+  "Willowshore (restored manor / vision)": [
+   "a4.heroine-passes"
+  ],
+  "Willowshore (ruined governor's manor)": [
+   "loc.manor-ruined"
+  ],
+  "Willowshore (ruined manor A8)": [
+   "a4.false-gov"
+  ],
+  "Willowshore (steamed-bun shop, W21)": [
+   "a2.w4-haunted-hair"
+  ],
+  "Willowshore (town entrance)": [
+   "loc.w33-spider-gate"
+  ],
+  "Willowshore (town square)": [
+   "a2.w3-first-long-night"
+  ],
+  "Willowshore (townwide)": [
+   "loc.rumormill"
+  ],
+  "Willowshore (tree outside town)": [
+   "a2.w9-kimchi"
+  ],
+  "Willowshore / Heh Shan-Bao's mindscape": [
+   "best.noppera-bo"
+  ],
+  "Willowshore / Tan Sugi monastery / Karahai": [
+   "best.key-npcs"
+  ],
+  "Willowshore / Tian Xia loot": [
+   "tool.trappings"
+  ],
+  "Willowshore / loot": [
+   "tool.alchemy",
+   "tool.armaments",
+   "tool.momentary"
+  ],
+  "Willowshore / the Gossamer Path": [
+   "a4.event7-final-season"
+  ],
+  "Willowshore Hinterlands": [
+   "loc.hinterlands"
+  ],
+  "Willowshore Hinterlands (Trimountains, lowest peak)": [
+   "loc.w37-great-willow"
+  ],
+  "Willowshore Hinterlands (woods just east of town)": [
+   "loc.w38-wooded-clearing"
+  ],
+  "Willowshore hinterlands": [
+   "a1.hinterlands-wilds",
+   "a3.event7-fox-ghost"
+  ],
+  "Willowshore hinterlands (Wall of Ghosts)": [
+   "ch6.wall-of-ghosts"
+  ],
+  "Willowshore hinterlands / Karahai": [
+   "a4.silkwasp-intel"
+  ],
+  "Willowshore industrial district": [
+   "a3.cloud-paper-aftermath"
+  ],
+  "Willowshore living world (Act 3, Ch.10)": [
+   "tool.transmigrated-state"
+  ],
+  "Willowshore living world (Ch.10)": [
+   "tool.minor-spirit-powers",
+   "tool.major-spirit-powers"
+  ],
+  "Willowshore mindscape / Tan Sugi / settlements": [
+   "tool.rituals"
+  ],
+  "Willowshore, Northridge": [
+   "loc.w13-jadeite-essentials",
+   "loc.w21-mama-bao",
+   "loc.w25-woodcarvers-guild",
+   "loc.w29-trade-office",
+   "loc.w30-fisheries"
+  ],
+  "Willowshore, Northridge (mouth of the Ceiba River)": [
+   "loc.w31-dock"
+  ],
+  "Willowshore, Northridge (remote)": [
+   "loc.w32-mushroom-house"
+  ],
+  "Willowshore, Southbank": [
+   "loc.w1-ironworks",
+   "loc.w2-stables",
+   "loc.w3-graveside",
+   "loc.w5-matsuki-estate",
+   "loc.w6-thrice-blessed-inn",
+   "loc.w8-milling-houses",
+   "loc.w12-matsu-home",
+   "loc.w14-cloud-paper-house",
+   "loc.w16-nine-ear-shrine"
+  ],
+  "Willowshore, Southbank (south of town)": [
+   "loc.w7-silvermist-lodges"
+  ],
+  "Willowshore, downtown": [
+   "loc.w19-downtown"
+  ],
+  "Within the Wall of Ghosts (A1-A3)": [
+   "ch6.within-wall"
+  ],
+  "campaign-wide (esp. Act 4)": [
+   "tool.reincarnation-feats"
+  ],
+  "throughout Shenmen / Willowshore": [
+   "best.nindoru"
+  ]
+ },
+ "by_theme": {
+  "Action": [
+   "loc.w19-downtown",
+   "a1.clearing",
+   "a1.crossing-water",
+   "a1.trapped-hunter",
+   "a1.clinic",
+   "a1.worst-puzzle",
+   "a1.dawnstep-buso",
+   "a1.light-the-night",
+   "a1.downtown-barracks",
+   "a1.downtown-residences",
+   "a1.gray-butcher",
+   "a1.teahouse",
+   "a1.opportunities",
+   "a1.hinterlands-wilds",
+   "a1.great-willow",
+   "a1.ugly-cute",
+   "a1.lumber-camp-outer",
+   "a1.lumber-camp-inner",
+   "a1.ritual-site",
+   "a2.w2-vipers",
+   "a2.w6-faceless-ghost",
+   "a2.w7-icy-grasp",
+   "a2.w8-stable-fire",
+   "ch6.wall-of-ghosts",
+   "ch6.within-wall",
+   "ch6.pilgrims-path",
+   "ch7.monastery-overview",
+   "ch7.e1-e3",
+   "ch7.e4-e8",
+   "ch7.e9-e12",
+   "ch7.e13-e15",
+   "ch7.e16-kugaptee",
+   "a3.red-smoke",
+   "a3.event1-collapse",
+   "a3.event2-uprising",
+   "a3.event3-shadows",
+   "a3.governor-chase",
+   "a3.manor-wards",
+   "a3.fighting-governor",
+   "a3.end-of-dream",
+   "a3.event5-faceless-evil",
+   "a3.event14-trees-live",
+   "a3.event15-reprisal",
+   "a3.event16-one-kind-favor",
+   "a3.transmigrating-borderland",
+   "loc.manor-ruined",
+   "a4.false-gov",
+   "loc.karahai-bridge",
+   "a4.silkwasp-bridge",
+   "a4.silkwasp-intel",
+   "loc.silkwasp-camp",
+   "loc.moon-marsh",
+   "loc.apple-grove",
+   "loc.whisperweb",
+   "a4.murder3",
+   "a4.un-weavers",
+   "a4.fiend-two-worlds",
+   "loc.restored-manor",
+   "loc.kugaptee-grasp",
+   "loc.kugaptee-grave",
+   "a4.governors-den",
+   "a4.below-claw",
+   "a4.heh-arrives",
+   "a4.kugaptee-death",
+   "tool.alchemy",
+   "tool.armaments",
+   "tool.momentary",
+   "tool.fulus",
+   "tool.trappings",
+   "tool.heroic-legacies",
+   "tool.pilgrimage-gifts",
+   "tool.new-spells",
+   "tool.major-spirit-powers",
+   "tool.reincarnation-feats",
+   "best.nindoru",
+   "best.noppera-bo",
+   "best.tianxia-fauna"
+  ],
+  "Mystery": [
+   "loc.w3-graveside",
+   "loc.w9-lady-of-souls",
+   "loc.w10-eternal-lantern",
+   "loc.w16-nine-ear-shrine",
+   "loc.w17-woodraft-lake",
+   "loc.w19-downtown",
+   "loc.w20-luo-and-laws",
+   "loc.w22-cerulean-teahouse",
+   "loc.w23-abandoned-estates",
+   "loc.w25-woodcarvers-guild",
+   "loc.w28-mothers-coil",
+   "loc.w29-trade-office",
+   "loc.w32-mushroom-house",
+   "loc.w33-spider-gate",
+   "loc.w36-bones-forgotten",
+   "loc.hinterlands",
+   "loc.w37-great-willow",
+   "loc.w38-wooded-clearing",
+   "loc.rumormill",
+   "a1.clearing",
+   "a1.bridge-mist",
+   "a1.spider-gate",
+   "a1.watchtower",
+   "a1.southbank-matsuki",
+   "a1.northridge-hu",
+   "a1.shrines",
+   "a1.light-the-night",
+   "a1.downtown-barracks",
+   "a1.happy-kappa",
+   "a1.teahouse",
+   "a1.mindscape-border",
+   "a1.shinzo",
+   "a1.hinterlands-wilds",
+   "a1.canary-inn",
+   "a1.great-willow",
+   "a1.ugly-cute",
+   "a1.wall-of-ghosts",
+   "a1.lumber-camp-outer",
+   "a1.lumber-camp-inner",
+   "a1.ritual-site",
+   "a1.conclusion",
+   "a2.research-curse",
+   "a2.spirits-hauntings",
+   "a2.w4-haunted-hair",
+   "a2.w5-missing-corpse",
+   "a2.w6-faceless-ghost",
+   "a2.w8-stable-fire",
+   "a2.w11-face-at-bed",
+   "a2.w12-vanishings",
+   "ch6.wall-of-ghosts",
+   "ch6.within-wall",
+   "ch6.pilgrims-path",
+   "ch7.monastery-overview",
+   "ch7.e1-e3",
+   "ch7.e4-e8",
+   "ch7.e9-e12",
+   "ch7.e13-e15",
+   "ch7.e16-kugaptee",
+   "a3.red-smoke",
+   "a3.unprovoked-murder",
+   "a3.mindscape-research",
+   "a3.seeking-heh",
+   "a3.noppera-impersonators",
+   "a3.dead-man-walking",
+   "a3.know-and-despair",
+   "a3.end-of-dream",
+   "a3.shinzo-answers",
+   "a3.transmigration-research",
+   "a3.event5-faceless-evil",
+   "a3.event8-lonely-home",
+   "a3.event9-crane-wife",
+   "a3.event11-nosois-brunch",
+   "a3.event12-seance",
+   "a3.event16-one-kind-favor",
+   "a3.transmigrating-borderland",
+   "a4.manor-pass",
+   "loc.manor-ruined",
+   "a4.false-gov",
+   "loc.silkwasp-camp",
+   "a4.ren-mei-li-return",
+   "a4.amai",
+   "a4.meet-princess",
+   "a4.princess-requests",
+   "loc.moon-marsh",
+   "a4.murders-system",
+   "a4.murder1",
+   "loc.whisperweb",
+   "a4.murder2",
+   "a4.event7-final-season",
+   "a4.murder3",
+   "a4.fang-and-key",
+   "a4.fiend-two-worlds",
+   "loc.restored-manor",
+   "loc.kugaptee-grasp",
+   "a4.chained-souls",
+   "loc.kugaptee-grave",
+   "a4.governors-den",
+   "a4.below-claw",
+   "a4.heh-arrives",
+   "a4.kugaptee-death",
+   "a4.heroine-passes",
+   "tool.sangpotshi",
+   "tool.nindoru-lore",
+   "tool.sangpotshi-options",
+   "tool.trappings",
+   "tool.pilgrimage-gifts",
+   "tool.new-spells",
+   "tool.rituals",
+   "best.noppera-bo",
+   "best.key-npcs",
+   "best.tianxia-fauna"
+  ],
+  "Personal": [
+   "loc.w2-stables",
+   "loc.w12-matsu-home",
+   "loc.w13-jadeite-essentials",
+   "loc.w14-cloud-paper-house",
+   "loc.w24-ho-home",
+   "loc.w34-kawaka-home",
+   "loc.w37-great-willow",
+   "loc.w38-wooded-clearing",
+   "a1.downtown-residences",
+   "a1.ugly-cute",
+   "a1.who-leads",
+   "a1.ritual-site",
+   "a1.conclusion",
+   "a2.who-leads",
+   "a2.teahouse",
+   "a2.w1-daikitsu",
+   "a2.w3-first-long-night",
+   "a2.w4-haunted-hair",
+   "a2.w5-missing-corpse",
+   "a2.w7-icy-grasp",
+   "a2.w9-kimchi",
+   "a2.w10-feast-kami",
+   "a2.w11-face-at-bed",
+   "a2.w12-vanishings",
+   "a3.event3-shadows",
+   "a3.dead-man-walking",
+   "a3.know-and-despair",
+   "a3.fighting-governor",
+   "a3.winter-return",
+   "a3.shinzo-answers",
+   "a3.spreading-news",
+   "a3.event6-little-gifts",
+   "a3.event7-fox-ghost",
+   "a3.event8-lonely-home",
+   "a3.event9-crane-wife",
+   "a3.event10-claylight",
+   "a3.event13-interview-spider",
+   "a3.event16-one-kind-favor",
+   "a3.transmigrating-borderland",
+   "a4.waking",
+   "a4.shinzo-farewell",
+   "a4.ren-mei-li-return",
+   "a4.meet-princess",
+   "a4.princess-requests",
+   "a4.event1-spring-bird",
+   "a4.murder1",
+   "a4.murder2",
+   "a4.event7-final-season",
+   "a4.murder3",
+   "loc.restored-manor",
+   "a4.chained-souls",
+   "loc.kugaptee-grave",
+   "a4.heh-arrives",
+   "a4.heroine-passes",
+   "tool.sangpotshi",
+   "tool.heroic-legacies",
+   "tool.transmigrated-state",
+   "tool.minor-spirit-powers",
+   "tool.reincarnation-feats",
+   "best.key-npcs"
+  ],
+  "Social": [
+   "loc.w1-ironworks",
+   "loc.w2-stables",
+   "loc.w3-graveside",
+   "loc.w4-abadar-shrine",
+   "loc.w5-matsuki-estate",
+   "loc.w6-thrice-blessed-inn",
+   "loc.w7-silvermist-lodges",
+   "loc.w8-milling-houses",
+   "loc.w9-lady-of-souls",
+   "loc.w11-dawnstep-bridge",
+   "loc.w12-matsu-home",
+   "loc.w13-jadeite-essentials",
+   "loc.w14-cloud-paper-house",
+   "loc.w15-rebels-leatherworks",
+   "loc.w16-nine-ear-shrine",
+   "loc.w19-downtown",
+   "loc.w20-luo-and-laws",
+   "loc.w21-mama-bao",
+   "loc.w22-cerulean-teahouse",
+   "loc.w23-abandoned-estates",
+   "loc.w24-ho-home",
+   "loc.w25-woodcarvers-guild",
+   "loc.w26-second-best",
+   "loc.w27-hand-of-spring",
+   "loc.w28-mothers-coil",
+   "loc.w29-trade-office",
+   "loc.w30-fisheries",
+   "loc.w31-dock",
+   "loc.w32-mushroom-house",
+   "loc.w35-leshys-salon",
+   "loc.rumormill",
+   "a1.watchtower",
+   "a1.southbank-matsuki",
+   "a1.northridge-hu",
+   "a1.trapped-hunter",
+   "a1.clinic",
+   "a1.shrines",
+   "a1.downtown-barracks",
+   "a1.downtown-residences",
+   "a1.happy-kappa",
+   "a1.gray-butcher",
+   "a1.shinzo",
+   "a1.opportunities",
+   "a1.canary-inn",
+   "a1.great-willow",
+   "a1.who-leads",
+   "a1.lumber-camp-inner",
+   "a2.prep-points",
+   "a2.who-leads",
+   "a2.teahouse",
+   "a2.w1-daikitsu",
+   "a2.w2-vipers",
+   "a2.w3-first-long-night",
+   "a2.w9-kimchi",
+   "a2.w10-feast-kami",
+   "ch7.e4-e8",
+   "a3.winter-engine",
+   "a3.cloud-paper-aftermath",
+   "a3.know-and-despair",
+   "a3.shinzo-answers",
+   "a3.spreading-news",
+   "a3.transmigration-research",
+   "a3.winter-timeline",
+   "a3.event5-faceless-evil",
+   "a3.event6-little-gifts",
+   "a3.event7-fox-ghost",
+   "a3.event8-lonely-home",
+   "a3.event9-crane-wife",
+   "a3.event10-claylight",
+   "a3.event11-nosois-brunch",
+   "a3.event12-seance",
+   "a3.event13-interview-spider",
+   "a3.event14-trees-live",
+   "a4.waking",
+   "a4.manor-pass",
+   "a4.false-gov",
+   "a4.shinzo-farewell",
+   "loc.karahai-bridge",
+   "a4.silkwasp-bridge",
+   "a4.silkwasp-intel",
+   "a4.ren-mei-li-return",
+   "a4.amai",
+   "a4.meet-princess",
+   "a4.princess-requests",
+   "a4.event1-spring-bird",
+   "loc.moon-marsh",
+   "loc.apple-grove",
+   "loc.whisperweb",
+   "a4.event7-final-season",
+   "a4.fang-and-key",
+   "a4.un-weavers",
+   "a4.chained-souls",
+   "tool.magic-tea",
+   "best.key-npcs"
+  ],
+  "Tension": [
+   "loc.w10-eternal-lantern",
+   "loc.w18-dam",
+   "loc.w33-spider-gate",
+   "loc.w36-bones-forgotten",
+   "loc.hinterlands",
+   "a1.clearing",
+   "a1.bridge-mist",
+   "a1.watchtower",
+   "a1.crossing-water",
+   "a1.worst-puzzle",
+   "a1.dawnstep-buso",
+   "a1.teahouse",
+   "a1.mindscape-border",
+   "a1.hinterlands-wilds",
+   "a1.canary-inn",
+   "a1.wall-of-ghosts",
+   "a1.who-leads",
+   "a1.lumber-camp-outer",
+   "a1.ritual-site",
+   "a2.prep-points",
+   "a2.spirits-hauntings",
+   "a2.w4-haunted-hair",
+   "a2.w6-faceless-ghost",
+   "a2.w7-icy-grasp",
+   "a2.w8-stable-fire",
+   "a2.w11-face-at-bed",
+   "a2.w12-vanishings",
+   "ch6.within-wall",
+   "ch6.pilgrims-path",
+   "ch7.monastery-overview",
+   "ch7.e1-e3",
+   "ch7.e13-e15",
+   "ch7.e16-kugaptee",
+   "a3.winter-engine",
+   "a3.red-smoke",
+   "a3.event1-collapse",
+   "a3.event2-uprising",
+   "a3.event3-shadows",
+   "a3.cloud-paper-aftermath",
+   "a3.unprovoked-murder",
+   "a3.seeking-heh",
+   "a3.noppera-impersonators",
+   "a3.dead-man-walking",
+   "a3.governor-chase",
+   "a3.manor-wards",
+   "a3.end-of-dream",
+   "a3.winter-return",
+   "a3.spreading-news",
+   "a3.winter-timeline",
+   "a3.event12-seance",
+   "a3.event13-interview-spider",
+   "a3.event14-trees-live",
+   "a3.event15-reprisal",
+   "a3.transmigrating-borderland",
+   "a4.waking",
+   "loc.manor-ruined",
+   "loc.karahai-bridge",
+   "a4.silkwasp-bridge",
+   "a4.silkwasp-intel",
+   "loc.silkwasp-camp",
+   "a4.murders-system",
+   "a4.murder1",
+   "a4.murder2",
+   "a4.un-weavers",
+   "a4.fiend-two-worlds",
+   "loc.kugaptee-grasp",
+   "a4.governors-den",
+   "a4.below-claw",
+   "a4.kugaptee-death",
+   "tool.nindoru-lore",
+   "tool.rituals",
+   "tool.transmigrated-state",
+   "tool.minor-spirit-powers",
+   "tool.major-spirit-powers",
+   "best.nindoru",
+   "best.noppera-bo",
+   "best.key-npcs",
+   "best.tianxia-fauna"
+  ]
+ }
+}

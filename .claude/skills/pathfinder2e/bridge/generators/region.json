@@ -1,0 +1,18 @@
+{
+  "id": "companion.region",
+  "title": "Willowshore Hinterland Feature (d10)",
+  "type": "list_d10",
+  "dice": "1d10",
+  "note": "An unplaced hinterland place/feature for a wilderness scene (1 hex = 2 miles; mostly Specterwood forest, low Trimountains, rivers/lakes). Drawn from setting-canon hinterlands. The hinterlands feel wrong/haunted on the surface; their true (mindscape) nature is GM-ONLY — do not surface it. Reuse a named canon site when fitting, or generate a fresh feature of this type.",
+  "entries": [
+    {"min": 1, "max": 2, "value": "Deep Specterwood forest hex (difficult terrain off-road) — dense, quiet, the canopy swallowing sound; the woods 'feel wrong' lately though no one says why."},
+    {"min": 3, "max": 3, "value": "River or creek course — the Ceiba's upper reach, Ceiba Creek, Dragonfly Creek, or the Duyue's headwaters; fords, log-jams, a half-rotted skiff."},
+    {"min": 4, "max": 4, "value": "Lake or pond — Gourd Lake (kappas dwell there; leave an offering), Mirror Lake near the monastery approach, or a still backwater fishers favor."},
+    {"min": 5, "max": 5, "value": "Trimountain slope or peak — the three peaks NW of town; the lowest holds the Great Willow, the highest is Green Silk Peak (~2,000 ft); thin air and old shrine-paths."},
+    {"min": 6, "max": 6, "value": "Old trail or road — the overgrown Pilgrim's Path NW toward Tan Sugi Monastery, the Apple Road south, or a rutted lumber track reclaimed by saplings."},
+    {"min": 7, "max": 7, "value": "Abandoned settlement site — the Old Village Expansion farmsteads (the stream there dries unpredictably), the reclaimed Lumber Camp by the Ceiba's source, or the burnt Canary Inn ruins."},
+    {"min": 8, "max": 8, "value": "Rocky / quarried ground — the Gorge of Fangs and Teeth (road and foundation stone), a scree field, or the difficult rough fields of the southern hinterland."},
+    {"min": 9, "max": 9, "value": "Ominous landmark — the Eyes of Fumeiyoshi (two barren sinkholes of gritty pooled water), a lone weathered shrine-stone, or a clearing where the birds have gone silent."},
+    {"min": 10, "max": 10, "value": "Ruin or sacred site — the shunned Tan Sugi Monastery up the Pilgrim's Path (reputed den of monsters and ghosts since the Night of Broken Blades), or a forgotten roadside shrine."}
+  ]
+}
