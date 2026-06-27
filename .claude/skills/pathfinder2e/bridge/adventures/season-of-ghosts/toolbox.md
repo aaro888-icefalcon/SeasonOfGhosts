@@ -15,7 +15,7 @@ fragments:
   - plot_point: "Friendships, destiny & fate — a good destiny can improve birth, but the past doesn't dictate the future; some mystics reincarnate into hardship deliberately. How one responds matters most; do good, judge well, treat others as you'd want."   themes:[Personal]   weight:1 (p.286)
   - plot_point: "Past Life Curiosity — a person may ask a mystic whether a hardship is a past-life debt; mystics share details only when ignorance would cause harm, freeing someone to leave, endure, or resolve a debt directly."   themes:[Mystery,Personal]   weight:1 (p.286)
   - plot_point: "Cycles of Life — preserve constructive cycles, escape/counter destructive ones (e.g. poverty), protect nature-vs-civilization balance, and defend the River of Life by all means; violence is a last resort but not anathema."   themes:[Personal,Mystery]   weight:1 (p.286)
-  - plot_point: "PC Options unlock — following Sangpotshi or studying its hidden texts grants uncommon feats (Calm and Centered, Comforting Presence, Go With the Flow) and spells (cycle of retribution, fateful condemnation, fated healing, life's flowing river)."   themes:[Mystery]   weight:1 (p.288)
+  - plot_point: "PC Options unlock — following Sangpotshi or studying its hidden texts grants uncommon feats (Calm and Centered, Comforting Presence, Go With the Flow) and spells (cycle of retribution, fateful condemnation, fated healing, life's flowing river)."   themes:[Mystery]   weight:1 (p.287)
 
 ### cluster: tool.nindoru-lore — "Nindorus & Cycles of Destruction (GM lore)"   (source: p.287)   [SPOILER CLUSTER]
 scene: GM-facing lore on nindorus, the soul-devouring fiends at the heart of the AP's central mystery — born from souls who freely abandon reincarnation, they feast on reincarnated souls, manifest broken objects/minions from thought, and trace to Sigek's blasphemous ritual (4444 IC). **WITHHOLD: players should not know nindorus exist until late Act 1 / early Act 2.** No PC starts trained in Nindoru Lore; encourage retraining into it after the reveal.
@@ -43,7 +43,7 @@ fragments:
 
 ### cluster: tool.alchemy — "Alchemical Items"   (source: p.296)
 scene: New alchemical treasures — two alchemical-food items, a healing wine, and the anti-nindoru silversoul bomb that weaponizes ancestral grief.
-threads: [Equip for the haunting]   characters: []   elements: [energizing pill, invigorating soap, Matsuki's medicinal wine, silversoul bomb]   themes: [Action]
+threads: [Equip for the haunting]   characters: [Old Matsuki]   elements: [energizing pill, invigorating soap, Matsuki's medicinal wine, silversoul bomb]   themes: [Action]
 gate: none
 fragments:
   - plot_point: "ITEM energizing pill (uncommon, lvl 10, 180 gp, lozenge): held in mouth 1 hr, +2 initiative; secondary reaction reduces a newly-gained condition (clumsy/drained/etc.) by 1."   themes:[Action]   weight:1 (p.296)
@@ -182,8 +182,8 @@ fragments:
   - plot_point: "CURSE soul degradation (curse 7, DC 23 Will): checked on recovering from dying; stages add spirit weakness 5/10 and stun-on-crit-fail; stage 6 = an uncontrolled looping haunt. Ends when removed or the transmigrate ritual ends."   themes:[Tension,Personal]   weight:1 (p.316)
 
 ### cluster: tool.minor-spirit-powers — "Minor Spirit Powers"   (source: p.316)
-scene: Eight emotion/willpower-themed minor spirit powers (pick two) — literal acts of haunting. Players should pick powers matching their character's desires and grudges; GM may rename/reflavor. Chapter 10 only.
-threads: [Restore Willowshore to life]   characters: []   elements: [curiosity, delusion, love, obsession, passion, duty, spite, fire spirit power]   themes: [Personal, Tension]
+scene: Seven emotion/willpower-themed minor spirit powers (pick two) — literal acts of haunting. Players should pick powers matching their character's desires and grudges; GM may rename/reflavor. Chapter 10 only.
+threads: [Restore Willowshore to life]   characters: []   elements: [curiosity, delusion, love, obsession, passion, duty, spite]   themes: [Personal, Tension]
 gate: available only to transmigrated PCs in Chapter 10
 fragments:
   - plot_point: "MINOR Curiosity (linguistic/mental/occult): touch an adjacent living target (Will); probe a telepathic question on a failure (Deception resists); crit fail erases the memory."   themes:[Mystery]   weight:1 (p.316)
