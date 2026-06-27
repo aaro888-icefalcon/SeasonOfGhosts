@@ -50,19 +50,21 @@ or item of a given level sets the DC. This is also the spine of NPC stat benchma
 
 | Level | DC | Level | DC | Level | DC |
 |---|---|---|---|---|---|
-| −1 | 13 | 8 | 24 | 17 | 38 |
-| 0 | 14 | 9 | 26 | 18 | 39 |
-| 1 | 15 | 10 | 27 | 19 | 41 |
-| 2 | 16 | 11 | 28 | 20 | 42 |
-| 3 | 18 | 12 | 30 | 21 | 44 |
-| 4 | 19 | 13 | 31 | 22 | 45 |
-| 5 | 20 | 14 | 32 | 23 | 47 |
+| −1 | 13 | 8 | 24 | 17 | 36 |
+| 0 | 14 | 9 | 26 | 18 | 38 |
+| 1 | 15 | 10 | 27 | 19 | 39 |
+| 2 | 16 | 11 | 28 | 20 | 40 |
+| 3 | 18 | 12 | 30 | 21 | 42 |
+| 4 | 19 | 13 | 31 | 22 | 44 |
+| 5 | 20 | 14 | 32 | 23 | 46 |
 | 6 | 22 | 15 | 34 | 24 | 48 |
 | 7 | 23 | 16 | 35 | 25 | 50 |
 
-**Formula** (reproduces the table): base **DC 14 at level 0**, **+1 per level**, plus an
-extra **+1 at every level divisible by 3** that has been reached (levels 3, 6, 9, 12 …).
-Below 0: −1 per level. When in doubt, read the table.
+**Formula** (approximates the table at levels 0–20): base **DC 14 at level 0**, **+1 per
+level**, plus an extra **+1 at every level divisible by 3** that has been reached (levels 3,
+6, 9, 12, 15, 18). Below 0: −1 per level. At **levels 21+** the official table steps by **+2
+per level** (42, 44, 46, 48, 50), so the divisible-by-3 rule no longer matches — read the
+table for those. When in doubt, read the table.
 
 ---
 
@@ -123,22 +125,22 @@ moderate-to-low HP; a **caster** by high spell DC, low-to-moderate other stats.
 
 ### 6a. AC, attack bonus, saving throws
 
-| Lvl | AC (mod) | Atk hi / mod / lo | Save hi / mod / lo |
+| Lvl | AC (high) | Atk hi / mod / lo | Save hi / mod / lo |
 |---|---|---|---|
-| −1 | 15 | 10 / 8 / 6 | 9 / 5 / 2 |
-| 0 | 16 | 10 / 8 / 6 | 9 / 5 / 2 |
-| 1 | 16 | 11 / 9 / 7 | 10 / 6 / 3 |
-| 2 | 18 | 13 / 11 / 9 | 11 / 7 / 4 |
-| 3 | 19 | 14 / 12 / 10 | 12 / 8 / 5 |
-| 4 | 21 | 16 / 14 / 12 | 14 / 9 / 6 |
-| 5 | 22 | 17 / 15 / 13 | 15 / 11 / 7 |
-| 6 | 24 | 19 / 17 / 15 | 17 / 12 / 8 |
-| 7 | 25 | 20 / 18 / 16 | 18 / 13 / 9 |
-| 8 | 27 | 22 / 20 / 18 | 19 / 15 / 10 |
-| 9 | 28 | 23 / 21 / 19 | 21 / 16 / 11 |
-| 10 | 30 | 25 / 23 / 21 | 22 / 17 / 12 |
-| 11 | 31 | 27 / 24 / 22 | 24 / 19 / 13 |
-| 12 | 33 | 28 / 26 / 24 | 25 / 20 / 14 |
+| −1 | 15 | 8 / 6 / 3 | 9 / 5 / 2 |
+| 0 | 16 | 8 / 6 / 3 | 9 / 6 / 3 |
+| 1 | 16 | 9 / 7 / 4 | 10 / 7 / 4 |
+| 2 | 18 | 11 / 9 / 6 | 11 / 8 / 5 |
+| 3 | 19 | 12 / 10 / 7 | 12 / 9 / 6 |
+| 4 | 21 | 14 / 12 / 9 | 14 / 11 / 8 |
+| 5 | 22 | 15 / 13 / 10 | 15 / 12 / 9 |
+| 6 | 24 | 17 / 15 / 12 | 17 / 14 / 11 |
+| 7 | 25 | 18 / 16 / 13 | 18 / 15 / 12 |
+| 8 | 27 | 20 / 18 / 15 | 19 / 16 / 13 |
+| 9 | 28 | 21 / 19 / 16 | 21 / 18 / 15 |
+| 10 | 30 | 23 / 21 / 18 | 22 / 19 / 16 |
+| 11 | 31 | 24 / 22 / 19 | 24 / 21 / 18 |
+| 12 | 33 | 26 / 24 / 21 | 25 / 22 / 19 |
 
 ### 6b. Hit Points (use the band that matches the role)
 
@@ -177,13 +179,13 @@ average that expression produces.
 | 3 | 20 | `1d12+5` / `2d8+4` *(~12)* |
 | 4 | 21 | `2d8+6` *(~15)* |
 | 5 | 22 | `2d10+7` *(~18)* |
-| 6 | 24 | `2d12+7` / `3d8+6` *(~20)* |
-| 7 | 25 | `3d10+6` / `2d12+9` *(~22)* |
-| 8 | 27 | `3d12+5` / `4d8+8` *(~25)* |
-| 9 | 28 | `4d8+10` *(~28)* |
-| 10 | 30 | `4d10+8` *(~30)* |
-| 11 | 31 | `4d10+10` *(~32)* |
-| 12 | 33 | `4d12+9` / `5d10+8` *(~35)* |
+| 6 | 24 | `2d12+8` / `3d8+8` *(~21)* |
+| 7 | 25 | `3d10+7` / `2d12+11` *(~24)* |
+| 8 | 27 | `3d12+7` / `4d8+9` *(~27)* |
+| 9 | 28 | `4d10+8` *(~30)* |
+| 10 | 30 | `4d12+7` *(~33)* |
+| 11 | 31 | `4d12+10` *(~36)* |
+| 12 | 33 | `5d10+12` / `6d8+12` *(~39)* |
 
 > Damage expressions are interchangeable forms of the same band — use whichever fits the
 > weapon (a maul vs. a flurry of claws). Roll it; don't assume the average.
@@ -197,8 +199,8 @@ average that expression produces.
   `dice.py roll 1d20+<Athletics mod>`.
 - **Recall Knowledge about a level-4 uncommon creature** → Level-based DC 19 (L4) + 2
   (Uncommon) = **DC 21**. Roll the relevant Knowledge skill.
-- **Stat a level-2 ambusher (skirmisher)** → AC 18, attack +13 (high), HP 25 (low), saves
-  11/7/4, Strike `1d10+4` (~9). Roll its attack: `dice.py roll 1d20+13`.
+- **Stat a level-2 ambusher (skirmisher)** → AC 18, attack +11 (high), HP 25 (low), saves
+  11/8/5, Strike `1d10+4` (~9). Roll its attack: `dice.py roll 1d20+11`.
 
 ---
 

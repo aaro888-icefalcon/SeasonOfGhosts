@@ -99,7 +99,7 @@ It is a [Victory Points](./victory-points.md) track with these dials set:
 | **Check & DC** | usually **no roll to bank it** — RP is *awarded by the GM for fictional deeds*; where a check is involved it's the social/quest check that earned the deed |
 | **Award** | by deed weight, not a degree table (see 2.2) — small deed ±1, notable ±2, major ±3 |
 | **Thresholds** | named **tiers** with point bands (see 2.3) |
-| **Limiter** | **none** — persistent ledger |
+| **Limiter** | **no time/round window** — persistent ledger (but RP is clamped to the **+50 / −50** range) |
 | **Degradation** | **on hostile acts** — harming a faction subtracts RP (and can subtract from the *other* faction's view too) |
 
 ### 2.1 The two-faction structure (Northridge vs. Southbank)
@@ -146,15 +146,17 @@ know what that faction does for (or to) the party:
 
 | RP total | Tier | What it unlocks |
 |---:|---|---|
-| **−30 or worse** | **Hated** | Faction is **Hostile**: refuses service, may attack/expel; allies turn away. |
-| **−29 … −15** | **Hostile (Hated→Unfriendly)** | Obstruction, inflated prices, refused favors; doors shut. |
-| **−14 … −3** | **Unfriendly** | Cold; only grudging, costly dealings. |
-| **−2 … +14** | **Ignored / Neutral** | The default. Normal prices, no special help, no penalty. |
-| **+15 … +29** | **Liked / Admired** | Warm. **Cheaper services** (favorable prices), small standing favors, the odd **ally** lending a hand. |
-| **+30 or more** | **Revered / Famous** | Faction is **Helpful** to the town: discounted/free key services, reliable **allies**, **location "support" benefits** unlocked (see 2.4). |
+| **−50 … −30** | **Hunted** | Faction actively wants the party gone or dead: refuses all service, attacks/expels on sight; allies turn away. |
+| **−29 … −15** | **Hated** | Obstruction and open hostility, inflated prices, refused favors; doors shut. |
+| **−14 … −5** | **Disliked** | Cold; only grudging, costly dealings. |
+| **−4 … +4** | **Ignored** | The default. Normal prices, no special help, no penalty. |
+| **+5 … +14** | **Liked** | Warm. **Cheaper services** (favorable prices), small standing favors, the odd **ally** lending a hand. |
+| **+15 … +29** | **Admired** | Most of the faction holds the party in high regard; reliable **allies**, better discounts, willing favors. |
+| **+30 … +50** | **Revered** | Faction reveres the party as heroes: discounted/free key services, members take major risks to help, **location "support" benefits** unlocked (see 2.4). |
 
-> These bands match the published Reputation tiers' shape (a symmetric −/+ ladder centered on a
-> wide neutral band). The numbers above are the operational defaults for this engine — if a
+> RP is capped at **+50** (max) and **−50** (min), per the published PF2e Reputation subsystem.
+> These are the standard PF2e Reputation tiers (Hunted / Hated / Disliked / Ignored / Liked /
+> Admired / Revered). The point bands above are the published defaults — if a
 > published *Season of Ghosts* table gives specific tier points for a given faction, that table in
 > [setting-canon.md](../../bridge/setting-canon.md) **overrides** these. Don't invent extra tiers.
 
@@ -169,7 +171,7 @@ moment a ledger crosses a threshold.
 | **Allies** | Liked+ (reliable at Revered) | A faction NPC lends aid — an extra hand in a fight, intel, an escort, a witness. |
 | **Location "support" benefits** | a **notable made Helpful** *or* the controlling faction reaching Liked+ | A specific Willowshore location grants an ongoing benefit when the party uses it — e.g. the temple offers free recovery, the smith reserves stock, a shop becomes a safehouse. This is the AP's "**a helpful NPC unlocks that location's support**" note: turning the person who runs a place to **Helpful** switches on that place's standing benefit. |
 | **Preparation Points** | high standing during the defense (Acts 2–3) | A trusting town pitches in: faction goodwill feeds **Preparation Points** for the Willowshore defense — see [./downtime.md](./downtime.md) and 3 below. |
-| **Penalties** | Unfriendly− with a faction | Inflated prices, refused service, obstruction, lost informants; Hostile escalates to expulsion or violence. |
+| **Penalties** | Disliked or worse with a faction | Inflated prices, refused service, obstruction, lost informants; Hated/Hunted escalates to expulsion or violence. |
 
 ---
 
@@ -181,7 +183,7 @@ moment a ledger crosses a threshold.
 | **Winning a notable via [Influence](./influence.md)** | The Influence encounter's **final attitude** is the input to layer 2: a notable raised to **Helpful** is **+2** to their faction *and* flips that person's **location support** on (2.4). |
 | **Northridge vs. Southbank disputes — "Teeth-Clenching Teamwork"** | Keep both ledgers up by favoring the **whole town**; taking a side trades RP between the banks (2.1). Use the **Willowshore** ledger for cross-faction heroism. |
 | **Public heroism / saving the village** | **+3 Willowshore RP** (and usually both faction ledgers), driving the town toward Liked/Revered and the support benefits in 2.4. |
-| **Coercion, theft, taking sides badly, leaving people to die** | Subtract RP (2.2); a faction sliding to Unfriendly/Hostile shuts off services and informants — felt in later acts. |
+| **Coercion, theft, taking sides badly, leaving people to die** | Subtract RP (2.2); a faction sliding to Disliked/Hated shuts off services and informants — felt in later acts. |
 | **The defense (Acts 2–3)** | High faction standing converts to **Preparation Points** and **allies on the wall** — coordinate with [./downtime.md](./downtime.md) ("Preparing Willowshore"). |
 
 ### 3.1 The world-tick

@@ -91,7 +91,7 @@ Infiltration's signature is that **a check can earn progress *and* raise the ala
 
 | Degree | Infiltration Points (IP) | Awareness Points (AwP) |
 |---|---|---|
-| **Critical Success** | **+2 IP** (or full obstacle progress) | **−1 AwP** *if it allows* (extra-quiet; never below 0) |
+| **Critical Success** | **+2 IP** (or full obstacle progress) | **+0 AwP** (extra-quiet; may grant an **Opportunity**, §7) |
 | **Success** | **+1 IP** | **+0 AwP** |
 | **Failure** | **+0 IP** | **+1 AwP** — slow, no progress; you drew a little notice |
 | **Critical Failure** | **+0 IP** | **+2 AwP** — a clear slip (a dropped tool, a snapped twig, a wrong answer) |
@@ -137,16 +137,18 @@ AwP is the **opposed** pool: it counts **up** against the party (see the opposed
 | AwP reached (example 4 / 8) | The opposition's response |
 |---|---|
 | Below soft tier | Routine — the place is calm; standard DCs. |
-| **Soft tier** (suspicion) | Patrols **double up / sweep more often**, lights come on, obstacle DCs **rise (+2)**, and **new obstacles** may appear. The party can still win, but it's tighter. |
+| **Soft tier** (suspicion) | Patrols **double up / sweep more often**, lights come on, obstacle DCs **rise (+1)**, and **new obstacles** may appear. The party can still win, but it's tighter. |
 | **Hard tier** (alarm) | **Infiltration ends.** The place locks down: the target escapes/relocates, reinforcements muster — drop into **[../combat.md](../combat.md)** or a **Chase** to escape. |
 
 - **Awareness is usually HIDDEN.** Player ≠ PC knowledge: the AwP number is **felt, not
   announced** — narrate rising tension (a guard pauses, a dog barks, a door you passed is now
   shut) rather than "Awareness is 6." See [../../bridge/system-profile.md](../../bridge/system-profile.md).
 - AwP rises mainly from **Failures / Critical Failures** (§4), from **complications** (§8), and
-  from **world-tick** patrol ticks on a timed job. A **Critical Success** can shave it back down.
-- **One soft tier, then a hard tier** is the clean default. A long heist can stack two soft tiers
-  (suspicion → active search → alarm) before the hard cap.
+  from **world-tick** patrol ticks on a timed job. Obstacle checks never *lower* AwP on their own
+  (a crit success just gives no AwP); AwP only drops via an **Opportunity** or an **Edge** (§7).
+- **One soft tier, then a hard tier** is the clean default. A long heist can stack tiers every few
+  AwP (suspicion → active search → alarm); per GM Core the standard is a tier **every 5 AwP** with
+  DCs climbing cumulatively (+1, then +2…) and the **hard cap usually at twice the total IP needed**.
 
 ---
 
@@ -227,7 +229,7 @@ for guarded barriers, add **rarity** for magical wards; set a **soft tier** (sus
 | SoG beat | Objectives & obstacles | Edges / opportunities | Awareness escalation |
 |---|---|---|---|
 | **The teahouse** (slipping into the back rooms / private floor to overhear or retrieve) | *Reach the back room* → obstacles: a watched main floor (**Stealth/Deception**), a staff-only door (**Thievery/Deception**), a private office (**Thievery** lock). | Recon the staff routine; a friendly server (**Influence** → insider Edge); a cover identity (Impersonate) to pass as staff. | Soft: staff get suspicious, doors are watched. Hard: thrown out / confronted → social fallout or a fight. |
-| **The manor** (breaking into a fortified residence — grounds, then the house, then the prize) | *Cross the grounds (3 IP)* → *Enter the house (3 IP)* → *Reach the target room & take the prize (4 IP)* → *Exit clean (2 IP)*. Obstacles: wall/gate (**Athletics/Thievery**), patrolling guards (**Stealth**), interior locks (**Thievery**), a study/vault (**Thievery + Perception**). | Cased layout (recon Edge → known patrol timing); a bribed gate guard; the right tools; a diversion to thin the patrol. | Soft: guards double, dogs out, interior DCs +2, new patrols. Hard: house alarm → lockdown → **[../combat.md](../combat.md)** or a **Chase** out. |
+| **The manor** (breaking into a fortified residence — grounds, then the house, then the prize) | *Cross the grounds (3 IP)* → *Enter the house (3 IP)* → *Reach the target room & take the prize (4 IP)* → *Exit clean (2 IP)*. Obstacles: wall/gate (**Athletics/Thievery**), patrolling guards (**Stealth**), interior locks (**Thievery**), a study/vault (**Thievery + Perception**). | Cased layout (recon Edge → known patrol timing); a bribed gate guard; the right tools; a diversion to thin the patrol. | Soft: guards double, dogs out, interior DCs +1, new patrols. Hard: house alarm → lockdown → **[../combat.md](../combat.md)** or a **Chase** out. |
 | **The Silkwasp camp** (penetrating a hostile encampment — perimeter, then a specific tent/captive/cache) | *Breach the perimeter (3 IP)* → *Move through the camp unseen (4 IP)* → *Reach the objective tent — free a captive / take the cache / plant evidence (4 IP)* → *Withdraw (2 IP)*. Obstacles: sentries & watchfires (**Stealth/Deception**), open lanes between tents (**Stealth**, Create a Diversion), a guarded tent (**Thievery/Athletics**), challenge by a patrol (**Deception/Intimidation/Society**). | Approach under cover of dark/weather (Edge); a captured password or sign (**Society**/recon); a haunt or the camp's own dread as cover/complication ([./hauntings.md](./hauntings.md)). | Soft: camp rouses, sentries sweep, a horn readied. Hard: the camp turns out in force → **[../combat.md](../combat.md)** (a pitched fight you likely can't win) or a **Chase** to flee. |
 
 **Running it operationally:**

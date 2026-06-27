@@ -77,8 +77,8 @@ track says otherwise:
 | **Critical Failure** | **−1 VP** (or a setback — see below) |
 
 Degrees follow the standard rules in [../core-resolution.md](../core-resolution.md): beat the DC
-by **10+** = critical success; fail by **10+** (or roll a nat 1 that turns a success into a
-failure) = critical failure; a **nat 20** bumps one degree up, a **nat 1** bumps one degree down.
+by **10+** = critical success; fail by **10+** = critical failure; a **nat 20** bumps one degree
+up, a **nat 1** bumps one degree down (applied *after* comparing to the DC).
 
 **Common variants** (the track's statblock declares which it uses):
 

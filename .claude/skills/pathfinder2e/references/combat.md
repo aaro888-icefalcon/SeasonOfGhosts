@@ -22,7 +22,8 @@ See also: [./conditions.md](./conditions.md) (every numeric status effect) ·
 1. **Roll initiative.** Usually **Perception**; a creature trying to **ambush** rolls
    **Stealth** (sneaking) or **Deception** (a feint/Create a Diversion start) instead. Each
    combatant rolls once: `dice.py roll 1d20+<Perception (or Stealth/Deception) mod>`. Highest
-   total acts first; ties → PCs before NPCs, else higher modifier. This is one d20 check, **not**
+   total acts first; on a **PC-vs-NPC tie the NPC goes first**, and tied PCs decide their own
+   order among themselves. This is one d20 check, **not**
    a degree-of-success roll — just rank the totals.
 2. **Take turns in order.** On your turn you get **3 actions + 1 reaction**, plus any number of
    **free actions** (see §2).
@@ -161,20 +162,22 @@ it. Honor real death — see §9.
 
 A creature at **dying** is **unconscious** and prone. **Dying ≥ 4 = DEAD.** (So you can die the
 instant you drop if a crit lands you at dying 4+, e.g. wounded 2 + crit = dying 4.) Massive
-damage that would reduce you to **double your max HP in the negative in one blow also kills**
-outright.
+damage that would reduce you to **negative HP equal to your maximum HP in one blow also kills**
+outright (e.g. a 50-max-HP creature taken to −50).
 
 ### Recovery check (start of each of your turns while dying)
 
-At the **start of your turn** while dying, attempt a **flat DC 10 recovery check**
-(`dice.py roll 1d20` — flat, no modifiers; certain effects adjust the DC):
+At the **start of your turn** while dying, attempt a **recovery check**: a flat check
+(`dice.py roll 1d20` — flat, no modifiers) against a **DC equal to 10 + your current dying
+value** (so dying 1 → DC 11, dying 2 → DC 12, dying 3 → DC 13; certain effects further adjust
+the DC). Compare the d20 total to that DC and read the four degrees:
 
-| Degree | Effect on **dying** |
-|---|---|
-| **Critical success** (≥ 20) | dying **−2** |
-| **Success** (10–19) | dying **−1** |
-| **Failure** (1–9) | dying **+1** |
-| **Critical failure** (≤ 0, i.e. nat 1 or DC−10) | dying **+2** |
+| Degree | vs DC (= 10 + dying) | Effect on **dying** |
+|---|---|---|
+| **Critical success** | total ≥ DC + 10 | dying **−2** |
+| **Success** | total ≥ DC | dying **−1** |
+| **Failure** | total < DC by 1–9 | dying **+1** |
+| **Critical failure** | total ≤ DC − 10, or a **nat 1** | dying **+2** |
 
 - If a recovery check (or any source) brings dying to **0**, you **lose the dying condition**,
   regain consciousness at **0 HP** (still prone/weak), and gain **wounded 1** (or **+1** to

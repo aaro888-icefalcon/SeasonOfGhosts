@@ -74,7 +74,7 @@ Initiative for sneaking uses **Stealth**; social initiative may use **Deception/
 | **Grapple** | 1 action; attack | Vs target Fortitude DC. Success = *grabbed* (until end of your next turn); Crit = *restrained*; Crit Fail = you fall prone / it escapes. |
 | **Trip** | 1 action; attack | Vs Reflex DC. Success = target *prone*; Crit = prone + 1d6 bludgeoning; Crit Fail = you fall prone. Needs a free hand. |
 | **Shove** | 1 action; attack | Vs Fortitude DC. Success = push 5 ft (Crit 10 ft, can follow). |
-| **Disarm** | 1 action; attack | Vs Reflex DC. Success = −2 to target's attacks with it / *off-guard* on Crit; Crit = knock item away. |
+| **Disarm** | 1 action; attack | Vs Reflex DC. Success = −2 to target's attacks with it (+2 to further Disarms); Crit = knock item to the ground in its space; Crit Fail = **you** become *off-guard* until your next turn. |
 | **Force Open** | 1 action; attack | Break a door/lock/restraint by strength (often with a crowbar) vs an item/level DC. |
 | RK | secret | Sports, athletes, physical feats (rare). |
 
@@ -147,7 +147,7 @@ common in Tian Xia: *Tian Xia Lore*, *Mwangi/region Lore*, *Spirit Lore*, *Theat
 
 | Action | Traits | Gist |
 |---|---|---|
-| **Treat Wounds** | exploration; healing, manipulate | **DC 15** (trained), 10 min. Success = heal **2d8**; Crit = **4d8**; Crit Fail = target takes **1d8** damage. Then that target is **immune to your Treat Wounds for 1 hour.** **Optional higher DCs heal more:** DC 20 (Expert) → +2d8 / Crit +2d8; DC 30 (Master) → +4d8; DC 40 (Legendary) → +6d8 (Continual Recovery feat removes the immunity window for repeated tries). |
+| **Treat Wounds** | exploration; healing, manipulate | **DC 15** (trained), 10 min. Success = heal **2d8**; Crit = **4d8**; Crit Fail = target takes **1d8** damage. Then that target is **immune to your Treat Wounds for 1 hour.** **Optional higher DCs add a flat bonus to the HP regained:** DC 20 (Expert) → **+10**; DC 30 (Master) → **+30**; DC 40 (Legendary) → **+50** (the Continual Recovery feat lowers the immunity window from 1 hour to **10 minutes**). |
 | **Administer First Aid** | 2 actions; manipulate | **Stop Bleeding** (vs the bleed's DC, ends persistent bleed) or **Stabilize** a dying creature (vs 5 + that creature's recovery DC) — halts dying at 0 HP, does not heal. |
 | **Treat Disease** | downtime; manipulate | Tend a sick creature over time vs the disease's DC → bonus on its next save (Crit) / penalty on Crit Fail. |
 | **Treat Poison** | 1 action; manipulate | One-time aid vs the poison's DC → bonus on its next save. |

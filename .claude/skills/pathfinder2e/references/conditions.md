@@ -45,7 +45,8 @@ For any condition written **N**, the number *is* the penalty/effect magnitude un
 ## Blinded
 - Can't see. **All terrain is difficult terrain.** Automatically **critically fail** Perception
   checks that require sight. If a check requires sight (e.g., reading), you fail.
-- You are **Off-Guard** to all enemies, and take a **−4 status penalty to Perception**.
+- You are **Off-Guard** to all enemies. If vision is your only precise sense, you take a
+  **−4 status penalty to Perception** (no penalty if you have another precise sense).
 - Immune to visual effects.
 - **Ends:** when the cause ends (spell duration, regaining sight). Overrides Dazzled.
 
@@ -63,11 +64,12 @@ For any condition written **N**, the number *is* the penalty/effect magnitude un
 
 ## Confused
 - You are **Off-Guard**, don't treat anyone as an ally, can't Delay/Ready/use reactions.
-- Each turn you must use all your actions to **Strike a random creature** (or yourself if none
-  in reach) or, if no Strike is possible, do nothing useful.
-- If you take damage, attempt a **DC 11 flat check** at the start of your turn to recover
-  (success ends Confused).
-- **Ends:** flat check after taking damage, or when the source ends.
+- Each turn you must use all your actions to **Strike** (or cast offensive cantrips at) a
+  **randomly determined target**; if no other viable target, you target yourself (auto-hit, no
+  crit). If attacking/casting is impossible, you babble and waste your actions.
+- **Each time you take damage from an attack or spell**, you may attempt a **DC 11 flat check**;
+  on a success the Confused condition ends.
+- **Ends:** a successful DC 11 flat check (triggered by taking damage), or when the source ends.
 
 ## Controlled
 - Another creature dictates your actions. You act on the controller's directions.
@@ -200,7 +202,8 @@ For any condition written **N**, the number *is* the penalty/effect magnitude un
 ## Prone
 - Lying down. **−2 circumstance penalty to attack rolls**, and you're **Off-Guard** (−2 AC).
 - You **can't use most move actions except Crawl** (5 ft, move trait) or **Stand** (1 action).
-- Ranged attackers beyond reach take a **−2 circumstance penalty to attacks against you**.
+- While Prone you can use **Take Cover** to gain greater cover (**+4 circumstance bonus to AC**)
+  against ranged attacks even without an object to hide behind — but you remain Off-Guard.
 - **Ends:** **Stand** (single action), or any forced standing.
 
 ## Quickened

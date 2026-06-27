@@ -94,9 +94,9 @@ checks land harder.
 | Degree | Result |
 |---|---|
 | **Critical Success** | Reveal **two** pieces of info (e.g. a weakness *and* a resistance to avoid), or one weakness plus a bonus tidbit. |
-| **Success** | Reveal **one** piece of info — a weakness, a resistance, or a bias. |
+| **Success** | Reveal **one** piece of info — a weakness, a resistance, a bias, **or which Influence skill has the lowest DC**. |
 | **Failure** | Learn nothing this round. |
-| **Critical Failure** | Learn **false** info, or the NPC notices the prying → may impose a **penalty** / worsen attitude. |
+| **Critical Failure** | Learn a piece of info **as Success, but it is wrong** (e.g. you think they love flattery when they actually resist it). |
 
 Discovering a **weakness** is what lets you trigger it on the Influence action (§5). Discovering
 a **resistance** lets you *avoid* the penalty by not using that approach. Discovery costs a round
@@ -126,7 +126,7 @@ The point-scoring action: a skill check **vs the NPC's Influence DC** to gain **
 | **Critical Success** | **+2 IP** (+ any weakness bonus IP) |
 | **Success** | **+1 IP** |
 | **Failure** | **+0 IP** |
-| **Critical Failure** | **−1 IP** and/or the NPC turns colder — may lock out that PC/skill for the rest of the encounter |
+| **Critical Failure** | **−1 IP** (you lose an Influence Point). A stat-block **Penalty** entry, if any, also fires. |
 
 Wrong approaches don't just fail — a Critical Failure or a flagged misstep can **subtract IP**
 and burn a round, so Discover before you push hard.

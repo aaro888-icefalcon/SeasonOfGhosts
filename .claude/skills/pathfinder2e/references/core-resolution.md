@@ -137,5 +137,6 @@ randomness runs through `dice.py` — honest and shown.
   `dice.py`** and read the degree, but narrate only what the PC could plausibly know — apply
   **Player ≠ PC knowledge**; never leak the raw number when the fiction hides it.
 - **Assurance** (skill feat) — instead of rolling, take a **flat 10 + proficiency bonus**
-  (no other bonuses or penalties of any kind apply). Use it to *guarantee* clearing low DCs
-  without a roll; it can never crit.
+  (no other bonuses, penalties, or modifiers of any kind apply). Use it to *guarantee* clearing
+  low DCs without a roll. The fixed total is still compared to the DC normally, so it **can**
+  yield a critical success (or critical failure) if it beats/misses the DC by 10.
