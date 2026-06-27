@@ -1,0 +1,645 @@
+{
+  "slice": "willowshore",
+  "source_file": "hardcover.md",
+  "source_pages": "p.14-24",
+  "act": "setting (persistent, all acts)",
+  "clusters": [
+    {
+      "id": "loc.w1-ironworks",
+      "name": "W1. Eternal Blaze Ironworks",
+      "scene": "Southbank blacksmith (Blacksmith 3) run by kitsune Yong Wu-Xiu, the 'Iron Pot Blacksmith,' who traveled Tian Xia and quietly mastered cold iron and silver work.",
+      "location": "Willowshore, Southbank",
+      "source": "p.14",
+      "threads": ["Survive & restore Willowshore", "Equip for the haunting"],
+      "characters": ["Yong Wu-Xiu"],
+      "elements": ["Eternal Blaze Ironworks", "cold iron", "silver", "Willowshore Dam"],
+      "themes": ["Social"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Yong Wu-Xiu (kitsune blacksmith 3, Perception DC 21, Will DC 21, Crafting +13). Wares: metalworks, adventuring gear (esp. cookware), metal armor/weapons/shields.", "themes": ["Social"], "weight": 1, "source": "p.14", "spoiler": false},
+        {"plot_point": "She can craft cold iron or silver items (250 gp of each hidden in her forge) but only for those she's at least friendly with - an edge for hunting supernatural foes.", "themes": ["Mystery"], "weight": 1, "source": "p.14", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w2-stables",
+      "name": "W2. Willowshore Stables",
+      "scene": "Southbank veterinary facility (Stables 3) run by vet Kum Soon-chong and son Meng-sung. The invasion smashed the fences and scattered the cattle/oxen; the family must repair before helping others (PCs can help in Ch.3).",
+      "location": "Willowshore, Southbank",
+      "source": "p.15",
+      "threads": ["Survive & restore Willowshore", "Help Willowshore recover"],
+      "characters": ["Kum Soon-chong", "Meng-sung"],
+      "elements": ["Willowshore Stables", "scattered cattle/oxen"],
+      "themes": ["Personal", "Social"],
+      "gate": "animal-treatment services only available once the ranch is repaired",
+      "fragments": [
+        {"plot_point": "Kum Soon-chong (human veterinarian 3, Perception DC 19, Will DC 16, Nature +10). Once repaired, treats animal-trait creatures using Nature in place of Medicine, up to 6/day at 1 sp each.", "themes": ["Social"], "weight": 1, "source": "p.15", "spoiler": false},
+        {"plot_point": "Wares: animal rentals, barding, saddle bags, land vehicles. Local food culture avoids beef since cattle are beasts of burden.", "themes": ["Social"], "weight": 1, "source": "p.15", "spoiler": false},
+        {"plot_point": "Hook: the smashed fences and lost herd are an early help-the-town opportunity (Ch.3).", "themes": ["Personal"], "weight": 1, "source": "p.15", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w3-graveside",
+      "name": "W3. Graveside Manners",
+      "scene": "Southbank herbal store (Herbal Store 4) run by mysterious elf herbalist You So-Jin, a former Tan Sugi pilgrim once falsely smeared as a necromancer who won the town over with effective medicine. (Source prose conflates this with the old cremation cemetery and its keeper.)",
+      "location": "Willowshore, Southbank",
+      "source": "p.15",
+      "threads": ["Equip for the haunting", "Investigate Willowshore's secrets"],
+      "characters": ["You So-Jin"],
+      "elements": ["Graveside Manners", "alchemist's lab", "old cremation cemetery"],
+      "themes": ["Mystery", "Social"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "You So-Jin (elf herbalist 4, Perception DC 21, Will DC 21, Crafting +14 Master). Rent her expanded alchemist's lab for 1 sp/day to craft your own alchemical items. Wares: alchemical elixirs/tools, reagents, fresh/dried herbs.", "themes": ["Social"], "weight": 1, "source": "p.15", "spoiler": false},
+        {"plot_point": "Old settlers cremated their dead to prevent undeath; the old cemetery holds their urns and is kept lichen-free. Foreshadows undeath/ghost themes.", "themes": ["Mystery"], "weight": 1, "source": "p.15", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w4-abadar-shrine",
+      "name": "W4. Abadar Shrine",
+      "scene": "A duskwood-trimmed shrine housing a 3-foot limestone Abadar statue holding a shovel and trowel, reportedly blessed at Goka's Grand Bank before return.",
+      "location": "Willowshore",
+      "source": "p.15",
+      "threads": ["Investigate Willowshore's secrets"],
+      "characters": [],
+      "elements": ["Abadar Shrine", "limestone statue"],
+      "themes": ["Social"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Small civic shrine to Abadar (commerce/civilization); local color and a place of refuge/devotion.", "themes": ["Social"], "weight": 1, "source": "p.15", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w5-matsuki-estate",
+      "name": "W5. Matsuki Estate",
+      "scene": "A large family estate built by 'Old Matsuki,' once apprentice to the Tan Sugi head carpenter, whose blessed-salt/holy-water reinforced walls helped it survive the invasion. Home of carpenter Matsuki Shou.",
+      "location": "Willowshore, Southbank",
+      "source": "p.15",
+      "threads": ["Survive & restore Willowshore"],
+      "characters": ["Matsuki Shou"],
+      "elements": ["Matsuki Estate", "blessed salts", "holy water"],
+      "themes": ["Social"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Matsuki Shou (nostalgic human carpenter 5, Perception DC 22 / 20 if visual, Will DC 22, Crafting +13, Willowshore Lore +16) - Living Quarters 5; strong carpentry and deep local lore.", "themes": ["Social"], "weight": 1, "source": "p.15", "spoiler": false},
+        {"plot_point": "The estate's blessed-salt/holy-water walls warded off the invading monsters - hinting holy materials matter against the threat.", "themes": ["Mystery"], "weight": 1, "source": "p.15", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w6-thrice-blessed-inn",
+      "name": "W6. Thrice-Blessed Inn",
+      "scene": "A former triple-blessed brothel (Kofusachi, Calistria, Shelyn) kept open as a fortified inn by Reverent Mother Otis via an obscure law (lawyer Luo Xi Yang's help); now ideal shelter for those who lost homes to the invasion.",
+      "location": "Willowshore, Southbank",
+      "source": "p.15",
+      "threads": ["Survive & restore Willowshore", "Gather information"],
+      "characters": ["Reverent Mother Otis", "Luo Xi Yang"],
+      "elements": ["Thrice-Blessed Inn", "privacy shutters", "triple blessing"],
+      "themes": ["Social"],
+      "gate": "free subsistence lodging unless the PC has greatly offended Otis personally",
+      "fragments": [
+        {"plot_point": "Reverent Mother Otis (aiuvarin innkeeper 4, Perception DC 20, Will DC 20, Diplomacy +12, Calistria Lore +10, Willowshore Lore +10) - Living Quarters 4.", "themes": ["Social"], "weight": 1, "source": "p.15", "spoiler": false},
+        {"plot_point": "Hire an employee for 1 gp to assist a Gather Information check (+1 status bonus). PCs lacking lodging/food can subsist here free while the town recovers.", "themes": ["Social"], "weight": 1, "source": "p.15", "spoiler": false},
+        {"plot_point": "The triple-blessed, heavily-shuttered building doubles as a refuge during monster attacks.", "themes": ["Tension"], "weight": 1, "source": "p.15", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w7-silvermist-lodges",
+      "name": "W7. Silvermist Lodges",
+      "scene": "Three elven hunting compounds (W7a-c) south of town with organic woodwork, founded by eight elven adventurers; their descendants remain, including Aiomena who runs them from the central compound (W7b).",
+      "location": "Willowshore, Southbank (south of town)",
+      "source": "p.16",
+      "threads": ["Equip for the haunting", "Hunt in the hinterlands"],
+      "characters": ["Aiomena"],
+      "elements": ["Silvermist Lodges", "snare supplies"],
+      "themes": ["Social"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Aiomena (elf ranger 2, Perception DC 21, Will DC 19, Crafting +7, Nature +8, Survival +8) - Hunting Lodge 2. Wares: animal parts, snare supplies.", "themes": ["Social"], "weight": 1, "source": "p.16", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w8-milling-houses",
+      "name": "W8. Milling Houses",
+      "scene": "Numerous redundant mills (water, wind, animal/human powered) keeping the village fed; millers' leader Choe Chung-hu keeps morale high with fair wages and midnight snacks.",
+      "location": "Willowshore, Southbank",
+      "source": "p.16",
+      "threads": ["Earn income / downtime", "Help Willowshore recover"],
+      "characters": ["Choe Chung-hu"],
+      "elements": ["Milling Houses"],
+      "themes": ["Social"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Choe Chung-hu (human miller 4, Perception DC 20, Will DC 20, Abadar Lore +10, Crafting +12) - Business 4. Wares: de-husked grain, grain flour, stone objects.", "themes": ["Social"], "weight": 1, "source": "p.16", "spoiler": false},
+        {"plot_point": "Work: the mills always need hands - a PC can Earn Income here with Athletics.", "themes": ["Social"], "weight": 1, "source": "p.16", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w9-lady-of-souls",
+      "name": "W9. Her Fluvial Lady of Souls",
+      "scene": "A Pharasma cathedral (Temple 5) built by Lung Wa to forestall undeath; priestess Elizeth Candora soothes the dead with her flute in the graveyard. Cathedral damaged in the attack.",
+      "location": "Willowshore (Unaffiliated)",
+      "source": "p.16",
+      "threads": ["Equip for the haunting", "Combat the dead"],
+      "characters": ["Elizeth Candora"],
+      "elements": ["Lady of Souls cathedral", "graveyard", "ghost touch / merciful runes"],
+      "themes": ["Mystery", "Social"],
+      "gate": "full rune/scroll services only from Act 2 once the cathedral recovers; during this act capped at 2nd-level divine scrolls",
+      "fragments": [
+        {"plot_point": "Elizeth Candora (cleric of Pharasma 5, Perception DC 25, Will DC 25, Crafting +13, Performance +13, Religion +13). During Act 1 (cathedral damaged) provides only up to 2nd-level divine scrolls.", "themes": ["Social"], "weight": 1, "source": "p.16", "spoiler": false},
+        {"plot_point": "From Act 2 she crafts ghost touch, merciful, +1 potency, striking, and vitalizing weapon runes (one per 4 days, normal cost). On request: crying angel pendants, ghost charges (lesser/moderate), healing potions (minor/lesser).", "themes": ["Action"], "weight": 1, "source": "p.16", "spoiler": false},
+        {"plot_point": "A Pharasmin against undeath who soothes the recently dead - a key ally for the campaign's ghost threat.", "themes": ["Mystery"], "weight": 1, "source": "p.16", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w10-eternal-lantern",
+      "name": "W10. Eternal Lantern",
+      "scene": "A minor artifact lantern, an heirloom of Master Zhi Hui, kept lit at all times. Shenmen custom holds that an unlit town lantern signals abandonment and invites ghosts and worse. Central to Act 1 and can grant long-lasting bonuses (p.40).",
+      "location": "Willowshore (near Dawnstep Bridge / town entrance)",
+      "source": "p.16",
+      "threads": ["Relight the Eternal Lantern", "Drive back the supernatural weather"],
+      "characters": ["Master Zhi Hui (legacy)"],
+      "elements": ["Eternal Lantern (minor artifact)", "Dawnstep Bridge"],
+      "themes": ["Mystery", "Tension"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "The Eternal Lantern is a minor artifact and Master Zhi Hui heirloom; keeping it lit wards the town. Central to Act 1 and can grant long-lasting bonuses (p.40).", "themes": ["Mystery"], "weight": 1, "source": "p.16", "spoiler": false},
+        {"plot_point": "Shenmen lore: an unlit town lantern signals abandonment and invites ghosts, vermin, and worse - foreshadows the haunting and the importance of relighting it.", "themes": ["Tension"], "weight": 1, "source": "p.16", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w11-dawnstep-bridge",
+      "name": "W11. Dawnstep Bridge",
+      "scene": "A solid stone bridge linking Northridge and Southbank, with pilings seven feet above the water; the Eternal Lantern is maintained here at the crossroads. Logs float beneath into Woodraft Lake.",
+      "location": "Willowshore (between Northridge and Southbank)",
+      "source": "p.16",
+      "threads": ["Relight the Eternal Lantern"],
+      "characters": [],
+      "elements": ["Dawnstep Bridge", "Eternal Lantern", "Woodraft Lake"],
+      "themes": ["Social"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "The town's main river crossing and crossroads; the Eternal Lantern is kept here.", "themes": ["Social"], "weight": 1, "source": "p.16", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w12-matsu-home",
+      "name": "W12. Matsu's Home",
+      "scene": "Home of Matsu (retired human chef 1), a gregarious, cranky Southbank elder who plays up the 'good old days' cliche while privately regretting a wasted, family-less youth.",
+      "location": "Willowshore, Southbank",
+      "source": "p.17",
+      "threads": ["Befriend Willowshore's residents"],
+      "characters": ["Matsu"],
+      "elements": ["Matsu's Home"],
+      "themes": ["Personal", "Social"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Matsu (retired human chef 1) - a loud, lonely old bachelor masking regret; a personal/social NPC and gossip source.", "themes": ["Personal"], "weight": 1, "source": "p.17", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w13-jadeite-essentials",
+      "name": "W13. Jadeite Essentials",
+      "scene": "A Northridge establishment combining a distillery and glassblowing; monsters wrecked the still, leaving owner Shioli unsure whether to rebuild or return to family in Jinin.",
+      "location": "Willowshore, Northridge",
+      "source": "p.17",
+      "threads": ["Help Willowshore recover", "Earn income / downtime"],
+      "characters": ["Shioli"],
+      "elements": ["Jadeite Essentials", "glassblowing facility"],
+      "themes": ["Personal", "Social"],
+      "gate": "glassblowing Earn-Income work requires being at least liked by Northridge",
+      "fragments": [
+        {"plot_point": "Shioli (distraught aiuvarin brewer 2, Perception DC 19, Will DC 19, Alcohol Lore +10, Crafting +8) - Distillery 2. Wares: alcohol, essential oils/perfume, glassware.", "themes": ["Social"], "weight": 1, "source": "p.17", "spoiler": false},
+        {"plot_point": "Work: with the still wrecked, only glassblowing remains. A PC liked by Northridge can craft glassware here for +1 item bonus to Crafting Earn-Income.", "themes": ["Social"], "weight": 1, "source": "p.17", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w14-cloud-paper-house",
+      "name": "W14. Cloud Paper House",
+      "scene": "The only thriving Industrial District business (W13-W15), a paper mill run by tengu guild leader Myna Kawaka, unofficial 'guild master' who leads secret late-night meetings to negotiate with Governor Heh over conscripted workers' rights.",
+      "location": "Willowshore, Southbank",
+      "source": "p.17",
+      "threads": ["Help Willowshore recover", "Earn income / downtime", "Investigate Willowshore's secrets"],
+      "characters": ["Myna Kawaka"],
+      "elements": ["Cloud Paper House", "Industrial District", "spellbooks/formula books"],
+      "themes": ["Social", "Personal"],
+      "gate": "paper-crafting Earn-Income work requires being at least liked by Southbank",
+      "fragments": [
+        {"plot_point": "Myna Kawaka (devoted tengu guild leader 3, Perception DC 20, Will DC 20, Crafting +10) - Paper Mill 3. Wares: paper products including spellbooks and formula books.", "themes": ["Social"], "weight": 1, "source": "p.17", "spoiler": false},
+        {"plot_point": "Work: a PC liked by Southbank can craft paper here for +1 item bonus to Crafting Earn-Income - the town needs lots of paper to fix sliding doors.", "themes": ["Social"], "weight": 1, "source": "p.17", "spoiler": false},
+        {"plot_point": "Governor Heh forced Industrial District workers to keep working after the lumber bosses left; Kawaka leads secret negotiations to free those who want out - a labor-grievance thread against the governor.", "themes": ["Personal", "Mystery"], "weight": 1, "source": "p.17", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w15-rebels-leatherworks",
+      "name": "W15. Rebel's Leatherworks",
+      "scene": "A Tannery (1) with high demand but chronic staffing trouble caused by surly owner Vitumniar's worsening attitude.",
+      "location": "Willowshore (Unaffiliated)",
+      "source": "p.17",
+      "threads": ["Earn income / downtime"],
+      "characters": ["Vitumniar"],
+      "elements": ["Rebel's Leatherworks"],
+      "themes": ["Social"],
+      "gate": "leatherwork Earn-Income requires being at least liked by both Southbank and Northridge",
+      "fragments": [
+        {"plot_point": "Vitumniar (cantankerous nagaji tanner 3, Perception DC 18, Will DC 20, Crafting +10). Wares: hide and leather items.", "themes": ["Social"], "weight": 1, "source": "p.17", "spoiler": false},
+        {"plot_point": "Work: a PC liked by both districts can craft leather here, attempting a task up to Willowshore's level +1.", "themes": ["Social"], "weight": 1, "source": "p.17", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w16-nine-ear-shrine",
+      "name": "W16. Nine Ear Shrine",
+      "scene": "A grain-hut facade hiding an underground stone chamber with a 15-foot marble nine-tailed fox statue, walls carved with Daikitsu's stories. Fifteen years ago a fox-skulk miracle saved the hidden Ouh baby, now priest Ouh Ba-Ming who serves Daikitsu to repay the life debt.",
+      "location": "Willowshore, Southbank",
+      "source": "p.18",
+      "threads": ["Equip for the haunting", "Combat the dead"],
+      "characters": ["Ouh Ba-Ming"],
+      "elements": ["Nine Ear Shrine", "nine-tailed fox statue", "Daikitsu", "fulus"],
+      "themes": ["Mystery", "Social"],
+      "gate": "Ba-Ming only provides services if her attitude is helpful",
+      "fragments": [
+        {"plot_point": "Ouh Ba-Ming (devoted human priest 3, Perception DC 18, Will DC 20, Crafting +5, Religion +8) - Temple 3 to Daikitsu. Wares: fulus, scrolls, talismans.", "themes": ["Social"], "weight": 1, "source": "p.18", "spoiler": false},
+        {"plot_point": "If helpful, she crafts fulus up to 2nd level, 1st-level divine/primal scrolls, and the wolf fang, hunter's bane, monkey pin, and bronze bull pendant talismans.", "themes": ["Action"], "weight": 1, "source": "p.18", "spoiler": false},
+        {"plot_point": "The fox-skulk rescue of the Ouh baby foreshadows kitsune/Daikitsu and fox-spirit themes important later.", "themes": ["Mystery"], "weight": 1, "source": "p.18", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w17-woodraft-lake",
+      "name": "W17. Woodraft Lake",
+      "scene": "The reservoir behind Willowshore Dam, created to tame the Ceiba River; its creation drowned homes, farmland, and the old shrine to Lady Nanbyo. Villagers quietly treat the lake as a shrine to the Widow of Suffering after the promoting governor's freak landslide death.",
+      "location": "Willowshore (behind the dam)",
+      "source": "p.16",
+      "threads": ["Investigate Willowshore's secrets"],
+      "characters": ["Lady Nanbyo (Widow of Suffering)"],
+      "elements": ["Woodraft Lake", "drowned Nanbyo shrine", "Willowshore Dam"],
+      "themes": ["Mystery"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Villagers quietly venerate the lake as a shrine to Lady Nanbyo, the Widow of Suffering, whose original shrine it drowned; the promoting governor's freak landslide death is read as her curse.", "themes": ["Mystery"], "weight": 1, "source": "p.16", "spoiler": false},
+        {"plot_point": "SPOILER: Lady Nanbyo / suffering-deity reverence foreshadows the campaign's deeper sinister force; do not connect dots for the player until earned.", "themes": ["Mystery"], "weight": 1, "source": "p.16", "spoiler": true}
+      ]
+    },
+    {
+      "id": "loc.w18-dam",
+      "name": "W18. Willowshore Dam",
+      "scene": "A minor engineering marvel of fitted dark-gray marble with two giant wooden gates; turning the control wheel auto-rings a downriver warning bell. Maintained by Huo Tian-Zhe (W26).",
+      "location": "Willowshore (between shores)",
+      "source": "p.18",
+      "threads": ["Investigate Willowshore's secrets"],
+      "characters": ["Huo Tian-Zhe"],
+      "elements": ["Willowshore Dam", "gate wheel", "warning bell", "Woodraft Lake"],
+      "themes": ["Tension"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "The dam's two wooden gates lower the lake; turning the wheel auto-rings a downriver warning bell. A potential set-piece/leverage point in town.", "themes": ["Tension"], "weight": 1, "source": "p.18", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w19-downtown",
+      "name": "W19. Downtown Willowshore",
+      "scene": "The town's activity hub. A mysterious empty lot marks where the governor's home/office, bank, and treasury once stood - a central campaign mystery. Nearby: imperial barracks, Shu Opera stage, the Treesparrow's Rest, and the Happy Kappa bathhouse. Monster-entrenched in Act 1; detailed in Ch.2.",
+      "location": "Willowshore, downtown",
+      "source": "p.18",
+      "threads": ["Reclaim downtown Willowshore", "Investigate the vanished governor"],
+      "characters": ["Kazuma Oono", "Nadoya Sanmi", "Hua De-ge", "Zheng Peng"],
+      "elements": ["empty governor's lot", "imperial barracks", "Shu Opera stage", "Seven-Colored Songbird theater", "Treesparrow's Rest", "Happy Kappa bathhouse", "Guard Office"],
+      "themes": ["Mystery", "Action", "Social"],
+      "gate": "monster-entrenched in Act 1 - full access opens after Ch.2 reclamation",
+      "fragments": [
+        {"plot_point": "The empty lot where the governor's home/office, bank, and treasury stood is a central mystery: what became of the governor and his estate? PCs solve it later in the AP.", "themes": ["Mystery"], "weight": 1, "source": "p.18", "spoiler": false},
+        {"plot_point": "Seven-Colored Songbird (Theater 5): director Kazuma Oono (kitsune 5, Perception DC 22, Will DC 20, Diplomacy +13, Performance +13, Shelyn Lore +12). Monthly DC 25 Performance audition; success raises Performance Earn-Income task limit to Willowshore's or your level.", "themes": ["Social"], "weight": 1, "source": "p.18", "spoiler": false},
+        {"plot_point": "Treesparrow's Rest (Business 3): matriarch Nadoya Sanmi (human 3, Perception DC 18, Will DC 20, Crafting +10). Family stockpiles feed the town to subsistence until winter; PCs liked by Southbank stay/eat free. Wares: alcohol, grains, preserved foods, rations.", "themes": ["Social"], "weight": 1, "source": "p.18", "spoiler": false},
+        {"plot_point": "Happy Kappa (Business 1, bathhouse): Hua De-ge (halfling 1, Perception DC 17, Will DC 17, Diplomacy +8). Once restored, free soak gives +1 item bonus to Treat Disease on you for 24h. If friendly and the cause is good, roll Gather Information twice take better (fortune, once/week).", "themes": ["Social"], "weight": 1, "source": "p.18", "spoiler": false},
+        {"plot_point": "Guard Office (Barracks 3): watch officer Zheng Peng (human 3, Perception DC 18, Will DC 18, Intimidation +9). Wares: armor, gear maintenance, weapons. Liked-by-Northridge PCs Earn Income with Intimidation.", "themes": ["Social"], "weight": 1, "source": "p.18", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w20-luo-and-laws",
+      "name": "W20. Luo and Laws",
+      "scene": "An independent law office (Law Office 4) run by lawyer Luo Xi Yang, whose library doubled in size from Willowshore's tangled legal issues. The lawyer who saved the Thrice-Blessed Inn.",
+      "location": "Willowshore (Unaffiliated)",
+      "source": "p.19",
+      "threads": ["Research Willowshore's secrets", "Earn income / downtime"],
+      "characters": ["Luo Xi Yang"],
+      "elements": ["Luo & Laws", "Imperial Compendium", "legal library"],
+      "themes": ["Social", "Mystery"],
+      "gate": "research bonus requires Xi Yang to be helpful",
+      "fragments": [
+        {"plot_point": "Luo Xi Yang (human lawyer 4, Perception DC 23, Will DC 21, Diplomacy +12, Law Lore +14, Society +12). If helpful, her library grants +1 circumstance to Recall Knowledge about Willowshore while researching in-office.", "themes": ["Mystery"], "weight": 1, "source": "p.19", "spoiler": false},
+        {"plot_point": "Work: filing/scribing/adjudicating - Earn Income with Diplomacy or Law Lore.", "themes": ["Social"], "weight": 1, "source": "p.19", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w21-mama-bao",
+      "name": "W21. Mama Bao's",
+      "scene": "A beloved small steamed-bun shop (Restaurant 4) run by Nakamura Yu Ming, 'Mama Bao' - limited menu but relaxing comfort.",
+      "location": "Willowshore, Northridge",
+      "source": "p.19",
+      "threads": ["Earn income / downtime", "Befriend Willowshore's residents"],
+      "characters": ["Nakamura Yu Ming (Mama Bao)"],
+      "elements": ["Mama Bao's", "steamed buns"],
+      "themes": ["Social"],
+      "gate": "Earn-Income help requires being liked by Northridge and expert in Cooking Lore",
+      "fragments": [
+        {"plot_point": "Nakamura Yu Ming (friendly human cook 4, Perception DC 21, Will DC 23, Cooking Lore +14). Wares: steamed buns.", "themes": ["Social"], "weight": 1, "source": "p.19", "spoiler": false},
+        {"plot_point": "Work: a liked, expert-Cooking-Lore PC can help out for +1 circumstance to Food Lore Earn-Income checks.", "themes": ["Social"], "weight": 1, "source": "p.19", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w22-cerulean-teahouse",
+      "name": "W22. The Cerulean Teahouse",
+      "scene": "A fine structure built by aristocrat Qing Mai-Lai, repeatedly reinvented. Mai-Lai died last winter leaving no will, so ownership is undetermined; exploring it this act reveals a remnant that eventually makes the PCs its owners.",
+      "location": "Willowshore (near old lumber-lord estates)",
+      "source": "p.19",
+      "threads": ["Investigate Willowshore's secrets", "Acquire the teahouse"],
+      "characters": ["Qing Mai-Lai (deceased)", "Yami (cat)"],
+      "elements": ["Cerulean Teahouse", "Mai-Lai's remnant", "undetermined ownership"],
+      "themes": ["Mystery", "Social"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Hook: exploring the teahouse this act turns up a curious remnant left by the late Mai-Lai that in time makes the PCs its owners - a potential base of operations.", "themes": ["Mystery"], "weight": 1, "source": "p.19", "spoiler": false},
+        {"plot_point": "A playful feral cat named Yami is sometimes seen near the teahouse - and is more than just a cat (true rumor).", "themes": ["Mystery"], "weight": 1, "source": "p.19", "spoiler": true}
+      ]
+    },
+    {
+      "id": "loc.w23-abandoned-estates",
+      "name": "W23. Abandoned Estates",
+      "scene": "Two picked-clean ex-lumber-lord estates used as informal rage rooms / dare spots. An abandoned Desna shrine sits in a copse behind the eastern estate (W23b).",
+      "location": "Willowshore",
+      "source": "p.19",
+      "threads": ["Investigate Willowshore's secrets"],
+      "characters": ["Desna (abandoned shrine)"],
+      "elements": ["Abandoned lumber-lord estates", "Desna shrine"],
+      "themes": ["Mystery", "Social"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "An abandoned Desna shrine behind the eastern estate; a hook for a PC to take the goddess of dreams/travelers into their home.", "themes": ["Personal"], "weight": 1, "source": "p.19", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w24-ho-home",
+      "name": "W24. Ho Jeong-hui's Home",
+      "scene": "A small home recently bought by town guard Ho Jeong-hui, one of Willowshore's most eligible bachelors, valuing the privacy to cook and entertain his many visitors.",
+      "location": "Willowshore",
+      "source": "p.20",
+      "threads": ["Befriend Willowshore's residents"],
+      "characters": ["Ho Jeong-hui"],
+      "elements": ["Ho Jeong-hui's Home"],
+      "themes": ["Social", "Personal"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Ho Jeong-hui (popular town guard 2) - sociable bachelor and guard; a romance/social NPC and a friendly face in the watch.", "themes": ["Personal"], "weight": 1, "source": "p.20", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w25-woodcarvers-guild",
+      "name": "W25. Woodcarver's Guild",
+      "scene": "Willowshore's woodcarving guild on Mercantile Street, rotating apprentices among shops; led by Yun Mong-un, who secretly wishes she were a painter or jeweler.",
+      "location": "Willowshore, Northridge",
+      "source": "p.20",
+      "threads": ["Equip for the haunting", "Earn income / downtime"],
+      "characters": ["Yun Mong-un"],
+      "elements": ["Woodcarver's Guild", "peachwood", "fulus", "peachwood paper"],
+      "themes": ["Social", "Mystery"],
+      "gate": "peachwood fulu/paper crafting requires peachwood supplies (Collecting Peachwood, p.62)",
+      "fragments": [
+        {"plot_point": "Yun Mong-un (talented human guild leader 4, Perception DC 22, Will DC 20, Crafting +12) - Guild 4. Wares: artwork, wood items, wooden religious symbols. Crafts nonmagical non-weapon wood items on request; paintings/jewelry if PCs supply materials.", "themes": ["Social"], "weight": 1, "source": "p.20", "spoiler": false},
+        {"plot_point": "Once the guild has peachwood (Collecting Peachwood, p.62), it makes peachwood paper, letting Mong-un craft fulus including rare regional fulus (p.301) - a key anti-ghost supply line.", "themes": ["Action"], "weight": 1, "source": "p.20", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w26-second-best",
+      "name": "W26. Second Best",
+      "scene": "A smithy (Smith 4) run by humbled urban inventor Huo Tian-Zhe, who stayed to become a 'smith of use' and named his shop 'Second Best.' He maintains the dam at Wu-Xiu's behest.",
+      "location": "Willowshore (Unaffiliated)",
+      "source": "p.20",
+      "threads": ["Equip for the haunting", "Earn income / downtime"],
+      "characters": ["Huo Tian-Zhe"],
+      "elements": ["Second Best", "alchemical bombs/ammunition", "clockwork gadgets", "Willowshore Dam"],
+      "themes": ["Social"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Huo Tian-Zhe (humble human inventor 4, Perception DC 18, Will DC 18, Crafting +12). Crafts alchemical ammunition/bombs plus regular metalwork. Wares: adventuring tools, alchemical ammo/bombs, clockwork gadgets, simple armor, metal weapons/shields.", "themes": ["Action"], "weight": 1, "source": "p.20", "spoiler": false},
+        {"plot_point": "He maintains Willowshore Dam (W18) on Wu-Xiu's behalf - a contact for dam access/lore.", "themes": ["Social"], "weight": 1, "source": "p.20", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w27-hand-of-spring",
+      "name": "W27. The Hand of Spring",
+      "scene": "A clinic (Clinic 4) run by Doctor Damihansig 'Dami' Mababangloob, blending acupuncture, chemicals, and surgery; renowned as a charitable doctor valuing patients over profit.",
+      "location": "Willowshore (Unaffiliated)",
+      "source": "p.20",
+      "threads": ["Equip for the haunting", "Recover from injury"],
+      "characters": ["Damihansig 'Dami' Mababangloob"],
+      "elements": ["The Hand of Spring", "healing items"],
+      "themes": ["Social"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Dami (kindly human doctor 4, Perception DC 22, Will DC 22, Crafting +12, Medicine +14). Treats up to 8 patients/day at 5 cp each. Wares: alchemical healing items, healer's kit supplies, nonmagical healing items.", "themes": ["Social"], "weight": 1, "source": "p.20", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w28-mothers-coil",
+      "name": "W28. Mother's Coil",
+      "scene": "A Nagajor-style basalt tower that appeared overnight ~15 years ago, home of the late nagaji wizard Anjal of Thulsadus and now their adopted heir Igawa Jubei, who continues the arcane study.",
+      "location": "Willowshore (Unaffiliated)",
+      "source": "p.21",
+      "threads": ["Equip for the haunting", "Research magic"],
+      "characters": ["Igawa Jubei", "Anjal of Thulsadus (deceased)"],
+      "elements": ["Mother's Coil tower", "spellbooks", "wands", "magic-item recipes"],
+      "themes": ["Mystery", "Social"],
+      "gate": "each requested recipe research is limited to once per week",
+      "fragments": [
+        {"plot_point": "Igawa Jubei (studious human wizard 3, Perception DC 19, Will DC 19, Arcana +10, Crafting +10) - Wizard's Tower 3. Wares: arcane/occult scrolls, magic-item & spell formulas, wands.", "themes": ["Social"], "weight": 1, "source": "p.21", "spoiler": false},
+        {"plot_point": "Jubei starts knowing only 1st-2nd-level scrolls and 1st-level wands; each week she learns one non-consumable magic item recipe of the PCs' level. PCs may Request a specific recipe up to once/week.", "themes": ["Action"], "weight": 1, "source": "p.21", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w29-trade-office",
+      "name": "W29. Trade Office",
+      "scene": "Warehouses and a trade office built by Governor Heh Shan-Bao to expand Karahai trade. Kofusachi priest Kim Gu-won is Exchange Manager; Granny Hu blackmails him to fudge numbers and wave through illicit packages, and lives in a private suite here.",
+      "location": "Willowshore, Northridge",
+      "source": "p.21",
+      "threads": ["Investigate Willowshore's secrets", "Equip for the haunting", "Earn income / downtime"],
+      "characters": ["Kim Gu-won", "Granny Hu", "Governor Heh Shan-Bao"],
+      "elements": ["Trade Office", "Karahai trade", "illicit packages", "Mushroom House link", "Granny Hu's suite"],
+      "themes": ["Mystery", "Social"],
+      "gate": "logistics Earn-Income (Society) is open; the smuggling subplot surfaces only with investigation",
+      "fragments": [
+        {"plot_point": "Kim Gu-won (patient human cleric of Kofusachi 5, Perception DC 23, Will DC 23, Crafting +12) - Trade Office 5. Master calligrapher: month-long fulus in 4 hours, year-long fulus in 2 days, scrolls in 2 days. Wares: beverages, divine scrolls, foods/spices, fulus, raw mineral, textiles. Earn Income with Society.", "themes": ["Social"], "weight": 1, "source": "p.21", "spoiler": false},
+        {"plot_point": "SPOILER: Granny Hu blackmails Gu-won into fudging the books and waving illicit packages to the Mushroom House, and lives in a private suite here. A hidden power broker - withhold her corruption until uncovered.", "themes": ["Mystery"], "weight": 1, "source": "p.21", "spoiler": true}
+      ]
+    },
+    {
+      "id": "loc.w30-fisheries",
+      "name": "W30. Fisheries",
+      "scene": "Fisher's farms and docks; foremost fish keeper Zataku can sense coming weather, giving her an edge.",
+      "location": "Willowshore, Northridge",
+      "source": "p.22",
+      "threads": ["Help Willowshore recover", "Earn income / downtime"],
+      "characters": ["Zataku"],
+      "elements": ["Fisheries", "fish ponds", "weather sense"],
+      "themes": ["Social"],
+      "gate": "weather-forecast bonus requires being liked by Northridge",
+      "fragments": [
+        {"plot_point": "Zataku (observant ratfolk fisher 3, Perception DC 19, Will DC 19, Nature +9). If liked, her forecasts grant +1 circumstance to checks/saves vs weather for 1 day (once/week). Wares: dried/smoked fish & shrimp, fertilizer, fishing gear, insect bait.", "themes": ["Social"], "weight": 1, "source": "p.22", "spoiler": false},
+        {"plot_point": "Work: patrol the ponds for predators or inspect docks to Earn Income with Survival.", "themes": ["Social"], "weight": 1, "source": "p.22", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w31-dock",
+      "name": "W31. Dock",
+      "scene": "A new dock at the mouth of the Ceiba River (after the dam blocked the old lake dock), run by nagaji shipwright Rajul Samudra of the Ceiba-Duyue Exchange.",
+      "location": "Willowshore, Northridge (mouth of the Ceiba River)",
+      "source": "p.22",
+      "threads": ["Travel the rivers", "Equip for the haunting"],
+      "characters": ["Rajul Samudra"],
+      "elements": ["Willowshore Dock", "Ceiba-Duyue Exchange", "rowboats", "Ceiba River"],
+      "themes": ["Social"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Rajul Samudra (serene nagaji shipwright 3, Perception DC 19, Will DC 19, Crafting +10) - Dock 3. Rent a rowboat 5 cp/day or buy for 15 gp; handcrafted oars give +1 item bonus to Piloting (rowboats) for 50 gp. Wares: riverboat rentals/sales.", "themes": ["Social"], "weight": 1, "source": "p.22", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w32-mushroom-house",
+      "name": "W32. The Mushroom House",
+      "scene": "A remote reeking brick farmhouse where, for the right price, almost anything can be grown - an illicit market run by halfling Luda Bama with Granny Hu's explicit permission.",
+      "location": "Willowshore, Northridge (remote)",
+      "source": "p.22",
+      "threads": ["Investigate Willowshore's secrets", "Acquire contraband", "Earn income / downtime"],
+      "characters": ["Luda Bama", "Granny Hu"],
+      "elements": ["Mushroom House", "drugs", "poisons", "illicit goods"],
+      "themes": ["Mystery", "Social"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Luda Bama (manipulative halfling smuggler 3, Perception DC 20, Will DC 18, Crafting +10). Work: act as a 'collector' using Intimidation to Earn Income. Wares: adventuring gear, drugs, poisons, tattoos.", "themes": ["Social"], "weight": 1, "source": "p.22", "spoiler": false},
+        {"plot_point": "SPOILER: the Mushroom House runs with Granny Hu's explicit permission and receives the smuggled packages from the Trade Office - a node of the hidden corruption network.", "themes": ["Mystery"], "weight": 1, "source": "p.22", "spoiler": true}
+      ]
+    },
+    {
+      "id": "loc.w33-spider-gate",
+      "name": "W33. Spider Gate",
+      "scene": "The town's entrance guardian, a giant stone spider 'Ugly Cute' holding an ordinary (kept-lit) lantern in its fangs. Villagers revere it as housing a guardian spirit and adopted it as their 'ugly but cute' mascot.",
+      "location": "Willowshore (town entrance)",
+      "source": "p.22",
+      "threads": ["Relight the lanterns", "Investigate Willowshore's secrets"],
+      "characters": ["Ugly Cute (guardian spirit)"],
+      "elements": ["Spider Gate", "stone guardian spider", "entrance lantern", "Tan Sugi"],
+      "themes": ["Mystery", "Tension"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Ugly Cute is the beloved stone-spider gate guardian; its fang-lantern must stay lit, mirroring the Eternal Lantern's protective role.", "themes": ["Social"], "weight": 1, "source": "p.22", "spoiler": false},
+        {"plot_point": "SPOILER: the guardian spirit truly inhabits the statue. It was left forlorn for over a century by the sudden death of the WHOLE village, forgotten 'when it died and reunited with the people it vowed to protect' - direct evidence the town died and exists in a reset reality. Withhold until the mindscape twist is earned.", "themes": ["Mystery"], "weight": 1, "source": "p.22", "spoiler": true}
+      ]
+    },
+    {
+      "id": "loc.w34-kawaka-home",
+      "name": "W34. Kawaka's Home",
+      "scene": "Myna Kawaka's empty family home, unoccupied since his parents' deaths; he now lives above the Cloud Paper House mill.",
+      "location": "Willowshore",
+      "source": "p.22",
+      "threads": ["Befriend Willowshore's residents"],
+      "characters": ["Myna Kawaka"],
+      "elements": ["Kawaka's Home (vacant)"],
+      "themes": ["Personal"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "An empty family home - potential lodging/base hook tied to Kawaka of the Cloud Paper House.", "themes": ["Personal"], "weight": 1, "source": "p.22", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w35-leshys-salon",
+      "name": "W35. The Leshy's Salon",
+      "scene": "A leshy tea farm (Farm 3) whose leshies predate the town; famed traveling tea merchants who became a staple attraction, run by Mountain Summit Grass.",
+      "location": "Willowshore (Unaffiliated)",
+      "source": "p.22",
+      "threads": ["Befriend Willowshore's residents", "Equip for the haunting"],
+      "characters": ["Mountain Summit Grass"],
+      "elements": ["Leshy's Salon", "tea farm", "tea ware"],
+      "themes": ["Social"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Mountain Summit Grass (irreverent agender leshy teamaker 3, Perception DC 19, Will DC 19, Crafting +9) - Farm 3. Wares: clay pottery tea ware, tea leaves.", "themes": ["Social"], "weight": 1, "source": "p.22", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.w36-bones-forgotten",
+      "name": "W36. Bones of the Forgotten",
+      "scene": "An overgrown unkempt burial ground - the only place bodies bearing a Mark of Crime (a brand carved into the bones) may be buried. Recent paper-shuriken posts protest possibly unjust deaths, perhaps to forestall a vengeful ghost.",
+      "location": "Willowshore (overgrown outskirts)",
+      "source": "p.23",
+      "threads": ["Investigate Willowshore's secrets", "Combat the dead"],
+      "characters": ["the unquiet dead"],
+      "elements": ["Bones of the Forgotten", "Mark of Crime", "paper shuriken posts", "Specterwood"],
+      "themes": ["Mystery", "Tension"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Marks of Crime are carved into criminals' bones so the brand survives decomposition; such bodies can only be buried here. Recent paper-shuriken posts hint someone fears (or mourns) an unjust, vengeful ghost rising. Grievous crimes punished by exile into the Specterwood or imprisonment.", "themes": ["Mystery"], "weight": 1, "source": "p.23", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.hinterlands",
+      "name": "Willowshore Hinterlands (overview)",
+      "scene": "The town's once-idyllic surroundings, now (in the mindscape version) crawling with ghosts and monsters. Exploration is key from Ch.3; the map marks central D1-D13 (Ch.3) and Pilgrim's Path B-E (Act 2, Ch.6), encircled by the Mindscape Border and Wall of Ghosts.",
+      "location": "Willowshore Hinterlands",
+      "source": "p.23",
+      "threads": ["Explore the hinterlands", "Investigate the curse"],
+      "characters": ["wandering monsters", "hinterland ghosts"],
+      "elements": ["Hinterlands map (1 hex = 2 miles)", "Mindscape Border", "Wall of Ghosts", "Pilgrim's Path", "Specterwood", "Trimountains"],
+      "themes": ["Tension", "Mystery"],
+      "gate": "PCs don't begin to spread out and explore until Ch.3 (the curse/fog blocks far travel before then)",
+      "fragments": [
+        {"plot_point": "Hinterland perils do NOT scale: encounters assume 2nd-level PCs (Ch.3). A Ch.3 wandering-monster table (p.58) spices travel/camping. From Act 2, prefer narrating these rather than running trivial fights, to preserve verisimilitude and pace.", "themes": ["Tension"], "weight": 1, "source": "p.23-24", "spoiler": false},
+        {"plot_point": "Map structure: central D1-D13 (Ch.3 encounters) sit inside the Mindscape Border; Pilgrim's Path areas B-E (NW of D13) are Act 2 (Ch.6). The Wall of Ghosts encircles the region (p.60; breaking through p.113); Mindscape Border details p.57.", "themes": ["Mystery"], "weight": 1, "source": "p.24", "spoiler": false},
+        {"plot_point": "SPOILER: the hinterlands the PCs roam are the MINDSCAPE version of the region, populated by ghosts and reborn inhabitants - not the living world. Surface only 'the wilds feel wrong/haunted'; withhold the mindscape nature until earned.", "themes": ["Mystery"], "weight": 1, "source": "p.23", "spoiler": true}
+      ]
+    },
+    {
+      "id": "loc.w37-great-willow",
+      "name": "W37. The Great Willow",
+      "scene": "An ancient willow atop the lowest Trimountain peak, protected by a kodama kami who once gave Master Zhi Hui the lore leading to the Tan Sugi grove. Drawn into the mindscape and reborn each reset, Great Willow grows ever more distant and convinced it is the last kami alive.",
+      "location": "Willowshore Hinterlands (Trimountains, lowest peak)",
+      "source": "p.23",
+      "threads": ["Explore the hinterlands", "Seek the kami's knowledge"],
+      "characters": ["Great Willow"],
+      "elements": ["Great Willow", "Trimountains", "Tan Sugi grove", "Master Zhi Hui's legacy"],
+      "themes": ["Mystery", "Personal"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Great Willow (morose agender kodama, Perception DC 26, Will DC 24) - Wilderness 6. Wares: foraged foods and non-metallic raw materials. A moody kami who 'gives gifts sometimes to those who please them' (true rumor).", "themes": ["Social"], "weight": 1, "source": "p.23", "spoiler": false},
+        {"plot_point": "SPOILER: Great Willow is reborn each time the mindscape resets, growing more detached and believing itself the last kami alive. Its despair is direct evidence of the cyclic mindscape twist - withhold until earned.", "themes": ["Mystery", "Personal"], "weight": 1, "source": "p.23", "spoiler": true}
+      ]
+    },
+    {
+      "id": "loc.w38-wooded-clearing",
+      "name": "W38. Wooded Clearing",
+      "scene": "A small clearing in the woods just east of town where this year's Reenactment Festival 'abductees' - the PCs - are brought at the start of the season of ghosts. It is here that the campaign begins.",
+      "location": "Willowshore Hinterlands (woods just east of town)",
+      "source": "p.23",
+      "threads": ["Wake and return to town", "Begin the campaign"],
+      "characters": ["the abducted PCs", "festival organizers"],
+      "elements": ["Wooded Clearing", "Reenactment Festival"],
+      "themes": ["Mystery", "Personal"],
+      "gate": "opening scene - the campaign starts here",
+      "fragments": [
+        {"plot_point": "The campaign opens here: the PCs are this year's festival 'abductees,' brought to this clearing east of town at the start of the season of ghosts. (Detailed in Act 1, Ch.1.)", "themes": ["Mystery"], "weight": 1, "source": "p.23", "spoiler": false}
+      ]
+    },
+    {
+      "id": "loc.rumormill",
+      "name": "The Willowshore Rumormill",
+      "scene": "Willowshore runs on small-town gossip. After Ch.2 the town returns to a fragile 'normal.' PCs hear rumors via Gathering Information (DC 15 Diplomacy over a few hours), as thanks from aided locals, or by lingering in shops. Idle rumors give flavor and foreshadow NPCs; (T)=true, (F)=false.",
+      "location": "Willowshore (townwide)",
+      "source": "p.24",
+      "threads": ["Gather information", "Foreshadow the campaign"],
+      "characters": ["Matsu", "You So-Jin", "Yami", "the Fox Ghost", "Great Willow"],
+      "elements": ["Idle Rumors table (d20)", "Pilgrim's Path monastery", "giant stag beetle", "cranes"],
+      "themes": ["Mystery", "Social"],
+      "gate": null,
+      "fragments": [
+        {"plot_point": "Gather Information here = a few hours + DC 15 Diplomacy (or as a reward from grateful locals, or by hanging around shops).", "themes": ["Social"], "weight": 1, "source": "p.24", "spoiler": false},
+        {"plot_point": "Idle Rumors (d20): 1-3 Matsu had six lady visitors last spring (F). 4-6 So-Jin used a ghost to brighten her First Long Night lantern (F). 7-9 Yami the feral cat near the teahouse is more than a cat (T). 10-11 the giant stag beetle's territory creeps toward town - is someone feeding it? (F).", "themes": ["Mystery"], "weight": 1, "source": "p.24", "spoiler": false},
+        {"plot_point": "Idle Rumors (cont.): 12-13 winter Fox Ghost sightings in the woods (F per skeptics). 14-15 see a crane, leave it alone - good luck to see, bad luck to kill (T). 16-17 the old Pilgrim's Path monastery is truly haunted (T). 18-19 Great Willow gives gifts to those who please it (T). 20 invent an outrageous rumor about another PC (F).", "themes": ["Mystery"], "weight": 1, "source": "p.24", "spoiler": false}
+      ]
+    }
+  ]
+}
