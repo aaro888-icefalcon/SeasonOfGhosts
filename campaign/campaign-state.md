@@ -25,7 +25,7 @@ Threads List, carry over only still-relevant Characters, archive the rest._
 - **Adventure status:** active
 - **Theme priority (this adventure):** Tension, Mystery, Personal, Social, Action — in `adventure.json` → `state.py adventure show <campaign>`  _(rolled per RPG style)_
 
-## Chaos Factor: 5
+## Chaos Factor: 4
 _(1–9; −1 if the PC was mostly in control of the last scene, +1 if it was chaotic)_
 
 ## Threads List — snapshot of `threads.json` (the dice roll the JSON, not this)
@@ -49,7 +49,7 @@ the JSON. Add/weight when an NPC is introduced or featured; remove when it perma
 4. Choe Chung-hu (miller) — Reenactment Festival organizer; never arrived with the ransom breakfast
 5. Ha Hai-er (town guard) — watchtower survivor
 6. Kim Gu-won (Kofusachi cleric) — Granny Hu's aide / Exchange Manager
-7. Doctor Dami (Mababangloob) — charitable doctor, Hand of Spring
+7. Doctor Dami (Mababangloob) — charitable doctor, Hand of Spring — **[FACE-STOLEN: a noppera-bo wears Dami's face & voice and is loose in town; the real Dami's fate unknown. Per Reza's note.]**
 8. Zheng Peng (watch officer) — imperial barracks
 9. Ugly Cute (stone guardian) — missing Spider Gate spider
 10. Reza — Daegon's teen apprentice (barber-surgeon trade); Close Ties anchor; last in town
@@ -105,9 +105,10 @@ _Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals 
 - Theme priority: Tension, Mystery, Personal, Social, Action
 
 ## Scene
-- **Scene #:** 5 (Scenes 1–4 resolved: clearing fight; foggy crossing/empty Spider Gate; Eastern Watchtower; Choe's millrace ambush + the mill)
-- **Active Turning Point:** none (Scene 5 framed Expected). _Standing reveal (Scene 4 Thread Combo): **Relight the Eternal Lantern ≡ Understand what is wrong with the town** — same problem._
-- **Last scene recap (2–3 sentences):** A lure used apprentice **Reza's voice** in the fog at **Choe's mills** — Daegon knew it was fake (Reza's a girl; the copy got her wrong → it doesn't *have* her). The party set a silent ambush (Su-Won crit-failed Stealth & blew it; foe then rolled a nat-1 init) and killed a **noppera-bo OCCULTIST** — a face-stealing "mind" (throws fear, can Steal Face; weak to loud sound). Tobi took a fear-shriek, recovered. The millhouse was a charnel larder: **Choe Chung-hu & his whole festival crew dead & faceless**, ~11 faces TAKEN & now WORN by infiltrators (explains the missing breakfast). Reza NOT among the dead — still missing. Party headed into town.
+- **Scene #:** 6 (Scenes 1–5 resolved; now traveling to Graveside Manners for Reza)
+- **Active Turning Point:** none (Scene 6 framed Expected). _Standing reveal: **Relight the Eternal Lantern ≡ Understand what is wrong with the town.**_
+- **Captive:** a **noppera-bo trickster** taken ALIVE (gagged, bound to a stretcher-board, hauled by Su-Won) — caught in Daegon's clinic mid-fabricating a fake **Reza** face from her belongings → confirms it does NOT have the real Reza. Not yet interrogated.
+- **Last scene recap (2–3 sentences):** Into fog-bound Willowshore (town shuttered, faces untrustworthy). Daegon led to his clinic, the **Hand of Spring** — found dark & ransacked (sleep/paralytic stock looted). Inside: a noppera-bo building a half-made **Reza** mask from her things; party lit the room & **captured it alive** (Lan's tangle vine + nonlethal subdual). Search (success): **Reza escaped alive & smart** (out the window with a field kit) and left a coded note — *Dr. Dami was FACE-STOLEN (a thing wears her now, don't trust her); Reza's gone to ground at Graveside Manners ("where the dead are kind").* Party + captive headed south to the graveyard.
 - **Self-audit drift counter (consecutive soft scenes):** 0
 
 ## Archive pointer
