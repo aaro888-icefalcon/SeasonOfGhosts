@@ -40,5 +40,5 @@ Acrobatics **+6** · Arcana **+7** · Athletics **+1** · Crafting **+7** · Dec
 Studded leather armor · steel shield · **healer's toolkit** · dagger · adventurer's pack (backpack, bedroll, rations, 50' rope, flint & steel, torches, waterskin, soap) · **formula book:** Minor Elixir of Life, Lesser Alchemist's Fire, Lesser Antidote, Lesser Antiplague · ~8 sp.
 
 ## Ties
-- **Reza** — apprentice (teen), Daegon's Close Ties anchor. *Last seen in town; the person Daegon most wants to get home to.*
+- **Reza** — apprentice (teen **girl**), Daegon's Close Ties anchor. *Last seen in town; the person Daegon most wants to get home to.*
 - **Dr. Dami Mababangloob** — partner & senior mentor; the Hand of Spring clinic (W19).
