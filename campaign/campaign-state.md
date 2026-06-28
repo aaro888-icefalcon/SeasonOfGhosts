@@ -11,7 +11,7 @@
 - **Resolution:** Fate Check   ·   **Chaos flavor:** normal
 - **Discipline:** HARDCORE (no softening; Peril Points OFF unless player opts in)
 - **Content consent (Session Zero):** FULL HORROR — no lines, no veils (arachnid/body-horror imagery on the table)
-- **Diminisher:** 1/2 (single PC — Fate/Random-Event/etc. counts halved per Mythic solo-PC scaling)
+- **Diminisher:** 1 (party of 4 — PC Daegon + 3 GM-run allies; encounters run at full published strength)
 
 ## CURRENT ADVENTURE: Act 1 — The Summer That Never Was
 _Each adventure has its **own** Threads & Characters Lists and Theme priority. The Lists + Theme order +
@@ -89,6 +89,7 @@ _Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals 
 ## PC(s)
 - **Daegon** — Human Investigator 1 (Alchemical Sciences), barber-surgeon. See `character-sheet.md`. HP 17/17. Conditions/injuries: none. Hero Points: 1. Resources: formula book (4), ~8 sp.
 - **Close Ties:** Reza (apprentice). Also partner/mentor Dr. Dami (Hand of Spring).
+- **Party (GM-run allies; see `companions.md`):** Su-Won (half-elf Monk, HP 20), Lan (gnome Druid/Leaf, HP 18), Tobi (tengu Commander, HP 16) — all fellow festival abductees.
 
 ## Overlays
 - **Keyed Scenes:** _(Trigger → Event; Count)_ none
