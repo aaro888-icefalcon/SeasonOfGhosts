@@ -7,10 +7,6 @@
    "weight": 1
   },
   {
-   "name": "Find the missing miller Choe Chung-hu",
-   "weight": 2
-  },
-  {
    "name": "Get back home to Willowshore",
    "weight": 1
   },
@@ -25,6 +21,10 @@
   {
    "name": "Understand what is wrong with the town",
    "weight": 2
+  },
+  {
+   "name": "Root out the noppera-bo wearing the town's stolen faces",
+   "weight": 1
   }
  ]
 }

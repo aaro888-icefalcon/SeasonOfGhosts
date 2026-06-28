@@ -25,7 +25,7 @@ Threads List, carry over only still-relevant Characters, archive the rest._
 - **Adventure status:** active
 - **Theme priority (this adventure):** Tension, Mystery, Personal, Social, Action — in `adventure.json` → `state.py adventure show <campaign>`  _(rolled per RPG style)_
 
-## Chaos Factor: 4
+## Chaos Factor: 5
 _(1–9; −1 if the PC was mostly in control of the last scene, +1 if it was chaotic)_
 
 ## Threads List — snapshot of `threads.json` (the dice roll the JSON, not this)
@@ -34,7 +34,7 @@ when Invoked/featured → that Thread is weight× as likely. Base list = 25 weig
 still fully rolls over (two-stage roll: NEW / PRE-EXISTING / CHOOSE MOST LOGICAL). Remove all of a
 concluded Thread. Curate — prune the irrelevant._
 1. Escape the wrong, looping summer day
-2. Find the missing miller Choe Chung-hu
+2. Root out the noppera-bo wearing the town's stolen faces _(Choe & his festival crew found slaughtered & faceless at the mill; ~11 faces taken & now WORN by infiltrators)_
 3. Get back home to Willowshore
 4. Protect the townsfolk
 5. Relight the Eternal Lantern
@@ -105,9 +105,9 @@ _Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals 
 - Theme priority: Tension, Mystery, Personal, Social, Action
 
 ## Scene
-- **Scene #:** 4 (Scenes 1–3 resolved: clearing fight; foggy crossing to the empty Spider Gate; Eastern Watchtower)
-- **Active Turning Point (Scene 4, ALTERED):** heading into town toward the sheltering townsfolk → invoked thread **Find the missing miller Choe Chung-hu**; lead Plot Point **"It's All About You"** (gets personal for Daegon); **Thread Combo** revealed **Relight the Eternal Lantern ≡ Understand what is wrong with the town**. Opening beat: Daegon hears **Reza's voice** calling him out of the fog.
-- **Last scene recap (2–3 sentences):** Crossed to the empty **Spider Gate** (guardian "Ugly Cute" gone, Eternal Lantern fallen dark, furrows leading east). At the **Eastern Watchtower** found two guards dead of "snakebite" + two dead jinkin gremlins; survivor **Ha Hai-er** held the party at crossbow-point until Daegon flawlessly recited the Eight Practices (crit). She'd hidden a bound "survivor" wearing crew-member Sajan's face — Daegon's exam unmasked it as a **noppera-bo** (oracle: not human); the party executed it (it shed the disguise to a faceless corpse). Ha Hai-er joined them, gave a cask of lamp oil; they set off into the fog toward town/Southbank.
+- **Scene #:** 5 (Scenes 1–4 resolved: clearing fight; foggy crossing/empty Spider Gate; Eastern Watchtower; Choe's millrace ambush + the mill)
+- **Active Turning Point:** none (Scene 5 framed Expected). _Standing reveal (Scene 4 Thread Combo): **Relight the Eternal Lantern ≡ Understand what is wrong with the town** — same problem._
+- **Last scene recap (2–3 sentences):** A lure used apprentice **Reza's voice** in the fog at **Choe's mills** — Daegon knew it was fake (Reza's a girl; the copy got her wrong → it doesn't *have* her). The party set a silent ambush (Su-Won crit-failed Stealth & blew it; foe then rolled a nat-1 init) and killed a **noppera-bo OCCULTIST** — a face-stealing "mind" (throws fear, can Steal Face; weak to loud sound). Tobi took a fear-shriek, recovered. The millhouse was a charnel larder: **Choe Chung-hu & his whole festival crew dead & faceless**, ~11 faces TAKEN & now WORN by infiltrators (explains the missing breakfast). Reza NOT among the dead — still missing. Party headed into town.
 - **Self-audit drift counter (consecutive soft scenes):** 0
 
 ## Archive pointer
