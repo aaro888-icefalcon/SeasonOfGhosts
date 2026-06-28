@@ -25,7 +25,7 @@ Threads List, carry over only still-relevant Characters, archive the rest._
 - **Adventure status:** active
 - **Theme priority (this adventure):** Tension, Mystery, Personal, Social, Action — in `adventure.json` → `state.py adventure show <campaign>`  _(rolled per RPG style)_
 
-## Chaos Factor: 4
+## Chaos Factor: 3
 _(1–9; −1 if the PC was mostly in control of the last scene, +1 if it was chaotic)_
 
 ## Threads List — snapshot of `threads.json` (the dice roll the JSON, not this)
@@ -105,7 +105,10 @@ _Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals 
 - Theme priority: Tension, Mystery, Personal, Social, Action
 
 ## Scene
-- **Scene #:** 6 (Scenes 1–5 resolved; now traveling to Graveside Manners for Reza)
+- **Scene #:** 7 (Scenes 1–6 resolved; inside the Matsuki estate refuge)
+- **Reza:** found ALIVE & safe at Graveside Manners (verified via a private memory); now with the party, armed with a field kit. (You So-Jin was absent/gone from her shop.)
+- **Captive:** noppera-bo trickster stashed bound & gagged in You So-Jin's barricaded herb-shop (graveyard), to interrogate later.
+- **URGENT:** the **Dami-thing** (noppera-bo wearing Dr. Dami) reached the Matsuki refuge AHEAD of the party and was let inside — now among the wounded & children as the trusted doctor. Party got through the gate (Society success) but is NOT yet believed about Dami.
 - **Active Turning Point:** none (Scene 6 framed Expected). _Standing reveal: **Relight the Eternal Lantern ≡ Understand what is wrong with the town.**_
 - **Captive:** a **noppera-bo trickster** taken ALIVE (gagged, bound to a stretcher-board, hauled by Su-Won) — caught in Daegon's clinic mid-fabricating a fake **Reza** face from her belongings → confirms it does NOT have the real Reza. Not yet interrogated.
 - **Last scene recap (2–3 sentences):** Into fog-bound Willowshore (town shuttered, faces untrustworthy). Daegon led to his clinic, the **Hand of Spring** — found dark & ransacked (sleep/paralytic stock looted). Inside: a noppera-bo building a half-made **Reza** mask from her things; party lit the room & **captured it alive** (Lan's tangle vine + nonlethal subdual). Search (success): **Reza escaped alive & smart** (out the window with a field kit) and left a coded note — *Dr. Dami was FACE-STOLEN (a thing wears her now, don't trust her); Reza's gone to ground at Graveside Manners ("where the dead are kind").* Party + captive headed south to the graveyard.
