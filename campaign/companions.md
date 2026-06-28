@@ -43,5 +43,15 @@ A born organizer with a loud laugh and a battered banner on his back; ran festiv
 
 ---
 
+## Ha Hai-er — Human **town guard** (NPC ally, joined Scene 3)   *Creature 1*
+Watchtower survivor; the party unmasked & killed the noppera-bo that wore her comrade Sajan's face and nearly fooled her. Hard, capable, badly shaken; now fiercely loyal to the four who didn't let it see they knew.
+- **HP ~20** · **AC 16** · Perception **+6**
+- **Crossbow** +7 ranged (1d8 P, reload) · **shortsword** +6 melee (1d6+2 S)
+- Fort +8, Ref +6, Will +5
+- Knows the town & the Eight Practices cold. **Flees / breaks if reduced under ~6 HP** (she has a family to get back to).
+- *Wants:* reach her **daughter** (across the river, with Granny Hu's Northridge folk) and her **husband Edha** (at the Matsuki estate, Southbank). Reuniting her = +1 Reputation with both factions.
+
+---
+
 ### Foe card — opening fight
 **Giant Centipede (spirit-touched) — Creature −1** ×2 · AC 16 · HP 6 · Fort +5 Ref +7 Will +2 · Perc +3, darkvision · Speed 25/climb 25 · **mandibles +8** (agile, finesse) **1d6 P + centipede venom** (DC 16 Fort; stage 1: 1 poison + off-guard 1 rd). *Speak Common, Int +0, fight without fear.* (Trivial for the party — the horror is that they're **talking**.)

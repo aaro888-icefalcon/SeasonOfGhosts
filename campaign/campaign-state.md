@@ -25,7 +25,7 @@ Threads List, carry over only still-relevant Characters, archive the rest._
 - **Adventure status:** active
 - **Theme priority (this adventure):** Tension, Mystery, Personal, Social, Action — in `adventure.json` → `state.py adventure show <campaign>`  _(rolled per RPG style)_
 
-## Chaos Factor: 6
+## Chaos Factor: 4
 _(1–9; −1 if the PC was mostly in control of the last scene, +1 if it was chaotic)_
 
 ## Threads List — snapshot of `threads.json` (the dice roll the JSON, not this)
@@ -89,7 +89,8 @@ _Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals 
 ## PC(s)
 - **Daegon** — Human Investigator 1 (Alchemical Sciences), barber-surgeon. See `character-sheet.md`. HP 17/17. Conditions/injuries: none. Hero Points: 1. Resources: formula book (4), ~8 sp.
 - **Close Ties:** Reza (apprentice). Also partner/mentor Dr. Dami (Hand of Spring).
-- **Party (GM-run allies; see `companions.md`):** Su-Won (half-elf Monk, HP 20), Lan (gnome Druid/Leaf, HP 18), Tobi (tengu Commander, HP 16) — all fellow festival abductees.
+- **Party (GM-run allies; see `companions.md`):** Su-Won (half-elf Monk, HP 20), Lan (gnome Druid/Leaf, HP 18), Tobi (tengu Commander, HP 16) — fellow festival abductees — plus **Ha Hai-er** (town guard, joined Scene 3, wants to reach her daughter [Northridge] & husband Edha [Matsuki estate]).
+- **Known intel:** an external/supernatural influence puppets ordinary animals (talking, fearless); **noppera-bo / face-stealers** are infiltrating wearing the faces of dead/taken townsfolk (weak to loud sound; no sight/smell). The town guardian "Ugly Cute" is gone & the gate **Eternal Lantern is OUT** (party carries a cask of lamp oil to refill it). Relighting the Lantern is revealed to be the same problem as fixing what's wrong with the town.
 
 ## Overlays
 - **Keyed Scenes:** _(Trigger → Event; Count)_ none
@@ -104,8 +105,9 @@ _Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals 
 - Theme priority: Tension, Mystery, Personal, Social, Action
 
 ## Scene
-- **Scene #:** 2 (Scene 1 = clearing opening, resolved)
-- **Last scene recap (2–3 sentences):** Daegon + 3 festival-abductee allies woke blindfolded in clearing W38; only Daegon's footprints in unbroken dew (no sign of the masked crew who carried them out), the miller Choe never came, the wood "pressed down." Two spirit-touched giant centipedes (talking, fearless, hungry for "fingers") attacked — the party killed both without a scratch (Lan's electric arc + Daegon's devised thrust). Daegon's autopsy: anatomically ordinary vermin with NO means to speak → the influence was external, supernatural, ambient, and gone at death (no contagion). Heading down the trail, an unnatural windless **fog** rose (Mirage Mist — unnamed to them); they've reached the **Duyue River bridge** at town's eastern edge, far bank lost in grey. Secret Lantern-rhyme recall failed.
+- **Scene #:** 4 (Scenes 1–3 resolved: clearing fight; foggy crossing to the empty Spider Gate; Eastern Watchtower)
+- **Active Turning Point (Scene 4, ALTERED):** heading into town toward the sheltering townsfolk → invoked thread **Find the missing miller Choe Chung-hu**; lead Plot Point **"It's All About You"** (gets personal for Daegon); **Thread Combo** revealed **Relight the Eternal Lantern ≡ Understand what is wrong with the town**. Opening beat: Daegon hears **Reza's voice** calling him out of the fog.
+- **Last scene recap (2–3 sentences):** Crossed to the empty **Spider Gate** (guardian "Ugly Cute" gone, Eternal Lantern fallen dark, furrows leading east). At the **Eastern Watchtower** found two guards dead of "snakebite" + two dead jinkin gremlins; survivor **Ha Hai-er** held the party at crossbow-point until Daegon flawlessly recited the Eight Practices (crit). She'd hidden a bound "survivor" wearing crew-member Sajan's face — Daegon's exam unmasked it as a **noppera-bo** (oracle: not human); the party executed it (it shed the disguise to a faceless corpse). Ha Hai-er joined them, gave a cask of lamp oil; they set off into the fog toward town/Southbank.
 - **Self-audit drift counter (consecutive soft scenes):** 0
 
 ## Archive pointer
