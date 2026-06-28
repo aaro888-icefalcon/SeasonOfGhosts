@@ -26,7 +26,7 @@ Threads List, carry over only still-relevant Characters, archive the rest._
 - **Adventure status:** active
 - **Theme priority (this adventure):** Tension, Mystery, Personal, Social, Action — in `adventure.json` → `state.py adventure show <campaign>`  _(rolled per RPG style)_
 
-## Chaos Factor: 4
+## Chaos Factor: 3
 _(1–9; −1 if the PC was mostly in control of the last scene, +1 if it was chaotic)_
 
 ## Threads List — snapshot of `threads.json` (the dice roll the JSON, not this)
@@ -88,7 +88,7 @@ _Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals 
 - **Dr. Dami Mababangloob** — Daegon's partner & senior mentor (W19).
 
 ## PC(s)
-- **Daegon** — Human Investigator 1 (Alchemical Sciences), barber-surgeon. See `character-sheet.md`. **HP 11/17** (clawed cheek; frightened worn off post-combat). Hero Points: 1. Resources: formula book (4), ~8 sp.
+- **Daegon** — Human Investigator 1 (Alchemical Sciences), barber-surgeon. See `character-sheet.md`. **HP 17/17** (rested & healed overnight). Hero Points: 1. Resources: formula book (4), 4 alchemical creations/day (reset), ~8 sp. **Time:** Day 2, dawn — Crimson Moon/Blood Rain gone; daytime Mirage Mist now. Party fully rested; Lan can re-prepare spells.
 - **MILESTONE:** Exposed & killed the noppera-bo wearing Dr. Dami in front of all of sheltering Southbank → won the town's trust and Old Matsuki's **public endorsement** ("the barber told us true"). Likely Southbank Reputation gain.
 - **Close Ties:** Reza (apprentice). Also partner/mentor Dr. Dami (Hand of Spring).
 - **Party (GM-run allies; see `companions.md`):** Su-Won (half-elf Monk, HP 20), Lan (gnome Druid/Leaf, HP 18), Tobi (tengu Commander, HP 16) — fellow festival abductees. **Ha Hai-er LEFT the active party (Scene 7)** — staying with her husband Edha & family at the Matsuki estate; friendly NPC there, rejoinable later.
