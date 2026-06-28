@@ -23,7 +23,7 @@
     "party_stash_recovered": [
       { "item": "Cask of lamp oil", "from": "Eastern Watchtower (Scene 3)", "use": "Refill the Spider Gate lantern -> +2 vs Crimson Moon; Blood Rain flat check becomes DC 18 (was 14)", "carried_by": "Tobi" },
       { "item": "Marvelous miniature (ladder)", "from": "Eastern Watchtower (Scene 3)", "use": "Figurine that unfolds into a full-size ladder on command", "carried_by": "Su-Won" },
-      { "item": "Shining crossbow bolt", "from": "Eastern Watchtower (Scene 3)", "use": "Single magic bolt (glows) — treat as +1 striking/special until identified", "carried_by": "Ha-Hai-er" },
+      { "item": "Shining crossbow bolt", "from": "Eastern Watchtower (Scene 3)", "use": "Single magic bolt (glows) — treat as +1 striking/special until identified", "carried_by": "Daegon (reclaimed when Ha-Hai-er left the party, Scene 7)" },
       { "item": "Plain wooden staff", "from": "Noppera-bo occultist, millrace (Scene 4)", "use": "Mundane spellcaster's staff / possible clue", "carried_by": "Daegon" }
     ],
     "lost_or_denied": [

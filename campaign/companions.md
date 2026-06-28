@@ -43,7 +43,8 @@ A born organizer with a loud laugh and a battered banner on his back; ran festiv
 
 ---
 
-## Ha Hai-er — Human **town guard** (NPC ally, joined Scene 3)   *Creature 1*
+## Ha Hai-er — Human **town guard** (joined Scene 3 · **LEFT active party Scene 7**)   *Creature 1*
+> _Stepped back at the Matsuki estate to stay with her reunited husband Edha & family. A friendly NPC inside the refuge; can rejoin later. (She left with her own crossbow; the party's "shining bolt" went back to the stash.)_
 Watchtower survivor; the party unmasked & killed the noppera-bo that wore her comrade Sajan's face and nearly fooled her. Hard, capable, badly shaken; now fiercely loyal to the four who didn't let it see they knew.
 - **HP ~20** · **AC 16** · Perception **+6**
 - **Crossbow** +7 ranged (1d8 P, reload) · **shortsword** +6 melee (1d6+2 S)

@@ -11,7 +11,8 @@
 - **Resolution:** Fate Check   ·   **Chaos flavor:** normal
 - **Discipline:** HARDCORE (no softening; Peril Points OFF unless player opts in)
 - **Content consent (Session Zero):** FULL HORROR — no lines, no veils (arachnid/body-horror imagery on the table)
-- **Diminisher:** REMOVED / none — encounters run at full published (party-of-4) strength exactly as printed; no scaling up or down. (Party is currently Daegon + 3 GM-run allies + Ha-Hai-er.)
+- **Diminisher:** REMOVED — base encounters run at full published (party-of-4) strength as printed.
+- **Encounter house rule (player-set):** **intermittently bump TRIVIAL/LOW encounters up to MODERATE** for this larger, capable party. Mechanic: when a would-be Trivial or Low fight comes up, GM rolls `dice.py roll 1d2` — on a **2**, reinforce it to Moderate (add foes / raise a foe's level). Moderate/Severe/Extreme encounters run as printed.
 
 ## CURRENT ADVENTURE: Act 1 — The Summer That Never Was
 _Each adventure has its **own** Threads & Characters Lists and Theme priority. The Lists + Theme order +
@@ -90,7 +91,7 @@ _Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals 
 - **Daegon** — Human Investigator 1 (Alchemical Sciences), barber-surgeon. See `character-sheet.md`. **HP 11/17** (clawed cheek; frightened worn off post-combat). Hero Points: 1. Resources: formula book (4), ~8 sp.
 - **MILESTONE:** Exposed & killed the noppera-bo wearing Dr. Dami in front of all of sheltering Southbank → won the town's trust and Old Matsuki's **public endorsement** ("the barber told us true"). Likely Southbank Reputation gain.
 - **Close Ties:** Reza (apprentice). Also partner/mentor Dr. Dami (Hand of Spring).
-- **Party (GM-run allies; see `companions.md`):** Su-Won (half-elf Monk, HP 20), Lan (gnome Druid/Leaf, HP 18), Tobi (tengu Commander, HP 16) — fellow festival abductees — plus **Ha Hai-er** (town guard, joined Scene 3, wants to reach her daughter [Northridge] & husband Edha [Matsuki estate]).
+- **Party (GM-run allies; see `companions.md`):** Su-Won (half-elf Monk, HP 20), Lan (gnome Druid/Leaf, HP 18), Tobi (tengu Commander, HP 16) — fellow festival abductees. **Ha Hai-er LEFT the active party (Scene 7)** — staying with her husband Edha & family at the Matsuki estate; friendly NPC there, rejoinable later.
 - **Known intel:** an external/supernatural influence puppets ordinary animals (talking, fearless); **noppera-bo / face-stealers** are infiltrating wearing the faces of dead/taken townsfolk (weak to loud sound; no sight/smell). The town guardian "Ugly Cute" is gone & the gate **Eternal Lantern is OUT** (party carries a cask of lamp oil to refill it). Relighting the Lantern is revealed to be the same problem as fixing what's wrong with the town.
 
 ## Overlays
