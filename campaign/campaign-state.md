@@ -25,7 +25,7 @@ Threads List, carry over only still-relevant Characters, archive the rest._
 - **Adventure status:** active
 - **Theme priority (this adventure):** Tension, Mystery, Personal, Social, Action — in `adventure.json` → `state.py adventure show <campaign>`  _(rolled per RPG style)_
 
-## Chaos Factor: 5
+## Chaos Factor: 6
 _(1–9; −1 if the PC was mostly in control of the last scene, +1 if it was chaotic)_
 
 ## Threads List — snapshot of `threads.json` (the dice roll the JSON, not this)
@@ -103,7 +103,8 @@ _Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals 
 - Active Turning Point: —   ·   Theme priority: Tension, Mystery, Personal, Social, Action
 
 ## Scene
-- **Last scene recap (2–3 sentences):** The campaign opens here. The PC wakes blindfolded in a forest clearing east of Willowshore (W38) on the first day of summer, "abducted" overnight as part of the Reenactment Festival — but the miller Choe Chung-hu, who should have arrived at dawn with the ransom breakfast, never came, and the woods feel wrong. A westward game trail leads home.
+- **Scene #:** 2 (Scene 1 = clearing opening, resolved)
+- **Last scene recap (2–3 sentences):** Daegon + 3 festival-abductee allies woke blindfolded in clearing W38; only Daegon's footprints in unbroken dew (no sign of the masked crew who carried them out), the miller Choe never came, the wood "pressed down." Two spirit-touched giant centipedes (talking, fearless, hungry for "fingers") attacked — the party killed both without a scratch (Lan's electric arc + Daegon's devised thrust). Daegon's autopsy: anatomically ordinary vermin with NO means to speak → the influence was external, supernatural, ambient, and gone at death (no contagion). Heading down the trail, an unnatural windless **fog** rose (Mirage Mist — unnamed to them); they've reached the **Duyue River bridge** at town's eastern edge, far bank lost in grey. Secret Lantern-rhyme recall failed.
 - **Self-audit drift counter (consecutive soft scenes):** 0
 
 ## Archive pointer
