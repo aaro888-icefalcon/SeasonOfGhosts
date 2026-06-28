@@ -87,7 +87,8 @@ _Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals 
 - **Dr. Dami Mababangloob** — Daegon's partner & senior mentor (W19).
 
 ## PC(s)
-- **Daegon** — Human Investigator 1 (Alchemical Sciences), barber-surgeon. See `character-sheet.md`. HP 17/17. Conditions/injuries: none. Hero Points: 1. Resources: formula book (4), ~8 sp.
+- **Daegon** — Human Investigator 1 (Alchemical Sciences), barber-surgeon. See `character-sheet.md`. **HP 11/17** (clawed cheek; frightened worn off post-combat). Hero Points: 1. Resources: formula book (4), ~8 sp.
+- **MILESTONE:** Exposed & killed the noppera-bo wearing Dr. Dami in front of all of sheltering Southbank → won the town's trust and Old Matsuki's **public endorsement** ("the barber told us true"). Likely Southbank Reputation gain.
 - **Close Ties:** Reza (apprentice). Also partner/mentor Dr. Dami (Hand of Spring).
 - **Party (GM-run allies; see `companions.md`):** Su-Won (half-elf Monk, HP 20), Lan (gnome Druid/Leaf, HP 18), Tobi (tengu Commander, HP 16) — fellow festival abductees — plus **Ha Hai-er** (town guard, joined Scene 3, wants to reach her daughter [Northridge] & husband Edha [Matsuki estate]).
 - **Known intel:** an external/supernatural influence puppets ordinary animals (talking, fearless); **noppera-bo / face-stealers** are infiltrating wearing the faces of dead/taken townsfolk (weak to loud sound; no sight/smell). The town guardian "Ugly Cute" is gone & the gate **Eternal Lantern is OUT** (party carries a cask of lamp oil to refill it). Relighting the Lantern is revealed to be the same problem as fixing what's wrong with the town.
