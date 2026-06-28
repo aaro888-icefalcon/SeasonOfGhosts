@@ -38,7 +38,7 @@
       { "item": "Clinic stock: sleep-tinctures & paralytics (lethargy-type)", "note": "Looted from the Hand of Spring by the noppera-bo before the party arrived (Scene 5)" }
     ],
     "assets": [
-      { "asset": "Captive Noppera-bo Trickster (Cr 1)", "status": "bound & gagged in You So-Jin's barricaded herb-shop at the graveyard; NOT yet interrogated" }
+      { "asset": "Captive Noppera-bo Trickster (Cr 1)", "status": "KILLED (Scene 9) — called Daegon's death-threat (Coerce failed), refused to break even under genuine execution; party learned NOTHING from it." }
     ],
     "consumables_state": {
       "Daegon_formula_book": ["Minor Elixir of Life", "Lesser Alchemist's Fire", "Lesser Antidote", "Lesser Antiplague"],

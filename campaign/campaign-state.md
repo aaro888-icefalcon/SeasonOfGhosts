@@ -26,7 +26,7 @@ Threads List, carry over only still-relevant Characters, archive the rest._
 - **Adventure status:** active
 - **Theme priority (this adventure):** Tension, Mystery, Personal, Social, Action — in `adventure.json` → `state.py adventure show <campaign>`  _(rolled per RPG style)_
 
-## Chaos Factor: 3
+## Chaos Factor: 4
 _(1–9; −1 if the PC was mostly in control of the last scene, +1 if it was chaotic)_
 
 ## Threads List — snapshot of `threads.json` (the dice roll the JSON, not this)
@@ -107,9 +107,9 @@ _Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals 
 - Theme priority: Tension, Mystery, Personal, Social, Action
 
 ## Scene
-- **Scene #:** 8 (Matsuki refuge — Dami-thing exposed & killed; treated wounded [Southbank Rep → Liked]; sat with Old Matsuki, took the Lantern quest)
+- **Scene #:** 9 (Scenes 7–8: refuge — exposed/killed the Dami-thing, healed the wounded, took Matsuki's Lantern quest. Scene 9: night-trip back to the graveyard; captive interrogation FAILED & it was executed — no intel. Party back at You So-Jin's herb-shop, deep night.)
 - **Reza:** found ALIVE & safe at Graveside Manners (verified via a private memory); now with the party, armed with a field kit. (You So-Jin was absent/gone from her shop.)
-- **Captive:** noppera-bo trickster stashed bound & gagged in You So-Jin's barricaded herb-shop (graveyard), to interrogate later.
+- **Captive:** noppera-bo trickster — **KILLED Scene 9** (interrogation failed: it called Daegon's death-threat, then refused to break even when he carried it out; **no intel gained**, only a parting taunt that "Dami screamed Daegon's name at the end"). Daegon executed a bound prisoner — crew (esp. Lan) unsettled.
 - **RESOLVED:** the Dami-thing (noppera-bo trickster) was exposed (a blood test) & killed before all of Southbank → won the town + Matsuki's public endorsement. The **real Dr. Dami** is dead/taken (her face was stolen).
 - **ACTIVE QUEST (core Ch.1): RELIGHT THE ETERNAL LANTERN.** Have: 3 unblessed copper coins + the rekindling prayer (learned). Method: bless 1 coin each at the **Kofusachi, Calistria, Shelyn** shrines → speak the prayer at the **Eternal Lantern, Dawnstep Bridge (W11)**. Obstacle: the bridge is held by a drink-loving **buso** + jinkins. Relighting ends the Mirage Mist / Crimson Moon / Blood Rain. Matsuki also asks: get word to **Northridge** (Granny Hu) across the river — it's gone silent.
 - **Active Turning Point:** none (Scene 6 framed Expected). _Standing reveal: **Relight the Eternal Lantern ≡ Understand what is wrong with the town.**_
