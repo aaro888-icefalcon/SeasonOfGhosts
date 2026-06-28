@@ -11,7 +11,7 @@
 - **Resolution:** Fate Check   ·   **Chaos flavor:** normal
 - **Discipline:** HARDCORE (no softening; Peril Points OFF unless player opts in)
 - **Content consent (Session Zero):** FULL HORROR — no lines, no veils (arachnid/body-horror imagery on the table)
-- **Diminisher:** 1 (party of 4 — PC Daegon + 3 GM-run allies; encounters run at full published strength)
+- **Diminisher:** REMOVED / none — encounters run at full published (party-of-4) strength exactly as printed; no scaling up or down. (Party is currently Daegon + 3 GM-run allies + Ha-Hai-er.)
 
 ## CURRENT ADVENTURE: Act 1 — The Summer That Never Was
 _Each adventure has its **own** Threads & Characters Lists and Theme priority. The Lists + Theme order +
