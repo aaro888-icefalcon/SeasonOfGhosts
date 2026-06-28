@@ -100,7 +100,8 @@ _Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals 
 - none
 
 ## Adventure Crafter state (crafter mode)
-- Active Turning Point: —   ·   Theme priority: Tension, Mystery, Personal, Social, Action
+- **Active Turning Point (Scene 3):** Altered scene → thread *Relight the Eternal Lantern*; char *Ha Hai-er* invoked. Plot Points: Fraud · Protector · It's a Secret · Framed · Travel Setting. Rendered: Eastern Watchtower standoff — Ha Hai-er, lone survivor, crossbow leveled, accuses the party of being monsters wearing neighbors' faces; demands they recite the 8 Practices to prove they're flesh. Two guards dead of snake-venom, two jinkin gremlins sword-slain. (She's hiding something — *It's a Secret*.)
+- Theme priority: Tension, Mystery, Personal, Social, Action
 
 ## Scene
 - **Scene #:** 2 (Scene 1 = clearing opening, resolved)
