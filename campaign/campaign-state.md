@@ -107,10 +107,11 @@ _Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals 
 - Theme priority: Tension, Mystery, Personal, Social, Action
 
 ## Scene
-- **Scene #:** 7 (Scenes 1–6 resolved; inside the Matsuki estate refuge)
+- **Scene #:** 8 (Matsuki refuge — Dami-thing exposed & killed; treated wounded [Southbank Rep → Liked]; sat with Old Matsuki, took the Lantern quest)
 - **Reza:** found ALIVE & safe at Graveside Manners (verified via a private memory); now with the party, armed with a field kit. (You So-Jin was absent/gone from her shop.)
 - **Captive:** noppera-bo trickster stashed bound & gagged in You So-Jin's barricaded herb-shop (graveyard), to interrogate later.
-- **URGENT:** the **Dami-thing** (noppera-bo wearing Dr. Dami) reached the Matsuki refuge AHEAD of the party and was let inside — now among the wounded & children as the trusted doctor. Party got through the gate (Society success) but is NOT yet believed about Dami.
+- **RESOLVED:** the Dami-thing (noppera-bo trickster) was exposed (a blood test) & killed before all of Southbank → won the town + Matsuki's public endorsement. The **real Dr. Dami** is dead/taken (her face was stolen).
+- **ACTIVE QUEST (core Ch.1): RELIGHT THE ETERNAL LANTERN.** Have: 3 unblessed copper coins + the rekindling prayer (learned). Method: bless 1 coin each at the **Kofusachi, Calistria, Shelyn** shrines → speak the prayer at the **Eternal Lantern, Dawnstep Bridge (W11)**. Obstacle: the bridge is held by a drink-loving **buso** + jinkins. Relighting ends the Mirage Mist / Crimson Moon / Blood Rain. Matsuki also asks: get word to **Northridge** (Granny Hu) across the river — it's gone silent.
 - **Active Turning Point:** none (Scene 6 framed Expected). _Standing reveal: **Relight the Eternal Lantern ≡ Understand what is wrong with the town.**_
 - **Captive:** a **noppera-bo trickster** taken ALIVE (gagged, bound to a stretcher-board, hauled by Su-Won) — caught in Daegon's clinic mid-fabricating a fake **Reza** face from her belongings → confirms it does NOT have the real Reza. Not yet interrogated.
 - **Last scene recap (2–3 sentences):** Into fog-bound Willowshore (town shuttered, faces untrustworthy). Daegon led to his clinic, the **Hand of Spring** — found dark & ransacked (sleep/paralytic stock looted). Inside: a noppera-bo building a half-made **Reza** mask from her things; party lit the room & **captured it alive** (Lan's tangle vine + nonlethal subdual). Search (success): **Reza escaped alive & smart** (out the window with a field kit) and left a coded note — *Dr. Dami was FACE-STOLEN (a thing wears her now, don't trust her); Reza's gone to ground at Graveside Manners ("where the dead are kind").* Party + captive headed south to the graveyard.
