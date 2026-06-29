@@ -88,7 +88,7 @@ _Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals 
 - **Dr. Dami Mababangloob** — Daegon's partner & senior mentor (W19).
 
 ## PC(s)
-- **Daegon** — Human Investigator 1 (Alchemical Sciences), barber-surgeon. See `character-sheet.md`. **HP 17/17**. **Hero Points: 0** (spent on the Shelyn offering). Resources: formula book (4), 4 alchemical creations/day, ~8 sp, **3 BLESSED coins** (ready for the Lantern). **Time:** Day 2, morning — daytime Mirage Mist. Party fully rested.
+- **Daegon** — Human Investigator 1 (Alchemical Sciences), barber-surgeon. See `character-sheet.md`. **HP 7/17, WOUNDED 1** (dropped to dying 3 on Dawnstep Bridge, saved by Lan's Heal). **Hero Points: 0**. **Steel shield BROKEN** (10 HP, at BT). Resources: formula book (4), 4 alchemical creations/day, ~8 sp, **3 BLESSED coins**. **Time:** Day 2, morning — daytime Mirage Mist.
 - **MILESTONE:** Exposed & killed the noppera-bo wearing Dr. Dami in front of all of sheltering Southbank → won the town's trust and Old Matsuki's **public endorsement** ("the barber told us true"). Likely Southbank Reputation gain.
 - **Close Ties:** Reza (apprentice). Also partner/mentor Dr. Dami (Hand of Spring).
 - **Party (GM-run allies; see `companions.md`):** Su-Won (half-elf Monk, HP 20), Lan (gnome Druid/Leaf, HP 18), Tobi (tengu Commander, HP 16) — fellow festival abductees. **Ha Hai-er LEFT the active party (Scene 7)** — staying with her husband Edha & family at the Matsuki estate; friendly NPC there, rejoinable later.
@@ -107,7 +107,7 @@ _Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals 
 - Theme priority: Tension, Mystery, Personal, Social, Action
 
 ## Scene
-- **Scene #:** 9 (Scenes 7–8: refuge — exposed/killed the Dami-thing, healed the wounded, took Matsuki's Lantern quest. Scene 9: night-trip back to the graveyard; captive interrogation FAILED & it was executed — no intel. Party back at You So-Jin's herb-shop, deep night.)
+- **Scene #:** 11 (S7–8 refuge/Matsuki quest; S9 failed captive interrogation; S10 dawn rest + blessed all 3 coins at the Thrice-Blessed; S11 **Dawnstep Bridge**: ambushed & killed the buso **Gurglegut** — Daegon nearly died [dying 3, Lan's Heal saved him]; jinkins fled. **Bridge CLEAR; the Eternal Lantern is right there, dark, ready for the 3 coins + prayer.** Bridge also now opens the road to Northridge.)
 - **Reza:** found ALIVE & safe at Graveside Manners (verified via a private memory); now with the party, armed with a field kit. (You So-Jin was absent/gone from her shop.)
 - **Captive:** noppera-bo trickster — **KILLED Scene 9** (interrogation failed: it called Daegon's death-threat, then refused to break even when he carried it out; **no intel gained**, only a parting taunt that "Dami screamed Daegon's name at the end"). Daegon executed a bound prisoner — crew (esp. Lan) unsettled.
 - **RESOLVED:** the Dami-thing (noppera-bo trickster) was exposed (a blood test) & killed before all of Southbank → won the town + Matsuki's public endorsement. The **real Dr. Dami** is dead/taken (her face was stolen).
