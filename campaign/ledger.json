@@ -1,0 +1,51 @@
+{
+  "_note": "XP + item ledger. XP was reconstructed from play at end of Scene 7 (not tracked live before this). PF2e party-of-4 @ Diminisher 1; 1000 XP per level; each PC gains the encounter total, party levels together. Update every scene.",
+  "xp": {
+    "party_level": 1,
+    "total_xp": 510,
+    "xp_per_level": 1000,
+    "remaining_to_level_2": 490,
+    "log": [
+      { "scene": 1, "type": "encounter", "detail": "2x Giant Centipede (Cr -1), spirit-touched — wooded clearing", "xp": 40 },
+      { "scene": 3, "type": "encounter", "detail": "Noppera-bo Grunt (Cr 0) wearing 'Sajan' — Eastern Watchtower (subdued bound & executed)", "xp": 30 },
+      { "scene": 3, "type": "accomplishment-minor", "detail": "Saved & recruited Ha-Hai-er; first face-stealer unmasked", "xp": 10 },
+      { "scene": 4, "type": "encounter", "detail": "Noppera-bo Occultist (Cr 2) — Choe's millrace ambush", "xp": 60 },
+      { "scene": 4, "type": "accomplishment-moderate", "detail": "Uncovered the face-stealer plot & Choe Chung-hu's fate at the mill", "xp": 30 },
+      { "scene": 5, "type": "encounter", "detail": "Noppera-bo Trickster (Cr 1) — the Hand of Spring (captured ALIVE)", "xp": 40 },
+      { "scene": 5, "type": "accomplishment-minor", "detail": "Captured a noppera-bo alive (intel asset); found Reza's trail", "xp": 10 },
+      { "scene": 6, "type": "accomplishment-moderate", "detail": "Found & rescued Reza (Close Ties), verified & safe", "xp": 30 },
+      { "scene": 7, "type": "encounter", "detail": "Noppera-bo Trickster (Cr 1) wearing Dr. Dami — Matsuki estate", "xp": 40 },
+      { "scene": 7, "type": "accomplishment-major", "detail": "Publicly exposed the impostor & saved the Matsuki refuge; won Southbank's trust", "xp": 80 },
+      { "scene": 7, "type": "accomplishment-minor", "detail": "Treated the refuge's wounded — saved a dying patient via Risky Surgery before the whole hall (Protect the Townsfolk)", "xp": 10 },
+      { "scene": 8, "type": "accomplishment", "detail": "Made contact with elder Old Matsuki; took up the quest to relight the Eternal Lantern (learned the rekindling prayer + the 3-coin method)", "xp": 40 },
+      { "scene": 10, "type": "accomplishment-minor", "detail": "Blessed all 3 coins at the Thrice-Blessed Inn (Kofusachi/Calistria/Shelyn); courted Shelyn through a heartfelt Crafting offering (Hero Point reroll)", "xp": 10 },
+      { "scene": 11, "type": "encounter", "detail": "GURGLEGUT the buso (Unique Cr 3) — ambushed & killed on Dawnstep Bridge; jinkins fled. Daegon dropped to dying 3 (nat-1 recovery), saved by Lan's Heal.", "xp": 80 }
+    ]
+  },
+  "reputation": {
+    "_note": "PF2e Reputation subsystem (per-faction). Tiers: Ignored -4..4 / Liked 5..14 / Admired 15..30 / Revered 31+.",
+    "Southbank": { "points": 10, "tier": "Liked", "effects": "Southbank NPCs default Friendly; -2 to their social DCs; +1 Earn Income. Earned via saving the refuge, Matsuki's public endorsement, and treating the wounded." },
+    "Northridge": { "points": 0, "tier": "Ignored", "effects": "no contact yet" }
+  },
+  "items": {
+    "_starting_gear": "Each PC's starting gear is on character-sheet.md / companions.md. This section tracks CHANGES and SHARED loot recovered in play.",
+    "party_stash_recovered": [
+      { "item": "Cask of lamp oil", "from": "Eastern Watchtower (Scene 3)", "use": "Refill the Spider Gate lantern -> +2 vs Crimson Moon; Blood Rain flat check becomes DC 18 (was 14)", "carried_by": "Tobi" },
+      { "item": "Marvelous miniature (ladder)", "from": "Eastern Watchtower (Scene 3)", "use": "Figurine that unfolds into a full-size ladder on command", "carried_by": "Su-Won" },
+      { "item": "Shining crossbow bolt", "from": "Eastern Watchtower (Scene 3)", "use": "Single magic bolt (glows) — treat as +1 striking/special until identified", "carried_by": "Daegon (reclaimed when Ha-Hai-er left the party, Scene 7)" },
+      { "item": "Plain wooden staff", "from": "Noppera-bo occultist, millrace (Scene 4)", "use": "Mundane spellcaster's staff / possible clue", "carried_by": "Daegon" },
+      { "item": "Three BLESSED copper coins (Kofusachi/fortune, Calistria/welcome, Shelyn/beauty) + the Lantern rekindling prayer (learned)", "from": "Blessed Scene 10 at the Thrice-Blessed Inn (Shelyn took a Hero-Point-rerolled, heartfelt Crafting offering). Each grants +1 to that deity's divine skill.", "use": "READY: speak the rekindling prayer over them at the Eternal Lantern (Dawnstep Bridge, W11) to relight it. Bridge held by a drink-loving buso + jinkins.", "carried_by": "Daegon" }
+    ],
+    "lost_or_denied": [
+      { "item": "Clinic stock: sleep-tinctures & paralytics (lethargy-type)", "note": "Looted from the Hand of Spring by the noppera-bo before the party arrived (Scene 5)" }
+    ],
+    "assets": [
+      { "asset": "Captive Noppera-bo Trickster (Cr 1)", "status": "KILLED (Scene 9) — called Daegon's death-threat (Coerce failed), refused to break even under genuine execution; party learned NOTHING from it." }
+    ],
+    "consumables_state": {
+      "Daegon_formula_book": ["Minor Elixir of Life", "Lesser Alchemist's Fire", "Lesser Antidote", "Lesser Antiplague"],
+      "Daegon_alchemical_uses_per_day": 4,
+      "Lan_spell_slots_used": "1st-level: none confirmed spent yet (tangle vine is a cantrip); track on a long rest"
+    }
+  }
+}

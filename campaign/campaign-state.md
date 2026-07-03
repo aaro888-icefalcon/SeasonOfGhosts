@@ -10,7 +10,9 @@
 - **Genre & stakes vocabulary:** folk-horror + cozy + mystery — death/maiming/capture, dread, the wrongness beneath small-town comfort
 - **Resolution:** Fate Check   ·   **Chaos flavor:** normal
 - **Discipline:** HARDCORE (no softening; Peril Points OFF unless player opts in)
-- **Diminisher:** 1/2 (single PC — Fate/Random-Event/etc. counts halved per Mythic solo-PC scaling)
+- **Content consent (Session Zero):** FULL HORROR — no lines, no veils (arachnid/body-horror imagery on the table)
+- **Diminisher:** REMOVED — base encounters run at full published (party-of-4) strength as printed.
+- **Encounter house rule (player-set):** **intermittently bump TRIVIAL/LOW encounters up to MODERATE** for this larger, capable party. Mechanic: when a would-be Trivial or Low fight comes up, GM rolls `dice.py roll 1d2` — on a **2**, reinforce it to Moderate (add foes / raise a foe's level). Moderate/Severe/Extreme encounters run as printed.
 
 ## CURRENT ADVENTURE: Act 1 — The Summer That Never Was
 _Each adventure has its **own** Threads & Characters Lists and Theme priority. The Lists + Theme order +
@@ -24,7 +26,7 @@ Threads List, carry over only still-relevant Characters, archive the rest._
 - **Adventure status:** active
 - **Theme priority (this adventure):** Tension, Mystery, Personal, Social, Action — in `adventure.json` → `state.py adventure show <campaign>`  _(rolled per RPG style)_
 
-## Chaos Factor: 5
+## Chaos Factor: 3
 _(1–9; −1 if the PC was mostly in control of the last scene, +1 if it was chaotic)_
 
 ## Threads List — snapshot of `threads.json` (the dice roll the JSON, not this)
@@ -33,7 +35,7 @@ when Invoked/featured → that Thread is weight× as likely. Base list = 25 weig
 still fully rolls over (two-stage roll: NEW / PRE-EXISTING / CHOOSE MOST LOGICAL). Remove all of a
 concluded Thread. Curate — prune the irrelevant._
 1. Escape the wrong, looping summer day
-2. Find the missing miller Choe Chung-hu
+2. Root out the noppera-bo wearing the town's stolen faces _(Choe & his festival crew found slaughtered & faceless at the mill; ~11 faces taken & now WORN by infiltrators)_
 3. Get back home to Willowshore
 4. Protect the townsfolk
 5. Relight the Eternal Lantern
@@ -48,9 +50,10 @@ the JSON. Add/weight when an NPC is introduced or featured; remove when it perma
 4. Choe Chung-hu (miller) — Reenactment Festival organizer; never arrived with the ransom breakfast
 5. Ha Hai-er (town guard) — watchtower survivor
 6. Kim Gu-won (Kofusachi cleric) — Granny Hu's aide / Exchange Manager
-7. Doctor Dami (Mababangloob) — charitable doctor, Hand of Spring
+7. Doctor Dami (Mababangloob) — charitable doctor, Hand of Spring — **[FACE-STOLEN: a noppera-bo wears Dami's face & voice and is loose in town; the real Dami's fate unknown. Per Reza's note.]**
 8. Zheng Peng (watch officer) — imperial barracks
 9. Ugly Cute (stone guardian) — missing Spider Gate spider
+10. Reza — Daegon's teen apprentice (barber-surgeon trade); Close Ties anchor; last in town
 
 ## Tens-cycle counter (Theme-die 10s rolled so far): in `adventure.json` _(auto-updated by turning-point)_
 
@@ -80,10 +83,16 @@ _Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals 
 22. The Ritual Site (D12) — Zoudou's rite over Kum Meng-sung at the Wall; the name "Kugaptee" surfaces as the chief clue
 
 ## Campaign roster (persists across adventures: recurring NPCs, long arcs)
--
+- **Daegon** (PC) — barber-surgeon, Hand of Spring practice.
+- **Reza** — Daegon's apprentice (Close Ties).
+- **Dr. Dami Mababangloob** — Daegon's partner & senior mentor (W19).
 
 ## PC(s)
-- See `character-sheet.md`. Conditions/injuries: none. Resources: —.
+- **Daegon** — Human Investigator 1 (Alchemical Sciences), barber-surgeon. See `character-sheet.md`. **HP 7/17, WOUNDED 1** (dropped to dying 3 on Dawnstep Bridge, saved by Lan's Heal). **Hero Points: 0**. **Steel shield BROKEN** (10 HP, at BT). Resources: formula book (4), 4 alchemical creations/day, ~8 sp, **3 BLESSED coins**. **Time:** Day 2, morning — daytime Mirage Mist.
+- **MILESTONE:** Exposed & killed the noppera-bo wearing Dr. Dami in front of all of sheltering Southbank → won the town's trust and Old Matsuki's **public endorsement** ("the barber told us true"). Likely Southbank Reputation gain.
+- **Close Ties:** Reza (apprentice). Also partner/mentor Dr. Dami (Hand of Spring).
+- **Party (GM-run allies; see `companions.md`):** Su-Won (half-elf Monk, HP 20), Lan (gnome Druid/Leaf, HP 18), Tobi (tengu Commander, HP 16) — fellow festival abductees. **Ha Hai-er LEFT the active party (Scene 7)** — staying with her husband Edha & family at the Matsuki estate; friendly NPC there, rejoinable later.
+- **Known intel:** an external/supernatural influence puppets ordinary animals (talking, fearless); **noppera-bo / face-stealers** are infiltrating wearing the faces of dead/taken townsfolk (weak to loud sound; no sight/smell). The town guardian "Ugly Cute" is gone & the gate **Eternal Lantern is OUT** (party carries a cask of lamp oil to refill it). Relighting the Lantern is revealed to be the same problem as fixing what's wrong with the town.
 
 ## Overlays
 - **Keyed Scenes:** _(Trigger → Event; Count)_ none
@@ -94,10 +103,18 @@ _Key Act-1 locations, set-pieces & objectives (player-knowable; spoiler reveals 
 - none
 
 ## Adventure Crafter state (crafter mode)
-- Active Turning Point: —   ·   Theme priority: Tension, Mystery, Personal, Social, Action
+- **Active Turning Point (Scene 3):** Altered scene → thread *Relight the Eternal Lantern*; char *Ha Hai-er* invoked. Plot Points: Fraud · Protector · It's a Secret · Framed · Travel Setting. Rendered: Eastern Watchtower standoff — Ha Hai-er, lone survivor, crossbow leveled, accuses the party of being monsters wearing neighbors' faces; demands they recite the 8 Practices to prove they're flesh. Two guards dead of snake-venom, two jinkin gremlins sword-slain. (She's hiding something — *It's a Secret*.)
+- Theme priority: Tension, Mystery, Personal, Social, Action
 
 ## Scene
-- **Last scene recap (2–3 sentences):** The campaign opens here. The PC wakes blindfolded in a forest clearing east of Willowshore (W38) on the first day of summer, "abducted" overnight as part of the Reenactment Festival — but the miller Choe Chung-hu, who should have arrived at dawn with the ransom breakfast, never came, and the woods feel wrong. A westward game trail leads home.
+- **Scene #:** 11 (S7–8 refuge/Matsuki quest; S9 failed captive interrogation; S10 dawn rest + blessed all 3 coins at the Thrice-Blessed; S11 **Dawnstep Bridge**: ambushed & killed the buso **Gurglegut** — Daegon nearly died [dying 3, Lan's Heal saved him]; jinkins fled. **Bridge CLEAR; the Eternal Lantern is right there, dark, ready for the 3 coins + prayer.** Bridge also now opens the road to Northridge.)
+- **Reza:** found ALIVE & safe at Graveside Manners (verified via a private memory); now with the party, armed with a field kit. (You So-Jin was absent/gone from her shop.)
+- **Captive:** noppera-bo trickster — **KILLED Scene 9** (interrogation failed: it called Daegon's death-threat, then refused to break even when he carried it out; **no intel gained**, only a parting taunt that "Dami screamed Daegon's name at the end"). Daegon executed a bound prisoner — crew (esp. Lan) unsettled.
+- **RESOLVED:** the Dami-thing (noppera-bo trickster) was exposed (a blood test) & killed before all of Southbank → won the town + Matsuki's public endorsement. The **real Dr. Dami** is dead/taken (her face was stolen).
+- **ACTIVE QUEST (core Ch.1): RELIGHT THE ETERNAL LANTERN.** ✅ All **3 coins BLESSED** (Kofusachi/Calistria/Shelyn, at the Thrice-Blessed Inn). NEXT: reach the **Eternal Lantern on Dawnstep Bridge (W11)** & speak the rekindling prayer over the coins → relights it, ending the Mirage Mist / Crimson Moon / Blood Rain & reverting the sapient animals. **Obstacle:** the bridge is held by a drink-loving **buso** + jinkins (Matsuki's hint: a drunk monster guards poorly). The bridge is also a route to **Northridge** (silent across the river).
+- **Active Turning Point:** none (Scene 6 framed Expected). _Standing reveal: **Relight the Eternal Lantern ≡ Understand what is wrong with the town.**_
+- **Captive:** a **noppera-bo trickster** taken ALIVE (gagged, bound to a stretcher-board, hauled by Su-Won) — caught in Daegon's clinic mid-fabricating a fake **Reza** face from her belongings → confirms it does NOT have the real Reza. Not yet interrogated.
+- **Last scene recap (2–3 sentences):** Into fog-bound Willowshore (town shuttered, faces untrustworthy). Daegon led to his clinic, the **Hand of Spring** — found dark & ransacked (sleep/paralytic stock looted). Inside: a noppera-bo building a half-made **Reza** mask from her things; party lit the room & **captured it alive** (Lan's tangle vine + nonlethal subdual). Search (success): **Reza escaped alive & smart** (out the window with a field kit) and left a coded note — *Dr. Dami was FACE-STOLEN (a thing wears her now, don't trust her); Reza's gone to ground at Graveside Manners ("where the dead are kind").* Party + captive headed south to the graveyard.
 - **Self-audit drift counter (consecutive soft scenes):** 0
 
 ## Archive pointer
